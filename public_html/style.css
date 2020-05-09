@@ -1,0 +1,903 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Lato-Medium';
+    src: url('fonts/lato-medium-webfont.woff2') format('woff2'),
+         url('fonts/lato-medium-webfont.woff') format('woff'),
+         url('fonts/lato-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato-regular-webfont.woff') format('woff'),
+         url('fonts/lato-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('fonts/lato-black-webfont.woff2') format('woff2'),
+         url('fonts/lato-black-webfont.woff') format('woff'),
+         url('fonts/lato-black-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('fonts/lato-light-webfont.woff2') format('woff2'),
+         url('fonts/lato-light-webfont.woff') format('woff'),
+         url('fonts/lato-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('fonts/lato-bold-webfont.woff') format('woff'),
+         url('fonts/lato-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #FEF2F5;
+    background-image: url("images/back.svg");
+    background-repeat: repeat;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+h1, h2, li, a {
+    color: #FEFAFB;
+}
+
+a {
+    text-decoration: none;
+}
+
+.about a {
+    color: #e64169;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+h3, p, figcaption {
+    color: #092543;
+}
+
+h1 {
+    font-family: Lato-Black;
+    font-size: 4em;
+    line-height: 0.9em;
+}
+
+h2 {
+    font-family: Lato-Black;
+    font-size: 1.5em;
+}
+
+p, li {
+    font-family: Lato-Bold;
+    font-size: 1.1em;
+}
+
+h3 {
+    font-family: Lato-Black;
+    position: relative;
+    font-size: 2.25em;
+    padding: 0.5em;
+    transition: 0.25s ease;
+}
+
+figcaption {
+    font-family: Lato-Light;
+    text-align: center;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+}
+
+figcaption a svg {
+    vertical-align: text-top;
+}
+
+ul {
+  list-style-type: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+nav.small ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav.small li {
+    display: inline-block;
+}
+
+ul li a:hover {
+    color: #E64169;
+}
+
+li a {
+    display: block;
+}
+
+main {
+    z-index: 2;
+    position: relative;
+}
+
+.grid {
+    width: 95%;
+    width: 95vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, -webkit-min-content) repeat(19,21vh);
+    grid-template-rows: repeat(2, min-content) repeat(19,21vh);
+    grid-gap: 2em;
+    padding: 2.55%;
+    padding: 2.55vw;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header.home {
+    grid-row: span 2;
+    display: grid;
+    grid-gap: 1em;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    max-width: 45%;
+    justify-self: center;
+    align-self: center;
+}
+
+
+header.home section {
+    justify-self: center;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+}
+
+b.home + b.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 69.5%;
+    width: 69.5vmax;
+    height: 66%;
+    height: 66vmax;
+    min-height: 45em;
+    min-width: 48em;
+    background-image: url("images/one.svg");
+    background-size: cover;
+    display: block;
+    max-width: 100%;
+    max-width: 100vw;
+}
+
+b.home {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 69.5%;
+    width: 69.5vmax;
+    height: 43%;
+    height: 43vmax;
+    min-height: 30em;
+    min-width: 48em;
+    background-image: url("images/two.svg");
+    background-size: cover;
+    display: block;
+}
+
+.overflow {
+    overflow-x: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.grid > a {
+    margin: 15px;
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@supports (display:grid) {
+    .grid > a {
+        margin: 0;
+        grid-row: span 3;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}
+
+
+.grid > a > figure {
+    grid-row: span 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(153,153,153,1);
+    display: grid;
+    grid-template-rows: -webkit-max-content 1fr;
+    grid-template-rows: max-content 1fr;
+    overflow: hidden;
+    position: relative;
+    transition: 0.25s ease;
+}
+
+.grid > a > figure:after {
+    content: "";
+    background-color: rgba(153,153,153,1);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-position: 25px -25px;
+    background-size: 300px;
+    background-image: url("images/dot.svg");
+    background-repeat: repeat;
+    transition: 0.25s ease;
+}
+
+.grid > a > figure:hover {
+    background-color: rgba(153,153,153,0);
+}
+
+.grid > a > figure:hover h3{
+    color: #E64169;
+}
+
+@keyframes .slide {
+    from {
+        transform: translate3d(0, 0, 0);
+        }
+    to {
+        transform: translate3d(1200px, 1200px, 0);
+        }
+    }
+}
+
+.grid > a > figure:hover:after {
+    background-position: 0;
+    animation: slide 30s linear infinite;
+}
+
+figure > img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    grid-column: 1;
+    grid-row: 3/4;
+}
+
+#top {
+    grid-column: -1/-2;
+    grid-row: auto;
+
+}
+
+#bottom {
+    grid-column: 1/2;
+    grid-row: auto;
+}
+
+footer {
+    grid-row: span 2;
+    align-self: end;
+    justify-self: end;
+}
+
+@media(min-width:635px) {
+    h1 {
+        font-size: 4.5em;
+    }
+    .grid {
+        width: 90%;
+        width: 90vw;
+        padding: 5%;
+        padding: 5vw;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, -webkit-min-content) repeat(11,21vh);
+        grid-template-rows: repeat(2, min-content) repeat(11,21vh);
+    }
+    header.home {
+        grid-column: span 2;
+        grid-template-columns: minmax(-webkit-min-content, -webkit-max-content) -webkit-min-content;
+        grid-template-columns: minmax(min-content, max-content) min-content;
+        grid-template-rows: 1fr;
+    }
+    .logo {
+        max-width: 100%;
+        max-height: 48%;
+        max-height: 48vh;
+        max-height: calc(42vh + 4em);
+        align-self: auto;
+    }
+    header.home section {
+        justify-self: center;
+        width: auto;
+    }
+    #top {
+        grid-column: -1/-2;
+        grid-row: span -2/-3;
+    }
+
+    #bottom {
+        grid-column: 1/2;
+        grid-row: 3/4
+    }
+    
+}
+
+@media(min-width:775px) {
+    b.home + b.home {
+        min-width: 58em;
+        min-height: 55em;
+    }
+    b.home {
+        min-width: 58em;
+        min-height: 36em;
+    }
+}
+
+@media(min-width:1080px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, minmax(120px, 21vh)) repeat(7,21vh);
+        grid-gap: 4em
+    }
+    #top {
+        grid-column: -1/-2;
+        grid-row: 1/2
+    }
+}
+
+@media (min-height:1080px) {
+    .grid {
+        grid-template-rows: repeat(2, -webkit-min-content) repeat(19,200px);
+        grid-template-rows: repeat(2, min-content) repeat(19,200px);
+    }
+}
+
+
+@media(min-width:635px) and (min-height:1080px) {
+    .grid {
+        grid-template-rows: repeat(2, -webkit-min-content) repeat(11,200px);
+        grid-template-rows: repeat(2, min-content) repeat(11,200px);
+    }
+}
+
+
+@media(min-width:1080px) and (min-height:1080px) {
+    .grid {
+        grid-template-rows: 150px repeat(8,200px);
+    }
+}
+
+nav.small svg {
+    height: 58px;
+    width: auto;
+}
+
+nav.small path {
+    -webkit-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    transition: 0.25s ease;
+}
+
+nav.small a:hover path {
+    fill: #E64169;
+}
+
+nav.small {
+    width: 93%;
+    width: 95vw;
+    max-width: 1920px;
+    margin: 0 auto 1em auto;
+    padding-top: 8px;
+}
+
+nav.small li a {
+    padding: 16px;
+}
+
+main.work h1 {
+    color: #E64169;
+}
+
+main.work h2 {
+    font-size: 2.25em;
+    color: #092543;
+    padding: 1.5em 1rem 0.5em 1rem;
+}
+
+header.work p {
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 80ch;
+}
+
+main.work {
+    width: 85%;
+    width: 85vw;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FEFAFB;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+header.work.REI {
+    background-image: url("images/reiThumb.svg"), url("images/dot.svg");
+    background-position: 40em, 25px -22px;
+    background-position: 80ch, 26px -28px;
+}
+header.work.Arlo {
+    background-image: url("images/arloThumb.svg"), url("images/dot.svg");
+    background-position: 40em, 25px -22px;
+    background-position: 80ch, 24px -23px;
+}
+header.work.LASO {
+    background-image: url("images/lasoThumb.svg"), url("images/dot.svg");
+    background-position: 40em, 25px -22px;
+    background-position: 80ch, 23px -20px;
+}
+header.work.LDC {
+    background-image: url("images/ldcThumb.svg"), url("images/dot.svg");
+    background-position: 40em, 25px -22px;
+    background-position: 80ch, 27px -25px;
+}
+header.work.PROOF {
+    background-image: url("images/proofThumb.svg"), url("images/dot.svg");
+    background-position: 40em, 25px -22px;
+    background-position: 80ch, 21px -26px
+}
+header.work.Palmetto {
+    background-image: url("images/palmettoThumb.svg"), url("images/dot.svg");
+    background-position: 40em, 25px -22px;
+    background-position: 80ch, 21px -26px;
+}
+header.work.Personal {
+    background-image: url("images/personalThumb.svg"), url("images/dot.svg");
+    background-position: 40em, 25px -22px;
+    background-position: 80ch, 25px -22px;
+}
+
+header.Personal + section article figure:nth-child(1) {
+    margin-top: 1.5em;
+}
+
+header.work {
+    padding: 1em 1rem 1em 1rem;
+    background-size: 75%, 300px;
+    background-size: 75vw, 300px;
+    background-repeat: no-repeat, repeat;
+}
+
+header.work section {
+    max-width: 40em;
+    max-width: 80ch;
+}
+
+b.small + b.small{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: -1;
+    width: 34.57%;
+    width: 34.57vmax;
+    min-width: 20em;
+    height: 33%;
+    height: 33vmax;
+    min-height: 19em;
+    background-image: url("images/three.svg");
+    background-size: cover;
+    display: block;
+}
+
+b.small {
+    position: absolute;
+    bottom: -2em;
+    right: -1px;
+    z-index: -1;
+    width: 34%;
+    width: 34vmax;
+    height: 21%;
+    height: 21vmax;
+    min-height: 12em;
+    min-width: 20em;
+    background-image: url("images/four.svg");
+    background-size: cover;
+    display: block;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    grid-template-rows: repeat(auto-fill, 200px);
+    
+}
+
+.workGrid img, .gridSocial img {
+    width: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+@supports (display: grid) {
+    .workGrid img, .gridSocial img {
+        width: 100%;
+    }
+}
+
+.gridSocial {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    grid-auto-flow: dense;
+    grid-gap: 1em;
+    margin: 0 auto 2em auto;
+    max-width: 1155px;
+}
+
+main.work article > img {
+    margin-bottom: 2em;
+}
+
+.centered {
+    margin: 0 auto;
+    display: block;
+}
+
+.quarter {
+    max-width: 45%;
+    max-height: 130%;
+    max-height: 130vh;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.half {
+    max-width: 45%;
+    vertical-align: top;
+}
+
+
+.third {
+    max-width: 60%;
+    max-height: 130%;
+    max-height: 130vh;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.twoThird {
+    max-width: 75%;
+    max-height: 130vh;
+    max-height: 130vh;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.full {
+    max-width: 96%;
+}
+
+.sideBy {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
+    margin: 0 auto 2em auto;
+    width: 80%;
+}
+
+.sideBy img {
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    max-width: 80%;
+    max-width: 80vw;
+}
+
+@media(max-width:650px) {
+    main.work {
+        width: 95%;
+        width: 95vw;
+    }
+    .quarter, .third, .twoThird, .half {
+        max-width: 100%;
+    }
+}
+
+@media(min-width:650px) {
+    header.work {
+        padding: 2em 2rem 1em 2rem;
+    }
+    main.work h2 {
+        padding: 1.5em 2rem 0.5em 2rem;
+    }
+}
+
+@media(min-width:650px) and (max-width:833px) {
+    .quarter, .twoThird, .half {
+       max-width: 75%;
+    }
+    .third {
+        max-width: 100%;
+    }
+}
+
+@media(min-width:833px) and (max-width:1275px) {
+    .quarter {
+        max-width: 55%;
+    }
+}
+
+main.double {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 95%;
+    max-width: 95vw;
+    margin: 0 auto;
+}
+
+main.double img.double {
+    height: 50%;
+    height: 50vh;
+    min-height: 250px;
+    width: auto;
+    margin: 0 auto;
+    justify-self: center;
+    display: block;
+}
+
+@supports (-o-object-fit: contain) or (object-fit: contain) {
+    main.double img.double {
+        width: 75%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+}
+
+main.double section {
+    background-color: #FEFAFB;
+    padding: 1.5em;
+    margin: 0 auto;
+    justify-self: center;
+    position: relative;
+    bottom: 15%;
+    bottom: 15vh;
+    max-width: 85%;
+}
+
+main.double.contact section {
+    width: 85%;
+    max-width: 600px;
+}
+
+main.double h1, main.double h2, main.double h1 {
+    color: #092543;
+}
+
+main.double p {
+    padding-top: 1em;
+}
+
+@media(min-width:450px) {
+    main.double {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        max-width: 900px;
+    }
+}
+
+@supports (display:grid) {
+    @media(min-width:900px) {
+        main.double img.double {
+            width: 120%;
+            justify-self: auto;
+            height: auto;
+            object-fit: contain;
+        }
+        
+        main.double section {
+            justify-self: auto;
+            position: static;
+            width: fit-content;
+        }
+        main.double.contact section {
+            max-width: 85%;
+        }
+    }
+}
+
+#submitIcon {
+    position: absolute;
+    right: 1em;
+    bottom: 1.2em;
+    height: 2em;
+}
+
+#success {
+    font-family: Lato-bold;
+    font-size: 1em;
+    color: #1AC9C7;
+    padding-left: 0.5em;
+}
+
+#success.failure {
+    color: #E64169;
+}
+
+#success img {
+    vertical-align: middle;
+    margin-right: 3px;
+    height: 2em;
+}
+
+#error1, #error2, #error3 {
+    position: absolute;
+    right: 0.5em;
+    height: 1.5em;
+    top: 3em;
+}
+
+#errorText1, #errorText2, #errorText3 {
+    font-family: Lato-regular;
+    left: 1.2em;
+    position: relative;
+    color: #E64169;
+}
+
+main.double textarea {
+    height: 175px;
+    width: 100%;
+    resize: vertical;
+}
+
+main.double input[type=text]:nth-child(1), main.double input[type=email] {
+    width: 100%;
+}
+
+main.double input[type=text]:nth-child(3) {
+    width: 100%;
+}
+
+main.double input, textarea, button {
+    padding: 1.5em 2em 1.5em 1.5em;
+    margin-top: 1.5em;
+    background-color: #fbe9ee;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-style: none;
+    font-family: Lato-regular;
+    font-size: 1em;
+    color: #092543;
+}
+
+label {
+    font-family: Lato-Regular;
+    font-size: 1em;
+}
+
+.OlderBrowserChecker:placeholder-shown,
+label {
+    font-family: Lato-light;
+    font-size: 0.9em;
+}
+
+main.double floatLabel:nth-child(1) {
+    margin-top: 2em;
+    margin-right: 0;
+}
+
+main.double button {
+    margin-top: 1em;
+    background-color: #092543;
+    color: #FEFAFB;
+    -webkit-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    transition: 0.25s ease;
+    font-family: Lato-Bold;
+    width: 160px;
+    position: relative;
+}
+
+main.double button[type=submit]:hover {
+    background-color: #1AC9C7;
+}
+
+main.double button:disabled {
+    background-color: #1AC9C7;
+}
+
+.inactive {
+    opacity: 0;
+    -webkit-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    transition: 0.25s ease;
+}
+
+main.double button[type=submit]:hover .inactive {
+    opacity: 1;
+}
+
+.floatLabel {
+    position: relative;
+}
+
+
+.floatLabel label {
+    position: absolute;
+    top: 5px;
+    left: 1.2em;
+    opacity: 1;
+    -webkit-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    transition: 0.25s ease;
+}
+
+.OlderBrowserChecker:placeholder-shown,
+.floatLabel label {
+    top: calc(2.5em + 5px);
+    opacity: 0;
+}
+
+
+
+.floatLabel input:not(:placeholder-shown), .floatLabel textarea:not(:placeholder-shown) {
+    padding-top: calc(1.5em + 5px);
+    padding-bottom: calc(1.5em - 5px);
+}
+
+.floatLabel input:not(:placeholder-shown) + label, .floatLabel textarea:not(:placeholder-shown) + label {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+    opacity: 1;
+}
+
+.floatLabel input:focus, .floatLabel textarea:focus {
+    outline: none;
+    border-bottom: 3px solid #1AC9C7;
+}
+
+.floatLabel input:focus:not(:placeholder-shown) + label, .floatLabel textarea:focus:not(:placeholder-shown) + label {
+    font-family: Lato-Regular;
+    color: #1AC9C7;
+}
