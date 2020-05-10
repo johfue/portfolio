@@ -633,6 +633,10 @@ main.work article > img {
     max-width: 80vw;
 }
 
+audio {
+    margin-left: 4rem;
+}
+
 @media(max-width:650px) {
     main.work {
         width: 95%;

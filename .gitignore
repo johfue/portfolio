@@ -1,5 +1,8 @@
 *.png
 *.jpg
+*.jpeg
+*.gif
+*.webm
 *.svg
 *.pdf
 *.mp4
@@ -9,6 +12,7 @@
 *.woff
 *.woff2
 *.mp3
+robots.txt
 **/Fork
 **/References
 **/thumbs
