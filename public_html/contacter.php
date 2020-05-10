@@ -33,7 +33,7 @@
         }
         
         else {
-            $mailTo = "info@johnathonfuerte.com";
+            $mailTo = "hello@johnathonfuerte.com";
             $subject = "Message from ".$name;
             $headers = "From: ".$email;
             $text = "Message from ".$name.":\n\n".$message;

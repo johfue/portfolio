@@ -140,7 +140,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Pencil on paper</figcaption>
                         </figure>
                         <figure>
-                            <video autoplay loop class="centered twoThird">
+                            <video autoplay loop muted playsinline class="centered twoThird">
                             <source src="/media/syrinj.mp4">
                             </video>
                             <figcaption>Parody Website <a href="http://www.syrinj.com" target="_blank">' . $external . '</a></figcaption>
@@ -150,7 +150,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Photograph</figcaption>
                         </figure>
                         <figure>
-                            <video width="350" height="720" autoplay loop class="centered quarter">
+                            <video width="350" height="720" autoplay loop muted playsinline class="centered quarter">
                             <source src="/media/jack.mp4" class="centered quarter">
                             A fairytale-like illustration of a boy jumping over a candle in a void
                             </video>
@@ -163,10 +163,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <figure>
                             <img src="/images/padExplain.png" class="centered twoThird" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
                             <figcaption>Logo Design</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="/images/window.jpg" class="centered twoThird" alt="A broken window in a dark room">
-                            <figcaption>Photograph</figcaption>
                         </figure>
                     </article>';
 			break;

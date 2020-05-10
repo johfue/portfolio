@@ -11,6 +11,7 @@
         <img src="/images/contact.png" class="double" alt="A satelite dish">
         <section>
         <h1>Contact</h1>
+        <p><a href="mailto:hello@johnathonfuerte.com">hello@johnathonfuerte.com</a></p>
         <form name="contact" id="contact" onsubmit="return false;">
             <div class="floatLabel">
                 <input type="text" name="Name" id="name" maxlength="6000" required placeholder="Name">
