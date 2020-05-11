@@ -84,8 +84,9 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
 			        <article>
                     <h2>Print Campaign</h2>
-                        <img src="/images/proofBerry.jpg" class="centered quarter" alt="A print magazine ad.">
-                        <img src="/images/proofSpoon.jpg" class="centered quarter" alt="A print magazine ad.">
+                        <img src="/images/proofBerry.jpg" class="centered quarter" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                        <img src="/images/proofSpoon.jpg" class="centered quarter" alt="A print magazine ad. The headline reads &quot;Your secrets are safe with the spoon.&quot;">
+                        <img src="/images/proofShaker.jpg" class="centered quarter" alt="A print magazine ad. The headline reads &quot;But what if you could have it all?&quot;">
                     </article>
                     <article>
                     <h2>Radio Spot</h2>
