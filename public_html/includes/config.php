@@ -152,8 +152,8 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         </figure>
                         <figure>
                             <video width="350" height="720" autoplay loop muted playsinline class="centered quarter">
-                            <source src="/media/jack.mp4" class="centered quarter">
-                            A fairytale-like illustration of a boy jumping over a candle in a void
+                            <source src="/media/voltorb.mp4" class="centered quarter">
+                            alt="A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model"
                             </video>
                             <figcaption>AR Illustration</figcaption>
                         </figure>
