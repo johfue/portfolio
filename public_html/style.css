@@ -882,7 +882,6 @@ main.double button[type=submit]:hover .inactive {
 }
 
 
-
 .floatLabel input:not(:placeholder-shown), .floatLabel textarea:not(:placeholder-shown) {
     padding-top: calc(1.5em + 5px);
     padding-bottom: calc(1.5em - 5px);
