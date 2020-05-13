@@ -143,6 +143,10 @@ main {
     position: relative;
 }
 
+a[href^="mailto:"] {
+    color: #092543;
+}
+
 .grid {
     width: 95%;
     width: 95vw;
