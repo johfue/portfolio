@@ -13,6 +13,7 @@
 *.woff2
 *.mp3
 robots.txt
+.htaccess
 **/Fork
 **/References
 **/thumbs
