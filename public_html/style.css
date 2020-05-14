@@ -67,11 +67,11 @@ a {
     text-decoration: none;
 }
 
-.about a {
+.single a, .double a {
     color: #e64169;
 }
 
-.about a:hover {
+.single a:hover, .double a {
     text-decoration: underline;
 }
 
@@ -675,6 +675,14 @@ audio {
     }
 }
 
+main.single {
+    margin: 0 auto;
+    background-color: #FEFAFB;
+    padding: 1.5em;
+    max-width: 95%;
+    max-width: 95vw;
+}
+
 main.double {
     display: grid;
     grid-template-columns: auto;
@@ -717,7 +725,7 @@ main.double.contact section {
     max-width: 600px;
 }
 
-main.double h1, main.double h2, main.double h1 {
+main.single h1, main.single h2, main.double h1, main.double h2 {
     color: #092543;
 }
 
