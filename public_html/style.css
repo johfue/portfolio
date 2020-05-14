@@ -147,6 +147,14 @@ a[href^="mailto:"] {
     color: #092543;
 }
 
+.single h1 {
+    text-align: center;
+}
+
+.single p {
+    text-align: center;
+}
+
 .grid {
     width: 95%;
     width: 95vw;
@@ -679,8 +687,8 @@ main.single {
     margin: 0 auto;
     background-color: #FEFAFB;
     padding: 1.5em;
-    max-width: 95%;
-    max-width: 95vw;
+    max-width: 85%;
+    max-width: 85vw;
 }
 
 main.double {
