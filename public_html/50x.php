@@ -7,9 +7,9 @@
 <body>
     <?php include("includes/header.php");?>
     <main class="single">
-        <h1>Something wen't wront!?</h1>
+        <h1>Something went wrong!?</h1>
         <img src="/images/404.png" class="centered twoThird" alt="Three men on a boat using sextants to navigate.">
-        <p>The page you were looking for could not be found. Try navigating back to the <a href="/">homepage</a>.</p>
+        <p>Please refresh the page or try navigating back to the <a href="/">homepage</a>.</p>
     </main>
 </body>
 </html>
