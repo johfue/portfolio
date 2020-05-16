@@ -51,6 +51,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "<b>About:</b> The Latin Dance Club at USC is a student run organization that teaches social dances like Bachata and Salsa in a stress free environment. As advertising chair I was responsible for all internal and external communications.";
 			$CONTENT = '
                         <h2>Social Media Posts</h2>
+                        <br>
                         <div class="gridSocial">
                         <img src="/images/ldcFirst.jpg" class="full" alt="A screenshot of an Instragram post. The image is of two people dancing with the text &quot;First Class of Spring 2019&quot; and the caption reads &quot;Care to dance? We\'ll show you how or your money back guranteed&quot;">
                         <img src="/images/ldcGetIt.jpg" class="full" alt="A screenshot of an Instragram post. The image is of red text reading &quot;Let\'s Get it&quot; and the caption reads &quot;It\'s the first day of class meaning we\'re officially one day closer to spring break. Let\'s make it our resolution to give it our all atleast untill then!&quot;">
@@ -82,14 +83,10 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <img src="/images/proofBerry.jpg" class="centered tall" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
                         <img src="/images/proofSpoon.jpg" class="centered tall" alt="A print magazine ad. The headline reads &quot;Your secrets are safe with the spoon.&quot;">
                         <img src="/images/proofShaker.jpg" class="centered tall" alt="A print magazine ad. The headline reads &quot;But what if you could have it all?&quot;">
-                    </article>
-                    <article>
                     <h2>Radio Spot</h2>
-                    </article>
                         <audio controls>
                             <source src="/media/proofSpot.mp3" type="audio/mpeg">
                         </audio>
-                    <article>
                     <h2>Plans Book</h2>
                     <iframe src="//www.slideshare.net/slideshow/embed_code/key/Ny3deS6cLLSlND" class="centered" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>';
 			break;
