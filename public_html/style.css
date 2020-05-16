@@ -572,8 +572,6 @@ b.small {
 
 main.work > img {
     object-fit: contain;
-    height: 100%;
-    width: 100%;
 }
 
 .workGrid img, .gridSocial img {
@@ -614,6 +612,7 @@ main.work article > img {
 
 .wide {
     grid-column: span 2
+    height: 80vh;
 }
 
 .right {
