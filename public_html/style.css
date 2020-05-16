@@ -597,14 +597,15 @@ main.work article > img {
 .centered {
     margin: 0 auto;
     display: block;
+    max-width: 100%;
 }
 
 .tall {
-    grid-rows: span 2;
+    grid-row: span 2;
 }
 
 .wide {
-    grid-rows: span 2
+    grid-row: span 2
 }
 
 .quarter {
