@@ -563,6 +563,10 @@ b.small {
     display: block;
 }
 
+.work > b {
+    display: block;
+}
+
 .workGrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
