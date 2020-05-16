@@ -21,6 +21,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <br>
                         <h2>Digital Signage</h2>
                         <img src="/images/latinxcelencia.jpg" class="centered tall" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called &quot;Latinxcelencia&quot;">
+                        <br>
                         <img src="/images/salsaNight.jpg" class="centered wide" alt="Poster of a dancing woman in a red dress against a green background promoting an event called &quot;Salsa Night&quot;">
 
                         <h2>T-Shirt Design</h2>

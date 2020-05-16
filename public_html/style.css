@@ -458,7 +458,7 @@ main.work h1 {
 main.work h2 {
     font-size: 2.25em;
     color: #092543;
-    padding: 1.5em 1rem 0.5em 1rem;
+    padding: 0.5em 1rem 0.5em 1rem;
 }
 
 header.work p {
@@ -476,6 +476,7 @@ main.work {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
+    grid-gap: 1rem;
 }
 
 header.work.REI {
@@ -605,7 +606,7 @@ main.work article > img {
 }
 
 .wide {
-    grid-row: span 2
+    grid-column: span 2
 }
 
 .quarter {
@@ -677,7 +678,7 @@ audio {
         padding: 2em 2rem 1em 2rem;
     }
     main.work h2 {
-        padding: 1.5em 2rem 0.5em 2rem;
+        padding: 0.5em 2rem 0.5em 2rem;
     }
 }
 
