@@ -611,7 +611,7 @@ main.work article > img {
 }
 
 .wide {
-    grid-column: span 2
+    grid-column: span 2;
     height: 80vh;
 }
 
