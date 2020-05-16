@@ -596,6 +596,14 @@ main.work article > img {
     display: block;
 }
 
+.tall {
+    grid-rows: span 2;
+}
+
+.wide {
+    grid-rows: span 2
+}
+
 .quarter {
     max-width: 45%;
     max-height: 130%;
@@ -608,7 +616,6 @@ main.work article > img {
     max-width: 45%;
     vertical-align: top;
 }
-
 
 .third {
     max-width: 60%;
@@ -644,6 +651,8 @@ main.work article > img {
     max-width: 80%;
     max-width: 80vw;
 }
+
+
 
 audio {
     margin-left: 4rem;

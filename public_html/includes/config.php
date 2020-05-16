@@ -17,18 +17,19 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Latin American Student Organization";
 			$PAGE_DESC = "<b>About:</b> The Latin American Student Organization at USC strives to advance latin culture, foster a community and develop leaders. As creative director I was responsible for developing the organization's visual identity and creating all promotional materials.";
 			$CONTENT =
-			        '<article>
+			        '
+                        <br>
                         <h2>Digital Signage</h2>
-                        <img src="/images/latinxcelencia.jpg" class="centered quarter" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called &quot;Latinxcelencia&quot;">
-                        <img src="/images/salsaNight.jpg" class="centered twoThird" alt="Poster of a dancing woman in a red dress against a green background promoting an event called &quot;Salsa Night&quot;">
-                    </article>
-                    <article>
+                        <img src="/images/latinxcelencia.jpg" class="centered tall" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called &quot;Latinxcelencia&quot;">
+                        <img src="/images/salsaNight.jpg" class="centered wide" alt="Poster of a dancing woman in a red dress against a green background promoting an event called &quot;Salsa Night&quot;">
+
                         <h2>T-Shirt Design</h2>
-                        <img src="/images/lasoTshirt.jpg" class="centered third" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
-                    </article>
-                    <article>
+                        <img src="/images/lasoTshirt.jpg" class="centered tall" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
+                        <br>
+
                         <h2>Social Media Flyers</h2>
-                        <div class="gridSocial">
+                        <br>
+                        <div class="gridSocial wide">
                         <img src="/images/lasoLast.jpg" class="full" alt="A red party popper on a yellow background promoting the Last LASO meeting of the semester">
                         <img src="/images/fastFriends.jpg" class="full" alt="A red heart shaped ballon on a blue background with the text &quot;Fast Friends, Platonic Speed Dating&quot;">
                         <img src="/images/healthPanel.jpg" class="full" alt="Someone in a crowd of people raising their hand during a panel. The text reads &quot;Mental, Physical, and Sexual Health Panel&quot;">
@@ -41,8 +42,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <img src="/images/hhmCalendar.jpg" class="full" alt="A calendar of events for Hispanic Heritage Month">
                         <img src="/images/firstMeetingLASO.jpg" class="full" alt="A pinata against a light blue background with the words &quot;Tonight! First Meeting of the Semester&quot;">
                         <img src="/images/comosedice.jpg" class="full" alt="Various speech bubbles with the center bubble containing the text &quot;Comoe Se Dice, an Arguement&quot;">
-                        </div>
-                    </article>';
+                        </div>';
 			break;
 		case "/work/ldc.php":
 			$CURRENT_PAGE = "LDC";
