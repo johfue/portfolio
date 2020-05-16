@@ -51,7 +51,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Latin Dance Club";
 			$PAGE_DESC = "<b>About:</b> The Latin Dance Club at USC is a student run organization that teaches social dances like Bachata and Salsa in a stress free environment. As advertising chair I was responsible for all internal and external communications.";
 			$CONTENT = '
-                    <article>
                         <h2>Social Media Posts</h2>
                         <div class="gridSocial">
                         <img src="/images/ldcFirst.jpg" class="full" alt="A screenshot of an Instragram post. The image is of two people dancing with the text &quot;First Class of Spring 2019&quot; and the caption reads &quot;Care to dance? We\'ll show you how or your money back guranteed&quot;">
@@ -60,8 +59,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <img src="/images/ldcElephant.jpg" class="full" alt="A screenshot of an Instragram post. The image is of an inflatable elephant floating in a pool. and the caption reads &quot;Mr. Elefante taught us some wholesome lessons by the pool yesterday. To be all ears. To always forgive but never forget. And to never let anyone ever make you feel irrelephant.&quot;">
                         <img src="/images/ldcCumbia.jpg" class="full" alt="A screenshot of an Instragram post. The image is of two people dancing with text reading &quot;Cumbia&quot; and the caption reads &quot;Cumbia! Learn to make your uncles proud the next time you\'re at a quinceanera.&quot;">
                         <img src="/images/ldcGamecock.jpg" class="full" alt="A screenshot of an Instragram post. The image is of a rooster painted on a street. and the caption reads &quot;We danced on that chicken. Not many other people can say that. And we believe we are better people for having done so. Thank you to our performers for performing. THank you to the Homecoming Committee for putting it all together. Thank you to the audience for being so kind. And thank you to everyone else for being yourself. That\'s the most important thing of all. #uofschomecoming&quot;">
-                        </div>
-                    </article>';
+                        </div>';
 			break;
 		case "/work/rei.php":
 			$CURRENT_PAGE = "REI";
@@ -69,13 +67,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "REI Co-Op";
 			$PAGE_DESC = "<b>The Problem:</b> Due to the cost of entry and steep learning curve, outdoor recreational activities such as hiking are seen as an inaccessible hobby for many.<br><br>The Big Idea: With its storied commitment to environmental stewardship and myriad of programs that make the outdoors more approachable, REI makes sure nothing stops you from enjoying mother nature.";
 			$CONTENT = '
-			        <article>
                     <h2>Print Campaign</h2>
                         <img src="/images/reiLuggage.jpg" class="centered quarter" alt="A print magazine ad. Three people are going for a hike along a rocky pass. Two of them are looking back at the third person who\'s falling behind. He\'s carrying a wheeled suitcase. The copy reads &quot;Less is more. Hiking is life\'s simplest hobby. You don\'t need the newest climate-controlled, carbon fiber gizmos - just the essentials. At REI, we\'ll show you what to bring and how to pack it, for a lightweight bag. Don\'t let others complicate it for you. Learn more at rei.com/learn/expert-advice&quot;">
                         <img src="/images/reiHose.jpg" class="centered quarter" alt="A print magazine ad. A man is climbing a cliff. However, one of his ropes is actually a gardening hose. The copy reads &quot;Too guilty to get new gear? An option nature and your waller will agree on. At REI you can rent everything you need for you next trip - no need to improvise. Or you can buy second-hand from our members only garage sale. Either way, less junk in our landfills and more green in your wallet.&quot;">
                         <img src="/images/reiBroom.jpg" class="centered twoThird" alt="A print billboard ad. A woman is canoing out on a lake. Instead of a paddle, she has a broom. The copy reads &quot;You shouldn\'t always recycle. Shop certified second-hand gear.&quot;">
-                        <img src="/images/reiPlunge.jpg" class="centered twoThird" alt="A print billboard ad. A man is struggling to climb an icy cliff. Instead of a pickaxe, he has a toliet plunger. The copy reads &quot;You shouldn\'t always recycle. Gear up with rental equipment&quot;">
-                    </article>';
+                        <img src="/images/reiPlunge.jpg" class="centered twoThird" alt="A print billboard ad. A man is struggling to climb an icy cliff. Instead of a pickaxe, he has a toliet plunger. The copy reads &quot;You shouldn\'t always recycle. Gear up with rental equipment&quot;">';
 			break;
         case "/work/proof.php":
             $CURRENT_PAGE = "PROOF";
@@ -83,7 +79,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "PROOF Alcohol Ice Cream";
 			$PAGE_DESC = "<b>The Problem:</b> Alcohol ice cream is a new product category struggling to find its identity.<br><br><b>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
 			$CONTENT = '
-			        <article>
                     <h2>Print Campaign</h2>
                         <img src="/images/proofBerry.jpg" class="centered quarter" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
                         <img src="/images/proofSpoon.jpg" class="centered quarter" alt="A print magazine ad. The headline reads &quot;Your secrets are safe with the spoon.&quot;">
@@ -97,8 +92,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         </audio>
                     <article>
                     <h2>Plans Book</h2>
-                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/Ny3deS6cLLSlND" class="centered" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-                    </article>';
+                    <iframe src="//www.slideshare.net/slideshow/embed_code/key/Ny3deS6cLLSlND" class="centered" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>';
 			break;
         case "/work/arlo.php":
 			$CURRENT_PAGE = "Arlo";
@@ -106,7 +100,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Arlo";
 			$PAGE_DESC = "<b>The Problem:</b> Safety is one of our most basic needs, yet many feel home security systems are unnecessary.<br><br><b>The Big Idea:</b> Living life without Arlo’s advanced surveillance features is living life on the edge.";
 			$CONTENT = '
-		            <article>
                         <h2>Print Campaign</h2>
                         <img src="/images/arloMotion.jpg" class="centered quarter" alt="A print magazine ad. A dog stands duitful by while someone breaks into a home behind it. The copy reads &quot;Advanced motion tracking. The latest in home security. Arlo can recognize objects. It knows when your package has arrived and when it goes missing. Arlo knows bird from burglar and friend from foe. So it never loses sight of an intruder.&quot;">
                         <img src="/images/arloColor.jpg" class="centered quarter" alt="A print magazine ad. A dog stares out the window. The copy reads &quot;Arlo sees in full color 4k HDR video offering you clarity when the worst comes. No grainy black and white gas station footage here. High resolution recordings let you zoom in on any bit of evidence. Arlo gives you closure when the unthinkable happens.&quot;">
@@ -116,8 +109,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <h2>Radio Spot</h2>
                         <audio controls>
                             <source src="/media/arloSpot.mp3" type="audio/mpeg">
-                        </audio>
-                    </article>';
+                        </audio>';
 			break;
 		case "/work/palmetto.php":
 			$CURRENT_PAGE = "Palmetto";
@@ -125,10 +117,8 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Palmetto Airdrop";
 			$PAGE_DESC = "Palmetto Airdrop formed in the wake of Hurricane Florence and flies supplies into hurricane affected areas hours after landfall.";
 			$CONTENT = '
-			        <article>
                         <h2>Logo Design</h2>
-                        <img src="/images/padExplain.png" class="full centered" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
-                    </article>';
+                        <img src="/images/padExplain.png" class="full centered" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">';
 			break;
 		case "/work/personal.php":
 			$CURRENT_PAGE = "Personal";
@@ -136,7 +126,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Personal Work";
 			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could afford real magnets.";
 			$CONTENT = '
-			        <article>
                         <figure>
                             <img src="/images/pulley.jpg" class="centered twoThird" alt="Drawing of a wrench and pulley">
                             <figcaption>Pencil on paper</figcaption>
@@ -165,8 +154,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <figure>
                             <img src="/images/padExplain.png" class="centered twoThird" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
                             <figcaption>Logo Design</figcaption>
-                        </figure>
-                    </article>';
+                        </figure>';
 			break;
 		default:
 			$CURRENT_PAGE = "Index";
