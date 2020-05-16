@@ -15,7 +15,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "LASO";
 			$PAGE_TITLE = "LASO";
 			$PAGE_HEADER = "Latin American Student Organization";
-			$PAGE_DESC = "<b>About:</b> The Latin American Student Organization at USC strives to advance latin culture, foster a community and develop leaders. As creative director I was responsible for developing the organization's visual identity and creating all promotional materials.";
+			$PAGE_DESC = "<b></br>About:</b> The Latin American Student Organization at USC strives to advance latin culture, foster a community and develop leaders. As creative director I was responsible for developing the organization's visual identity and creating all promotional materials.";
 			$CONTENT =
 			        '
                         <h2>Digital Signage</h2>
@@ -48,7 +48,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "LDC";
 			$PAGE_TITLE = "Latin Dance Club";
 			$PAGE_HEADER = "Latin Dance Club";
-			$PAGE_DESC = "<b>About:</b> The Latin Dance Club at USC is a student run organization that teaches social dances like Bachata and Salsa in a stress free environment. As advertising chair I was responsible for all internal and external communications.";
+			$PAGE_DESC = "<b></br>About:</b> The Latin Dance Club at USC is a student run organization that teaches social dances like Bachata and Salsa in a stress free environment. As advertising chair I was responsible for all internal and external communications.";
 			$CONTENT = '
                         <h2>Social Media Posts</h2>
                         <br>
@@ -65,13 +65,13 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "REI";
 			$PAGE_TITLE = "REI";
 			$PAGE_HEADER = "REI Co-Op";
-			$PAGE_DESC = "<b>The Problem:</b> Due to the cost of entry and steep learning curve, outdoor recreational activities such as hiking are seen as an inaccessible hobby for many.<br><br>The Big Idea: With its storied commitment to environmental stewardship and myriad of programs that make the outdoors more approachable, REI makes sure nothing stops you from enjoying mother nature.";
+			$PAGE_DESC = "<b></br>The Problem:</b> Due to the cost of entry and steep learning curve, outdoor recreational activities such as hiking are seen as an inaccessible hobby for many.<br><br>The Big Idea: With its storied commitment to environmental stewardship and myriad of programs that make the outdoors more approachable, REI makes sure nothing stops you from enjoying mother nature.";
 			$CONTENT = '
                     <h2>Print Campaign</h2>
                         <img src="/images/reiLuggage.jpg" class="centered tall" alt="A print magazine ad. Three people are going for a hike along a rocky pass. Two of them are looking back at the third person who\'s falling behind. He\'s carrying a wheeled suitcase. The copy reads &quot;Less is more. Hiking is life\'s simplest hobby. You don\'t need the newest climate-controlled, carbon fiber gizmos - just the essentials. At REI, we\'ll show you what to bring and how to pack it, for a lightweight bag. Don\'t let others complicate it for you. Learn more at rei.com/learn/expert-advice&quot;">
-                        <b>
+                        <b></br>
                         <img src="/images/reiHose.jpg" class="centered tall" alt="A print magazine ad. A man is climbing a cliff. However, one of his ropes is actually a gardening hose. The copy reads &quot;Too guilty to get new gear? An option nature and your waller will agree on. At REI you can rent everything you need for you next trip - no need to improvise. Or you can buy second-hand from our members only garage sale. Either way, less junk in our landfills and more green in your wallet.&quot;">
-                        <b>
+                        <b></br>
                     <h2>Out-of-home</h2>
                         <img src="/images/reiBroom.jpg" class="centered wide" alt="A print billboard ad. A woman is canoing out on a lake. Instead of a paddle, she has a broom. The copy reads &quot;You shouldn\'t always recycle. Shop certified second-hand gear.&quot;">
                         <img src="/images/reiPlunge.jpg" class="centered wide" alt="A print billboard ad. A man is struggling to climb an icy cliff. Instead of a pickaxe, he has a toliet plunger. The copy reads &quot;You shouldn\'t always recycle. Gear up with rental equipment&quot;">';
@@ -80,18 +80,18 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "PROOF";
 			$PAGE_TITLE = "PROOF";
 			$PAGE_HEADER = "PROOF Alcohol Ice Cream";
-			$PAGE_DESC = "<b>The Problem:</b> Alcohol ice cream is a new product category struggling to find its identity.<br><br><b>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
+			$PAGE_DESC = "<b></br>The Problem:</b> Alcohol ice cream is a new product category struggling to find its identity.<br><br><b></br>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
 			$CONTENT = '
                     <h2>Print Campaign</h2>
                         <img src="/images/proofBerry.jpg" class="centered tall" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
                         <img src="/images/proofSpoon.jpg" class="centered tall" alt="A print magazine ad. The headline reads &quot;Your secrets are safe with the spoon.&quot;">
-                        <b>
+                        <b></br>
                         <img src="/images/proofShaker.jpg" class="centered tall" alt="A print magazine ad. The headline reads &quot;But what if you could have it all?&quot;">
                     <h2>Radio Spot</h2>
                         <audio controls>
                             <source src="/media/proofSpot.mp3" type="audio/mpeg">
                         </audio>
-                    <b>
+                    <b></br>
                     <h2>Plans Book</h2>
                     <iframe src="//www.slideshare.net/slideshow/embed_code/key/Ny3deS6cLLSlND" class="centered" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>';
 			break;
@@ -99,11 +99,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "Arlo";
 			$PAGE_TITLE = "Arlo";
 			$PAGE_HEADER = "Arlo";
-			$PAGE_DESC = "<b>The Problem:</b> Safety is one of our most basic needs, yet many feel home security systems are unnecessary.<br><br><b>The Big Idea:</b> Living life without Arlo’s advanced surveillance features is living life on the edge.";
+			$PAGE_DESC = "<b></br>The Problem:</b> Safety is one of our most basic needs, yet many feel home security systems are unnecessary.<br><br><b></br>The Big Idea:</b> Living life without Arlo’s advanced surveillance features is living life on the edge.";
 			$CONTENT = '
                         <h2>Print Campaign</h2>
                         <img src="/images/arloMotion.jpg" class="centered tall" alt="A print magazine ad. A dog stands duitful by while someone breaks into a home behind it. The copy reads &quot;Advanced motion tracking. The latest in home security. Arlo can recognize objects. It knows when your package has arrived and when it goes missing. Arlo knows bird from burglar and friend from foe. So it never loses sight of an intruder.&quot;">
-                        <b>
+                        <b></br>
                         <img src="/images/arloColor.jpg" class="centered tall" alt="A print magazine ad. A dog stares out the window. The copy reads &quot;Arlo sees in full color 4k HDR video offering you clarity when the worst comes. No grainy black and white gas station footage here. High resolution recordings let you zoom in on any bit of evidence. Arlo gives you closure when the unthinkable happens.&quot;">
                         <img src="/images/arloDay.jpg" class="centered tall" alt="A print bus stop ad. A dog naps on the floor while someone breaks into it\'s home behind it. The copy reads &quot;Arlo, on duty all night and day. With davanced night vision, six month battery life and weather proof body, you can count on Arlo to protect your home - no matter the occasion.&quot;">
                     </article>

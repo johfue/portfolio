@@ -13,7 +13,7 @@
             <p><?php echo $PAGE_DESC;?></p>
         </section>
     </header>
-    <b>
+    <b></b>
     <?php echo $CONTENT;?>
     </main>
 </body>
