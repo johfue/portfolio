@@ -491,6 +491,10 @@ main.work.personal {
     width: 100%;
 }
 
+.personal > figure:nth-child(1) {
+    max-width: 100%;
+}
+
 header.work.REI {
     background-image: url("images/reiThumb.svg"), url("images/dot.svg");
     background-position: 40em, 25px -22px;

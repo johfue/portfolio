@@ -124,11 +124,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could afford real magnets.";
 			$CONTENT = '
                         <figure class="wide">
-                            <img src="/images/pulley.jpg" class="centered" alt="Drawing of a wrench and pulley">
+                            <img src="/images/pulley.jpg alt="Drawing of a wrench and pulley">
                             <figcaption>Pencil on paper</figcaption>
                         </figure>
                         <figure class="wide">
-                            <video autoplay loop muted playsinline class="centered">
+                            <video autoplay loop muted playsinline>
                             <source src="/media/syrinj.mp4">
                             </video>
                             <figcaption>Parody Website <a href="http://www.syrinj.com" target="_blank">' . $external . '</a></figcaption>
@@ -138,18 +138,18 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Photograph</figcaption>
                         </figure>
                         <figure class="tall">
-                            <video autoplay loop muted playsinline class="centered">
+                            <video autoplay loop muted playsinline>
                             <source src="/media/voltorb.mp4">
                             alt="A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model"
                             </video>
                             <figcaption>AR Illustration</figcaption>
                         </figure>
                         <figure class="wide">
-                            <img src="/images/marbles.jpg" class="centered wide" alt="Marbles in the desert">
+                            <img src="/images/marbles.jpg" alt="Marbles in the desert">
                             <figcaption>Photograph</figcaption>
                         </figure>
                         <figure class="tall">
-                            <img src="/images/padExplain.png" class="centered tall" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
+                            <img src="/images/padExplain.png" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
                             <figcaption>Logo Design</figcaption>
                         </figure>';
 			break;
