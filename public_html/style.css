@@ -610,6 +610,11 @@ main.work article > img {
     max-width: 100%;
 }
 
+.medium {
+    grid-row: span 2;
+    height: 80vh;
+}
+
 .tall {
     grid-row: span 3;
     height: 100vh;
