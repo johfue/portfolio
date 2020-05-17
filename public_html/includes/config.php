@@ -49,7 +49,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "<b>About:</b> The Latin Dance Club at USC is a student run organization that teaches social dances like Bachata and Salsa in a stress free environment. As advertising chair I was responsible for all internal and external communications.";
 			$CONTENT = '
                         <h2 class="wide">Social Media Posts</h2>
-                        <div class="gridSocial">
+                        <div class="gridSocial wide">
                         <img src="/images/ldcFirst.jpg" class="full" alt="A screenshot of an Instragram post. The image is of two people dancing with the text &quot;First Class of Spring 2019&quot; and the caption reads &quot;Care to dance? We\'ll show you how or your money back guranteed&quot;">
                         <img src="/images/ldcGetIt.jpg" class="full" alt="A screenshot of an Instragram post. The image is of red text reading &quot;Let\'s Get it&quot; and the caption reads &quot;It\'s the first day of class meaning we\'re officially one day closer to spring break. Let\'s make it our resolution to give it our all atleast untill then!&quot;">
                         <img src="/images/ldcPartner.jpg" class="full" alt="A screenshot of an Instragram post. The image is of two people dancing with text reading &quot;Partner Work&quot; and the caption reads &quot;Does it really take two to tango? Discover the truth and more in tonight\'s class all about partner work.&quot;">
@@ -124,32 +124,32 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could afford real magnets.";
 			$CONTENT = '
                         <figure>
-                            <img src="/images/pulley.jpg" class="centered twoThird" alt="Drawing of a wrench and pulley">
+                            <img src="/images/pulley.jpg" class="centered wide" alt="Drawing of a wrench and pulley">
                             <figcaption>Pencil on paper</figcaption>
                         </figure>
                         <figure>
-                            <video autoplay loop muted playsinline class="centered twoThird">
+                            <video autoplay loop muted playsinline class="centered wide">
                             <source src="/media/syrinj.mp4">
                             </video>
                             <figcaption>Parody Website <a href="http://www.syrinj.com" target="_blank">' . $external . '</a></figcaption>
                         </figure>
                         <figure>
-                            <img src="/images/doubleExposure.jpeg" class="centered quarter" alt="The relfection of a woman passing a mural projected onto a city at night">
+                            <img src="/images/doubleExposure.jpeg" class="centered tall" alt="The relfection of a woman passing a mural projected onto a city at night">
                             <figcaption>Photograph</figcaption>
                         </figure>
                         <figure>
-                            <video width="350" height="720" autoplay loop muted playsinline class="centered quarter">
-                            <source src="/media/voltorb.mp4" class="centered quarter">
+                            <video width="350" height="720" autoplay loop muted playsinline class="centered tall">
+                            <source src="/media/voltorb.mp4>
                             alt="A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model"
                             </video>
                             <figcaption>AR Illustration</figcaption>
                         </figure>
                         <figure>
-                            <img src="/images/marbles.jpg" class="centered twoThird" alt="Marbles in the desert">
+                            <img src="/images/marbles.jpg" class="centered wide" alt="Marbles in the desert">
                             <figcaption>Photograph</figcaption>
                         </figure>
                         <figure>
-                            <img src="/images/padExplain.png" class="centered twoThird" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
+                            <img src="/images/padExplain.png" class="centered tall" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
                             <figcaption>Logo Design</figcaption>
                         </figure>';
 			break;
