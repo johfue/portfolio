@@ -492,6 +492,7 @@ main.work.personal {
 }
 
 .personal > figure:nth-child(1) {
+    height: inherit;
     max-width: 100%;
 }
 
