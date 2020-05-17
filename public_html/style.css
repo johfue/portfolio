@@ -491,7 +491,7 @@ main.work.personal {
     width: 100%;
 }
 
-.personal > figure:nth-child(1) {
+.personal > figure image:nth-child(1), .personal > figure video:nth-child(1) {
     height: inherit;
     max-width: 100%;
 }
