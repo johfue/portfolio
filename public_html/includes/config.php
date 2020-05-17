@@ -71,7 +71,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <img src="/images/reiLuggage.jpg" class="centered tall" alt="A print magazine ad. Three people are going for a hike along a rocky pass. Two of them are looking back at the third person who\'s falling behind. He\'s carrying a wheeled suitcase. The copy reads &quot;Less is more. Hiking is life\'s simplest hobby. You don\'t need the newest climate-controlled, carbon fiber gizmos - just the essentials. At REI, we\'ll show you what to bring and how to pack it, for a lightweight bag. Don\'t let others complicate it for you. Learn more at rei.com/learn/expert-advice&quot;">
                         <b></b>
                         <img src="/images/reiHose.jpg" class="centered tall" alt="A print magazine ad. A man is climbing a cliff. However, one of his ropes is actually a gardening hose. The copy reads &quot;Too guilty to get new gear? An option nature and your waller will agree on. At REI you can rent everything you need for you next trip - no need to improvise. Or you can buy second-hand from our members only garage sale. Either way, less junk in our landfills and more green in your wallet.&quot;">
-                        <b></b>
+                        <b class="medium"></b>
                     <h2>Out-of-home</h2>
                         <img src="/images/reiBroom.jpg" class="centered wide" alt="A print billboard ad. A woman is canoing out on a lake. Instead of a paddle, she has a broom. The copy reads &quot;You shouldn\'t always recycle. Shop certified second-hand gear.&quot;">
                         <img src="/images/reiPlunge.jpg" class="centered wide" alt="A print billboard ad. A man is struggling to climb an icy cliff. Instead of a pickaxe, he has a toliet plunger. The copy reads &quot;You shouldn\'t always recycle. Gear up with rental equipment&quot;">';
@@ -88,12 +88,14 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <img src="/images/proofSpoon.jpg" class="centered tall" alt="A print magazine ad. The headline reads &quot;Your secrets are safe with the spoon.&quot;">
                         <b></b>
                         <img src="/images/proofShaker.jpg" class="centered tall" alt="A print magazine ad. The headline reads &quot;But what if you could have it all?&quot;">
+                    <b></b>
                     <h2>Radio Spot</h2>
                         <audio controls>
                             <source src="/media/proofSpot.mp3" type="audio/mpeg">
                         </audio>
                     <b></b>
                     <h2>Plans Book</h2>
+                    <b></b>
                     <iframe src="//www.slideshare.net/slideshow/embed_code/key/Ny3deS6cLLSlND" class="centered" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>';
 			break;
         case "/work/arlo.php":
@@ -106,9 +108,10 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <img src="/images/arloMotion.jpg" class="centered tall" alt="A print magazine ad. A dog stands duitful by while someone breaks into a home behind it. The copy reads &quot;Advanced motion tracking. The latest in home security. Arlo can recognize objects. It knows when your package has arrived and when it goes missing. Arlo knows bird from burglar and friend from foe. So it never loses sight of an intruder.&quot;">
                         <b></b>
                         <img src="/images/arloColor.jpg" class="centered tall" alt="A print magazine ad. A dog stares out the window. The copy reads &quot;Arlo sees in full color 4k HDR video offering you clarity when the worst comes. No grainy black and white gas station footage here. High resolution recordings let you zoom in on any bit of evidence. Arlo gives you closure when the unthinkable happens.&quot;">
-                        <b></b>
+                        <b class="home"></b>
                         <h2>Out-of-home</h2>
                         <img src="/images/arloDay.jpg" class="centered tall" alt="A print bus stop ad. A dog naps on the floor while someone breaks into it\'s home behind it. The copy reads &quot;Arlo, on duty all night and day. With davanced night vision, six month battery life and weather proof body, you can count on Arlo to protect your home - no matter the occasion.&quot;">
+                        <b class="tall">
                         <h2>Radio Spot</h2>
                         <audio controls>
                             <source src="/media/arloSpot.mp3" type="audio/mpeg">
