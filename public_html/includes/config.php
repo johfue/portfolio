@@ -48,8 +48,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Latin Dance Club";
 			$PAGE_DESC = "<b>About:</b> The Latin Dance Club at USC is a student run organization that teaches social dances like Bachata and Salsa in a stress free environment. As advertising chair I was responsible for all internal and external communications.";
 			$CONTENT = '
-                        <h2>Social Media Posts</h2>
-                        <b></b>
+                        <h2 class="wide">Social Media Posts</h2>
                         <div class="gridSocial">
                         <img src="/images/ldcFirst.jpg" class="full" alt="A screenshot of an Instragram post. The image is of two people dancing with the text &quot;First Class of Spring 2019&quot; and the caption reads &quot;Care to dance? We\'ll show you how or your money back guranteed&quot;">
                         <img src="/images/ldcGetIt.jpg" class="full" alt="A screenshot of an Instragram post. The image is of red text reading &quot;Let\'s Get it&quot; and the caption reads &quot;It\'s the first day of class meaning we\'re officially one day closer to spring break. Let\'s make it our resolution to give it our all atleast untill then!&quot;">
@@ -104,7 +103,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <img src="/images/arloColor.jpg" class="centered tall" alt="A print magazine ad. A dog stares out the window. The copy reads &quot;Arlo sees in full color 4k HDR video offering you clarity when the worst comes. No grainy black and white gas station footage here. High resolution recordings let you zoom in on any bit of evidence. Arlo gives you closure when the unthinkable happens.&quot;">
                         <h2 class="wide">Out-of-home</h2>
                         <img src="/images/arloDay.jpg" class="centered tall" alt="A print bus stop ad. A dog naps on the floor while someone breaks into it\'s home behind it. The copy reads &quot;Arlo, on duty all night and day. With davanced night vision, six month battery life and weather proof body, you can count on Arlo to protect your home - no matter the occasion.&quot;">
-                        <b class="tall">
                         <h2 class="wide">Radio Spot</h2>
                         <audio controls>
                             <source src="/media/arloSpot.mp3" type="audio/mpeg">

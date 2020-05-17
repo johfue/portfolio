@@ -591,13 +591,14 @@ main.work > img {
     }
 }
 
-.gridSocial {
+.work > .gridSocial {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
     grid-auto-flow: dense;
     grid-gap: 1em;
     margin: 0 auto 2em auto;
     max-width: 1155px;
+    max-height: initial;
 }
 
 main.work article > img {
