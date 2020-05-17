@@ -611,7 +611,7 @@ main.work article > img {
 }
 
 .tall {
-    grid-row: span 2;
+    grid-row: span 3;
     height: 100vh;
 }
 
