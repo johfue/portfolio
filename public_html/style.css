@@ -465,15 +465,6 @@ header.work p {
     padding-top: 1em;
 }
 
-@media(min-width: 650px) {
-    main.work {
-        grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
-    }
-    main.work.personal {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
 main.work {
     width: 85%;
     width: 85vw;
@@ -488,6 +479,15 @@ main.work {
     grid-gap: 1rem;
     box-sizing: border-box;
     padding: 1em 1rem;
+}
+
+@media(min-width: 650px) {
+    main.work {
+        grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
+    }
+    main.work.personal {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 .personal > figure {
@@ -586,8 +586,14 @@ b.small {
 }
 
 .work > b {
-    display: block;
-    height: 40vh;
+    display: none;
+}
+
+@media(min-width:650px) {
+    .work > b {
+        display: block;
+        height: 40vh;
+    }
 }
 
 .workGrid {
