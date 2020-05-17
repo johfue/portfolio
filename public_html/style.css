@@ -549,8 +549,7 @@ header.work {
 }
 
 header.work section {
-    max-width: 40em;
-    max-width: 80ch;
+    width: 100%;
 }
 
 b.small + b.small{
@@ -646,7 +645,7 @@ main.work article > img {
     }
     .tall {
         grid-row: span 3;
-        height: 100vh;
+        max-height: 100vh;
     }
     .wide {
         grid-column: span 2;
