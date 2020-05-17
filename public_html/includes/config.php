@@ -69,7 +69,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                     <h2>Print Campaign</h2>
                         <img src="/images/reiLuggage.jpg" class="centered tall" alt="A print magazine ad. Three people are going for a hike along a rocky pass. Two of them are looking back at the third person who\'s falling behind. He\'s carrying a wheeled suitcase. The copy reads &quot;Less is more. Hiking is life\'s simplest hobby. You don\'t need the newest climate-controlled, carbon fiber gizmos - just the essentials. At REI, we\'ll show you what to bring and how to pack it, for a lightweight bag. Don\'t let others complicate it for you. Learn more at rei.com/learn/expert-advice&quot;">
-                        <b></b>
                         <img src="/images/reiHose.jpg" class="centered tall" alt="A print magazine ad. A man is climbing a cliff. However, one of his ropes is actually a gardening hose. The copy reads &quot;Too guilty to get new gear? An option nature and your waller will agree on. At REI you can rent everything you need for you next trip - no need to improvise. Or you can buy second-hand from our members only garage sale. Either way, less junk in our landfills and more green in your wallet.&quot;">
                         <b></b>
                     <h2>Out-of-home</h2>

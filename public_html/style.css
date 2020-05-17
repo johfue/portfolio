@@ -565,6 +565,7 @@ b.small {
 
 .work > b {
     display: block;
+    height: 40vh;
 }
 
 .workGrid {
@@ -616,7 +617,8 @@ main.work article > img {
 
 .wide {
     grid-column: span 2;
-    height: 80vh;
+    width: 80vw;
+    max-height: 80vh;
 }
 
 .right {
