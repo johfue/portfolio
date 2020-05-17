@@ -124,7 +124,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could afford real magnets.";
 			$CONTENT = '
                         <figure class="wide">
-                            <img src="/images/pulley.jpg alt="Drawing of a wrench and pulley">
+                            <img src="/images/pulley.jpg" alt="Drawing of a wrench and pulley">
                             <figcaption>Pencil on paper</figcaption>
                         </figure>
                         <figure class="wide">
@@ -134,7 +134,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Parody Website <a href="http://www.syrinj.com" target="_blank">' . $external . '</a></figcaption>
                         </figure>
                         <figure class="tall">
-                            <img src="/images/doubleExposure.jpeg" class="centered" alt="The relfection of a woman passing a mural projected onto a city at night">
+                            <img src="/images/doubleExposure.jpeg" alt="The relfection of a woman passing a mural projected onto a city at night">
                             <figcaption>Photograph</figcaption>
                         </figure>
                         <figure class="tall">
