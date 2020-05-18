@@ -648,7 +648,7 @@ main.work article > img {
         grid-column: span 2;
         width: 80vw;
     }
-    .personal.wide {
+    .personal .wide {
         grid-row: span 2;
     }
 }
