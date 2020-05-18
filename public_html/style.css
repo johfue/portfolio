@@ -547,6 +547,7 @@ header.work {
     background-size: 75%, 300px;
     background-size: 75vw, 300px;
     background-repeat: no-repeat, repeat;
+    overflow-x: hidden;
 }
 
 header.work section {
@@ -745,6 +746,7 @@ audio {
 @media(min-width:650px) {
     header.work {
         padding: 2em 2rem 1em 2rem;
+        min-width: min-content;
     }
     main.work h2 {
         padding: 0.5em 2rem 0.5em 2rem;
