@@ -260,7 +260,7 @@ b.home {
     width: 100%;
     display: grid;
     overflow: hidden;
-    grid-template-rows: 1fr -webkit-max-content;
+    grid-template-rows: 1fr -webkit-max-content,;
     grid-template-rows: 1fr max-content;
 }
 
@@ -626,7 +626,7 @@ main.work > img {
     grid-auto-flow: dense;
     grid-gap: 1em;
     margin: 0 auto 2em auto;
-    max-width: 1155px;
+    /*max-width: 1155px;*/
     max-height: initial;
 }
 
@@ -665,19 +665,19 @@ main.work article > img {
 }
 
 .right {
-    object-position: right;
+    justify-self: end;
 }
 
 .left {
-    object-position: left;
+    justify-self: start;
 }
 
 .top {
-    object-position: top;
+    align-self: start;
 }
 
 .bottom {
-    object-position: bottom;
+    align-self: end;
 }
 
 .quarter {
