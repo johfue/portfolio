@@ -496,11 +496,8 @@ main.work {
 }
 
 .work > figure img, .work > figure video {
-    height: initial;
-    object-fit: cover;
-    width: 100%;
     max-width: 100%;
-    max-height: 96vh;
+    max-height: calc(100% - 40px);
 }
 
 header.work.REI {
