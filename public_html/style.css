@@ -255,15 +255,18 @@ b.home {
 }
 
 
-.grid > a > figure {
-    grid-row: span 3;
-    width: 100%;
+.grid > a > figure, .personal > figure {
     height: 100%;
-    background-color: rgba(254, 250, 251,1);
+    width: 100%;
     display: grid;
     grid-template-rows: -webkit-max-content 1fr;
-    grid-template-rows: max-content 1fr;
+    grid-template-rows: 1fr max-content;
     overflow: hidden;
+}
+
+.grid > a > figure {
+    grid-row: span 3;
+    background-color: rgba(254, 250, 251,1);
     position: relative;
     transition: 0.25s ease;
 }
@@ -298,7 +301,7 @@ b.home {
     animation-delay: 0.25s;
 }
 
-figure > img {
+.grid figure > img, .work > figure img, .work > figure video {
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
@@ -475,10 +478,14 @@ main.work {
     margin-bottom: 2em;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(min-content, max-content);
+    grid-auto-rows: minmax(min-content, max-content);
     grid-gap: 1rem;
     box-sizing: border-box;
     padding: 1em 1rem;
+}
+
+main.work.personal {
+    grid-auto-rows: 30vh;
 }
 
 @media(min-width: 650px) {
@@ -487,17 +494,8 @@ main.work {
     }
     main.work.personal {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 40vh;
     }
-}
-
-.personal > figure {
-    height: 100%;
-    width: 100%;
-}
-
-.work > figure img, .work > figure video {
-    max-width: 100%;
-    max-height: calc(100% - 40px);
 }
 
 header.work.REI {
@@ -649,6 +647,9 @@ main.work article > img {
     .wide {
         grid-column: span 2;
         width: 80vw;
+    }
+    .personal.wide {
+        grid-row: span 2;
     }
 }
 
