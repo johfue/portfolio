@@ -647,7 +647,6 @@ main.work article > img {
 @media (min-width:650px) {
     .medium {
         grid-row: span 2;
-        height: 80vh;
     }
     .tall {
         grid-row: span 3;
