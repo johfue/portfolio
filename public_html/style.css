@@ -259,9 +259,9 @@ b.home {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-rows: -webkit-max-content 1fr;
-    grid-template-rows: 1fr max-content;
     overflow: hidden;
+    grid-template-rows: 1fr -webkit-max-content;
+    grid-template-rows: 1fr max-content;
 }
 
 .grid > a > figure {
@@ -269,6 +269,8 @@ b.home {
     background-color: rgba(254, 250, 251,1);
     position: relative;
     transition: 0.25s ease;
+    grid-template-rows: -webkit-max-content 1fr;
+    grid-template-rows: max-content 1fr;
 }
 
 .grid > a > figure:after {
