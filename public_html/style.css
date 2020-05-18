@@ -532,6 +532,8 @@ header.work.Personal {
     background-image: url("images/personalThumb.svg"), url("images/dot.svg");
     background-position: 40em, 25px -22px;
     background-position: 80ch, 25px -22px;
+    grid-column-end: -1;
+    grid-column-start: 1;
 }
 
 header.Personal + section article figure:nth-child(1) {
@@ -634,6 +636,10 @@ main.work article > img {
     margin: 0 auto;
     display: block;
     max-width: 100%;
+}
+
+.personal .tall {
+    grid-row: span 2;
 }
 
 @media (min-width:650px) {
