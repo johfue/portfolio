@@ -496,9 +496,10 @@ main.work {
     width: 100%;
 }
 
-.work > figure image, .work > figure video {
+.work > figure img, .work > figure video {
     height: initial;
     max-width: 100%;
+    max-height: 100%;
 }
 
 header.work.REI {
@@ -592,6 +593,7 @@ b.small {
     .work > b {
         display: block;
         height: 40vh;
+        height: 40vmin;
     }
 }
 
@@ -645,12 +647,10 @@ main.work article > img {
     }
     .tall {
         grid-row: span 3;
-        max-height: 100vh;
     }
     .wide {
         grid-column: span 2;
         width: 80vw;
-        max-height: 80vh;
     }
 }
 

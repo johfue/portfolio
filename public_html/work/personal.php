@@ -14,6 +14,8 @@
         </section>
     </header>
     <b></b>
+    <b></b>
+    <b></b>
     <?php echo $CONTENT;?>
     </main>
 </body>
