@@ -650,6 +650,9 @@ main.work article > img {
     .tall {
         grid-row: span 3;
     }
+    .personal .tall {
+        grid-row: span 3;
+    }
     .wide {
         grid-column: span 2;
         width: 80vw;
