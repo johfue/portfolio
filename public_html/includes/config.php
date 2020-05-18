@@ -20,12 +20,12 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			        '
                         <h2>Digital Signage</h2>
                         <img src="/images/latinxcelencia.jpg" class="centered tall" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called &quot;Latinxcelencia&quot;">
-                        <img src="/images/latinxcelenciaMocUp.jpg">
+                        <img src="/images/latinxcelenciaMockUp.jpg">
                         <img src="/images/salsaNight.jpg" class="centered wide" alt="Poster of a dancing woman in a red dress against a green background promoting an event called &quot;Salsa Night&quot;">
 
                         <h2>T-Shirt Design</h2>
                         <img src="/images/lasoTshirt.jpg" class="centered tall" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
-                        <img src="images/lasoTshirtMock.jpg">
+                        <img src="/images/lasoTshirtMock.jpg">
                         <h2>Social Media Flyers</h2>
                         <div class="gridSocial wide">
                         <img src="/images/lasoLast.jpg" class="full" alt="A red party popper on a yellow background promoting the Last LASO meeting of the semester">
