@@ -548,7 +548,7 @@ header.work {
     background-size: 75vw, 300px;
     background-repeat: no-repeat, repeat;
     overflow-x: hidden;
-    min-width: min-content;
+    min-width: 65ch;
     max-width: 80ch;
 }
 
