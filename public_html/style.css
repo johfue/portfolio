@@ -13,8 +13,8 @@
 }
 
 @font-face {
-    font-family: 'Hewitt-Bold';
-    src: url('fonts/CooperHewitt-Bold.otf') format('opentype'));
+    font-family: 'Rotulista';
+         url('fonts/Rotulista-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -100,17 +100,17 @@ h1 {
 }
 
 h2 {
-    font-family: Lato-Black;
+    font-family: Cooper_Hewitt-Heavy;
     font-size: 1.5em;
 }
 
 p, li {
-    font-family: Lato-Bold;
+    font-family: Rotulistaa;
     font-size: 1.1em;
 }
 
 h3 {
-    font-family: Lato-Black;
+    font-family: Cooper_Hewitt-Heavy;
     position: relative;
     font-size: 2.25em;
     padding: 0.5em;
