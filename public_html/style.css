@@ -14,7 +14,31 @@
 
 @font-face {
     font-family: 'Rotulista';
-         url('fonts/Rotulista-Regular.ttf') format('truetype');
+    src: url('rotulista-regular-webfont.woff2') format('woff2'),
+         url('rotulista-regular-webfont.woff') format('woff'),
+         url('rotulista-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cooper_hewittsemibold';
+    src: url('cooperhewitt-semibold-webfont.woff2') format('woff2'),
+         url('cooperhewitt-semibold-webfont.woff') format('woff'),
+         url('cooperhewitt-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Cooper_Hewitt-Bold';
+    src: url('cooperhewitt-bold-webfont.woff2') format('woff2'),
+         url('cooperhewitt-bold-webfont.woff') format('woff'),
+         url('cooperhewitt-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -100,7 +124,7 @@ h1 {
 }
 
 h2 {
-    font-family: Cooper_Hewitt-Heavy;
+    font-family: Cooper_Hewitt-Bold;
     font-size: 1.5em;
 }
 
@@ -110,7 +134,7 @@ p, li {
 }
 
 h3 {
-    font-family: Cooper_Hewitt-Heavy;
+    font-family: Cooper_Hewitt-Bold;
     position: relative;
     font-size: 2.25em;
     padding: 0.5em;
