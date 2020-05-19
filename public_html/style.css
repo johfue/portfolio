@@ -4,8 +4,12 @@
 }
 
 @font-face {
-    font-family: 'Hewitt-Heavy';
-    src: url('fonts/CooperHewitt-Heavy.otf') format('opentype'));
+    font-family: 'Cooper_Hewitt-Heavy';
+    src: url('fonts/cooperhewitt-heavy-webfont.woff2') format('woff2'),
+         url('fonts/cooperhewitt-heavy-webfont.woff') format('woff'),
+         url('fonts/cooperhewitt-heavy-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
