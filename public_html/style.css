@@ -4,6 +4,16 @@
 }
 
 @font-face {
+    font-family: 'Hewitt-Heavy';
+    src: url('fonts/CooperHewitt-Heavy.otf') format('opentype'));
+}
+
+@font-face {
+    font-family: 'Hewitt-Bold';
+    src: url('fonts/CooperHewitt-Bold.otf') format('opentype'));
+}
+
+@font-face {
     font-family: 'Lato-Medium';
     src: url('fonts/lato-medium-webfont.woff2') format('woff2'),
          url('fonts/lato-medium-webfont.woff') format('woff'),
