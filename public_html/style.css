@@ -658,6 +658,12 @@ main.work > img, main.work > video {
     max-height: 100vh;
 }
 
+.personal figure > img, .personal figure > video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .workGrid img, .gridSocial img {
     width: auto;
     -o-object-fit: cover;
