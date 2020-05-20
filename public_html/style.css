@@ -130,7 +130,7 @@ h2 {
 
 p, li {
     font-family: Rotulista;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 h3 {
@@ -348,6 +348,11 @@ b.home {
     height: 100%;
 }
 
+.work > figure img, .work > figure video {
+    display: block;
+    max-width: 100%;
+}
+
 @keyframes slide {
     from {
         transform: translate3d(0, 0, 0);
@@ -522,6 +527,9 @@ main.work {
     grid-gap: 1rem;
     box-sizing: border-box;
     padding: 1em 1rem;
+    background-image: url(images/dot.svg);
+    background-repeat: no-repeat;
+    background-size: 600px;
 }
 
 main.work.personal {
@@ -673,10 +681,8 @@ main.work article > img {
     margin-bottom: 2em;
 }
 
-.centered {
-    margin: 0 auto;
-    display: block;
-    max-width: 100%;
+.center {
+    justify-self: center;
 }
 
 .personal .tall {
