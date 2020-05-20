@@ -341,7 +341,7 @@ b.home {
     animation-delay: 0.25s;
 }
 
-.grid figure > img, .work > figure img, .work > figure video {
+.grid figure > img {
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
@@ -351,6 +351,7 @@ b.home {
 .work > figure img, .work > figure video {
     display: block;
     max-width: 100%;
+    max-height: 100vh;
 }
 
 @keyframes slide {
@@ -651,8 +652,10 @@ b.small {
     
 }
 
-main.work > img {
+main.work > img, main.work > video {
     object-fit: contain;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 .workGrid img, .gridSocial img {
