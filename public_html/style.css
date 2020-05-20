@@ -535,8 +535,7 @@ main.work {
 
 main.work.personal {
     grid-auto-rows: 40vh;
-    grid-temlpate-rows: min-content;
-    grid-gap: 0;
+    grid-template-rows: min-content;
 }
 
 @media(min-width: 650px) {
