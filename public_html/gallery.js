@@ -8,9 +8,9 @@ modalVideo = _(modalVideo);
 modalCaption = _(modalCaption);
 
 function modalExpand(focus) {
-    console.log(modalCaption);
+    console.log(modal);
     modalMedia = focus.parentElement.previousSibling;
-    modalCaption.innerText = "focus.parentElement.innerText";
+    modalCaption.innerText = focus.parentElement.innerText;
     // truncate final amount of characters
     if (modalMedia == "video") {
         var source = document.createElement('source');
