@@ -8,7 +8,7 @@
     <?php include("includes/header.php");?>
     <main class="single">
         <h1>Something went wrong!?</h1>
-        <img src="/images/404.png" class="centered twoThird" alt="Three men on a boat using sextants to navigate.">
+        <img src="/images/50x.png" class="centered twoThird" alt="A black and white photograph of six men standing around the exploded boiler engine of a train.">
         <p>Please refresh the page or try navigating back to the <a href="/">homepage</a>.</p>
     </main>
 </body>

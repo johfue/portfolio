@@ -125,7 +125,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                         <figure class="wide">
                             <img src="/images/pulley.jpg" alt="Drawing of a wrench and pulley">
-                            <figcaption>Pencil on paper</figcaption>
+                            <figcaption>Pencil on paper<button onclick="modalExpand()">SVG</button></figcaption>
                         </figure>
                         <figure class="wide">
                             <video autoplay loop muted playsinline>
