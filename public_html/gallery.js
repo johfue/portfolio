@@ -9,7 +9,7 @@ var modalCaption = _(modalCaption);
 
 function modalExpand() {
     var focus = this;
-    console.log(focus.parentElement);
+    console.log(focus);
     modalMedia = focus.parentElement.previousSibling;
     modalCaption.innerText = focus.parentElement.innerText;
     // truncate final amount of characters
