@@ -5,7 +5,7 @@ function _(x) {
 var modal = _(modal);
 var modalImg = _(modalImg);
 var modalVideo = _(modalVideo);
-var modalCaption = _(modalCaption);
+modalCaption = _(modalCaption);
 
 function modalExpand(focus) {
     console.log(modalCaption);
