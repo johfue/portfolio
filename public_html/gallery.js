@@ -2,9 +2,9 @@ function _(x) {
 	return document.getElementById(x);
 }
 
-var modal = _(modal);
-var modalImg = _(modalImg);
-var modalVideo = _(modalVideo);
+modal = _(modal);
+modalImg = _(modalImg);
+modalVideo = _(modalVideo);
 modalCaption = _(modalCaption);
 
 function modalExpand(focus) {
