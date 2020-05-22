@@ -7,8 +7,7 @@ var modalImg = _(modalImg);
 var modalVideo = _(modalVideo);
 var modalCaption = _(modalCaption);
 
-function modalExpand() {
-    var focus = this;
+function modalExpand(focus) {
     console.log(focus);
     modalMedia = focus.parentElement.previousSibling;
     modalCaption.innerText = focus.parentElement.innerText;
