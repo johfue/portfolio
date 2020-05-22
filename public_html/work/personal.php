@@ -3,6 +3,7 @@
 <html>
 <head>
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/headTag.php");?>
+    <script src="/gallery.js"></script>
 </head>
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.php");?>
