@@ -18,9 +18,9 @@
     <?php echo $CONTENT;?>
     </main>
     <aside id="modal">
-        <img>
-        <video></video>
-        <caption></caption>
+        <img id="modalImg">
+        <video id="modalVideo"></video>
+        <span id="modalCaption"></span>
         <button id="close" onclick="close()"></button>
         <button id="previous" onclick="previous()"></button>
         <button id="next" onclick="next()"></button>
