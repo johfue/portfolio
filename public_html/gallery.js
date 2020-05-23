@@ -14,7 +14,7 @@ function modalExpand(focus) {
     modalMedia = focus.previousElementSibling.previousElementSibling;
     modalCaption.innerText = focus.previousElementSibling.innerText;
     // truncate final amount of characters
-    if (modalMedia == "video") {
+    if (modalMedia.tagName == "VIDEO") {
         modalVideo.innerHTML = modalMedia.innerHTML;
 
     }
