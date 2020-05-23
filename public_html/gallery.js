@@ -24,7 +24,7 @@ function modalExpand(focus) {
         modalImg.src = modalMedia.getAttribute('src');
     }
     console.log(modal);
-    var saveScroll = window.pageYOffset;
+    saveScroll = window.pageYOffset;
     modal.style.display = "block";
     main.style.display = "none";
     nav.style.display = "none";
@@ -44,11 +44,10 @@ function modalExpand(focus) {
 // swiping should tab through
 
 function closer() {
-    console.log("ran");
     modal.style.display = "none";
     main.style.display = "grid";
     nav.style.display = "block";
-    // window.scrollTo(0, saveScroll);
+    window.scrollTo(0, saveScroll);
 }
 
 _("close").onclick = closer;
