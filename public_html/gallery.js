@@ -11,19 +11,19 @@ var main = document.querySelector("main");
 var nav = document.querySelector("nav");
 
 function hidden(bool) {
-    if (!false) {
+    if (true) {
         console.log("ran1");
-        modal.style.display = "none";
-        main.style.display = "grid";
-        nav.style.display = "block";
-        document.querySelector("b").style.bottom = "2em";
-    }
-    else {
-        console.log("ran2");
         modal.style.display = "block";
         main.style.display = "none";
         nav.style.display = "none";
         document.querySelector("b").style.bottom = "0";
+    }
+    else {
+        console.log("ran2");
+        modal.style.display = "none";
+        main.style.display = "grid";
+        nav.style.display = "block";
+        document.querySelector("b").style.bottom = "2em";
     }
 }
 
@@ -45,7 +45,7 @@ function modalExpand(focus) {
     }
     
     saveScroll = window.pageYOffset;
-    hidden(false);
+    hidden(true);
     window.scrollTo(0, 0);
 
 }
@@ -63,7 +63,7 @@ function modalExpand(focus) {
 // visibility toggle
 
 function closer() {
-    hidden(true);
+    hidden(false);
     window.scrollTo(0, saveScroll);
     modalVideo.pause();
     modalVideo.innerHTML = "";
