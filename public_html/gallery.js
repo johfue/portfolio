@@ -28,6 +28,7 @@ function modalExpand(focus) {
     modal.style.display = "block";
     main.style.display = "none";
     nav.style.display = "none";
+    document.querySelector("b").style.bottom = "0";
     window.scrollTo(0, 0);
 
 }
@@ -48,6 +49,7 @@ function closer() {
     modal.style.display = "none";
     main.style.display = "grid";
     nav.style.display = "block";
+    document.querySelector("b").style.bottom = "2em";
     window.scrollTo(0, saveScroll);
 }
 
