@@ -1075,6 +1075,7 @@ main.double button[type=submit]:hover .inactive {
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.5);
+    box-sizing: border-box;
 }
 
 #modalImg, #modalVideo {
