@@ -11,7 +11,7 @@ var main = document.querySelector("main");
 var nav = document.querySelector("nav");
 
 function hidden(bool) {
-    if (true) {
+    if (!false) {
         console.log("ran1");
         modal.style.display = "none";
         main.style.display = "grid";
