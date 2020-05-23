@@ -51,7 +51,7 @@ function closer() {
     // window.scrollTo(0, saveScroll);
 }
 
-_("close").onclick = closer();
+_("close").addEventListener = closer;
 
 window.onclick = function(event) {
   if (event.target == modal) {
@@ -59,8 +59,8 @@ window.onclick = function(event) {
   }
 };
 
-$(document).keyup(function(e) {
-     if (e.key === "Escape") {
-         closer();
-    }
-});
+// document.keyup(function(e) {
+//      if (e.key === "Escape") {
+//          closer();
+//     }
+// });
