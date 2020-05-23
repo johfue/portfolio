@@ -7,9 +7,10 @@ var modal = _("modal");
 var modalVideo = _("modalVideo");
 var modalCaption = _("modalCaption");
 
+var main = document.querySelector("main");
+var nav = document.querySelector("nav");
 
 function modalExpand(focus) {
-    console.log(modal);
     modalMedia = focus.parentElement.previousElementSibling;
     modalCaption.innerText = focus.parentElement.innerText;
     // truncate final amount of characters
@@ -20,12 +21,12 @@ function modalExpand(focus) {
 
     }
     else {
-        console.log(focus.parentElement);
-        console.log(focus.parentElement.previousElementSibling);
         modalImg.src = modalMedia.getAttribute('src');
     }
     console.log(modal);
     modal.style.display = "block";
+    main.style.display = "none";
+    nav.style.display = "none";
     console.log(modal);
 
 }
@@ -44,6 +45,8 @@ function modalExpand(focus) {
 
 _("close").onclick = function() {
     modal.style.display = "none";
+    main.style.display = "grid";
+    nav.style.display = "block";
     console.log("ran");
 }
 
