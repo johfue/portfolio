@@ -8,6 +8,8 @@ modalVideo = _(modalVideo);
 modalCaption = _(modalCaption);
 
 function modalExpand(focus) {
+        modal.syle.display = "block";
+
     console.log(modal);
     modalMedia = focus.parentElement.previousSibling;
     modalCaption.innerText = focus.parentElement.innerText;
@@ -23,7 +25,6 @@ function modalExpand(focus) {
         console.log(focus.parentElement.previousElementSibling);
         modalImg.src = modalMedia.src;
     }
-    modal.syle.display = "block";
     console.log(modal);
 
 }
