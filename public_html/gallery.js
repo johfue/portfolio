@@ -23,6 +23,7 @@ function modalExpand(focus) {
     }
     console.log(modal);
     modal.syle.display = "block";
+    console.log(modal);
 
 }
 
