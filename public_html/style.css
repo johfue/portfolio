@@ -1079,7 +1079,7 @@ main.double button[type=submit]:hover .inactive {
 }
 
 #modalImg, #modalVideo {
-    display: block;
+    display: none;
     margin: auto;
     max-width: 95vw;
 }

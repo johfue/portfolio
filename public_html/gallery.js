@@ -10,22 +10,39 @@ var modalCaption = _("modalCaption");
 var main = document.querySelector("main");
 var nav = document.querySelector("nav");
 
+function hidden(bool) {
+    if (true) {
+        modal.style.display = "none";
+        main.style.display = "grid";
+        nav.style.display = "block";
+        document.querySelector("b").style.bottom = "2em";
+    }
+    else {
+        modal.style.display = "block";
+        main.style.display = "none";
+        nav.style.display = "none";
+        document.querySelector("b").style.bottom = "0";
+    }
+}
+
 function modalExpand(focus) {
     modalMedia = focus.previousElementSibling.previousElementSibling;
     modalCaption.innerText = focus.previousElementSibling.innerText;
-    // truncate final amount of characters
+    
     if (modalMedia.tagName == "VIDEO") {
-        modalVideo.innerHTML = modalMedia.innerHTML;
+        modalImg.style.display = "none";
+        modalVideo.src = modalMedia.firstElementChild.getAttribute('src');
+        modalVideo.style.display = "block";
 
     }
     else {
+        modalVideo.style.display = "none";
         modalImg.src = modalMedia.getAttribute('src');
+        modalImg.style.display = "block";
     }
+    
     saveScroll = window.pageYOffset;
-    modal.style.display = "block";
-    main.style.display = "none";
-    nav.style.display = "none";
-    document.querySelector("b").style.bottom = "0";
+    hidden(false);
     window.scrollTo(0, 0);
 
 }
@@ -43,11 +60,9 @@ function modalExpand(focus) {
 // visibility toggle
 
 function closer() {
-    modal.style.display = "none";
-    main.style.display = "grid";
-    nav.style.display = "block";
-    document.querySelector("b").style.bottom = "2em";
+    hidden(true);
     window.scrollTo(0, saveScroll);
+    modalVideo.pause();
     modalVideo.innerHTML = "";
 }
 
