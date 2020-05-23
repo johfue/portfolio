@@ -25,10 +25,10 @@ function modalExpand(focus) {
     }
     console.log(modal);
     saveScroll = window.pageYOffset;
-    window.scrollTo(0, 0);
     modal.style.display = "block";
     main.style.display = "none";
     nav.style.display = "none";
+    window.scrollTo(0, 0);
     console.log(modal);
 
 }
