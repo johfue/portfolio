@@ -51,7 +51,7 @@ function closer() {
     // window.scrollTo(0, saveScroll);
 }
 
-_("close").addEventListener = closer;
+_("close").onclick = closer;
 
 window.onclick = function(event) {
   if (event.target == modal) {
