@@ -25,7 +25,7 @@ var modalCaption = _("modalCaption");
         // modalImg.src = modalMedia.src;
     }
     console.log(modal);
-    modal.syle.innerHTML = "block";
+    modal.style.display = "block";
     console.log(modal);
 
 }
