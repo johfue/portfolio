@@ -1074,27 +1074,28 @@ main.double button[type=submit]:hover .inactive {
     height: 100%;
     overflow: auto;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.5);
 }
 
-#modalImg {
+#modalImg, #modalVideo {
     display: block;
     margin: auto;
-}
-
-#modalVideo {
-    display: block;
-    margin: auto;
+    max-width: 95vw;
 }
 
 #modalCaption {
     margin: auto;
+    display: block;
+    color: aliceblue;
+    width: fit-content;
+    padding: 1em;
+    font-family: Lato-Regular;
 }
 
 #close {
     position: fixed;
-    left: 50%;
-    bottom: 4%;
+    right: 15%;
+    top: 4%;
 }
 
 #previous {

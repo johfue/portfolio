@@ -42,6 +42,8 @@ function modalExpand(focus) {
 
 // swiping should tab through as well as left and right arrows
 
+// visibility toggle
+
 function closer() {
     modal.style.display = "none";
     main.style.display = "grid";
