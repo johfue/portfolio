@@ -45,9 +45,8 @@ function modalExpand(focus) {
     }
     
     saveScroll = window.pageYOffset;
-    hidden(true);
     window.scrollTo(0, 0);
-
+    hidden(true);
 }
 
 
