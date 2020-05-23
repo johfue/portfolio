@@ -2,12 +2,13 @@ function _(x) {
 	return document.getElementById(x);
 }
 
+
+
+function modalExpand(focus) {
 var modal = _("modal");
 var modalImg = _("modalImg");
 var modalVideo = _("modalVideo");
 var modalCaption = _("modalCaption");
-
-function modalExpand(focus) {
     console.log(modal);
     modalMedia = focus.parentElement.previousSibling;
     modalCaption.innerText = focus.parentElement.innerText;
