@@ -24,7 +24,7 @@ function modalExpand(focus) {
         modalImg.src = modalMedia.getAttribute('src');
     }
     console.log(modal);
-    var saveScroll = window.pageYOffset;
+    saveScroll = window.pageYOffset;
     window.scrollTo(0, 0);
     modal.style.display = "block";
     main.style.display = "none";
