@@ -39,7 +39,7 @@ var modalCaption = _("modalCaption");
 
 // swiping should tab through
 
-function close() {
+_("close").onclick = function() {
     modal.style.display = "none";
     console.log("ran");
 }
