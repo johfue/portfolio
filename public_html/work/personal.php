@@ -18,7 +18,7 @@
     </main>
     <aside style="display: none;" id="modal">
         <img id="modalImg" src="/images/blank.png">
-        <video id="modalVideo"></video>
+        <video controls id="modalVideo"></video>
         <span id="modalCaption">Hidden text</span>
         <button id="close"></button>
         <button id="previous" onclick="previous()"></button>

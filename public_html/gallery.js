@@ -48,6 +48,7 @@ function closer() {
     nav.style.display = "block";
     document.querySelector("b").style.bottom = "2em";
     window.scrollTo(0, saveScroll);
+    modalVideo.innerHTML = "";
 }
 
 _("close").onclick = closer;
