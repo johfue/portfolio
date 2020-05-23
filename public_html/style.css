@@ -1068,7 +1068,7 @@ main.double button[type=submit]:hover .inactive {
     display: none;
     position: absolute;
     top: 0;
-    padding-top: 8%;
+    padding-top: 2%;
     z-index: 2;
     width: 100%;
     height: 100%;
@@ -1094,16 +1094,19 @@ main.double button[type=submit]:hover .inactive {
 #close {
     position: fixed;
     left: 50%;
+    bottom: 4%;
 }
 
 #previous {
     position: fixed;
     left: 8%;
+    bottom: 50%;
 }
 
 #next {
     position: fixed;
     right: 8%;
+    bottom: 50%;
 }
 
 #close:hover, #close:focus, #previous:hover, #previous:focus, #next:hover, #next:focus {

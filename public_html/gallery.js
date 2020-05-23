@@ -53,6 +53,8 @@ _("close").onclick = function() {
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+    main.style.display = "grid";
+    nav.style.display = "block";
   }
 };
 
