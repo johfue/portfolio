@@ -12,7 +12,7 @@ var nav = document.querySelector("nav");
 
 function modalExpand(focus) {
     modalMedia = focus.parentElement.previousElementSibling;
-    modalCaption.innerText = focus.parentElement.innerText;
+    // modalCaption.innerText = focus.parentElement.innerText;
     // truncate final amount of characters
     if (modalMedia == "video") {
         var source = document.createElement('source');
@@ -29,7 +29,6 @@ function modalExpand(focus) {
     main.style.display = "none";
     nav.style.display = "none";
     window.scrollTo(0, 0);
-    console.log(window.pageYOffset);
 
 }
 
@@ -41,7 +40,7 @@ function modalExpand(focus) {
 //     focus
 // }
 
-// swiping should tab through
+// swiping should tab through as well as left and right arrows
 
 function closer() {
     modal.style.display = "none";

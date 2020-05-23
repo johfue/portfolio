@@ -18,8 +18,8 @@
     </main>
     <aside style="display: none;" id="modal">
         <img id="modalImg" src="/images/blank.png">
-        <video id="modalVideo"></video>
-        <span id="modalCaption">Hidden text</span>
+        <!--<video id="modalVideo"></video>-->
+        <!--<span id="modalCaption">Hidden text</span>-->
         <button id="close"></button>
         <button id="previous" onclick="previous()"></button>
         <button id="next" onclick="next()"></button>
