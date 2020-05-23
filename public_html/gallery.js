@@ -43,23 +43,24 @@ function modalExpand(focus) {
 
 // swiping should tab through
 
-function closer(m) {
+function closer() {
+    console.log("ran");
     modal.style.display = "none";
     main.style.display = "grid";
     nav.style.display = "block";
     window.scrollTo(0, saveScroll);
 }
 
-_("close").onclick = closer(m);
+_("close").onclick = closer();
 
 window.onclick = function(event) {
   if (event.target == modal) {
-    closer(m);
+    closer();
   }
 };
 
 $(document).keyup(function(e) {
      if (e.key === "Escape") {
-         closer(m);
+         closer();
     }
 });
