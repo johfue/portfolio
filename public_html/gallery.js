@@ -25,7 +25,7 @@ function modalExpand(focus) {
     }
     console.log(modal);
     scroll = window.pageYOffset;
-    window.pageYOffset = 0;
+    window.scrollTo(0, 0);
     modal.style.display = "block";
     main.style.display = "none";
     nav.style.display = "none";
@@ -50,7 +50,6 @@ _("close").onclick = function() {
     main.style.display = "grid";
     nav.style.display = "block";
     window.pageYOffset = scroll;
-    console.log("ran");
 }
 
 window.onclick = function(event) {
