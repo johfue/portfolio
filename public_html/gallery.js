@@ -19,9 +19,11 @@ function modalExpand(focus) {
 
     }
     else {
+        console.log(focus.parentElement);
+        console.log(focus.parentElement.previousSibling);
+        console.log(modalMedia.firstChild);
         modalImg.src = modalMedia.src;
     }
-    console.log(modal);
     modal.syle.display = "block";
     console.log(modal);
 
