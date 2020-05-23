@@ -6,7 +6,7 @@ function _(x) {
 
 function modalExpand(focus) {
 var modal = _("modal");
-var modalImg = _("modalImg");
+// var modalImg = _("modalImg");
 var modalVideo = _("modalVideo");
 var modalCaption = _("modalCaption");
     console.log(modal);
@@ -22,7 +22,7 @@ var modalCaption = _("modalCaption");
     else {
         console.log(focus.parentElement);
         console.log(focus.parentElement.previousElementSibling);
-        modalImg.src = modalMedia.src;
+        // modalImg.src = modalMedia.src;
     }
     console.log(modal);
     modal.syle.display = "block";
