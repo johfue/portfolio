@@ -21,6 +21,7 @@ function modalExpand(focus) {
     else {
         modalImg.src = modalMedia.src;
     }
+    console.log(modal);
     modal.syle.display = "block";
 
 }
