@@ -30,6 +30,9 @@ var modalCaption = _("modalCaption");
 
 }
 
+// preserve scroll position
+// hide everything else
+
 // function next() {
 //     focus
 // }
