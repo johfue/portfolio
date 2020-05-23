@@ -12,7 +12,7 @@ var nav = document.querySelector("nav");
 
 function modalExpand(focus) {
     modalMedia = focus.parentElement.previousElementSibling;
-    // modalCaption.innerText = focus.parentElement.innerText;
+    modalCaption.innerText = focus.parentElement.innerText;
     // truncate final amount of characters
     if (modalMedia == "video") {
         var source = document.createElement('source');
