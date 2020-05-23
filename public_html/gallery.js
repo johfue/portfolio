@@ -22,7 +22,7 @@ var modalCaption = _("modalCaption");
     else {
         console.log(focus.parentElement);
         console.log(focus.parentElement.previousElementSibling);
-        console.log(focus.parentElement.previousElementSibling.src);
+        modalImg.src = modalMedia.getAttribute('src');
     }
     console.log(modal);
     modal.style.display = "block";
