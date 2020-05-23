@@ -20,7 +20,7 @@
         <img id="modalImg" src="/images/blank.png">
         <video id="modalVideo"></video>
         <span id="modalCaption">Hidden text</span>
-        <button id="close" onclick="close()"></button>
+        <button id="close"></button>
         <button id="previous" onclick="previous()"></button>
         <button id="next" onclick="next()"></button>
     </aside>
