@@ -48,7 +48,7 @@ function closer() {
     modal.style.display = "none";
     main.style.display = "grid";
     nav.style.display = "block";
-    window.scrollTo(0, saveScroll);
+    // window.scrollTo(0, saveScroll);
 }
 
 _("close").onclick = closer();
