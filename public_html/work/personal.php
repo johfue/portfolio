@@ -24,7 +24,7 @@
         <!--<button id="previous" onclick="previous()"></button>-->
         <!--<button id="next" onclick="next()"></button>-->
     </aside>
-        <script async src="/gallery.js"></script>
+        <script src="/gallery.js"></script>
 
 </body>
 </html>
