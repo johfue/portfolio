@@ -18,6 +18,7 @@ function hidden(bool) {
         document.querySelector("b").style.bottom = "2em";
     }
     else {
+        console.log("ran");
         modal.style.display = "block";
         main.style.display = "none";
         nav.style.display = "none";
@@ -30,6 +31,7 @@ function modalExpand(focus) {
     modalCaption.innerText = focus.previousElementSibling.innerText;
     
     if (modalMedia.tagName == "VIDEO") {
+        console.log("ran2");
         modalImg.style.display = "none";
         modalVideo.src = modalMedia.firstElementChild.getAttribute('src');
         modalVideo.style.display = "block";
