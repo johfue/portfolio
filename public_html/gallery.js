@@ -44,7 +44,7 @@ function modalExpand(focus) {
     }
     
     saveScroll = window.pageYOffset;
-    hidden(false);
+    hidden(true);
     window.scrollTo(0, 0);
 
 }
@@ -62,7 +62,7 @@ function modalExpand(focus) {
 // visibility toggle
 
 function closer() {
-    hidden(true);
+    hidden(false);
     window.scrollTo(0, saveScroll);
     modalVideo.pause();
     modalVideo.innerHTML = "";
