@@ -24,7 +24,7 @@ var modalCaption = _("modalCaption");
         console.log(focus.parentElement.previousElementSibling);
         modalImg.src = modalMedia.src;
     }
-    modal.syle.display = "block";
+    modalCaption.syle.display = "block";
     console.log(modal);
 
 }
