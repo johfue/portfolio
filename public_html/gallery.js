@@ -41,6 +41,7 @@ var modalCaption = _("modalCaption");
 
 function close() {
     modal.style.display = "none";
+    console.log("ran");
 }
 
 window.onclick = function(event) {
