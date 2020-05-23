@@ -2,10 +2,10 @@ function _(x) {
 	return document.getElementById(x);
 }
 
-modal = _(modal);
-modalImg = _(modalImg);
-modalVideo = _(modalVideo);
-modalCaption = _(modalCaption);
+var modal = _(modal);
+var modalImg = _(modalImg);
+var modalVideo = _(modalVideo);
+var modalCaption = _(modalCaption);
 
 function modalExpand(focus) {
     console.log(modal);
@@ -21,7 +21,6 @@ function modalExpand(focus) {
     else {
         console.log(focus.parentElement);
         console.log(focus.parentElement.previousElementSibling);
-        console.log(modalMedia.firstChild);
         modalImg.src = modalMedia.src;
     }
     modal.syle.display = "block";
