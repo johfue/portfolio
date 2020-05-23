@@ -49,7 +49,7 @@ _("close").onclick = function() {
     modal.style.display = "none";
     main.style.display = "grid";
     nav.style.display = "block";
-    window.pageYOffset = saveScroll;
+    window.scrollTo(0, saveScroll);
 }
 
 window.onclick = function(event) {
@@ -57,7 +57,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
     main.style.display = "grid";
     nav.style.display = "block";
-    window.pageYOffset = saveScroll;
+    window.scrollTo(0, saveScroll);
   }
 };
 
