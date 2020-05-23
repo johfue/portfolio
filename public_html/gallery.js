@@ -20,7 +20,7 @@ function modalExpand(focus) {
     }
     else {
         console.log(focus.parentElement);
-        console.log(focus.parentElement.previousSibling);
+        console.log(focus.parentElement.previousElementSibling);
         console.log(modalMedia.firstChild);
         modalImg.src = modalMedia.src;
     }
