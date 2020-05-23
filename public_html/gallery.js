@@ -24,7 +24,7 @@ function modalExpand(focus) {
         modalImg.src = modalMedia.getAttribute('src');
     }
     console.log(modal);
-    var scroll = window.pageYOffset;
+    var saveScroll = window.pageYOffset;
     window.scrollTo(0, 0);
     modal.style.display = "block";
     main.style.display = "none";
@@ -49,7 +49,7 @@ _("close").onclick = function() {
     modal.style.display = "none";
     main.style.display = "grid";
     nav.style.display = "block";
-    window.pageYOffset = scroll;
+    window.pageYOffset = saveScroll;
 }
 
 window.onclick = function(event) {
@@ -57,7 +57,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
     main.style.display = "grid";
     nav.style.display = "block";
-    window.pageYOffset = scroll;
+    window.pageYOffset = saveScroll;
   }
 };
 
