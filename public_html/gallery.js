@@ -9,8 +9,6 @@ var modal = _("modal");
 var modalImg = _("modalImg");
 var modalVideo = _("modalVideo");
 var modalCaption = _("modalCaption");
-    modal.syle.display = "block";
-
     console.log(modal);
     modalMedia = focus.parentElement.previousSibling;
     modalCaption.innerText = focus.parentElement.innerText;
@@ -26,6 +24,7 @@ var modalCaption = _("modalCaption");
         console.log(focus.parentElement.previousElementSibling.src);
         modalImg.src = modalMedia.src;
     }
+    modal.syle.display = "block";
     console.log(modal);
 
 }

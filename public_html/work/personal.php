@@ -3,7 +3,7 @@
 <html>
 <head>
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/headTag.php");?>
-    <script src="/gallery.js"></script>
+    <script async src="/gallery.js"></script>
 </head>
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.php");?>
@@ -18,12 +18,7 @@
     <?php echo $CONTENT;?>
     </main>
     <aside id="modal">
-        <img id="modalImg">
-        <video id="modalVideo"></video>
-        <span id="modalCaption">Hidden text</span>
-        <button id="close" onclick="close()"></button>
-        <button id="previous" onclick="previous()"></button>
-        <button id="next" onclick="next()"></button>
+
     </aside>
 </body>
 </html>
