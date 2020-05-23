@@ -33,8 +33,6 @@ function modalExpand(focus) {
 
 }
 
-// preserve scroll position
-// hide everything else
 
 // function next() {
 //     focus
@@ -45,20 +43,23 @@ function modalExpand(focus) {
 
 // swiping should tab through
 
-_("close").onclick = function() {
+function closer() {
     modal.style.display = "none";
     main.style.display = "grid";
     nav.style.display = "block";
     window.scrollTo(0, saveScroll);
 }
 
+_("close").onclick = closer();
+
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
-    main.style.display = "grid";
-    nav.style.display = "block";
-    window.scrollTo(0, saveScroll);
+    closer();
   }
 };
 
-// escape button should close
+$(document).keyup(function(e) {
+     if (e.key === "Escape") {
+         closer();
+    }
+});
