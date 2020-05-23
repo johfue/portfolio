@@ -10,7 +10,7 @@ var modal = _("modal");
 var modalVideo = _("modalVideo");
 var modalCaption = _("modalCaption");
     console.log(modal);
-    modalMedia = focus.parentElement.previousSibling;
+    modalMedia = focus.parentElement.previousElementSibling;
     modalCaption.innerText = focus.parentElement.innerText;
     // truncate final amount of characters
     if (modalMedia == "video") {
@@ -22,7 +22,7 @@ var modalCaption = _("modalCaption");
     else {
         console.log(focus.parentElement);
         console.log(focus.parentElement.previousElementSibling);
-        modalImg.src = focus.parentElement.previousElementSibling.getAttribute('src');
+        modalImg.src = modalMedia.getAttribute('src');
     }
     console.log(modal);
     modal.style.display = "block";
