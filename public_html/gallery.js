@@ -11,6 +11,8 @@ var modalVideo = _("modalVideo");
 var modalCaption = _("modalCaption");
     console.log(modal);
     modalMedia = focus.parentElement.previousSibling;
+        modal.syle.display = "block";
+
     modalCaption.innerText = focus.parentElement.innerText;
     // truncate final amount of characters
     if (modalMedia == "video") {
