@@ -29,7 +29,7 @@ function modalExpand(focus) {
     main.style.display = "none";
     nav.style.display = "none";
     window.scrollTo(0, 0);
-    console.log(modal);
+    console.log(window.pageYOffset);
 
 }
 
