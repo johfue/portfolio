@@ -59,8 +59,8 @@ window.onclick = function(event) {
   }
 };
 
-// document.keyup(function(e) {
-//      if (e.key === "Escape") {
-//          closer();
-//     }
-// });
+document.onkeydown = function(evt) {
+    if (evt.keyCode == 27) {
+        closer();
+    }
+};
