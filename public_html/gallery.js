@@ -11,13 +11,11 @@ var main = document.querySelector("main");
 var nav = document.querySelector("nav");
 
 function modalExpand(focus) {
-    modalMedia = focus.parentElement.previousElementSibling;
-    modalCaption.innerText = focus.parentElement.innerText;
+    modalMedia = focus.previousElementSibling.previousElementSibling;
+    modalCaption.innerText = focus.previousElementSibling.innerText;
     // truncate final amount of characters
     if (modalMedia == "video") {
-        var source = document.createElement('source');
-        source.setAttribute('src', modalMedia.firstChild.src);
-        modalVideo.appendChild(source);
+        modalVideo.innerHTML = modalMedia.innerHTML;
 
     }
     else {

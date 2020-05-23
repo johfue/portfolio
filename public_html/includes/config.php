@@ -125,32 +125,38 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                         <figure class="wide">
                             <img src="/images/pulley.jpg" alt="Drawing of a wrench and pulley">
-                            <figcaption>Pencil on paper<button onclick="modalExpand(this)">SVG</button></figcaption>
+                            <figcaption>Pencil on paper</figcaption>
+                            <button onclick="modalExpand(this)">SVG</button>
                         </figure>
                         <figure class="wide">
                             <video autoplay loop muted playsinline>
                             <source src="/media/syrinj.mp4">
                             </video>
                             <figcaption>Parody Website <a href="http://www.syrinj.com" target="_blank">' . $external . '</a></figcaption>
+                            <button onclick="modalExpand(this)">SVG</button>
                         </figure>
                         <figure class="tall">
                             <img src="/images/doubleExposure.jpeg" alt="The relfection of a woman passing a mural projected onto a city at night">
                             <figcaption>Photograph</figcaption>
+                            <button onclick="modalExpand(this)">SVG</button>
                         </figure>
                         <figure class="tall">
                             <video autoplay loop muted playsinline>
                             <source src="/media/voltorb.mp4">
-                            alt="A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model"
+                            A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model
                             </video>
                             <figcaption>AR Illustration</figcaption>
+                            <button onclick="modalExpand(this)">SVG</button>
                         </figure>
                         <figure class="wide">
                             <img src="/images/marbles.jpg" alt="Marbles in the desert">
                             <figcaption>Photograph</figcaption>
+                            <button onclick="modalExpand(this)">SVG</button>
                         </figure>
                         <figure class="tall">
                             <img src="/images/padExplain.png" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
                             <figcaption>Logo Design</figcaption>
+                            <button onclick="modalExpand(this)">SVG</button>
                         </figure>';
 			break;
 		default:
