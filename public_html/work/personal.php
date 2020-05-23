@@ -16,7 +16,7 @@
     <b></b>
     <?php echo $CONTENT;?>
     </main>
-    <aside style="display: none" Sid="modal">
+    <aside id="modal">
         <img id="modalImg" src="/images/blank.png">
         <video id="modalVideo"></video>
         <span id="modalCaption">Hidden text</span>
