@@ -18,11 +18,11 @@
     </main>
     <aside style="display: none;" id="modal">
         <img id="modalImg" src="/images/blank.png">
-        <video id="modalVideo"></video>
+        <!--<video id="modalVideo"></video>-->
         <span id="modalCaption">Hidden text</span>
-        <button id="close" onclick="close()"></button>
-        <button id="previous" onclick="previous()"></button>
-        <button id="next" onclick="next()"></button>
+        <!--<button id="close" onclick="close()"></button>-->
+        <!--<button id="previous" onclick="previous()"></button>-->
+        <!--<button id="next" onclick="next()"></button>-->
     </aside>
         <script async src="/gallery.js"></script>
 
