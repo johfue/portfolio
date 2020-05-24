@@ -665,6 +665,22 @@ main.work > img, main.work > video {
     object-fit: cover;
 }
 
+.work figure {
+    position: relative;
+}
+
+.work figure button {
+    position: absolute;
+    bottom: 3.5em;
+    right: 1.25em;
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+.work figure:hover button {
+    background-color: blue;
+}
+
 .workGrid img, .gridSocial img {
     width: auto;
     -o-object-fit: cover;
@@ -1113,6 +1129,12 @@ main.double button[type=submit]:hover .inactive {
     position: fixed;
     right: 8%;
     bottom: 50%;
+}
+
+figre button {
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
 }
 
 #close:hover, #close:focus, #previous:hover, #previous:focus, #next:hover, #next:focus {
