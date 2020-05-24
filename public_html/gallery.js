@@ -84,12 +84,12 @@ var btnList = document.getElementsByClassName("modalBtn");
 
 function btnVisible() {
     if (this.classList.contains("visible")) {
-        for (var i; 1<btnList.length; i++) {
+        for (var i=0; 1<btnList.length; i++) {
         btnList[i].style.visibility = "visible";
         }
     }
     else {
-        for (var e; 1<btnList.length; e++) {
+        for (var e=0; 1<btnList.length; e++) {
         btnList[e].style.visibility = "hidden";
         }
     }
