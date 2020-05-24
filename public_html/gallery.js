@@ -93,5 +93,7 @@ function btnVisible() {
         btnList[e].style.visibility = "hidden";
         }
     }
-
 }
+
+modalImg.onclick = btnVisible;
+modalVideo.onclick = btnVisible;
