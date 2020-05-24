@@ -59,8 +59,6 @@ function modalExpand(focus) {
 
 // swiping should tab through as well as left and right arrows
 
-// visibility toggle
-
 function closer() {
     hidden(false);
     window.scrollTo(0, saveScroll);
@@ -81,3 +79,19 @@ document.onkeydown = function(evt) {
         closer();
     }
 };
+
+var btnList = document.getElementsByClassName("modalBtn");
+
+function btnVisible() {
+    if (this.classList.contains("visible")) {
+        for (var i; 1<btnList.length; i++) {
+        btnList[i].style.visibility = "visible";
+        }
+    }
+    else {
+        for (var e; 1<btnList.length; e++) {
+        btnList[e].style.visibility = "hidden";
+        }
+    }
+
+}
