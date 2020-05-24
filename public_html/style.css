@@ -671,7 +671,7 @@ main.work > img, main.work > video {
     position: relative;
 }
 
-.work figure button {
+.work figure button, aside button {
     position: absolute;
     background-color: rgba(251, 233, 238, 0.2);
     bottom: 3.5em;
@@ -685,7 +685,7 @@ main.work > img, main.work > video {
     -o-transition: 0.25s ease;
     transition: 0.25s ease;}
 
-.work figure > img:hover ~ button, .work figure > video:hover ~ button, .work figure button:hover {
+.work figure > img:hover ~ button, .work figure > video:hover ~ button, .work figure button:hover, aside button:hover {
     background-color: #1ac9c7;
 }
 
