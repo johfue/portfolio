@@ -10,6 +10,9 @@ var modalCaption = _("modalCaption");
 var main = document.querySelector("main");
 var nav = document.querySelector("nav");
 
+var modalList = document.querySelectorAll("figure");
+
+
 function hidden(bool) {
     if (bool) {
         modal.style.display = "block";
@@ -25,7 +28,13 @@ function hidden(bool) {
     }
 }
 
+function modalUpdate() {
+    
+}
+
 function modalExpand(focus) {
+    position = modalList.indexOf(focus.parentElementSibling);
+    
     modalMedia = focus.previousElementSibling.previousElementSibling;
     modalCaption.innerText = focus.previousElementSibling.innerText;
     
@@ -46,15 +55,25 @@ function modalExpand(focus) {
     modal.scrollTo(0, 0);
 }
 
+function next() {
+    position += 1;
+    caption
+    image
+    video
+    scroll
+    
+}
+function previous() {
+    position -= 1;
+}
 
-// function next() {
-//     focus
-// }
-// function previous() {
-//     focus
-// }
 
+// Grab caption with innerhtml?
 // swiping should tab through as well as left and right arrows
+// Page numbers
+// Animation for exiting and entering
+// change cursor on hover
+
 
 function closer() {
     hidden(false);

@@ -1,5 +1,10 @@
 <?php
 $external = file_get_contents($_SERVER['DOCUMENT_ROOT']."/images/open-in-new.svg");
+$closeIcon = file_get_contents($_SERVER['DOCUMENT_ROOT']."/images/close-circle-outline.svg");
+$previousIcon = file_get_contents($_SERVER['DOCUMENT_ROOT']."/images/chevron-left.svg");
+$nextIcon = file_get_contents($_SERVER['DOCUMENT_ROOT']."/images/chevron-right.svg");
+$zoomIcon = file_get_contents($_SERVER['DOCUMENT_ROOT']."/images/magnify-plus-outline.svg");
+
 switch ($_SERVER["SCRIPT_NAME"]) {
 		case "/about.php":
 			$CURRENT_PAGE = "About";
