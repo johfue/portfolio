@@ -20,9 +20,9 @@
         <img id="modalImg" src="/images/blank.png">
         <video controls id="modalVideo"></video>
         <span id="modalCaption">Hidden text</span>
-        <button class="modalBtn" id="close"></button>
-        <button class="modalBtn" id="previous"></button>
-        <button class="modalBtn" id="next"></button>
+        <button class="modalBtn" id="close"><?php echo $closeIcon?></button>
+        <button class="modalBtn" id="previous"><?php echo $previousIcon?></button>
+        <button class="modalBtn" id="next"><?php echo $nextIcon?></button>
     </aside>
         <script async src="/gallery.js"></script>
 
