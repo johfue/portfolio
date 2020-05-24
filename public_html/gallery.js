@@ -12,14 +12,12 @@ var nav = document.querySelector("nav");
 
 function hidden(bool) {
     if (bool) {
-        console.log("ran1");
         modal.style.display = "block";
         main.style.display = "none";
         nav.style.display = "none";
         document.querySelector("b").style.bottom = "0";
     }
     else {
-        console.log("ran2");
         modal.style.display = "none";
         main.style.display = "grid";
         nav.style.display = "block";
@@ -84,6 +82,7 @@ var btnList = document.getElementsByClassName("modalBtn");
 
 function btnVisible() {
     if (this.classList.contains("visible")) {
+        this.classList.remove("visible");
         console.log("ran");
         for (var i=0; 1<btnList.length; i++) {
         btnList[i].style.visibility = "visible";
@@ -92,6 +91,7 @@ function btnVisible() {
     else {
         console.log("ran2");
         for (var e=0; 1<btnList.length; e++) {
+            this.classList.add("visible");
         btnList[e].style.visibility = "hidden";
         }
     }
