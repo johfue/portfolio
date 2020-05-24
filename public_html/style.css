@@ -683,7 +683,7 @@ main.work > img, main.work > video {
     -o-transition: 0.25s ease;
     transition: 0.25s ease;}
 
-.work figure > img:hover ~ button, .work figure > video:hover ~ button {
+.work figure > img:hover ~ button, .work figure > video:hover ~ button, .work figure button:hover {
     background-color: #1ac9c7;
 }
 
