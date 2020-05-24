@@ -193,6 +193,10 @@ a[href^="mailto:"] {
     text-align: center;
 }
 
+svg {
+    vertical-align: middle;
+}
+
 .grid {
     width: 95%;
     width: 95vw;
