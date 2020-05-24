@@ -548,43 +548,43 @@ main.work.personal {
     }
 }
 
-header.work.REI {
-    background-image: url("images/reiThumb.svg"), url("images/dot.svg");
-    background-position: 40em, 25px -22px;
-    background-position: 80ch, 26px -28px;
-}
-header.work.Arlo {
-    background-image: url("images/arloThumb.svg"), url("images/dot.svg");
-    background-position: 40em, 25px -22px;
-    background-position: 80ch, 24px -23px;
-}
-header.work.LASO {
-    background-image: url("images/lasoThumb.svg"), url("images/dot.svg");
-    background-position: 40em, 25px -22px;
-    background-position: 80ch, 23px -20px;
-}
-header.work.LDC {
-    background-image: url("images/ldcThumb.svg"), url("images/dot.svg");
-    background-position: 40em, 25px -22px;
-    background-position: 80ch, 27px -25px;
-}
-header.work.PROOF {
-    background-image: url("images/proofThumb.svg"), url("images/dot.svg");
-    background-position: 40em, 25px -22px;
-    background-position: 80ch, 21px -26px
-}
-header.work.Palmetto {
-    background-image: url("images/palmettoThumb.svg"), url("images/dot.svg");
-    background-position: 40em, 25px -22px;
-    background-position: 80ch, 21px -26px;
-}
-header.work.Personal {
-    background-image: url("images/personalThumb.svg"), url("images/dot.svg");
-    background-position: 40em, 25px -22px;
-    background-position: 80ch, 25px -22px;
-    grid-column-end: -1;
-    grid-column-start: 1;
-}
+/*header.work.REI {*/
+/*    background-image: url("images/reiThumb.svg"), url("images/dot.svg");*/
+/*    background-position: 40em, 25px -22px;*/
+/*    background-position: 80ch, 26px -28px;*/
+/*}*/
+/*header.work.Arlo {*/
+/*    background-image: url("images/arloThumb.svg"), url("images/dot.svg");*/
+/*    background-position: 40em, 25px -22px;*/
+/*    background-position: 80ch, 24px -23px;*/
+/*}*/
+/*header.work.LASO {*/
+/*    background-image: url("images/lasoThumb.svg"), url("images/dot.svg");*/
+/*    background-position: 40em, 25px -22px;*/
+/*    background-position: 80ch, 23px -20px;*/
+/*}*/
+/*header.work.LDC {*/
+/*    background-image: url("images/ldcThumb.svg"), url("images/dot.svg");*/
+/*    background-position: 40em, 25px -22px;*/
+/*    background-position: 80ch, 27px -25px;*/
+/*}*/
+/*header.work.PROOF {*/
+/*    background-image: url("images/proofThumb.svg"), url("images/dot.svg");*/
+/*    background-position: 40em, 25px -22px;*/
+/*    background-position: 80ch, 21px -26px*/
+/*}*/
+/*header.work.Palmetto {*/
+/*    background-image: url("images/palmettoThumb.svg"), url("images/dot.svg");*/
+/*    background-position: 40em, 25px -22px;*/
+/*    background-position: 80ch, 21px -26px;*/
+/*}*/
+/*header.work.Personal {*/
+/*    background-image: url("images/personalThumb.svg"), url("images/dot.svg");*/
+/*    background-position: 40em, 25px -22px;*/
+/*    background-position: 80ch, 25px -22px;*/
+/*    grid-column-end: -1;*/
+/*    grid-column-start: 1;*/
+/*}*/
 
 header.Personal + section article figure:nth-child(1) {
     margin-top: 1.5em;
@@ -596,6 +596,9 @@ header.work {
     background-size: 75vw, 300px;
     background-repeat: no-repeat, repeat;
     overflow-x: hidden;
+    background-image: url("images/dotHeader.svg");
+    grid-column-end: -1;
+    grid-column-start: 1;
 }
 
 header.work section {
