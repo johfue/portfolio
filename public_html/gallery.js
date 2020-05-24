@@ -45,7 +45,7 @@ function modalExpand(focus) {
     }
     
     saveScroll = window.pageYOffset;
-    window.scrollTo(0, 0);
+    window.scrollBy(0, modal.clientHeight);
     hidden(true);
 }
 
