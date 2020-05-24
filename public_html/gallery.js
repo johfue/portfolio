@@ -84,11 +84,13 @@ var btnList = document.getElementsByClassName("modalBtn");
 
 function btnVisible() {
     if (this.classList.contains("visible")) {
+        console.log("ran");
         for (var i=0; 1<btnList.length; i++) {
         btnList[i].style.visibility = "visible";
         }
     }
     else {
+        console.log("ran2");
         for (var e=0; 1<btnList.length; e++) {
         btnList[e].style.visibility = "hidden";
         }
