@@ -3,7 +3,7 @@ function _(x) {
 }
 
 var modal = _("modal");
-// var modalImg = _("modalImg");
+var modalImg = _("modalImg");
 var modalVideo = _("modalVideo");
 var modalCaption = _("modalCaption");
 
@@ -83,14 +83,12 @@ function btnVisible() {
     if (this.classList.contains("visible")) {
         this.classList.remove("visible");
         for (var i=0; i<btnList.length; i++) {
-            console.log(btnList[e]);
             btnList[i].style.visibility = "visible";
         }
     }
     else {
         this.classList.add("visible");
         for (var e=0; e<btnList.length; e++) {
-            console.log(btnList[e]);
             btnList[e].style.visibility = "hidden";
         }
     }
