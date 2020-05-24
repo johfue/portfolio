@@ -528,7 +528,7 @@ main.work {
     grid-gap: 1rem;
     box-sizing: border-box;
     padding: 1em 1rem;
-    background-image: url(images/headerDot.svg);
+    background-image: url(images/dotHeader.svg);
     background-repeat: no-repeat;
     background-size: 600px;
 }
