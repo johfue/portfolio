@@ -528,7 +528,7 @@ main.work {
     grid-gap: 1rem;
     box-sizing: border-box;
     padding: 1em 1rem;
-    background-image: url(images/dot.svg);
+    background-image: url(images/headerDot.svg);
     background-repeat: no-repeat;
     background-size: 600px;
 }
@@ -596,7 +596,6 @@ header.work {
     background-size: 75vw, 300px;
     background-repeat: no-repeat, repeat;
     overflow-x: hidden;
-    background-image: url("images/dotHeader.svg");
     grid-column-end: -1;
     grid-column-start: 1;
 }
