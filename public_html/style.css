@@ -671,14 +671,20 @@ main.work > img, main.work > video {
 
 .work figure button {
     position: absolute;
+    background-color: rgba(251, 233, 238, 0.2);
     bottom: 3.5em;
     right: 1.25em;
     border-radius: 50%;
     margin-top: 0;
-}
+    padding: 0;
+    height: 3.5rem;
+    width: 3.5rem;
+    -webkit-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    transition: 0.25s ease;}
 
 .work figure:hover button {
-    background-color: blue;
+    background-color: #1ac9c7;
 }
 
 .workGrid img, .gridSocial img {
