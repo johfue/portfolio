@@ -30,7 +30,6 @@ function modalExpand(focus) {
     modalCaption.innerText = focus.previousElementSibling.innerText;
     
     if (modalMedia.tagName == "VIDEO") {
-        console.log("ran3");
         modalImg.style.display = "none";
         modalVideo.src = modalMedia.firstElementChild.getAttribute('src');
         modalVideo.style.display = "block";
@@ -90,7 +89,7 @@ function btnVisible() {
     }
     else {
         this.classList.add("visible");
-        for (var e=0; 1<btnList.length; e++) {
+        for (var e=0; 1<2; e++) {
             console.log(btnList[e]);
             btnList[e].style.visibility = "hidden";
         }
