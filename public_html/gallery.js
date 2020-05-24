@@ -83,16 +83,16 @@ var btnList = document.getElementsByClassName("modalBtn");
 function btnVisible() {
     if (this.classList.contains("visible")) {
         this.classList.remove("visible");
-        console.log("ran");
         for (var i=0; 1<btnList.length; i++) {
-        btnList[i].style.visibility = "visible";
+            console.log(btnList[e]);
+            btnList[i].style.visibility = "visible";
         }
     }
     else {
-        console.log("ran2");
+        this.classList.add("visible");
         for (var e=0; 1<btnList.length; e++) {
-            this.classList.add("visible");
-        btnList[e].style.visibility = "hidden";
+            console.log(btnList[e]);
+            btnList[e].style.visibility = "hidden";
         }
     }
 }
