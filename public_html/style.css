@@ -1084,6 +1084,10 @@ main.double button[type=submit]:hover .inactive {
     max-width: 95vw;
 }
 
+#modalVideo {
+    max-height: 100%;
+}
+
 #modalCaption {
     margin: auto;
     display: block;
