@@ -36,7 +36,7 @@ function modalExpand(focus) {
     // position = modalList.indexOf(focus.parentElementSibling);
     
     modalMedia = focus.previousElementSibling.previousElementSibling;
-    modalCaption.innerText = focus.previousElementSibling.innerHTML;
+    modalCaption.innerHTML = focus.previousElementSibling.innerHTML;
     
     if (modalMedia.tagName == "VIDEO") {
         modalImg.style.display = "none";
