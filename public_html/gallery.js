@@ -69,7 +69,7 @@ function modalExpand() {
 }
 
 function next() {
-    if (position < modalList.length) {
+    if (position < (modalList.length - 1)) {
         position += 1;
         modalMedia = modalList[position].firstElementChild;
         modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;

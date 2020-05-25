@@ -1119,7 +1119,7 @@ main.double button[type=submit]:hover .inactive {
 #modalCaption {
     margin: auto;
     display: block;
-    color: aliceblue;
+    color: #FEFAFB;
     width: fit-content;
     padding: 1em;
     font-family: Lato-Regular;

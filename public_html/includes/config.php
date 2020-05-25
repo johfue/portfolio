@@ -24,27 +24,77 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT =
 			        '
                         <h2>Digital Signage</h2>
-                        <img src="/images/latinxcelencia.jpg" class="center tall" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called &quot;Latinxcelencia&quot;">
-                        <img src="/images/latinxcelenciaMockUp.jpg" class="medium bottom right">
-                        <img src="/images/salsaNight.jpg" class="center wide" alt="Poster of a dancing woman in a red dress against a green background promoting an event called &quot;Salsa Night&quot;">
-
+                        <figure>
+                            <img src="/images/latinxcelencia.jpg" class="center tall" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called &quot;Latinxcelencia&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/latinxcelenciaMockUp.jpg" class="medium bottom right">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/salsaNight.jpg" class="center wide" alt="Poster of a dancing woman in a red dress against a green background promoting an event called &quot;Salsa Night&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
                         <h2>T-Shirt Design</h2>
-                        <img src="/images/lasoTshirt.jpg" class="center tall" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
-                        <img src="/images/lasoTshirtMock.jpg" class="right">
+                        <figure>
+                            <img src="/images/lasoTshirt.jpg" class="center tall" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/lasoTshirtMock.jpg" class="right">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
                         <h2>Social Media Flyers</h2>
                         <div class="gridSocial wide">
-                        <img src="/images/lasoLast.jpg" class="full" alt="A red party popper on a yellow background promoting the Last LASO meeting of the semester">
-                        <img src="/images/fastFriends.jpg" class="full" alt="A red heart shaped ballon on a blue background with the text &quot;Fast Friends, Platonic Speed Dating&quot;">
-                        <img src="/images/healthPanel.jpg" class="full" alt="Someone in a crowd of people raising their hand during a panel. The text reads &quot;Mental, Physical, and Sexual Health Panel&quot;">
-                        <img src="/images/muertos.jpg" class="full" alt="A sugar skull and organge flowers against a red background with the text &quot;Celebrate Dia de los Muertos with LASO&quot;">
-                        <img src="/images/llorona.jpg" class="full" alt="A figure drowning in a lake under a moon. The text reads &quot;La Llorona, A Choose Your Own Adventure Story&quot;">
-                        <img src="/images/snackSoc.jpg" class="full" alt="A cookie against a yellow background with between red text reading &quot;Snack Social&quot;">
-                        <img src="/images/women.jpg" class="full" alt="Three woman poised stoica;ly with the text &quot;LASO Celebrates Women\'s History Month&quot;">
-                        <img src="/images/visionBoard.jpg" class="full" alt="A collage made of a student, flowers, and a bridge. The text reads &quot;Vision Board Party&quot;">
-                        <img src="/images/lasoSpring.jpg" class="full" alt="A pinata against a yellow background with the text &quot;First Meeting of the Semester&quot;">
-                        <img src="/images/hhmCalendar.jpg" class="full" alt="A calendar of events for Hispanic Heritage Month">
-                        <img src="/images/firstMeetingLASO.jpg" class="full" alt="A pinata against a light blue background with the words &quot;Tonight! First Meeting of the Semester&quot;">
-                        <img src="/images/comosedice.jpg" class="full" alt="Various speech bubbles with the center bubble containing the text &quot;Comoe Se Dice, an Arguement&quot;">
+                        <figure>
+                            <img src="/images/lasoLast.jpg" class="full" alt="A red party popper on a yellow background promoting the Last LASO meeting of the semester">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/fastFriends.jpg" class="full" alt="A red heart shaped ballon on a blue background with the text &quot;Fast Friends, Platonic Speed Dating&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/healthPanel.jpg" class="full" alt="Someone in a crowd of people raising their hand during a panel. The text reads &quot;Mental, Physical, and Sexual Health Panel&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/muertos.jpg" class="full" alt="A sugar skull and organge flowers against a red background with the text &quot;Celebrate Dia de los Muertos with LASO&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/llorona.jpg" class="full" alt="A figure drowning in a lake under a moon. The text reads &quot;La Llorona, A Choose Your Own Adventure Story&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/snackSoc.jpg" class="full" alt="A cookie against a yellow background with between red text reading &quot;Snack Social&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/women.jpg" class="full" alt="Three woman poised stoica;ly with the text &quot;LASO Celebrates Women\'s History Month&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/visionBoard.jpg" class="full" alt="A collage made of a student, flowers, and a bridge. The text reads &quot;Vision Board Party&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/lasoSpring.jpg" class="full" alt="A pinata against a yellow background with the text &quot;First Meeting of the Semester&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/hhmCalendar.jpg" class="full" alt="A calendar of events for Hispanic Heritage Month">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/firstMeetingLASO.jpg" class="full" alt="A pinata against a light blue background with the words &quot;Tonight! First Meeting of the Semester&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/comosedice.jpg" class="full" alt="Various speech bubbles with the center bubble containing the text &quot;Comoe Se Dice, an Arguement&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
                         </div>';
 			break;
 		case "/work/ldc.php":
@@ -128,6 +178,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Personal Work";
 			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could afford real magnets.";
 			$CONTENT = '
+			            <b></b>
                         <figure class="wide">
                             <img src="/images/pulley.jpg" alt="Drawing of a wrench and pulley">
                             <figcaption>Pencil on paper</figcaption>
