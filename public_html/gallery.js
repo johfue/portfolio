@@ -32,12 +32,14 @@ function hidden(bool) {
 
 function modalUpdate() {
     if (modalMedia.tagName == "VIDEO") {
+        console.log(modalMedia);
         modalImg.style.display = "none";
         modalVideo.src = modalMedia.firstElementChild.getAttribute('src');
         modalVideo.style.display = "block";
 
     }
     else {
+        console.log(modalMedia);
         modalVideo.style.display = "none";
         modalImg.src = modalMedia.getAttribute('src');
         modalImg.style.display = "block";
@@ -59,6 +61,7 @@ function next() {
     position += 1;
     modalMedia = modalList[position].firstElementChild;
     modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
+    console.log(modalMedia);
     modalUpdate;
     modal.scrollTo(0, 0);
     
