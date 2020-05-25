@@ -55,17 +55,21 @@ function modalExpand() {
     modal.scrollTo(0, 0);
 }
 
-// function next() {
-//     position += 1;
-//     caption
-//     image
-//     video
-//     scroll
+function next() {
+    position += 1;
+    modalMedia = modalList[position].firstElementChild;
+    modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
+    modalUpdate;
+    modal.scrollTo(0, 0);
     
-// }
-// function previous() {
-//     position -= 1;
-// }
+}
+function previous() {
+    position -= 1;
+    modalMedia = modalList[position].firstElementChild;
+    modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
+    modalUpdate;
+    modal.scrollTo(0, 0);
+}
 
 
 // Grab caption with innerhtml?
