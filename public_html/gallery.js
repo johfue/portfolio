@@ -12,7 +12,7 @@ var nav = document.querySelector("nav");
 
 var modalList = document.querySelectorAll("figure");
 for(var t=0; t<modalList.length; t++) {
-    modaList[t].addEventListener("click", modalExpand);
+    modalList[t].addEventListener("click", modalExpand);
 }
 
 function hidden(bool) {
