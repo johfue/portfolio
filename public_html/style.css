@@ -297,7 +297,7 @@ b.home {
 }
 
 
-.grid > a > figure, .personal > figure {
+.grid > a > figure, .Personal > figure {
     height: 100%;
     width: 100%;
     display: grid;
@@ -537,7 +537,7 @@ main.work {
     background-size: 600px;
 }
 
-main.work.personal {
+main.work.Personal {
     grid-auto-rows: 40vh;
     grid-template-rows: min-content;
 }
@@ -546,7 +546,7 @@ main.work.personal {
     main.work {
         grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
     }
-    main.work.personal {
+    main.work.Personal {
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-rows: 30vh;
     }
@@ -665,7 +665,7 @@ main.work > img, main.work > video {
     max-height: 100vh;
 }
 
-.personal figure > img, .personal figure > video {
+.Personal figure > img, .Personal figure > video {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -723,7 +723,7 @@ main.work article > img {
     justify-self: center;
 }
 
-.personal .tall {
+.Personal .tall {
     grid-row: span 2;
 }
 
@@ -734,14 +734,14 @@ main.work article > img {
     .tall {
         grid-row: span 3;
     }
-    .personal .tall {
+    .Personal .tall {
         grid-row: span 3;
     }
     .wide {
         grid-column: span 2;
         width: 80vw;
     }
-    .personal .wide {
+    .Personal .wide {
         grid-row: span 2;
     }
 }
