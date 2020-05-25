@@ -62,7 +62,7 @@ function next() {
     modalMedia = modalList[position].firstElementChild;
     modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
     console.log(modalMedia);
-    modalUpdate;
+    modalUpdate();
     modal.scrollTo(0, 0);
     
 }
