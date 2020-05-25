@@ -86,6 +86,8 @@ function closer() {
     modalVideo.innerHTML = "";
 }
 
+_("previous").onclick = previous;
+_("next").onclick = next;
 _("close").onclick = closer;
 
 window.onclick = function(event) {
