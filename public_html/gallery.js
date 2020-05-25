@@ -49,7 +49,7 @@ function modalExpand(focus) {
     // position = modalList.indexOf(focus);
     
     modalMedia = focus.firstElementChild;
-    modalCaption.innerHTML = focus.firsrtElementChild.nextElementSibling.innerHTML;
+    modalCaption.innerHTML = focus.firstElementChild.nextElementChild.innerHTML;
     saveScroll = window.pageYOffset;
     modalUpdate;
     hidden(true);
