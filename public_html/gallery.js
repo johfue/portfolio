@@ -42,17 +42,17 @@ function modalUpdate() {
         modalImg.src = modalMedia.getAttribute('src');
         modalImg.style.display = "block";
     }
-    modal.scrollTo(0, 0);
 }
 
 function modalExpand() {
-    // position = modalList.indexOf(this);
+    position = modalList.indexOf(this);
     
     modalMedia = this.firstElementChild;
     modalCaption.innerHTML = this.firstElementChild.nextElementSibling.innerHTML;
     saveScroll = window.pageYOffset;
     modalUpdate();
     hidden(true);
+    modal.scrollTo(0, 0);
 }
 
 // function next() {
