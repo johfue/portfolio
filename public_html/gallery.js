@@ -11,7 +11,9 @@ var main = document.querySelector("main");
 var nav = document.querySelector("nav");
 
 var modalList = document.querySelectorAll("figure");
-
+for(var t=0; t<modalList.length; t++) {
+    modaList[t].addEventListener("click", modalExpand);
+}
 
 function hidden(bool) {
     if (bool) {
@@ -29,15 +31,6 @@ function hidden(bool) {
 }
 
 function modalUpdate() {
-    
-}
-
-function modalExpand(focus) {
-    // position = modalList.indexOf(focus.parentElementSibling);
-    
-    modalMedia = focus.previousElementSibling.previousElementSibling;
-    modalCaption.innerHTML = focus.previousElementSibling.innerHTML;
-    
     if (modalMedia.tagName == "VIDEO") {
         modalImg.style.display = "none";
         modalVideo.src = modalMedia.firstElementChild.getAttribute('src');
@@ -49,23 +42,30 @@ function modalExpand(focus) {
         modalImg.src = modalMedia.getAttribute('src');
         modalImg.style.display = "block";
     }
-    
-    saveScroll = window.pageYOffset;
-    hidden(true);
     modal.scrollTo(0, 0);
 }
 
-function next() {
-    position += 1;
-    caption
-    image
-    video
-    scroll
+function modalExpand(focus) {
+    position = modalList.indexOf(focus.parentElementSibling);
     
+    modalMedia = focus.firstElementChild;
+    modalCaption.innerHTML = focus.firsrtElementChild.nextElementSibling.innerHTML;
+    saveScroll = window.pageYOffset;
+    modalUpdate;
+    hidden(true);
 }
-function previous() {
-    position -= 1;
-}
+
+// function next() {
+//     position += 1;
+//     caption
+//     image
+//     video
+//     scroll
+    
+// }
+// function previous() {
+//     position -= 1;
+// }
 
 
 // Grab caption with innerhtml?
