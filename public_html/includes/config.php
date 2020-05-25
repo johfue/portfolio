@@ -124,6 +124,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <figure>
                             <img src="/images/ldcCumbia.jpg" class="full" alt="A screenshot of an Instragram post. The image is of two people dancing with text reading &quot;Cumbia&quot; and the caption reads &quot;Cumbia! Learn to make your uncles proud the next time you\'re at a quinceanera.&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
                         <figure>
                             <img src="/images/ldcGamecock.jpg" class="full" alt="A screenshot of an Instragram post. The image is of a rooster painted on a street. and the caption reads &quot;We danced on that chicken. Not many other people can say that. And we believe we are better people for having done so. Thank you to our performers for performing. THank you to the Homecoming Committee for putting it all together. Thank you to the audience for being so kind. And thank you to everyone else for being yourself. That\'s the most important thing of all. #uofschomecoming&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
