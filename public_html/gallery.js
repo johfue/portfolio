@@ -46,7 +46,7 @@ function modalUpdate() {
 }
 
 function modalExpand(focus) {
-    position = modalList.indexOf(focus.parentElementSibling);
+    position = modalList.indexOf(focus);
     
     modalMedia = focus.firstElementChild;
     modalCaption.innerHTML = focus.firsrtElementChild.nextElementSibling.innerHTML;
