@@ -45,7 +45,7 @@ function modalUpdate() {
 }
 
 function modalExpand() {
-    position = modalList.indexOf(this.toString());
+    position = Array.prototype.slice.call(modalList).indexOf(modalList[this]);
     
     modalMedia = this.firstElementChild;
     modalCaption.innerHTML = this.firstElementChild.nextElementSibling.innerHTML;
