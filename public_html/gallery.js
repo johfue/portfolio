@@ -45,11 +45,11 @@ function modalUpdate() {
     modal.scrollTo(0, 0);
 }
 
-function modalExpand(focus) {
-    // position = modalList.indexOf(focus);
+function modalExpand() {
+    // position = modalList.indexOf(this);
     
-    modalMedia = focus.firstElementChild;
-    modalCaption.innerHTML = focus.firstElementChild.nextElementSibling.innerHTML;
+    modalMedia = this.firstElementChild;
+    modalCaption.innerHTML = this.firstElementChild.nextElementSibling.innerHTML;
     saveScroll = window.pageYOffset;
     modalUpdate;
     hidden(true);
