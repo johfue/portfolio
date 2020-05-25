@@ -113,20 +113,16 @@ window.onclick = function(event) {
 };
 
 document.onkeydown = function(evt) {
-    if (evt.keyCode == 37) {
-        previous();
-    }
-};
-
-document.onkeydown = function(evt) {
-    if (evt.keyCode == 39) {
-        next();
-    }
-};
-
-document.onkeydown = function(evt) {
-    if (evt.keyCode == 27) {
-        closer();
+    switch (evt.keyCode) {
+        case 37:
+            previous();
+            break;
+        case 39:
+            next();
+            break;
+        case 27:
+            closer();
+            break;
     }
 };
 
