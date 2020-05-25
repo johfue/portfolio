@@ -107,25 +107,26 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <div class="gridSocial wide">
                         <figure>
                             <img src="/images/ldcFirst.jpg" class="full" alt="A screenshot of an Instragram post. The image is of two people dancing with the text &quot;First Class of Spring 2019&quot; and the caption reads &quot;Care to dance? We\'ll show you how or your money back guranteed&quot;">
-                            <button onclick="modalExpand(this)">' . $zoomIcon . '<button>
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure>
                             <img src="/images/ldcGetIt.jpg" class="full" alt="A screenshot of an Instragram post. The image is of red text reading &quot;Let\'s Get it&quot; and the caption reads &quot;It\'s the first day of class meaning we\'re officially one day closer to spring break. Let\'s make it our resolution to give it our all atleast untill then!&quot;">
-                            <button onclick="modalExpand(this)">' . $zoomIcon . '<button>
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure>
                             <img src="/images/ldcPartner.jpg" class="full" alt="A screenshot of an Instragram post. The image is of two people dancing with text reading &quot;Partner Work&quot; and the caption reads &quot;Does it really take two to tango? Discover the truth and more in tonight\'s class all about partner work.&quot;">
-                            <button onclick="modalExpand(this)">' . $zoomIcon . '<button>
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure>
                             <img src="/images/ldcElephant.jpg" class="full" alt="A screenshot of an Instragram post. The image is of an inflatable elephant floating in a pool. and the caption reads &quot;Mr. Elefante taught us some wholesome lessons by the pool yesterday. To be all ears. To always forgive but never forget. And to never let anyone ever make you feel irrelephant.&quot;">
-                            <button onclick="modalExpand(this)">' . $zoomIcon . '<button>
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure>
                             <img src="/images/ldcCumbia.jpg" class="full" alt="A screenshot of an Instragram post. The image is of two people dancing with text reading &quot;Cumbia&quot; and the caption reads &quot;Cumbia! Learn to make your uncles proud the next time you\'re at a quinceanera.&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         <figure>
                             <img src="/images/ldcGamecock.jpg" class="full" alt="A screenshot of an Instragram post. The image is of a rooster painted on a street. and the caption reads &quot;We danced on that chicken. Not many other people can say that. And we believe we are better people for having done so. Thank you to our performers for performing. THank you to the Homecoming Committee for putting it all together. Thank you to the audience for being so kind. And thank you to everyone else for being yourself. That\'s the most important thing of all. #uofschomecoming&quot;">
-                            <button onclick="modalExpand(this)">' . $zoomIcon . '<button>
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         </div>';
 			break;
