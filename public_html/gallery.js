@@ -28,6 +28,7 @@ function hidden(bool) {
         nav.style.display = "block";
         document.querySelector("b").style.bottom = "2em";
     }
+
 }
 
 function modalUpdate() {
@@ -44,6 +45,16 @@ function modalUpdate() {
         modalImg.src = modalMedia.getAttribute('src');
         modalImg.style.display = "block";
     }
+    if (position <= 0) {
+        _("previous").style.display = "none";
+    }
+    else if (position >= modalList.length) {
+        _("next").style.display = "none";
+    }
+    else {
+        _("next").style.display = "inline";
+        _("previous").style.display = "inline";
+    }
 }
 
 function modalExpand() {
@@ -58,24 +69,26 @@ function modalExpand() {
 }
 
 function next() {
-    position += 1;
-    modalMedia = modalList[position].firstElementChild;
-    modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
-    console.log(modalMedia);
-    modalUpdate();
-    modal.scrollTo(0, 0);
-    
+    if (position < modalList.length) {
+        position += 1;
+        modalMedia = modalList[position].firstElementChild;
+        modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
+        console.log(modalMedia);
+        modalUpdate();
+        modal.scrollTo(0, 0);
+    }
 }
 function previous() {
-    position -= 1;
-    modalMedia = modalList[position].firstElementChild;
-    modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
-    modalUpdate;
-    modal.scrollTo(0, 0);
+    if (position > 0) {
+        position -= 1;
+        modalMedia = modalList[position].firstElementChild;
+        modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
+        modalUpdate();
+        modal.scrollTo(0, 0);
+    }
 }
 
 
-// Grab caption with innerhtml?
 // swiping should tab through as well as left and right arrows
 // Page numbers
 // Animation for exiting and entering
@@ -99,6 +112,16 @@ window.onclick = function(event) {
   }
 };
 
+document.onkeydown = function(evt) {
+    if (evt.keyCode == 37) {
+        previous();
+    }
+};
+document.onkeydown = function(evt) {
+    if (evt.keyCode == 39) {
+        nextr();
+    }
+};
 document.onkeydown = function(evt) {
     if (evt.keyCode == 27) {
         closer();
