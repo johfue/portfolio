@@ -48,7 +48,7 @@ function modalUpdate() {
     if (position <= 0) {
         _("previous").style.display = "none";
     }
-    else if (position >= modalList.length) {
+    else if (position >= (modalList.length - 1)) {
         _("next").style.display = "none";
     }
     else {
@@ -117,11 +117,13 @@ document.onkeydown = function(evt) {
         previous();
     }
 };
+
 document.onkeydown = function(evt) {
     if (evt.keyCode == 39) {
-        nextr();
+        next();
     }
 };
+
 document.onkeydown = function(evt) {
     if (evt.keyCode == 27) {
         closer();
