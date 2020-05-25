@@ -51,7 +51,7 @@ function modalExpand() {
     modalMedia = this.firstElementChild;
     modalCaption.innerHTML = this.firstElementChild.nextElementSibling.innerHTML;
     saveScroll = window.pageYOffset;
-    modalUpdate;
+    modalUpdate();
     hidden(true);
 }
 
