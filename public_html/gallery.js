@@ -33,7 +33,6 @@ function hidden(bool) {
 
 function modalUpdate() {
     if (modalMedia.tagName == "VIDEO") {
-        console.log(modalMedia);
         modalImg.style.display = "none";
         modalVideo.src = modalMedia.firstElementChild.getAttribute('src');
         modalVideo.style.display = "block";
@@ -61,7 +60,7 @@ function modalExpand() {
     position = Array.prototype.slice.call(modalList).indexOf(this);
     
     modalMedia = this.firstElementChild;
-    modalCaption.innerHTML = this.querySelector("caption").innerHTML;
+    modalCaption.innerHTML = this.firstElementChild.nextElementSibling;
     saveScroll = window.pageYOffset;
     modalUpdate();
     hidden(true);
