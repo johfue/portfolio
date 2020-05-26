@@ -359,13 +359,18 @@ b.home {
     position: relative;
 }
 
-.work > figure img:hover:after, .work > figure video:hover:after {
+.work > figure img:after, .work > figure video:after {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     background-color: rgba(50, 10, 10, 0.5);
+    opacity: 1;
+    transition: ease 0.25s;
+}
+
+.work > figure img:after:hover, .work > figure video:after:hover {
     opacity: 1;
 }
 
