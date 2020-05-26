@@ -60,7 +60,7 @@ function modalExpand() {
     position = Array.prototype.slice.call(modalList).indexOf(this);
     
     modalMedia = this.firstElementChild;
-    modalCaption.innerHTML = this.firstElementChild.nextElementSibling;
+    modalCaption.innerHTML = this.querySelector("figcaption").innerHTML;
     saveScroll = window.pageYOffset;
     modalUpdate();
     hidden(true);
