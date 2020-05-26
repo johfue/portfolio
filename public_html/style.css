@@ -676,7 +676,7 @@ main.work > img, main.work > video {
     width: fit-content;
 }
 
-.work figure button, aside button {
+.work figure button, aside button, .work.personal figure button {
     position: absolute;
     background-color: rgba(251, 233, 238, 0.2);
     bottom: 3.5em;
@@ -693,6 +693,7 @@ main.work > img, main.work > video {
 .work figure button {
     bottom: 4.5em;
     left: calc(100% - 5rem);
+    position: relative;
 }
 
 .work figure > img:hover ~ button, .work figure > video:hover ~ button, .work figure button:hover, aside button:hover {
