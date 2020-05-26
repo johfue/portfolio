@@ -61,7 +61,7 @@ function modalExpand() {
     position = Array.prototype.slice.call(modalList).indexOf(this);
     
     modalMedia = this.firstElementChild;
-    modalCaption.innerHTML = this.firstElementChild.nextElementSibling.innerHTML;
+    modalCaption.innerHTML = this.querySelector("figure").innerHTML;
     saveScroll = window.pageYOffset;
     modalUpdate();
     hidden(true);
@@ -73,7 +73,6 @@ function next() {
         position += 1;
         modalMedia = modalList[position].firstElementChild;
         modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
-        console.log(modalMedia);
         modalUpdate();
         modal.scrollTo(0, 0);
     }
