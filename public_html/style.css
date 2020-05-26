@@ -356,6 +356,17 @@ b.home {
     display: block;
     max-width: 100%;
     max-height: 100vh;
+    position: relative;
+}
+
+.work > figure img:hover:after, .work > figure video:hover:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(50, 10, 10, 0.5);
+    opacity: 1;
 }
 
 @keyframes slide {
@@ -676,7 +687,7 @@ main.work > img, main.work > video {
     width: fit-content;
 }
 
-.work figure button, aside button, .work.personal figure button {
+.work figure button, aside button, main.Personal figure button {
     position: absolute;
     background-color: rgba(251, 233, 238, 0.2);
     bottom: 3.5em;
