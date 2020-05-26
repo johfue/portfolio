@@ -673,6 +673,7 @@ main.work > img, main.work > video {
 
 .work figure {
     position: relative;
+    width: fit-content;
 }
 
 .work figure button, aside button {
@@ -688,6 +689,11 @@ main.work > img, main.work > video {
     -webkit-transition: 0.25s ease;
     -o-transition: 0.25s ease;
     transition: 0.25s ease;}
+
+.work figure button {
+    bottom: 4.5em;
+    left: calc(100% - 5rem);
+}
 
 .work figure > img:hover ~ button, .work figure > video:hover ~ button, .work figure button:hover, aside button:hover {
     background-color: #1ac9c7;
