@@ -44,11 +44,11 @@ function modalUpdate() {
         modalImg.style.display = "block";
     }
     
-    if (modalMediaCaption === null) {
+    if (modalMediaCaption.tagName != "FIGCAPTION") {
         modalCaption.innerHTML = "";
     }
     else {
-        modalCaption.innerHTML = modalMediaCaption;
+        modalCaption.innerHTML = modalMediaCaption.innerHTML;
     }
     
     if (position <= 0) {
@@ -67,7 +67,7 @@ function modalExpand() {
     position = Array.prototype.slice.call(modalList).indexOf(this);
     
     modalMedia = this.firstElementChild;
-    modalMediaCaption = this.firstElementChild.nextElementSibling.innerHTML;
+    modalMediaCaption = this.firstElementChild.nextElementSibling;
     saveScroll = window.pageYOffset;
     modalUpdate();
     hidden(true);
@@ -76,7 +76,7 @@ function modalExpand() {
 
 function modalTabUpdate() {
     modalMedia = modalList[position].firstElementChild;
-    modalMediaCaption = modalList[position].firstElementChild.nextElementSibling.innerHTML;
+    modalMediaCaption = modalList[position].firstElementChild.nextElementSibling;
     modalUpdate();
     modal.scrollTo(0, 0);
 }
