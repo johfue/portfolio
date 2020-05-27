@@ -44,10 +44,13 @@ function modalUpdate() {
         modalImg.style.display = "block";
     }
     
-    if (modalCaption === null) {
+    if (modalMediaCaption === null) {
         modalCaption.innerHTML = "";
     }
-
+    else {
+        modalCaption.innerHTML = modalMediaCaption;
+    }
+    
     if (position <= 0) {
         _("previous").style.display = "none";
     }
@@ -64,7 +67,7 @@ function modalExpand() {
     position = Array.prototype.slice.call(modalList).indexOf(this);
     
     modalMedia = this.firstElementChild;
-    modalCaption.innerHTML = this.querySelector("figcaption").innerHTML;
+    modalMediaCaptoin = this.firstElementChild.nextElementSibling;
     saveScroll = window.pageYOffset;
     modalUpdate();
     hidden(true);
@@ -73,7 +76,7 @@ function modalExpand() {
 
 function modalTabUpdate() {
     modalMedia = modalList[position].firstElementChild;
-    modalCaption.innerHTML = modalList[position].querySelector("figcaption").innerHTML;
+    modalMediaCaption = modalList[position].firstElementChild.nextElementSibling;
     modalUpdate();
     modal.scrollTo(0, 0);
 }
