@@ -91,7 +91,7 @@ function next() {
 function previous() {
     if (position > 0) {
         position -= 1;
-        modalTabpdate();
+        modalTabUpdate();
     }
 }
 
