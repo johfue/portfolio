@@ -67,7 +67,7 @@ function modalExpand() {
     position = Array.prototype.slice.call(modalList).indexOf(this);
     
     modalMedia = this.firstElementChild;
-    modalMediaCaptoin = this.firstElementChild.nextElementSibling;
+    modalMediaCaption = this.firstElementChild.nextElementSibling.innerHTML;
     saveScroll = window.pageYOffset;
     modalUpdate();
     hidden(true);
@@ -76,7 +76,7 @@ function modalExpand() {
 
 function modalTabUpdate() {
     modalMedia = modalList[position].firstElementChild;
-    modalMediaCaption = modalList[position].firstElementChild.nextElementSibling;
+    modalMediaCaption = modalList[position].firstElementChild.nextElementSibling.innerHTML;
     modalUpdate();
     modal.scrollTo(0, 0);
 }
