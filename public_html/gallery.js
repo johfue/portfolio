@@ -39,7 +39,6 @@ function modalUpdate() {
 
     }
     else {
-        console.log(modalMedia);
         modalVideo.style.display = "none";
         modalImg.src = modalMedia.getAttribute('src');
         modalImg.style.display = "block";
@@ -60,29 +59,39 @@ function modalExpand() {
     position = Array.prototype.slice.call(modalList).indexOf(this);
     
     modalMedia = this.firstElementChild;
-    modalCaption.innerHTML = this.querySelector("figcaption").innerHTML;
+    if (this.querySelector("figcaption") !== null) {
+        this.querySelector("figcaption").innerHTML;
+    }
     saveScroll = window.pageYOffset;
     modalUpdate();
     hidden(true);
     modal.scrollTo(0, 0);
 }
 
+function modalTabUpdate() {
+    modalMedia = modalList[position].firstElementChild;
+    modalMedia = this.firstElementChild;
+    if (this.querySelector("figcaption") !== null) {
+        modalCaption.innerHTML = this.querySelector("figcaption").innerHTML;
+    }
+    else {
+        modalCaption.innerHTML = "";
+    }
+    modalUpdate();
+    modal.scrollTo(0, 0);
+}
+
 function next() {
     if (position < (modalList.length - 1)) {
         position += 1;
-        modalMedia = modalList[position].firstElementChild;
-        modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
-        modalUpdate();
-        modal.scrollTo(0, 0);
+        modalTabUpdate();
     }
 }
+
 function previous() {
     if (position > 0) {
         position -= 1;
-        modalMedia = modalList[position].firstElementChild;
-        modalCaption.innerHTML = modalList[position].firstElementChild.nextElementSibling.innerHTML;
-        modalUpdate();
-        modal.scrollTo(0, 0);
+        modalTabpdate();
     }
 }
 
