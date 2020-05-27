@@ -60,7 +60,7 @@ function modalExpand() {
     
     modalMedia = this.firstElementChild;
     if (this.querySelector("figcaption") !== null) {
-        this.querySelector("figcaption").innerHTML;
+    modalCaption.innerHTML = this.querySelector("figcaption").innerHTML;
     }
     saveScroll = window.pageYOffset;
     modalUpdate();
