@@ -71,10 +71,8 @@ function modalExpand() {
 function modalTabUpdate() {
     modalMedia = modalList[position].firstElementChild;
     modalMedia = this.firstElementChild;
-    if (this.querySelector("figcaption") !== null) {
-        modalCaption.innerHTML = this.querySelector("figcaption").innerHTML;
-    }
-    else {
+    modalCaption.innerHTML = this.querySelector("figcaption").innerHTML;
+    if (modalCaption === null) {
         modalCaption.innerHTML = "";
     }
     modalUpdate();
