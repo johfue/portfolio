@@ -357,21 +357,11 @@ b.home {
     max-width: 100%;
     max-height: 100vh;
     position: relative;
-}
-
-.work > figure img:after, .work > figure video:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(50, 10, 10, 0.5);
-    opacity: 1;
     transition: ease 0.25s;
 }
 
-.work > figure img:after:hover, .work > figure video:after:hover {
-    opacity: 1;
+.work > figure img:hover, .work > figure video:hover {
+    filter: brightness(0.8) hue-rotate(-15deg)
 }
 
 @keyframes slide {
