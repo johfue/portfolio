@@ -364,7 +364,7 @@ b.home {
 }
 
 .work img:hover, .work video:hover {
-    filter: brightness(0.8))
+    filter: brightness(0.8);
 }
 
 @keyframes slide {
