@@ -64,10 +64,10 @@ function modalUpdate() {
 }
 
 function modalExpand() {
-    position = Array.prototype.slice.call(modalList).indexOf(this);
+    position = Array.prototype.slice.call(modalList).indexOf(this.parentElement);
     
-    modalMedia = this.firstElementChild;
-    modalMediaCaption = this.firstElementChild.nextElementSibling;
+    modalMedia = this;
+    modalMediaCaption = this.nextElementSibling;
     saveScroll = window.pageYOffset;
     modalUpdate();
     hidden(true);
