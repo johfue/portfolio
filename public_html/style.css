@@ -294,7 +294,7 @@ b.home {
     }
 }
 
-.grid > a:hover {
+.grid > a:hover, .grid a:hover h3{
     color:  #E64169;
 }
 
