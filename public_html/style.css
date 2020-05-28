@@ -282,6 +282,7 @@ b.home {
     display: inline-block;
     vertical-align: middle;
     color:  #092543;
+    transition: ease 0.25s;
 }
 
 @supports (display:grid) {
