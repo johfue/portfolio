@@ -3,7 +3,7 @@
 <html>
 <head>
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/headTag.php");?>
-    <meta name="description" content="Johnathon Fuerte is a Charleston-based designer, illustrator, and web developer.">
+    <meta name="description" content="Johnathon Fuerte is a Charleston-based visual designer, web developer and aspiring art director.">
 </head>
 <body>
 
@@ -16,8 +16,8 @@
                 <br>
                 <nav>
                     <ul>
-                        <li><a href="/about">About Me</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/about" class="zigzag">About Me</a></li>
+                        <li><a href="/contact" class="zigzag">Contact</a></li>
                     </ul>
                 </nav>
             </section>
@@ -25,37 +25,37 @@
 
         <a href="work/laso">
             <figure>
-                <h3>Latin American Student Organization</h3>
+                <h3 class="zigzag">Latin American Student Organization</h3>
                 <img src="images/lasoThumb.png" alt="LASO thumbnail">
             </figure>
         </a>
         <a href="work/rei">
             <figure>
-                <h3>REI Co-Op</h3>
+                <h3 class="zigzag">REI Co-Op</h3>
                 <img src="images/reiThumb.png" alt="REI Co-Op thumbnail">
             </figure>
         </a>
         <a href="work/proof">
                 <figure>
-                <h3>PROOF Alcohol Ice Cream</h3>
+                <h3 class="zigzag">PROOF Alcohol Ice Cream</h3>
                 <img src="images/proofThumb.png" alt="PROOF Alcohol Thumbnail thumbnail">
             </figure>
         </a>
         <a href="work/arlo">
             <figure>
-                <h3>Arlo</h3>
+                <h3 class="zigzag">Arlo</h3>
                 <img src="images/arloThumb.png" alt="Arlo thumbnail">
             </figure>
         </a>
         <a href="work/ldc/">
             <figure>
-                <h3>Latin Dance Club</h3>
+                <h3 class="zigzag">Latin Dance Club</h3>
                 <img src="images/ldcThumb.png" alt="Latin Dance Club thumbnail">
             </figure>
         </a>
         <a href="work/personal">
             <figure>
-                <h3>Personal Work</h3>
+                <h3 class="zigzag">Personal Work</h3>
                 <img src="images/personalThumb.png" alt="Peronsal Work thumbnail">
             </figure>
         </a>

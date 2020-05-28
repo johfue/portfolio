@@ -160,10 +160,6 @@ nav.small li {
     display: inline-block;
 }
 
-ul li a:hover {
-    color: #E64169;
-}
-
 li a {
     display: block;
 }
@@ -186,7 +182,8 @@ a[href^="mailto:"] {
 }
 
 .zigzag:hover {
-    background-image: url(/images/dot.svg);
+    color: #E64169;
+    background-image: url(/images/zigzag.svg);
     background-size: 0.2em 10px;
     background-repeat-y: no-repeat;
     background-position: right bottom 1px;
