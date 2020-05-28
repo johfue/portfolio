@@ -101,6 +101,14 @@ h1, h2, li, a {
     color: #FEFAFB;
 }
 
+a:hover {
+    background-image: url(/images/dot.svg);
+    background-size: 0.2em 10px;
+    background-repeat-y: no-repeat;
+    background-position: 0 23px;
+    padding-bottom: 12px;
+}
+
 .single a, .double a {
     color: #e64169;
 }
@@ -1154,7 +1162,7 @@ main.double button[type=submit]:hover .inactive {
     bottom: 50%;
 }
 
-figre button {
+.work figure {
     cursor: -moz-zoom-in;
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
