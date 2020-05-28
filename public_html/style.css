@@ -1179,7 +1179,7 @@ main.double button[type=submit]:hover .inactive {
     bottom: 50%;
 }
 
-.work figure {
+.work figure > img, .work figure video {
     cursor: -moz-zoom-in;
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
