@@ -1134,12 +1134,18 @@ main.double button[type=submit]:hover .inactive {
     overflow: auto;
     background-color: #fef2f5;
     box-sizing: border-box;
+    cursor: -moz-zoom-out;
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
 }
 
 #modalImg, #modalVideo {
     display: none;
     margin: auto;
     max-width: 95vw;
+    cursor: -moz-zoom-auto;
+    cursor: -webkit-zoom-auto;
+    cursor: auto;
 }
 
 #modalVideo {
