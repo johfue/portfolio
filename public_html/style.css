@@ -281,6 +281,7 @@ b.home {
     height: 500px;
     display: inline-block;
     vertical-align: middle;
+    color:  #E64169;
 }
 
 @supports (display:grid) {
@@ -293,6 +294,9 @@ b.home {
     }
 }
 
+.grid > a:hover {
+    color:  #E64169;
+}
 
 .grid > a > figure, .Personal > figure {
     height: 100%;
