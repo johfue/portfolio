@@ -182,7 +182,7 @@ a[href^="mailto:"] {
 }
 
 .zigzag:after {
-    content: url(data:/images/zigzag.svg);
+    content: url(/images/zigzag.svg);
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
 }
