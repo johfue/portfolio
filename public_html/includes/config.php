@@ -4,6 +4,7 @@ $closeIcon = file_get_contents($_SERVER['DOCUMENT_ROOT']."/images/close-circle-o
 $previousIcon = file_get_contents($_SERVER['DOCUMENT_ROOT']."/images/chevron-left.svg");
 $nextIcon = file_get_contents($_SERVER['DOCUMENT_ROOT']."/images/chevron-right.svg");
 $zoomIcon = file_get_contents($_SERVER['DOCUMENT_ROOT']."/images/magnify-plus-outline.svg");
+$zigzag = file_get_contents($_SERVER['DOCUMENT_ROOT']."/images/zigzag.svg");
 
 switch ($_SERVER["SCRIPT_NAME"]) {
 		case "/about.php":
