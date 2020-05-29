@@ -183,10 +183,19 @@ a[href^="mailto:"] {
 
 .zigzag:after {
     content: url(/images/zigzag.svg);
-    
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 .zigzag:hover:after {
+    animation: dash 5s linear forwards;
     /*color: #E64169;*/
     /*background-image: url(/images/zigzag.svg);*/
     /*background-size: 0.2em 10px;*/
