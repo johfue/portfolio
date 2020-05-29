@@ -186,6 +186,11 @@ a[href^="mailto:"] {
 }
 
 .path {
+    fill:none;
+    stroke:#EDE22F;
+    stroke-width:6;
+    stroke-miterlimit:10;}
+
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
 }
