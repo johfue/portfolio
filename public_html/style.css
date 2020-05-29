@@ -192,14 +192,8 @@ a[href^="mailto:"] {
   }
 }
 
-.zigzag:hover {
-    animation: dash 5s linear forwards;
-    /*color: #E64169;*/
-    /*background-image: url(/images/zigzag.svg);*/
-    /*background-size: 0.2em 10px;*/
-    /*background-repeat-y: no-repeat;*/
-    /*background-position: right bottom 1px;*/
-    /*padding-bottom: 12px;*/
+.zigzag:hover .path{
+    animation: dash 1.5s linear forwards;
 }
 
 svg {
