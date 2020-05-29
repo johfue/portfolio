@@ -181,13 +181,18 @@ a[href^="mailto:"] {
     text-align: center;
 }
 
-.zigzag:hover {
-    color: #E64169;
-    background-image: url(/images/zigzag.svg);
-    background-size: 0.2em 10px;
-    background-repeat-y: no-repeat;
-    background-position: right bottom 1px;
-    padding-bottom: 12px;
+.zigzag:after {
+    content: url(/images/zigzag.svg);
+    
+}
+
+.zigzag:hover:after {
+    /*color: #E64169;*/
+    /*background-image: url(/images/zigzag.svg);*/
+    /*background-size: 0.2em 10px;*/
+    /*background-repeat-y: no-repeat;*/
+    /*background-position: right bottom 1px;*/
+    /*padding-bottom: 12px;*/
 }
 
 svg {
