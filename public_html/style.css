@@ -102,7 +102,11 @@ h1, h2, li, a {
 }
 
 .single a, .double a {
-    color: #e64169;
+    color: #092543;
+}
+
+a:hover {
+    color: E64169;
 }
 
 h3, p, figcaption {
