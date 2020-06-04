@@ -1164,19 +1164,19 @@ main.double button[type=submit]:hover .inactive {
 
 #close {
     position: fixed;
-    right: 15%;
-    top: 4em;
+    right: 1%;
+    top: 1em;
 }
 
 #previous {
     position: fixed;
-    left: 8%;
+    left: 1%;
     bottom: 50%;
 }
 
 #next {
     position: fixed;
-    right: 8%;
+    right: 1%;
     bottom: 50%;
 }
 
