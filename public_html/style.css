@@ -162,10 +162,12 @@ nav.small li {
 
 li a {
     display: block;
+    text-decoration-color: rgba(254, 250, 251, 0.7);
 }
 
 ul li a:hover {
     color: #E64169;
+    text-decoration-color: rgba(230, 65, 105, 1);
 }
 
 main {
@@ -292,6 +294,7 @@ b.home {
     display: inline-block;
     vertical-align: middle;
     color:  #092543;
+    text-decoration-color: rgba(9, 37, 67, 0.8);
     transition: ease 0.25s;
 }
 
@@ -307,6 +310,7 @@ b.home {
 
 .grid > a:hover, .grid a:hover h3{
     color:  #E64169;
+    text-decoration-color: rgba(230, 65, 105, 1);
 }
 
 .grid > a > figure, .Personal > figure {
