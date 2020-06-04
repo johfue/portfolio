@@ -164,6 +164,10 @@ li a {
     display: block;
 }
 
+ul li a:hover {
+    color: #E64169;
+}
+
 main {
     z-index: 2;
     position: relative;
