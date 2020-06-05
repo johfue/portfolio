@@ -697,6 +697,7 @@ main.work > img, main.work > video {
 }
 
 .work figure {
+    justify-self: center
     position: relative;
     width: fit-content;
 }
@@ -782,6 +783,15 @@ main.work article > img {
         grid-row: span 2;
     }
 }
+
+.right {
+    justify-self: center;
+}
+
+.left {
+    justify-self: center;
+}
+
 
 @media (min-width:950px) {
     .right {
