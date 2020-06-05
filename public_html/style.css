@@ -721,6 +721,11 @@ main.work > img, main.work > video {
     position: relative;
 }
 
+.gridSocial figure button {
+    position: absolute;
+    bottom: 1.5em;
+}
+
 .work figure > img:hover ~ button, .work figure > video:hover ~ button, .work figure button:hover, #close:hover, #next:hover svg, #previous:hover svg {
     background-color: #1ac9c7;
 }
