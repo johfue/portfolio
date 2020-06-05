@@ -135,6 +135,8 @@ document.onkeydown = function(evt) {
 
 var btnList = document.getElementsByClassName("modalBtn");
 
+// make button visible if it is not when you expand by clicking
+
 function btnVisible() {
     if (this.classList.contains("visible")) {
         this.classList.remove("visible");
