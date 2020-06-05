@@ -721,7 +721,7 @@ main.work > img, main.work > video {
     position: relative;
 }
 
-.work figure > img:hover ~ button, .work figure > video:hover ~ button, .work figure button:hover, #close:hover {
+.work figure > img:hover ~ button, .work figure > video:hover ~ button, .work figure button:hover, #close:hover, #next:hover svg, #previous:hover svg {
     background-color: #1ac9c7;
 }
 
@@ -1179,6 +1179,7 @@ main.double button[type=submit]:hover .inactive {
     margin-top: 0;
     padding: 0;
     width: 3.5rem;
+    background-color: rgba(0,0,0,0);
 }
 
 #previous {
@@ -1190,7 +1191,7 @@ main.double button[type=submit]:hover .inactive {
 
 }
 
-#nwxt svg, #previous svg {
+#next > svg, #previous > svg {
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
