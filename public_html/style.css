@@ -1187,7 +1187,7 @@ main.double button[type=submit]:hover .inactive {
 }
 
 #previous:focus svg, #next:focus svg{
-    outline: 1px solid black;
+    outline-style: auto;
 }
 
 #previous {
