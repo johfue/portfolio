@@ -567,7 +567,7 @@ main.work.Personal {
     grid-template-rows: min-content;
 }
 
-@media(min-width: 650px) {
+@media(min-width: 950px) {
     main.work {
         grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
     }
@@ -669,7 +669,7 @@ b.small {
     display: none;
 }
 
-@media(min-width:650px) {
+@media(min-width:950px) {
     .work > b {
         display: block;
         height: 40vh;
@@ -764,7 +764,7 @@ main.work article > img {
     grid-row: span 2;
 }
 
-@media (min-width:650px) {
+@media (min-width:950px) {
     .medium {
         grid-row: span 2;
     }
@@ -852,7 +852,7 @@ audio {
     margin-left: 4rem;
 }
 
-@media(max-width:650px) {
+@media(max-width:950px) {
     main.work {
         width: 95%;
         width: 95vw;
@@ -862,7 +862,7 @@ audio {
     }
 }
 
-@media(min-width:650px) {
+@media(min-width:950px) {
     header.work {
         padding: 2em 2rem 1em 2rem;
         min-width: 65ch;
@@ -873,20 +873,20 @@ audio {
     }
 }
 
-@media(min-width:650px) and (max-width:833px) {
-    .quarter, .twoThird, .half {
-       max-width: 75%;
-    }
-    .third {
-        max-width: 100%;
-    }
-}
+/*@media(min-width:650px) and (max-width:833px) {*/
+/*    .quarter, .twoThird, .half {*/
+/*       max-width: 75%;*/
+/*    }*/
+/*    .third {*/
+/*        max-width: 100%;*/
+/*    }*/
+/*}*/
 
-@media(min-width:833px) and (max-width:1275px) {
-    .quarter {
-        max-width: 55%;
-    }
-}
+/*@media(min-width:833px) and (max-width:1275px) {*/
+/*    .quarter {*/
+/*        max-width: 55%;*/
+/*    }*/
+/*}*/
 
 main.single {
     margin: 0 auto;
