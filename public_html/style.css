@@ -697,7 +697,7 @@ main.work > img, main.work > video {
 }
 
 .work figure {
-    justify-self: center
+    justify-self: center;
     position: relative;
     width: fit-content;
 }
