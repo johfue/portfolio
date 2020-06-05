@@ -783,20 +783,22 @@ main.work article > img {
     }
 }
 
-.right {
-    justify-self: end;
-}
-
-.left {
-    justify-self: start;
-}
-
-.top {
-    align-self: start;
-}
-
-.bottom {
-    align-self: end;
+@media (min-width:950px) {
+    .right {
+        justify-self: end;
+    }
+    
+    .left {
+        justify-self: start;
+    }
+    
+    .top {
+        align-self: start;
+    }
+    
+    .bottom {
+        align-self: end;
+    }
 }
 
 .quarter {
