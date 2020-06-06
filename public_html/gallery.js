@@ -63,26 +63,6 @@ function modalUpdate() {
     }
 }
 
-var btnList = document.getElementsByClassName("modalBtn");
-
-function btnVisible() {
-    if (modal.classList.contains("visible")) {
-        modal.classList.remove("visible");
-        for (var i=0; i<btnList.length; i++) {
-            btnList[i].style.visibility = "visible";
-        }
-    }
-    else {
-        modal.classList.add("visible");
-        for (var e=0; e<btnList.length; e++) {
-            btnList[e].style.visibility = "hidden";
-        }
-    }
-}
-
-modalImg.onclick = btnVisible;
-modalVideo.onclick = btnVisible;
-
 function modalExpand() {
     position = Array.prototype.slice.call(modalList).indexOf(this.parentElement);
     
@@ -92,7 +72,12 @@ function modalExpand() {
     modalUpdate();
     hidden(true);
     modal.scrollTo(0, 0);
-    btnVisible();
+    if (modal.classList.contains("invisible")) {
+        modal.classList.remove("invisible");
+        for (var i=0; i<btnList.length; i++) {
+            btnList[i].style.visibility = "visible";
+        }
+    }
 }
 
 function modalTabUpdate() {
@@ -153,3 +138,23 @@ document.onkeydown = function(evt) {
             break;
     }
 };
+
+var btnList = document.getElementsByClassName("modalBtn");
+
+function btnVisible() {
+    if (modal.classList.contains("invisible")) {
+        modal.classList.remove("invisible");
+        for (var i=0; i<btnList.length; i++) {
+            btnList[i].style.visibility = "visible";
+        }
+    }
+    else {
+        modal.classList.add("invisible");
+        for (var e=0; e<btnList.length; e++) {
+            btnList[e].style.visibility = "hidden";
+        }
+    }
+}
+
+modalImg.onclick = btnVisible;
+modalVideo.onclick = btnVisible;
