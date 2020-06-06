@@ -63,6 +63,26 @@ function modalUpdate() {
     }
 }
 
+var btnList = document.getElementsByClassName("modalBtn");
+
+function btnVisible() {
+    if (modal.classList.contains("visible")) {
+        modal.classList.remove("visible");
+        for (var i=0; i<btnList.length; i++) {
+            btnList[i].style.visibility = "visible";
+        }
+    }
+    else {
+        modal.classList.add("visible");
+        for (var e=0; e<btnList.length; e++) {
+            btnList[e].style.visibility = "hidden";
+        }
+    }
+}
+
+modalImg.onclick = btnVisible;
+modalVideo.onclick = btnVisible;
+
 function modalExpand() {
     position = Array.prototype.slice.call(modalList).indexOf(this.parentElement);
     
@@ -72,6 +92,7 @@ function modalExpand() {
     modalUpdate();
     hidden(true);
     modal.scrollTo(0, 0);
+    btnVisible();
 }
 
 function modalTabUpdate() {
@@ -132,25 +153,3 @@ document.onkeydown = function(evt) {
             break;
     }
 };
-
-var btnList = document.getElementsByClassName("modalBtn");
-
-// make button visible if it is not when you expand by clicking
-
-function btnVisible() {
-    if (this.classList.contains("visible")) {
-        this.classList.remove("visible");
-        for (var i=0; i<btnList.length; i++) {
-            btnList[i].style.visibility = "visible";
-        }
-    }
-    else {
-        this.classList.add("visible");
-        for (var e=0; e<btnList.length; e++) {
-            btnList[e].style.visibility = "hidden";
-        }
-    }
-}
-
-modalImg.onclick = btnVisible;
-modalVideo.onclick = btnVisible;
