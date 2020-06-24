@@ -179,12 +179,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/proofShaker.jpg" class="center" alt="A print magazine ad. The headline reads &quot;But what if you could have it all?&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                    <h2 class="wide">Radio Spot</h2>
-                        <audio controls>
-                            <source src="/media/proofSpot.mp3" type="audio/mpeg">
-                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>
-                        </audio>
                     <h2 class="wide">Plans Book</h2>
                     <iframe src="//www.slideshare.net/slideshow/embed_code/key/Ny3deS6cLLSlND" class="center" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>';
 			break;
