@@ -224,7 +224,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "Jiffy Lube";
 			$PAGE_TITLE = "Jiffy Lube";
 			$PAGE_HEADER = "Jiffy Lube";
-			$PAGE_DESC = "<b>The Problem:</b> With anxiety on the rise, trusting a mechanic with you're prescious baby can feel like a leap of faith.<br><br><b> The Big Idea:</b>Don't worry Jiffy's got it.";
+			$PAGE_DESC = "<b>The Problem:</b> With anxiety on the rise, trusting a mechanic with you're prescious baby can feel like a leap of faith.<br><br><b> The Big Idea:</b> Jiffy Lube has a hisyory of innovation, so don't worry, Jiffy's got it.";
 			$CONTENT = '
                         <h2>Mobile App</h2>
                         <iframe class="wide center" style="border: 1px solid rgba(0, 0, 0, 0.1); height: 1000px;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
@@ -245,7 +245,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <h2 class="wide">Full Deck</h2>
-                        <iframe src="//www.slideshare.net/slideshow/embed_code/key/GoMWXY4mqs875c" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+                        <iframe src="//www.slideshare.net/slideshow/embed_code/key/GoMWXY4mqs875c" class="center" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
                         ';
 			break;
 		case "/work/citi.php":
