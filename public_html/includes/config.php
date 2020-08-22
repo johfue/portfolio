@@ -220,7 +220,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
 			break;
-		case "/work/jiffylube.php":
+		case "/work/jiffy.php":
 			$CURRENT_PAGE = "Jiffy Lube";
 			$PAGE_TITLE = "Jiffy Lube";
 			$PAGE_HEADER = "Jiffy Lube";
