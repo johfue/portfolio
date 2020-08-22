@@ -227,18 +227,18 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "<b>The Problem:</b> With anxiety on the rise, trusting a mechanic with you're prescious baby can feel like a leap of faith.<br><br><b> The Big Idea:</b>Don't worry Jiffy's got it.";
 			$CONTENT = '
                         <h2>Mobile App</h2>
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
+                        <iframe class="wide center" style="border: 1px solid rgba(0, 0, 0, 0.1); height: 1000;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
                         <p>Before scheduling an appointment, users can review their service history and pick their mechanic based off of user reviews.</p>
-                        <figure class="tall">
+                        <figure>
                             <img src="/images/jiffyService.png" class="center" alt=A screenshot the schedule page of the app. A grid of services are displayed with a make appointment button at the bottom.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <p>Users can keep tabs on all their family\'s vehicles, their mileage, and keep track of when they\'ll next need a tune up</p>
-                        <figure class="tall">
+                        <figure>
                             <img src="/images/jiffyProfile.png" class="center" alt=A screenshot of a profile page of the app. The users information, prefered Jiffy location, and their registered vehicles are displayed">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2>Spotify Playlist</h2>
+                        <h2 class="wide">Spotify Playlist</h2>
                         <p>Jiggy with Jiffy provides music to soothe your mind while you drive, or while you wait. The Spotify playlist can be accessed through the Jiffy Lube app via “Browse.”</p>
                         <figure class="tall">
                             <img src="/images/jiffyPlaylist.png" class="center" alt=A screenshot of a Spotify playlist.">
