@@ -220,6 +220,45 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
 			break;
+		case "/work/jiffylube.php":
+			$CURRENT_PAGE = "Jiffy Lube";
+			$PAGE_TITLE = "Jiffy Lube";
+			$PAGE_HEADER = "Jiffy Lube";
+			$PAGE_DESC = "<b>The Problem:</b>With anxiety on the rise, trusting a mechanic with you're prescious baby can feel like a leap of faith.<b>The Big Idea:</b>Don't worry Jiffy's got it.";
+			$CONTENT = '
+                        <h2>Mobile App</h2>
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
+                        <p>Before scheduling an appointment, users can review their service history and pick their mechanic based off of user reviews.</p>
+                        <figure class="tall">
+                            <img src="/images/jiffyService.png" class="center" alt=A screenshot the schedule page of the app. A grid of services are displayed with a make appointment button at the bottom.">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <p>Users can keep tabs on all their family\'s vehicles, their mileage, and keep track of when they\'ll next need a tune up</p>
+                        <figure class="tall">
+                            <img src="/images/jiffyProfile.png" class="center" alt=A screenshot of a profile page of the app. The users information, prefered Jiffy location, and their registered vehicles are displayed">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <h2>Spotify Playlist</h2>
+                        <p>Jiggy with Jiffy provides music to soothe your mind while you drive, or while you wait. The Spotify playlist can be accessed through the Jiffy Lube app via “Browse.”</p>
+                        <figure class="tall">
+                            <img src="/images/jiffyPlaylist.jpg" class="center" alt=A screenshot of a Spotify playlist.">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <h2>Deck</h2>';
+			break;
+		case "/work/citi.php":
+			$CURRENT_PAGE = "Citi";
+			$PAGE_TITLE = "Citi";
+			$PAGE_HEADER = "Citi";
+			$PAGE_DESC = "<b>The Problem:</b> Safety is one of our most basic needs, yet many feel home security systems are unnecessary.<br><br><b>The Big Idea:</b> Living life without Arlo’s advanced surveillance features is living life on the edge.";
+			$CONTENT = '
+                        <h2>Logo Design</h2>
+                        <figure class="wide">
+                            <img src="/images/padExplain.png" class="center" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <h2>Deck</h2>';
+			break;
 		case "/work/personal.php":
 			$CURRENT_PAGE = "Personal";
 			$PAGE_TITLE = "Personal Work";
@@ -258,8 +297,25 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="tall">
-                            <img src="/images/padExplain.png" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
+                            <img src="/images/padExplain.png" alt="A logo. It is of an airplane with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
                             <figcaption>Logo Design</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure class="tall">
+                            <video autoplay loop muted playsinline>
+                            <source src="/media/cactus.mp4">
+                            </video>
+                            <figcaption>AR Effect and 3D Model</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/relleno.jpg" alt="A 3D model of a cartoon cactus gently floats around potted succulents">
+                            <figcaption>Illustration</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/milkcartLogo.png" alt="A 3D model of a cartoon cactus gently floats around potted succulents">
+                            <figcaption>Logo</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>';
 			break;
