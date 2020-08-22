@@ -901,6 +901,7 @@ audio {
 /*}*/
 
 main.single {
+    display: grid;
     margin: 0 auto;
     background-color: #FEFAFB;
     padding: 1.5em;
