@@ -244,7 +244,9 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/jiffyPlaylist.png" class="center" alt=A screenshot of a Spotify playlist.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2>Deck</h2>';
+                        <h2 class="wide">Full Deck</h2>
+                        <iframe src="//www.slideshare.net/slideshow/embed_code/key/GoMWXY4mqs875c" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+                        ';
 			break;
 		case "/work/citi.php":
 			$CURRENT_PAGE = "Citi";
