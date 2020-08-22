@@ -224,7 +224,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "Jiffy Lube";
 			$PAGE_TITLE = "Jiffy Lube";
 			$PAGE_HEADER = "Jiffy Lube";
-			$PAGE_DESC = "<b>The Problem:</b>With anxiety on the rise, trusting a mechanic with you're prescious baby can feel like a leap of faith.<b>The Big Idea:</b>Don't worry Jiffy's got it.";
+			$PAGE_DESC = "<b>The Problem:</b> With anxiety on the rise, trusting a mechanic with you're prescious baby can feel like a leap of faith.<br><br><b> The Big Idea:</b>Don't worry Jiffy's got it.";
 			$CONTENT = '
                         <h2>Mobile App</h2>
                         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
@@ -241,7 +241,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <h2>Spotify Playlist</h2>
                         <p>Jiggy with Jiffy provides music to soothe your mind while you drive, or while you wait. The Spotify playlist can be accessed through the Jiffy Lube app via “Browse.”</p>
                         <figure class="tall">
-                            <img src="/images/jiffyPlaylist.jpg" class="center" alt=A screenshot of a Spotify playlist.">
+                            <img src="/images/jiffyPlaylist.png" class="center" alt=A screenshot of a Spotify playlist.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <h2>Deck</h2>';
@@ -301,16 +301,9 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Logo Design</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="tall">
-                            <video autoplay loop muted playsinline>
-                            <source src="/media/cactus.mp4">
-                            </video>
-                            <figcaption>AR Effect and 3D Model</figcaption>
-                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
                         <figure>
-                            <img src="/images/relleno.jpg" alt="A 3D model of a cartoon cactus gently floats around potted succulents">
-                            <figcaption>Illustration</figcaption>
+                            <img src="/images/cactus.jpg" alt="A 3D model of a cartoon cactus gently floats around potted succulents">
+                            <figcaption>3D Character</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure>
