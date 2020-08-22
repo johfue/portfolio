@@ -227,7 +227,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "<b>The Problem:</b> With anxiety on the rise, trusting a mechanic with you're prescious baby can feel like a leap of faith.<br><br><b> The Big Idea:</b>Don't worry Jiffy's got it.";
 			$CONTENT = '
                         <h2>Mobile App</h2>
-                        <iframe class="wide center" style="border: 1px solid rgba(0, 0, 0, 0.1); height: 1000;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
+                        <iframe class="wide center" style="border: 1px solid rgba(0, 0, 0, 0.1); height: 1000px;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
                         <p>Before scheduling an appointment, users can review their service history and pick their mechanic based off of user reviews.</p>
                         <figure>
                             <img src="/images/jiffyService.png" class="center" alt=A screenshot the schedule page of the app. A grid of services are displayed with a make appointment button at the bottom.">
