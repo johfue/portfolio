@@ -228,14 +228,14 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                         <h2>Mobile App</h2>
                         <iframe class="wide center" style="border: 1px solid rgba(0, 0, 0, 0.1); height: 1000px;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
-                        <p>Before scheduling an appointment, users can review their service history and pick their mechanic based off of user reviews.</p>
                         <figure>
                             <img src="/images/jiffyService.png" class="center" alt=A screenshot the schedule page of the app. A grid of services are displayed with a make appointment button at the bottom.">
+                            <figcaption>Before scheduling an appointment, users can review their service history and pick their mechanic based off of user reviews.</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <p>Users can keep tabs on all their family\'s vehicles, their mileage, and keep track of when they\'ll next need a tune up</p>
                         <figure>
                             <img src="/images/jiffyProfile.png" class="center" alt=A screenshot of a profile page of the app. The users information, prefered Jiffy location, and their registered vehicles are displayed">
+                            <figcaption>Users can keep tabs on all their family\'s vehicles, their mileage, and keep track of when they\'ll next need a tune up</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <h2 class="wide">Spotify Playlist</h2>
