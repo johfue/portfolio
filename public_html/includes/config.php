@@ -296,14 +296,14 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Photograph</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
+                        <figure class="wide">
+                            <img src="/images/cactus.jpg" alt="A 3D model of a cartoon cactus gently floats around potted succulents">
+                            <figcaption>3D Character</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
                         <figure class="tall">
                             <img src="/images/padExplain.png" alt="A logo. It is of an airplane with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
                             <figcaption>Logo Design</figcaption>
-                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure>
-                            <img src="/images/cactus.jpg" alt="A 3D model of a cartoon cactus gently floats around potted succulents">
-                            <figcaption>3D Character</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure>
