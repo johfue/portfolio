@@ -307,7 +307,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure>
-                            <img src="/images/milkcartLogo.png" alt="A 3D model of a cartoon cactus gently floats around potted succulents">
+                            <img src="/images/milkCartLogo.png" alt="A logo where the words milk and cart are stacked on top of each other. They are contained inside a rounded box. Inside the box milk sloshes to the side.">
                             <figcaption>Logo</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>';
