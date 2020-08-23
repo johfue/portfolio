@@ -719,7 +719,6 @@ main.work > img, main.work > video {
 
 .work figure figcaption + button {
     bottom: 3.5em;
-    left: 0;
     position: absolute;
 }
 
@@ -760,6 +759,8 @@ main.work article > img {
 
 .center {
     justify-self: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .Personal .tall {
