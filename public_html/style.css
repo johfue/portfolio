@@ -705,8 +705,9 @@ main.work > img, main.work > video {
 .work figure button, #close, main.Personal figure button {
     position: absolute;
     background-color: rgba(251, 233, 238, 0.2);
-    bottom: 3.5em;
+    bottom: 4.5em;
     right: 1.25em;
+    left: calc(100% - 5rem);
     border-radius: 50%;
     margin-top: 0;
     padding: 0;
@@ -716,10 +717,10 @@ main.work > img, main.work > video {
     -o-transition: 0.25s ease;
     transition: 0.25s ease;}
 
-.work figure button {
-    bottom: 4.5em;
-    left: calc(100% - 5rem);
-    position: relative;
+.work figure figcaption + button {
+    bottom: 3.5em;
+    left: 0;
+    position: absolute;
 }
 
 .gridSocial figure button {
