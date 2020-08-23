@@ -35,7 +35,7 @@
                 <img src="images/reiThumb.png" alt="REI Co-Op thumbnail">
             </figure>
         </a>
-        <a href="work/arlo">
+        <a href="work/jiffy">
             <figure>
                 <h3 class="zigzag">Jiffy Lube</h3>
                 <img src="images/jiffyThumb.png" alt="Jiffy Lube thumbnail">
