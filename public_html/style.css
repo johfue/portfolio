@@ -775,6 +775,10 @@ main.work article > img {
     grid-row: span 2;
 }
 
+.wide {
+    width: 100%;
+}
+
 @media (min-width:950px) {
     .medium {
         grid-row: span 2;
