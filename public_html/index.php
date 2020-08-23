@@ -35,16 +35,16 @@
                 <img src="images/reiThumb.png" alt="REI Co-Op thumbnail">
             </figure>
         </a>
+        <a href="work/arlo">
+            <figure>
+                <h3 class="zigzag">Jiffy Lube</h3>
+                <img src="images/jiffyThumb.png" alt="Jiffy Lube thumbnail">
+            </figure>
+        </a>
         <a href="work/proof">
                 <figure>
                 <h3 class="zigzag">PROOF Alcohol Ice Cream</h3>
-                <img src="images/proofThumb.png" alt="PROOF Alcohol Thumbnail thumbnail">
-            </figure>
-        </a>
-        <a href="work/arlo">
-            <figure>
-                <h3 class="zigzag">Arlo</h3>
-                <img src="images/arloThumb.png" alt="Arlo thumbnail">
+                <img src="images/proofThumb.png" alt="PROOF Alcohol Ice Cream thumbnail">
             </figure>
         </a>
         <a href="work/ldc/">
