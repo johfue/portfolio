@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php include("includes/header.php");?>
-    <main class="single">
+    <main class="single" style="text-align: left;">
         <h1>A new normal</h1>
 <br>
 <p>I wake up. I let my dog outside. He starts barking like a mad man as soon as he sees the neighbor dog. I bring home back inside. He takes his morning nap and I walk out the door headphones in ear.</p>
@@ -25,7 +25,7 @@
 
     </main>
     <br><br>
-    <main class="single">
+    <main class="single" style="text-align: left;">
         <h1>My secret</h1>
         <br>
         <p>My secret is that I did not find out about MAIP until about a week before the deadline, and the application for art director fellows was very intensive. But I found an alternative way in, applying as a creative technologist. Because here’s the thing about me, I’m an art director who’s really into web design. And not just that I’m a web designer who can code and thinks the way HTML and CSS natively work is really, really cool. I am a front-end developer. That sounds enough like a creative technologist to me, and MAIP seemed to agree.</p>
