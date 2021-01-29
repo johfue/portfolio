@@ -265,7 +265,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Spark Notes";
 			$PAGE_TITLE = "Spark Notes";
 			$PAGE_HEADER = "Spark Notes";
-			$PAGE_DESC = "<b>The Problem:</b> Alcohol ice cream is a new product category struggling to find its identity.<br><br><b>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
+			$PAGE_DESC = "<b>The Problem:</b> Sparknotes has a bad reputation for helping lazy students.<br><br><b>The Big Idea:</b> Show Sparknotes is here to help whoever wants to succeed by telling the word that dyslexics use Sparknotes becuase they work harder than anyone else.";
 			$CONTENT = '
                     <h2>VR Experience</h2>
                         <figure class="wide">
@@ -299,7 +299,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Play Loteria Online";
 			$PAGE_TITLE = "Loteria";
 			$PAGE_HEADER = "PlayLoteria.Online";
-			$PAGE_DESC = "<b>The Problem:</b> Alcohol ice cream is a new product category struggling to find its identity.<br><br><b>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
+			$PAGE_DESC = "<b>The Problem:</b> During the pandemci, somehow there did not exist a good online version of the mexican board game Loteria.<br><br><b>The Big Idea:</b> Create my own version, playable at <a href='playloteria.online'>playloteria.online</a>";
 			$CONTENT = '
                     <h2>Browser Game</h2>
                         <figure class="wide">
@@ -315,7 +315,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Final Straw";
 			$PAGE_TITLE = "Final Straw";
 			$PAGE_HEADER = "Final Straw";
-			$PAGE_DESC = "<b>The Problem:</b>  is a new category struggling to find its identity.<br><br><b>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
+			$PAGE_DESC = "<b>About:</b>Final Straw produces reusable metal straws that fold up and can be carried on your keychain.";
 			$CONTENT = '
                     <h2>:30 Second Spot</h2>
                         <figure class="wide">
