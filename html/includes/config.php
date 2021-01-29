@@ -315,7 +315,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Final Straw";
 			$PAGE_TITLE = "Final Straw";
 			$PAGE_HEADER = "Final Straw";
-			$PAGE_DESC = "<b>About:</b>Final Straw produces reusable metal straws that fold up and can be carried on your keychain.";
+			$PAGE_DESC = "<b>About:</b> Final Straw produces reusable metal straws that fold up and can be carried on your keychain.";
 			$CONTENT = '
                     <h2>:30 Second Spot</h2>
                         <figure class="wide">
