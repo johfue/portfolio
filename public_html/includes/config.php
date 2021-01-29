@@ -338,7 +338,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "Personal";
 			$PAGE_TITLE = "Personal Work";
 			$PAGE_HEADER = "Personal Work";
-			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could afford real magnets.";
+			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could color printing.";
 			$CONTENT = '
 			            <b></b>
                         <figure class="wide">
