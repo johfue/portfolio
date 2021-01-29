@@ -22,7 +22,24 @@
                 </nav>
             </section>
         </header>
-
+        <a href="work/sparknotes">
+            <figure>
+                <h3 class="zigzag">Sparknotes</h3>
+                <img src="images/sparkThumb.png" alt="Sparknotes thumbnail">
+            </figure>
+        </a>
+        <a href="work/finalstraw">
+            <figure>
+                <h3 class="zigzag">Final Straw</h3>
+                <img src="images/finalThumb.png" alt="Final Straw thumbnail">
+            </figure>
+        </a>
+        <a href="work/loteria">
+            <figure>
+                <h3 class="zigzag">Play Loteria Online</h3>
+                <img src="images/loteriaThumb.png" alt="Loteria thumbnail">
+            </figure>
+        </a>
         <a href="work/laso">
             <figure>
                 <h3 class="zigzag">Latin American Student Organization</h3>
@@ -47,7 +64,7 @@
                 <img src="images/proofThumb.png" alt="PROOF Alcohol Ice Cream thumbnail">
             </figure>
         </a>
-        <a href="work/ldc/">
+        <a href="work/ldc">
             <figure>
                 <h3 class="zigzag">Latin Dance Club</h3>
                 <img src="images/ldcThumb.png" alt="Latin Dance Club thumbnail">

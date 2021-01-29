@@ -261,6 +261,79 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         </figure>
                         <h2>Deck</h2>';
 			break;
+	   case "/work/sparknotes.php":
+            $CURRENT_PAGE = "Spark Notes";
+			$PAGE_TITLE = "Spark Notes";
+			$PAGE_HEADER = "Spark Notes";
+			$PAGE_DESC = "<b>The Problem:</b> Alcohol ice cream is a new product category struggling to find its identity.<br><br><b>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
+			$CONTENT = '
+                    <h2>VR Experience</h2>
+                        <figure class="wide">
+                            <img src="/images/sparknotes1.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <figure class="wide">
+                            <img src="/images/sparknotes2.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                       <figure class="wide">
+                            <img src="/images/sparknotes3.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                    <h2>Out-of-home</h2>
+                        <figure class="wide">
+                            <img src="/images/sparknotes4.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <figure class="wide">
+                            <img src="/images/sparknotes5.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                    <h2>Interactive</h2>
+                        <figure class="tall">
+                            <img src="/images/sparknotes6.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>';
+			break;
+		case "/work/loteria.php":
+            $CURRENT_PAGE = "Play Loteria Online";
+			$PAGE_TITLE = "Loteria";
+			$PAGE_HEADER = "PlayLoteria.Online";
+			$PAGE_DESC = "<b>The Problem:</b> Alcohol ice cream is a new product category struggling to find its identity.<br><br><b>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
+			$CONTENT = '
+                    <h2>Browser Game</h2>
+                        <figure class="wide">
+                            <img src="/images/loteriaDesktop.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <figure class="wide">
+                            <img src="/images/loteriaPhone.jpg" class="center" alt="A print magazine ad. The headline reads &quot;Your secrets are safe with the spoon.&quot;">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>';
+			break;
+		 case "/work/finalstraw.php":
+            $CURRENT_PAGE = "Final Straw";
+			$PAGE_TITLE = "Final Straw";
+			$PAGE_HEADER = "Final Straw";
+			$PAGE_DESC = "<b>The Problem:</b> Alcohol ice cream is a new product category struggling to find its identity.<br><br><b>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
+			$CONTENT = '
+                    <h2>:30 Second Spot</h2>
+                        <figure class="wide">
+                            <video playsinline>
+                            <source src="/media/finalStraw.mp4">
+                            Alt texts
+                            </video>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                    <h2>Logo Animation</h2>
+                        <figure class="wide">
+                            <video autoplay loop muted playsinline>
+                            <source src="/media/finalStrawLogo.mp4">
+                            Alt texts
+                            </video>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>';
+			break;
 		case "/work/personal.php":
 			$CURRENT_PAGE = "Personal";
 			$PAGE_TITLE = "Personal Work";
