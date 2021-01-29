@@ -269,29 +269,29 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                     <h2>VR Experience</h2>
                         <figure class="wide">
-                            <img src="/images/sparknotes1.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes1.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="wide">
-                            <img src="/images/sparknotes2.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes2.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                        <figure class="wide">
-                            <img src="/images/sparknotes3.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes3.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                     <h2>Out-of-home</h2>
                         <figure class="wide">
-                            <img src="/images/sparknotes4.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes4.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="wide">
-                            <img src="/images/sparknotes5.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes5.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                     <h2>Interactive</h2>
                         <figure class="tall">
-                            <img src="/images/sparknotes6.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes6.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
 			break;
@@ -328,7 +328,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                     <h2>Logo Animation</h2>
                         <figure class="wide">
                             <video autoplay loop muted playsinline>
-                            <source src="/media/finalStrawLogo.mp4">
+                            <source src="/media/finalStrawLogo.mov">
                             Alt texts
                             </video>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
