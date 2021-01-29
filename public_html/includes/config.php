@@ -315,7 +315,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Final Straw";
 			$PAGE_TITLE = "Final Straw";
 			$PAGE_HEADER = "Final Straw";
-			$PAGE_DESC = "<b>The Problem:</b>  ice cream is a new product category struggling to find its identity.<br><br><b>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
+			$PAGE_DESC = "<b>The Problem:</b>  cream is a new product category struggling to find its identity.<br><br><b>The Big Idea:</b> While others treat their product with a nervous juvenile excitement, PROOF understands the allure of alcohol ice creams mature, almost illicit, appeal.";
 			$CONTENT = '
                     <h2>:30 Second Spot</h2>
                         <figure class="wide">
