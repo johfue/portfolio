@@ -317,11 +317,9 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Final Straw";
 			$PAGE_DESC = "<b>About:</b> Final Straw is a reusable metal straw that fits in a neat carrying case that clips on to your keychain. For this project we were able to play with far fancier equipment than I have ever touched before to produce a 30 second TV spot.";
 			$CONTENT = '
-                    <h2>:30 Second Spot</h2>
-                        <figure class="wide">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h2 class="wide">:30 Second TV Spot</h2>
+                            <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
                     <h2>Logo Animation</h2>
                         <figure class="wide">
                             <video autoplay loop muted playsinline>
