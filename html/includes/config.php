@@ -299,7 +299,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Play Loteria Online";
 			$PAGE_TITLE = "Loteria";
 			$PAGE_HEADER = "PlayLoteria.Online";
-			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game Loteria. Google made a good attempt but too much of it was automated. The funnest part,drawing the cards, was done by a robot, and even worse, the game didn't allow you to cheat.<br><br><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <a href='playloteria.online' target='_blank'> playloteria.onlilne' . $external . '</a>";
+			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game Loteria. Google made a good attempt but too much of it was automated. The funnest part, drawing the cards, was done by a robot, and even worse, the game doesn't allow you to cheat.<br><br><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <a href='https://playloteria.online' target='_blank'> playloteria.onlilne" . $external . "</a>";
 			$CONTENT = '
                     <h2>Browser Game</h2>
                         <figure class="wide">
@@ -328,7 +328,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                     <h2>Logo Animation</h2>
                         <figure class="wide">
                             <video autoplay loop muted playsinline>
-                            <source src="/media/finalStrawLogo.mov">
+                            <source src="/media/finalStrawLogo.mp4">
                             Alt texts
                             </video>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
