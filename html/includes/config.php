@@ -262,10 +262,10 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <h2>Deck</h2>';
 			break;
 	   case "/work/sparknotes.php":
-            $CURRENT_PAGE = "Spark Notes";
-			$PAGE_TITLE = "Spark Notes";
-			$PAGE_HEADER = "Spark Notes";
-			$PAGE_DESC = "<b>The Problem:</b> Sparknotes has a bad reputation for helping lazy students.<br><br><b>The Big Idea:</b> Show Sparknotes is here to help whoever wants to succeed by telling the word that dyslexics use Sparknotes becuase they work harder than anyone else.";
+            $CURRENT_PAGE = "SparkNotes";
+			$PAGE_TITLE = "SparkNotes";
+			$PAGE_HEADER = "SparkNotes";
+			$PAGE_DESC = "<b>The Problem:</b> People who use SparkNotes get a bad rap, when more often then not they're just not getting the support they need. People with dyslexia know this too well.<br><br><b>The Big Idea:</b> Use VR to educate students and teachers about the frustration and anxiety that push people with dyslexia to use SparkNotes.";
 			$CONTENT = '
                     <h2>VR Experience</h2>
                         <figure class="wide">
@@ -290,7 +290,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                     <h2>Interactive</h2>
-                        <figure class="tall">
+                        <figure class="wide">
                             <img src="/images/sparknotes6.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
@@ -299,7 +299,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Play Loteria Online";
 			$PAGE_TITLE = "Loteria";
 			$PAGE_HEADER = "PlayLoteria.Online";
-			$PAGE_DESC = "<b>The Problem:</b> During the pandemci, somehow there did not exist a good online version of the mexican board game Loteria.<br><br><b>The Big Idea:</b> Create my own version, playable at <a href='playloteria.online'>playloteria.online</a>";
+			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game Loteria. Google made a good attempt but too much of it was automated. The funnest part,drawing the cards, was done by a robot, and even worse, the game didn't allow you to cheat.<br><br><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <a href='playloteria.online' target='_blank'> playloteria.onlilne' . $external . '</a>";
 			$CONTENT = '
                     <h2>Browser Game</h2>
                         <figure class="wide">
@@ -315,7 +315,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Final Straw";
 			$PAGE_TITLE = "Final Straw";
 			$PAGE_HEADER = "Final Straw";
-			$PAGE_DESC = "<b>About:</b> Final Straw produces reusable metal straws that fold up and can be carried on your keychain.";
+			$PAGE_DESC = "<b>About:</b> Final Straw is a reusable metal straw that fits in a neat carrying case that clips on to your keychain. For this project we were able to play with far fancier equipment than I have ever touched before to produce a 30 second TV spot.";
 			$CONTENT = '
                     <h2>:30 Second Spot</h2>
                         <figure class="wide">

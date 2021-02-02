@@ -24,32 +24,8 @@
         </header>
         <a href="work/sparknotes">
             <figure>
-                <h3 class="zigzag">Sparknotes</h3>
+                <h3 class="zigzag">SparkNotes</h3>
                 <img src="images/sparkThumb.png" alt="Sparknotes thumbnail">
-            </figure>
-        </a>
-        <a href="work/finalstraw">
-            <figure>
-                <h3 class="zigzag">Final Straw</h3>
-                <img src="images/finalThumb.png" alt="Final Straw thumbnail">
-            </figure>
-        </a>
-        <a href="work/loteria">
-            <figure>
-                <h3 class="zigzag">Play Loteria Online</h3>
-                <img src="images/loteriaThumb.png" alt="Loteria thumbnail">
-            </figure>
-        </a>
-        <a href="work/laso">
-            <figure>
-                <h3 class="zigzag">Latin American Student Organization</h3>
-                <img src="images/lasoThumb.png" alt="LASO thumbnail">
-            </figure>
-        </a>
-        <a href="work/rei">
-            <figure>
-                <h3 class="zigzag">REI Co-Op</h3>
-                <img src="images/reiThumb.png" alt="REI Co-Op thumbnail">
             </figure>
         </a>
         <a href="work/jiffy">
@@ -58,10 +34,34 @@
                 <img src="images/jiffyThumb.png" alt="Jiffy Lube thumbnail">
             </figure>
         </a>
+        <a href="work/loteria">
+            <figure>
+                <h3 class="zigzag">Play Loteria Online</h3>
+                <img src="images/loteriaThumb.png" alt="Loteria thumbnail">
+            </figure>
+        </a>
+        <a href="work/finalstraw">
+            <figure>
+                <h3 class="zigzag">Final Straw</h3>
+                <img src="images/finalThumb.png" alt="Final Straw thumbnail">
+            </figure>
+        </a>
+        <a href="work/laso">
+            <figure>
+                <h3 class="zigzag">Latin American Student Organization</h3>
+                <img src="images/lasoThumb.png" alt="LASO thumbnail">
+            </figure>
+        </a>
         <a href="work/proof">
                 <figure>
                 <h3 class="zigzag">PROOF Alcohol Ice Cream</h3>
                 <img src="images/proofThumb.png" alt="PROOF Alcohol Ice Cream thumbnail">
+            </figure>
+        </a>
+        <a href="work/rei">
+            <figure>
+                <h3 class="zigzag">REI Co-Op</h3>
+                <img src="images/reiThumb.png" alt="REI Co-Op thumbnail">
             </figure>
         </a>
         <a href="work/ldc">

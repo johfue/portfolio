@@ -475,7 +475,7 @@ footer {
 @media(min-width:1080px) {
     .grid {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(2, minmax(120px, 21vh)) repeat(7,21vh);
+        grid-template-rows: repeat(2, minmax(120px, 21vh)) repeat(10,21vh);
         grid-gap: 4em
     }
     #top {
@@ -549,6 +549,10 @@ main.work h2 + p {
 
 header.work p {
     padding-top: 1em;
+}
+
+.work a {
+    color: #e64169;
 }
 
 main.work {
