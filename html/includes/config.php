@@ -319,10 +319,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                     <h2>:30 Second Spot</h2>
                         <figure class="wide">
-                            <video playsinline>
-                            <source src="/media/finalStraw.mp4">
-                            Alt texts
-                            </video>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                     <h2>Logo Animation</h2>
