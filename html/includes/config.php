@@ -319,7 +319,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                     <h2 class="wide">:30 Second TV Spot</h2>
                             <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                     <h2>Logo Animation</h2>
                         <figure class="wide">
                             <video autoplay loop muted playsinline>
