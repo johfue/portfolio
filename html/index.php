@@ -52,24 +52,6 @@
                 <img src="images/lasoThumb.png" alt="LASO thumbnail">
             </figure>
         </a>
-        <a href="work/proof">
-                <figure>
-                <h3 class="zigzag">PROOF Alcohol Ice Cream</h3>
-                <img src="images/proofThumb.png" alt="PROOF Alcohol Ice Cream thumbnail">
-            </figure>
-        </a>
-        <a href="work/rei">
-            <figure>
-                <h3 class="zigzag">REI Co-Op</h3>
-                <img src="images/reiThumb.png" alt="REI Co-Op thumbnail">
-            </figure>
-        </a>
-        <a href="work/ldc">
-            <figure>
-                <h3 class="zigzag">Latin Dance Club</h3>
-                <img src="images/ldcThumb.png" alt="Latin Dance Club thumbnail">
-            </figure>
-        </a>
         <a href="work/personal">
             <figure>
                 <h3 class="zigzag">Personal Work</h3>

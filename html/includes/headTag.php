@@ -13,12 +13,16 @@
     <meta name="theme-color" content="#092543">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140015611-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-140015611-1');
+    <script type="text/javascript">
+        if (document.location.hostname.search("johnathonfuerte.com") !== -1) {
+        
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'G-8Y8G3KYLR9');
+        }
     </script>
+
 
     

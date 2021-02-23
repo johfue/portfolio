@@ -429,8 +429,8 @@ footer {
         padding: 5%;
         padding: 5vw;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(2, -webkit-min-content) repeat(11,21vh);
-        grid-template-rows: repeat(2, min-content) repeat(11,21vh);
+        grid-template-rows: repeat(2, -webkit-min-content) repeat(8,21vh);
+        grid-template-rows: repeat(2, min-content) repeat(8,21vh);
     }
     header.home {
         grid-column: span 2;
