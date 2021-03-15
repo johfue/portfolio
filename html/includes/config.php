@@ -361,23 +361,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <source src="/media/voltorb.mp4">
                             A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model
                             </video>
-                            <figcaption>AR Illustration</figcaption>
-                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure class="tall">
-                            <video autoplay loop muted playsinline>
-                            <source src="/media/worms.mp4">
-                            A face filter that places animated worms on the users palm as well as two larger worms coming out of their eyes. The filter also turns the user black and white
-                            </video>
-                            <figcaption>AR Illustration</figcaption>
-                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure class="tall">
-                            <video autoplay loop muted playsinline>
-                            <source src="/media/voltorbPan.mp4">
-                            A trading card of the Animal Crossing Villager Dotty where the artwork has been replaced by a 3D model. Dotty cycles between greating the viewer and being astonished.
-                            </video>
-                            <figcaption>AR Illustration</figcaption>
+                            <figcaption>AR Effect</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="wide">
@@ -387,22 +371,30 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         </figure>
                         <figure class="wide">
                             <img src="/images/cactus.jpg" alt="A 3D model of a rather dashing cartoon cactus in a space suit.">
-                            <figcaption>3D Character</figcaption>
+                            <figcaption>3D Render</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="tall">
+                            <video autoplay loop muted playsinline>
+                            <source src="/media/voltorbPan.mp4">
+                            A trading card of the Animal Crossing Villager Dotty where the artwork has been replaced by a 3D model. Dotty cycles between greating the viewer and being astonished.
+                            </video>
+                            <figcaption>3D Render</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>                        
+                        <figure class="tall">
                             <img src="/images/padExplain.png" alt="A logo. It is of an airplane with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
-                            <figcaption>Logo Design</figcaption>
+                            <figcaption>Logo design</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                       <figure class="tall">
                             <img src="/images/sink.jpg" alt="Three photos. The first is a spoon under a faucet. The second is water hitting a smallg glass cup. The third is water bubbling and overflowing from a measuring cup. All three photos are dimly light.">
-                            <figcaption>Logo Design</figcaption>
+                            <figcaption>Photographs</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure>
                             <img src="/images/milkCartLogo.png" alt="A logo where the words milk and cart are stacked on top of each other. They are contained inside a rounded box. Inside the box milk sloshes to the side.">
-                            <figcaption>Logo Design</figcaption>
+                            <figcaption>Logo design</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>';
 			break;
