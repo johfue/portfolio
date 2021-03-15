@@ -225,7 +225,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "Jiffy Lube";
 			$PAGE_TITLE = "Jiffy Lube";
 			$PAGE_HEADER = "Jiffy Lube";
-			$PAGE_DESC = "<b>The Problem:</b> With anxiety on the rise, trusting a mechanic with your precious baby can feel like a leap of faith.<br><br><b> The Big Idea:</b> With Jiffy's history of innovation you don't have to worry. Jiffy's got it.";
+			$PAGE_DESC = "<b>The Problem:<b/> Anxiety is on the rise among Millenials. Many are living far from their family who they used to rely on for car knowledge. With their car being one of their most important possessions, trusting a mechanic can feel like a leap of faith.<br><br><b>The Big Idea:<b/> Create an app that brings as much transparency to table as possible.";
 			$CONTENT = '
                         <h2>Mobile App</h2>
                         <iframe class="wide center" style="border: 1px solid rgba(0, 0, 0, 0.1); height: 1000px;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
@@ -271,29 +271,29 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                     <h2>VR Experience</h2>
                         <figure class="wide">
-                            <img src="/images/sparknotes1.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes1.png" class="center" alt="Virtual Reality">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="wide">
-                            <img src="/images/sparknotes2.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes2.png" class="center" alt="Virtual Reality">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                        <figure class="wide">
-                            <img src="/images/sparknotes3.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes3.png" class="center" alt="Virtual Reality">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                     <h2>Out-of-home</h2>
                         <figure class="wide">
-                            <img src="/images/sparknotes4.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes4.png" class="center" alt="Out of home">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="wide">
-                            <img src="/images/sparknotes5.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes5.png" class="center" alt="Out of home">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                     <h2>Interactive</h2>
                         <figure class="wide">
-                            <img src="/images/sparknotes6.png" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/sparknotes6.png" class="center" alt="Website">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
 			break;
@@ -305,11 +305,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                     <h2>Browser Game</h2>
                         <figure class="wide">
-                            <img src="/images/loteriaDesktop.jpg" class="center" alt="A print magazine ad. The headline reads &quot;We won\'t judge what happens after the last the bite.&quot;">
+                            <img src="/images/loteriaDesktop.jpg" class="center" alt="A desktop mockup of the game. The player has several beans placed on their board. The current card is La Rosa and there are four other people playing.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="wide">
-                            <img src="/images/loteriaPhone.jpg" class="center" alt="A print magazine ad. The headline reads &quot;Your secrets are safe with the spoon.&quot;">
+                            <img src="/images/loteriaPhone.jpg" class="center" alt="A mobile mock-up of the game. The host has just drawn La Rosa and there are several other players in their game.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
 			break;
@@ -336,7 +336,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "Personal";
 			$PAGE_TITLE = "Personal Work";
 			$PAGE_HEADER = "Personal Work";
-			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could color printing.";
+			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could afford color printing.";
 			$CONTENT = '
 			            <b></b>
                         <figure class="wide">
@@ -364,18 +364,39 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>AR Illustration</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
+                        <figure class="tall">
+                            <video autoplay loop muted playsinline>
+                            <source src="/media/worms.mp4">
+                            A face filter that places animated worms on the users palm as well as two larger worms coming out of their eyes. The filter also turns the user black and white
+                            </video>
+                            <figcaption>AR Illustration</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure class="tall">
+                            <video autoplay loop muted playsinline>
+                            <source src="/media/voltorbPan.mp4">
+                            A trading card of the Animal Crossing Villager Dotty where the artwork has been replaced by a 3D model. Dotty cycles between greating the viewer and being astonished.
+                            </video>
+                            <figcaption>AR Illustration</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
                         <figure class="wide">
                             <img src="/images/marbles.jpg" alt="Marbles in the desert">
                             <figcaption>Photograph</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="wide">
-                            <img src="/images/cactus.jpg" alt="A 3D model of a cartoon cactus gently floats around potted succulents">
+                            <img src="/images/cactus.jpg" alt="A 3D model of a rather dashing cartoon cactus in a space suit.">
                             <figcaption>3D Character</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="tall">
                             <img src="/images/padExplain.png" alt="A logo. It is of an airplane with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
+                            <figcaption>Logo Design</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                      <figure class="tall">
+                            <img src="/images/sink.jpg" alt="Three photos. The first is a spoon under a faucet. The second is water hitting a smallg glass cup. The third is water bubbling and overflowing from a measuring cup. All three photos are dimly light.">
                             <figcaption>Logo Design</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
