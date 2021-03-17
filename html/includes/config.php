@@ -348,7 +348,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <video autoplay loop muted playsinline>
                             <source src="/media/syrinj.mp4">
                             </video>
-                            <figcaption>Parody Website <a href="http://syrinj.com" target="_blank">' . $external . '</a></figcaption>
+                            <figcaption><a href="http://syrinj.com" target="_blank">Parody Website' . $external . '</a></figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="tall">
@@ -358,12 +358,12 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         </figure>
                         <figure class="tall">
                             <video autoplay loop muted playsinline>
-                            <source src="/media/voltorb.mp4">
-                            A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model
+                            <source src="/media/dotty.mp4">
+                            A trading card of the Animal Crossing villager Dotty where the artowkr has been replaced by a 3D scene using AR. Dotty bobs in place, greets the viewer, and acts suprised.
                             </video>
                             <figcaption>AR Effect</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
+                        </figure>                        
                         <figure class="wide">
                             <img src="/images/marbles.jpg" alt="Marbles in the desert">
                             <figcaption>Photograph</figcaption>
@@ -395,6 +395,22 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <figure>
                             <img src="/images/milkCartLogo.png" alt="A logo where the words milk and cart are stacked on top of each other. They are contained inside a rounded box. Inside the box milk sloshes to the side.">
                             <figcaption>Logo design</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure class="tall">
+                            <video autoplay loop muted playsinline>
+                            <source src="/media/voltorb.mp4">
+                            A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model
+                            </video>
+                            <figcaption>AR Effect</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure class="tall">
+                            <video autoplay loop muted playsinline>
+                            <source src="/media/worms.mp4">
+                            An AR face effect where two largs tentacles wiggle out from your eyeballs. Several more smaller tentacles wiggle out from your palm. The video is black and white.
+                            </video>
+                            <figcaption>AR Effect</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>';
 			break;

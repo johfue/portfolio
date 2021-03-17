@@ -551,7 +551,7 @@ header.work p {
     padding-top: 1em;
 }
 
-.work a {
+#modalCaption a, .work a {
     color: #e64169;
 }
 
