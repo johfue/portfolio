@@ -225,7 +225,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "Jiffy Lube";
 			$PAGE_TITLE = "Jiffy Lube";
 			$PAGE_HEADER = "Jiffy Lube";
-			$PAGE_DESC = "<b>The Problem:<b/> Anxiety is on the rise among Millenials. Many are living far from their family who they used to rely on for car knowledge. With their car being one of their most important possessions, trusting a mechanic can feel like a leap of faith.<br><br><b>The Big Idea:<b/> Create an app that brings as much transparency to table as possible.";
+			$PAGE_DESC = "<b>The Problem:</b> Anxiety is on the rise among Millenials. Many are living far from their family who they used to rely on for car knowledge. With their car being one of their most important possessions, trusting a mechanic can feel like a leap of faith.<br><br><b>The Big Idea:</b> Create an app that brings as much transparency to table as possible.";
 			$CONTENT = '
                         <h2>Mobile App</h2>
                         <iframe class="wide center" style="border: 1px solid rgba(0, 0, 0, 0.1); height: 1000px;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
@@ -254,14 +254,34 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "Citi";
 			$PAGE_TITLE = "Citi";
 			$PAGE_HEADER = "Citi";
-			$PAGE_DESC = "<b>The Problem:</b> Safety is one of our most basic needs, yet many feel home security systems are unnecessary.<br><br><b>The Big Idea:</b> Living life without Arlo’s advanced surveillance features is living life on the edge.";
+			$PAGE_DESC = "<b>The Problem:</b> Citi wants to demonstrate their commitment to driving an equitable recovery for working women following the pandemic.<br><br><b>The Big Idea:</b> Create a platform that connects working women and gives them the tools to succeed financially because knowledge is power and community builds confidence.";
 			$CONTENT = '
-                        <h2>Logo Design</h2>
-                        <figure class="wide">
-                            <img src="/images/padExplain.png" class="center" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
+                        <h2>Women\'s Financial League</h2>
+                        <p>The WFL is a learning community that uses gamification to teach financial literacy. Users will join one of two teams and compete against each other to achieve weekly goals. Megan Rapinoe of the US Women\'s Soccer Team will serve as spokesperson for the league.</p>
+                        <figure>
+                            <img src="/images/citiWFL.jpg" class="center" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2>Deck</h2>';
+                        <figure class="wide">
+                            <img src="/images/citiMock.jpg" class="center" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background.">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>                                               
+                        <figure>
+                            <img src="/images/citiQuiz.jpg" class="center" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background.">
+                            <figcaption>The learning platform features quizzes for each unit to help with knowledge retention. Users are also encouraged to review past material.</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/citiSwag.jpg" class="center" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background.">
+                            <figcaption>Winners of the weekly challenges can earn swag and prizes.</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>                        
+                        <h2>Live Events</h2>                        
+                        <p>Competitors who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills. Competitors will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers.</p>
+                        <figure>
+                            <img src="/images/citiFlyer.jpg" class="center" alt="A poster featuring a women looking bravely forward. She looks confident and poweful. Energy spins around her. At the top of the post reads: The Other Side of the Coin, The WFL’s first speaker series peels back what it takes to make your own seat at the table. Listen to leading women tell their story and network with others on the rise. Followed by the dates and locations and a link to RSVP">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                    </figure>';
 			break;
 	   case "/work/sparknotes.php":
             $CURRENT_PAGE = "SparkNotes";

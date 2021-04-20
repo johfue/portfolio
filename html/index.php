@@ -18,6 +18,7 @@
                     <ul>
                         <li><a href="/about" class="zigzag">About Me</a></li>
                         <li><a href="/contact" class="zigzag">Contact</a></li>
+                        <li><a href="/work/personal" class="zigzag">For Fun</a></li>
                     </ul>
                 </nav>
             </section>
@@ -28,10 +29,10 @@
                 <img src="images/sparkThumb.png" alt="Sparknotes thumbnail">
             </figure>
         </a>
-        <a href="work/jiffy">
+        <a href="work/citi">
             <figure>
-                <h3 class="zigzag">Jiffy Lube</h3>
-                <img src="images/jiffyThumb.png" alt="Jiffy Lube thumbnail">
+                <h3 class="zigzag">Citi</h3>
+                <img src="images/citiThumb.png" alt="Citi thumbnail">
             </figure>
         </a>
         <a href="work/loteria">
@@ -46,16 +47,16 @@
                 <img src="images/finalThumb.png" alt="Final Straw thumbnail">
             </figure>
         </a>
+        <a href="work/jiffy">
+            <figure>
+                <h3 class="zigzag">Jiffy Lube</h3>
+                <img src="images/jiffyThumb.png" alt="Jiffy Lube thumbnail">
+            </figure>
+        </a>        
         <a href="work/laso">
             <figure>
                 <h3 class="zigzag">Latin American Student Organization</h3>
                 <img src="images/lasoThumb.png" alt="LASO thumbnail">
-            </figure>
-        </a>
-        <a href="work/personal">
-            <figure>
-                <h3 class="zigzag">Personal Work</h3>
-                <img src="images/personalThumb.png" alt="Peronsal Work thumbnail">
             </figure>
         </a>
         <footer>

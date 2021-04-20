@@ -3,6 +3,7 @@
         <ul>
             <li><a href="/about">About Me</a></li>
             <li><a href="/contact">Contact</a></li>
+            <li><a href="/work/personal">For Fun</a></li>
         </ul>
     </nav>
     <b class="small"></b>
