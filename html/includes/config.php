@@ -280,11 +280,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>                        
                         <h2 class="wide>Live Events</h2>                        
-                        <p>Competitors who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills. Competitors will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers.</p>
+                        <p>Competitors who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills. Competitors will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers."</p>
                         <figure>
                             <img src="/images/citiFlyer.jpg" class="center" alt="A poster featuring a women looking bravely forward. She looks confident and poweful. Energy spins around her. At the top of the post reads: The Other Side of the Coin, The WFL’s first speaker series peels back what it takes to make your own seat at the table. Listen to leading women tell their story and network with others on the rise. Followed by the dates and locations and a link to RSVP">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                    </figure>
+                        </figure>
                     <p class="wide center">Role / Creative Technologist<br><br>AD / Sydia Fraguada<br>AD / Andres Urdaneta<br>Media / Barron Coleman<br>Strategist / Micha Lewis<br>Strategist / Dallas Watkins</p>';
 			break;
 	   case "/work/sparknotes.php":
@@ -427,11 +427,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model
                             </video>
                             <figcaption>AR Effect</figcaption>
-                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure>
-                            <img src="/images/latinDance.png" alt="A collection of six instagram posts. The post feature couples dancing against a white background. The dancers are colored orange and yellow. Each post has a lighthearted caption.">
-                            <figcaption>Social Media Posts</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="tall">
