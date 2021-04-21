@@ -137,10 +137,6 @@ p, li {
     font-size: 1.2em;
 }
 
-h2 + p {
-    padding: ;
-}
-
 figcaption {
     font-family: Lato-Light;
     text-align: center;
@@ -395,7 +391,6 @@ b.home {
         transform: translate3d(-50%, 50%, 0);
         }
     }
-}
 
 nav {
     grid-column: 1;
@@ -878,6 +873,9 @@ main.work article > img {
     max-width: 80vw;
 }
 
+iframe {
+    grid-column: span 2;
+}
 
 audio {
     margin-left: 4rem;
@@ -1246,7 +1244,7 @@ main.double button[type=submit]:hover .inactive {
     background-color: rgba(251, 233, 238, 0.2);
     -webkit-transition: 0.25s ease;
     -o-transition: 0.25s ease;
-    transition: 0.25s ease;}
+    transition: 0.25s ease;
 }
 
 

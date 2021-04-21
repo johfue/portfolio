@@ -18,7 +18,7 @@
                     <ul>
                         <li><a href="/about" class="zigzag">About Me</a></li>
                         <li><a href="/contact" class="zigzag">Contact</a></li>
-                        <li><a href="/work/personal" class="zigzag">For Fun</a></li>
+                        <li><a href="/work/personal" class="zigzag">Fun</a></li>
                     </ul>
                 </nav>
             </section>

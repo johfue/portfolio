@@ -254,34 +254,38 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "Citi";
 			$PAGE_TITLE = "Citi";
 			$PAGE_HEADER = "Citi";
-			$PAGE_DESC = "<b>The Problem:</b> Citi wants to demonstrate their commitment to driving an equitable recovery for working women following the pandemic.<br><br><b>The Big Idea:</b> Create a platform that connects working women and gives them the tools to succeed financially because knowledge is power and community builds confidence.";
+			$PAGE_DESC = "<b>The Problem:</b> Citi wants to demonstrate their commitment to driving an equitable recovery for working women following the pandemic.<br><br><b>The Big Idea:</b> Create a platform that connects working women and gives them the tools to succeed financially, because knowledge is power and community builds confidence.";
 			$CONTENT = '
-                        <h2>Women\'s Financial League</h2>
+                        <h2 class="wide">Women\'s Financial League</h2>
                         <p>The WFL is a learning community that uses gamification to teach financial literacy. Users will join one of two teams and compete against each other to achieve weekly goals. Megan Rapinoe of the US Women\'s Soccer Team will serve as spokesperson for the league.</p>
                         <figure>
                             <img src="/images/citiWFL.jpg" class="center" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="wide">
-                            <img src="/images/citiMock.jpg" class="center" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background.">
+                            <img src="/images/citiMock.jpg" class="center" alt="A screenshot of an example video lesson mocked-up on a macbook. There is a sidebar outlining the different lessons and is divded into different units and inididual lessons. The video player is ready to be played, below it is a summary of the video\'s content. The example lesson is about credit and credit cards.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>                                               
                         <figure>
-                            <img src="/images/citiQuiz.jpg" class="center" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background.">
-                            <figcaption>The learning platform features quizzes for each unit to help with knowledge retention. Users are also encouraged to review past material.</figcaption>
+                            <img src="/images/citiQuiz.jpg" class="center" alt="A screenshot showing a quiz in progress. It has the same layout as the example lesson, except in place of a video there is a series of multiple choice questions.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure>
-                            <img src="/images/citiSwag.jpg" class="center" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background.">
-                            <figcaption>Winners of the weekly challenges can earn swag and prizes.</figcaption>
+                            <img src="/images/citiHub.jpg" class="center" alt="A screenshot showing the dashboard of the learning platform. There is a navigation bar and three major sections. One shows the six weekly lessons, another shows a line graph tracking the users experience points over the week. The third displays a leaderboard and how the two teams are comparing to each other on three different metrics.">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <figure class="wide">
+                            <img src="/images/citiSwag.jpg" class="center" alt="Three prizes that can be won. One is a teal reusable water bottle, another is an orange tank top and the third is a planner. All three branded with the leagues energy swirls and colors.">
+                            <figcaption>Winners of the weekly challenges can earn swag and prizes for their team.</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>                        
-                        <h2>Live Events</h2>                        
+                        <h2 class="wide>Live Events</h2>                        
                         <p>Competitors who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills. Competitors will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers.</p>
                         <figure>
                             <img src="/images/citiFlyer.jpg" class="center" alt="A poster featuring a women looking bravely forward. She looks confident and poweful. Energy spins around her. At the top of the post reads: The Other Side of the Coin, The WFL’s first speaker series peels back what it takes to make your own seat at the table. Listen to leading women tell their story and network with others on the rise. Followed by the dates and locations and a link to RSVP">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                    </figure>';
+                    </figure>
+                    <p class="wide center">Role / Creative Technologist<br><br>AD / Sydia Fraguada<br>AD / Andres Urdaneta<br>Media / Barron Coleman<br>Strategist / Micha Lewis<br>Strategist / Dallas Watkins</p>';
 			break;
 	   case "/work/sparknotes.php":
             $CURRENT_PAGE = "SparkNotes";
@@ -423,6 +427,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model
                             </video>
                             <figcaption>AR Effect</figcaption>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/latinDance.png" alt="A collection of six instagram posts. The post feature couples dancing against a white background. The dancers are colored orange and yellow. Each post has a lighthearted caption.">
+                            <figcaption>Social Media Posts</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="tall">
