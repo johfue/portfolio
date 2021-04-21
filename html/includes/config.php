@@ -279,8 +279,8 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Winners of the weekly challenges can earn swag and prizes for their team.</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>                        
-                        <h2 class="wide>Live Events</h2>                        
-                        <p>Competitors who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills. Competitors will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers."</p>
+                        <h2 class="wide">Live Events</h2>                        
+                        <p>Competitors who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills. Competitors will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers.</p>
                         <figure>
                             <img src="/images/citiFlyer.jpg" class="center" alt="A poster featuring a women looking bravely forward. She looks confident and poweful. Energy spins around her. At the top of the post reads: The Other Side of the Coin, The WFL’s first speaker series peels back what it takes to make your own seat at the table. Listen to leading women tell their story and network with others on the rise. Followed by the dates and locations and a link to RSVP">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
