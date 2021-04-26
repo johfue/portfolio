@@ -293,31 +293,64 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "SparkNotes";
 			$PAGE_DESC = "<b>The Problem:</b> People who use SparkNotes get a bad rap, when more often then not they're just not getting the support they need. People with dyslexia know this too well.<br><br><b>The Big Idea:</b> Use VR to educate students and teachers about the frustration and anxiety that push people with dyslexia to use SparkNotes.";
 			$CONTENT = '
-                    <h2>VR Experience</h2>
+                    <h2 class="wide">VR Experience</h2>
                         <figure class="wide">
-                            <img src="/images/sparknotes1.png" class="center" alt="Virtual Reality">
+                            <img src="/images/sparknotesMirror.jgg" class="center" alt="A POV shot where the user focuses on fields on a form to place stamps. After stamping the form a new one appears. The player is interacting with a mirror and can see other Cards filling out their forms in the background. The world looks like a comic book.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="wide">
-                            <img src="/images/sparknotes2.png" class="center" alt="Virtual Reality">
+                        <p>The virtual reality game takes place in the world of Alice in Wonderland, where you work in the queen’s royal guard as a junior investigator. You have been assigned to help uncover who stole the queen’s tarts. It’s your job to sort through rumors spreading around the kingdom and filter out the noise.</p>
+                        <p>Parsing through all the paradoxical nonsense of wonderland is hard enough. Doing it with tools not meant for the job is even harder. The reports you read can appear scrambled or wavy. Sometimes words will jump around, be replaced with other words, or be missing all together.<br>To make matters worse the Red Queen wants answers fast. You’ll have three weeks to put together a case or it’s off with your head!</p>
+                        <p>The game will be playable through web browsers and use gaze-based controls that support every device. 
+                        It is meant to explore the feelings of frustration and embarrassment that people with dyslexia experience. From this players will learn to cope and create strategies to make-up for their handicap. 
+                        <br>Players will:<br>Face distractions
+                        <br>The Cheshire Cat will come to interrupt the work day 
+                        <br>You’re co-workers will accidentally bump into your desk, knocking your magic mirror over
+                        <br>Be disrespected
+                        <br>Your supervisor will push you to work faster 
+                        <br>When the player succeeds their co-workers will be credulous and in disbelief
+                        <br>Face comparisons
+                        <br>The player will be able to view workspaces of the other employees and see them breeze through their work and clock out early
+                        <br>Be under pressure
+                        <br>Players will have a short amount of time each day to work through their caseload
+                        <br>Players will be graded on their speed and accuracy</p>
+                        <figure>
+                            <img src="/images/sparknotesCat.jpg" class="center" alt="From your desk you can the see the floating heads of the Cheshire Cat peaking from behind a window in the office.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                       <figure class="wide">
-                            <img src="/images/sparknotes3.png" class="center" alt="Virtual Reality">
+                       <figure>
+                            <img src="/images/sparknotesComparision.jpg" class="center" alt="A wider shot of the office where you can see more of your co-workers completing their tasks">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                    <h2>Out-of-home</h2>
-                        <figure class="wide">
-                            <img src="/images/sparknotes4.png" class="center" alt="Out of home">
+                        <figure>
+                            <video autoplay loop muted playsinline>
+                            <source src="/media/sparknotesClock.mp4">
+                            A looping video of a clock\'s hands spinning around and around.
+                            </video>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                    <h2 class="wide">Out-of-home</h2>
+                        <figure>
+                            <img src="/images/sparknotesMock.jpg" class="center" alt="A mock-up of two out of home ads placed in subways">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        <figcaption>OOH will be used during back to school season to direct people towards the AR experience</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="/images/sparknotesOOH1.jpg" class="center" alt="The art depicts a shrunken Alice drawn in the original Alice in Wonderland illustration style struggling to open a locked door while looking back at the key which is placed high up on a table she cannot read. With the headline, An underdog with an edge is still an underdog">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="wide">
-                            <img src="/images/sparknotes5.png" class="center" alt="Out of home">
+                        <figure>
+                            <img src="/images/sparknotesOOH2.jpg" class="center" alt="Alice is struggling to climb over a mushroom while a normal sized person walks easily across a field of mushrooms with giant strides. With the headline, Working 2x as hard for 1/2 the results">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                    <h2>Interactive</h2>
-                        <figure class="wide">
-                            <img src="/images/sparknotes6.png" class="center" alt="Website">
+                    <h2 class="wide">Interactive</h2>
+                        <p>A button that simulates certain forms of dyslexia will be added to Alice’s Adventures in Wonderland page. Letters will appear to jump around as they are randomly replaced. A link will lead readers to a page where they can learn more about dyslexia.</p>
+                        <p>A voice synthesizer button will also be added to Sparknotes’s pages to aid with reading. The currently read word will be highlighted.</p>
+                        <figure>
+                            <img src="/images/sparknotesWeb1.jpg" class="center" alt="A screenshot of SparkNotes website where the text is scrambled">
+                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <figure>
+                            <img src="/images/sparknotesWeb2.jpg" class="center" alt="A screenshot of the SparkNotes websites with a button placed besides the text that highlights the text while it is read aloud">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
 			break;
@@ -345,8 +378,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                     <h2 class="wide">:30 Second TV Spot</h2>
                             <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <p class="center wide">Role / Camera Operator<br><br>Director / Gabrielle Joyce<br>Location Sound / Lindsay Miller<br>Boom Operator / Jarret Walker<br>Talent / Martina Kaura</p>
-
+                            <p class="center wide">Role / Camera Operator<br><br>Director / Gabrielle Joyce<br>Location Sound / Lindsay Miller<br>Boom Operator / Jarret Walker<br>Talent / Martina Kaura<br><br>Awards / Local Silver Student Addy</p>
                     <h2 class="wide">Logo Animation</h2>
                         <figure class="wide">
                             <video autoplay loop muted playsinline>

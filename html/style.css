@@ -713,7 +713,7 @@ main.work > img, main.work > video {
 .work figure button, #close, main.Personal figure button {
     position: absolute;
     background-color: rgba(251, 233, 238, 0.2);
-    bottom: 4.5em;
+    bottom: 2.5em;
     right: 1.25em;
     left: calc(100% - 5rem);
     border-radius: 50%;
