@@ -576,6 +576,7 @@ main.work.Personal {
 
 @media(min-width: 950px) {
     main.work {
+        padding: 1em 2.5rem;
         grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
     }
     main.work.Personal {
@@ -893,15 +894,15 @@ audio {
 
 @media(min-width:950px) {
     header.work {
-        padding: 2em 2rem 1em 2rem;
+        padding: 2em 0 1em 0;
         min-width: 65ch;
         max-width: 80ch;
     }
     main.work h2 {
-        padding: 0.5em 2rem;
+        padding: 0.5em 0;
     }
     main.work h2 + p {
-        padding: 0 2rem;
+        padding: 0 0;
     }
 }
 
