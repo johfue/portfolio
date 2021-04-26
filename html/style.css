@@ -538,16 +538,16 @@ main.work h1 {
 main.work h2 {
     font-size: 2.25em;
     color: #092543;
-    padding: 0.5em 1rem;
+    /* padding: 0.5em 1rem; */
 }
 
-main.work h2 + p {
+/* main.work h2 + p {
     padding: 0 1rem;
 }
 
 header.work p {
     padding-top: 1em;
-}
+} */
 
 #modalCaption a, .work a {
     color: #e64169;
@@ -637,7 +637,7 @@ header.Personal + section article figure:nth-child(1) {
 }
 
 header.work {
-    padding: 1em 1rem 1em 1rem;
+    /* padding: 1em 1rem 1em 1rem; */
     background-size: 75%, 300px;
     background-size: 75vw, 300px;
     background-repeat: no-repeat, repeat;
@@ -655,11 +655,11 @@ b.small + b.small{
     top: -1px;
     left: -1px;
     z-index: -1;
-    width: 34.57%;
-    width: 34.57vmax;
+    width: 43.57%;
+    width: 43.57vmax;
     min-width: 20em;
-    height: 33%;
-    height: 33vmax;
+    height: 41%;
+    height: 41vmax;
     min-height: 19em;
     background-image: url("images/three.svg");
     background-size: cover;
@@ -883,15 +883,14 @@ main.work article > img {
     max-width: 80vw;
 }
 
-iframe {
-    grid-column: span 2;
-}
-
 audio {
     margin-left: 4rem;
 }
 
 @media(max-width:950px) {
+    iframe {
+        grid-column: span 2;
+    }
     main.work {
         width: 95%;
         width: 95vw;
@@ -904,7 +903,7 @@ audio {
 @media(min-width:950px) {
     header.work {
         padding: 2em 0 1em 0;
-        min-width: 65ch;
+        /* min-width: 65ch; */
         max-width: 80ch;
         grid-column: 2/3;
     }
