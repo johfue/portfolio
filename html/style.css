@@ -585,12 +585,13 @@ main.work.Personal {
     main.work {
         padding: 1em 2.5rem;
         grid-template-columns: calc(50% - 1.5rem) calc(50% - 1.5rem);
-        grid-gap: 2rem 3rem;
+        grid-gap: 1.5rem 3rem;
     }
     main.work.Personal {
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-rows: 30vh;
     }
+
 }
 
 /*header.work.REI {*/
@@ -907,6 +908,9 @@ audio {
         max-width: 80ch;
         grid-column: 2/3;
     }
+    header.work.Personal {
+        grid-column: span 1;
+    }
     main.work h2 {
         padding: 0.5em 0;
     }
@@ -993,12 +997,12 @@ main.double p {
     main.double {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-        max-width: 900px;
+        max-width: 1000px;
     }
 }
 
 @supports (display:grid) {
-    @media(min-width:900px) {
+    @media(min-width:915px) {
         main.double img.double {
             width: 120%;
             justify-self: auto;
