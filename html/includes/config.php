@@ -265,7 +265,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <figure class="wide">
                             <img src="/images/citiMock.jpg" class="center" alt="A screenshot of an example video lesson mocked-up on a macbook. There is a sidebar outlining the different lessons and is divded into different units and inididual lessons. The video player is ready to be played, below it is a summary of the video\'s content. The example lesson is about credit and credit cards.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>                                               
+                        </figure>
                         <figure>
                             <img src="/images/citiQuiz.jpg" class="center" alt="A screenshot showing a quiz in progress. It has the same layout as the example lesson, except in place of a video there is a series of multiple choice questions.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
@@ -278,8 +278,8 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/citiSwag.jpg" class="center" alt="Three prizes that can be won. One is a teal reusable water bottle, another is an orange tank top and the third is a planner. All three branded with the leagues energy swirls and colors.">
                             <figcaption>Winners of the weekly challenges can earn swag and prizes for their team.</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>                        
-                        <h2 class="wide">Live Events</h2>                        
+                        </figure>
+                        <h2 class="wide">Live Events</h2>
                         <p>Competitors who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills. Competitors will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers.</p>
                         <figure>
                             <img src="/images/citiFlyer.jpg" class="center" alt="A poster featuring a women looking bravely forward. She looks confident and poweful. Energy spins around her. At the top of the post reads: The Other Side of the Coin, The WFL’s first speaker series peels back what it takes to make your own seat at the table. Listen to leading women tell their story and network with others on the rise. Followed by the dates and locations and a link to RSVP">
@@ -295,30 +295,20 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                     <h2 class="wide">VR Experience</h2>
                         <figure class="wide">
-                            <img src="/images/sparknotesMirror.jgg" class="center" alt="A POV shot where the user focuses on fields on a form to place stamps. After stamping the form a new one appears. The player is interacting with a mirror and can see other Cards filling out their forms in the background. The world looks like a comic book.">
+                            <img src="/images/sparknotesMirror.jpg" class="center" alt="A POV shot where the user focuses on fields on a form to place stamps. After stamping the form a new one appears. The player is interacting with a mirror and can see other Cards filling out their forms in the background. The world looks like a comic book.">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <p>The virtual reality game takes place in the world of Alice in Wonderland, where you work in the queen’s royal guard as a junior investigator. You have been assigned to help uncover who stole the queen’s tarts. It’s your job to sort through rumors spreading around the kingdom and filter out the noise.</p>
-                        <p>Parsing through all the paradoxical nonsense of wonderland is hard enough. Doing it with tools not meant for the job is even harder. The reports you read can appear scrambled or wavy. Sometimes words will jump around, be replaced with other words, or be missing all together.<br>To make matters worse the Red Queen wants answers fast. You’ll have three weeks to put together a case or it’s off with your head!</p>
-                        <p>The game will be playable through web browsers and use gaze-based controls that support every device. 
-                        It is meant to explore the feelings of frustration and embarrassment that people with dyslexia experience. From this players will learn to cope and create strategies to make-up for their handicap. 
-                        <br>Players will:<br>Face distractions
-                        <br>The Cheshire Cat will come to interrupt the work day 
-                        <br>You’re co-workers will accidentally bump into your desk, knocking your magic mirror over
-                        <br>Be disrespected
-                        <br>Your supervisor will push you to work faster 
-                        <br>When the player succeeds their co-workers will be credulous and in disbelief
-                        <br>Face comparisons
-                        <br>The player will be able to view workspaces of the other employees and see them breeze through their work and clock out early
-                        <br>Be under pressure
-                        <br>Players will have a short amount of time each day to work through their caseload
-                        <br>Players will be graded on their speed and accuracy</p>
+                        <p>The virtual reality game takes place in the world of Alice in Wonderland, where you work in the queen’s royal guard as a junior investigator. You have been assigned to help uncover who stole the queen’s tarts. It’s your job to sort through rumors spreading around the kingdom and filter out the noise.
+                        <br><br>Parsing through all the paradoxical nonsense of wonderland is hard enough. Doing it with tools not meant for the job is even harder. The reports you read can appear scrambled or wavy. Sometimes words will jump around, be replaced with other words, or be missing all together.
+                        <br><br>The game will be playable through web browsers and use gaze-based controls that support every device. It is meant to explore the feelings of frustration and embarrassment that people with dyslexia experience. From this players will learn to cope and create strategies to make-up for their handicap.</p>
                         <figure>
                             <img src="/images/sparknotesCat.jpg" class="center" alt="From your desk you can the see the floating heads of the Cheshire Cat peaking from behind a window in the office.">
+                            <figcaption>The Cheshire Cat will come to interrupt the work day as a distraction. You’re co-workers will accidentally bump into your desk, knocking your magic mirror over</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                        <figure>
                             <img src="/images/sparknotesComparision.jpg" class="center" alt="A wider shot of the office where you can see more of your co-workers completing their tasks">
+                            <figcaption>The player will be able to view workspaces of the other employees and see them breeze through their work and clock out early</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure>
@@ -326,10 +316,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <source src="/media/sparknotesClock.mp4">
                             A looping video of a clock\'s hands spinning around and around.
                             </video>
+                            <figcaption>Players will have a short amount of time each day to work through their caseload and will be graded on their speed and accuracy</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                     <h2 class="wide">Out-of-home</h2>
-                        <figure>
+                        <figure class="wide">
                             <img src="/images/sparknotesMock.jpg" class="center" alt="A mock-up of two out of home ads placed in subways">
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         <figcaption>OOH will be used during back to school season to direct people towards the AR experience</figcaption>
@@ -419,7 +410,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             </video>
                             <figcaption>AR Effect</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>                        
+                        </figure>
                         <figure class="wide">
                             <img src="/images/marbles.jpg" alt="Marbles in the desert">
                             <figcaption>Photograph</figcaption>
@@ -437,7 +428,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             </video>
                             <figcaption>3D Render</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>                        
+                        </figure>
                         <figure class="tall">
                             <img src="/images/padExplain.png" alt="A logo. It is of an airplane with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
                             <figcaption>Logo design</figcaption>
