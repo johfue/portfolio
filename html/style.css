@@ -543,11 +543,11 @@ main.work h2 {
 
 /* main.work h2 + p {
     padding: 0 1rem;
-}
+}*/
 
 header.work p {
     padding-top: 1em;
-} */
+}
 
 #modalCaption a, .work a {
     color: #e64169;
@@ -887,7 +887,7 @@ audio {
     margin-left: 4rem;
 }
 
-@media(max-width:950px) {
+@media(min-width:950px) {
     iframe {
         grid-column: span 2;
     }
