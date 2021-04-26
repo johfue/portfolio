@@ -37,7 +37,7 @@
         </a>
         <a href="work/loteria">
             <figure>
-                <h3 class="zigzag">Play Loteria Online</h3>
+                <h3 class="zigzag">Play Lotería Online</h3>
                 <img src="images/loteriaThumb.png" alt="Loteria thumbnail">
             </figure>
         </a>

@@ -909,7 +909,7 @@ audio {
         grid-column: 2/3;
     }
     header.work.Personal {
-        grid-column: span 1;
+        grid-column: -1/1;
     }
     main.work h2 {
         padding: 0.5em 0;
