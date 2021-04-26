@@ -24,12 +24,12 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "<b>About:</b> The Latin American Student Organization at USC strives to advance latin culture, foster a community and develop leaders. As creative director I was responsible for developing the organization's visual identity and creating all promotional materials.";
 			$CONTENT =
 			        '
-                        <h2>Digital Signage</h2>
-                        <figure class="tall">
+                        <h2 class="wide">Digital Signage</h2>
+                        <figure>
                             <img src="/images/latinxcelencia.jpg" class="center" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called &quot;Latinxcelencia&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="medium">
+                        <figure>
                             <img src="/images/latinxcelenciaMockUp.jpg" class="bottom right">
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
@@ -37,8 +37,8 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/salsaNight.jpg" class="center" alt="Poster of a dancing woman in a red dress against a green background promoting an event called &quot;Salsa Night&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <h2>T-Shirt Design</h2>
-                        <figure class="tall">
+                        <h2 class="wide">T-Shirt Design</h2>
+                        <figure>
                             <img src="/images/lasoTshirt.jpg" class="center" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
@@ -46,7 +46,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/lasoTshirtMock.jpg" class="right">
                             <button onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <h2>Social Media Flyers</h2>
+                        <h2 class="wide">Social Media Flyers</h2>
                         <div class="gridSocial wide">
                         <figure>
                             <img src="/images/lasoLast.jpg" class="full" alt="A red party popper on a yellow background promoting the Last LASO meeting of the semester">
@@ -348,7 +348,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 		case "/work/loteria.php":
             $CURRENT_PAGE = "Play Loteria Online";
 			$PAGE_TITLE = "Loteria";
-			$PAGE_HEADER = "PlayLoteria.Online";
+			$PAGE_HEADER = "PlayLoteria Online";
 			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game Loteria. Google made a good attempt but too much of it was automated. The funnest part, drawing the cards, was done by a robot, and even worse, the game doesn't allow you to cheat.<br><br><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <a href='http://playloteria.online' target='_blank'> playloteria.onlilne" . $external . "</a><br><br>*Note I am continuously working on this project, please excuse any hiccups you might encounter.";
 			$CONTENT = '
                     <h2>Browser Game</h2>
