@@ -291,7 +291,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "SparkNotes";
 			$PAGE_TITLE = "SparkNotes";
 			$PAGE_HEADER = "SparkNotes";
-			$PAGE_DESC = "<b>The Problem:</b> People who use SparkNotes get a bad rap, when more often then not they're just not getting the support they need. People with dyslexia know this too well.<br><br><b>The Big Idea:</b> Use VR to educate students and teachers about the frustration and anxiety that push people with dyslexia to use SparkNotes.";
+			$PAGE_DESC = "<b>The Problem:</b> People who use SparkNotes get a bad rap, when more often than not they're just not getting the support they need. People with dyslexia know this too well.<br><br><b>The Big Idea:</b> Use VR to educate students and teachers about the frustration and anxiety that push people with dyslexia to use SparkNotes.";
 			$CONTENT = '
                     <h2 class="wide">VR Experience</h2>
                         <figure class="wide">
@@ -303,7 +303,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <br><br>The game will be playable through web browsers and use gaze-based controls that support every device. It is meant to explore the feelings of frustration and embarrassment that people with dyslexia experience. From this players will learn to cope and create strategies to make-up for their handicap.</p>
                         <figure>
                             <img src="/images/sparknotesCat.jpg" class="center" alt="From your desk you can the see the floating heads of the Cheshire Cat peaking from behind a window in the office.">
-                            <figcaption>The Cheshire Cat will come to interrupt the work day as a distraction. You’re co-workers will accidentally bump into your desk, knocking your magic mirror over</figcaption>
+                            <figcaption>The Cheshire Cat will come to interrupt the work day as a distraction. Your co-workers will accidentally bump into your desk, knocking your magic mirror over</figcaption>
                             <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                        <figure>
@@ -349,7 +349,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Play Loteria Online";
 			$PAGE_TITLE = "Loteria";
 			$PAGE_HEADER = "PlayLotería .Online";
-			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game Lotería. Google made a good attempt but too much of it was automated. The funnest part, drawing the cards, was done by a robot, and even worse, the game doesn't allow you to cheat.<br><br><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.onlilne" . $external . "</a><br><br>*Note I am continuously working on this project, please excuse any hiccups you might encounter.";
+			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game Lotería. Google made a good attempt but all the fun parts, picking your board and drawing cards, were done by a robot. Even worse, the game doesn't allow anyone to mess up.<br><br><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a><br><br>*Note I am continuously working on this project, please excuse any hiccups you might encounter.";
 			$CONTENT = '
                     <h2>Browser Game</h2>
                         <figure class="wide">
