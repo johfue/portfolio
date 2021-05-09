@@ -295,8 +295,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                     <h2 class="wide">VR Experience</h2>
                         <figure class="wide">
-                            <img src="/images/sparknotesMirror.jpg" class="center" alt="A POV shot where the user focuses on fields on a form to place stamps. After stamping the form a new one appears. The player is interacting with a mirror and can see other Cards filling out their forms in the background. The world looks like a comic book.">
-                            <button onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                            <video autoplay loop muted playsinline>
+                            <source src="/media/sparknotesPan.mp4">
+                            A POV shot where the user focuses on fields on a form to place stamps. After stamping the form a new one appears. The player is interacting with a mirror and can see other Cards filling out their forms in the background. The world looks like a comic book.                            </video>
+                            </video>
+                            <button onclick="modalExpand(this)">' . $zoomIcon .'</button>    
                         </figure>
                         <p>The virtual reality game takes place in the world of Alice in Wonderland, where you work in the queen’s royal guard as a junior investigator. You have been assigned to help uncover who stole the queen’s tarts. It’s your job to sort through rumors spreading around the kingdom and filter out the noise.
                         <br><br>Parsing through all the paradoxical nonsense of wonderland is hard enough. Doing it with tools not meant for the job is even harder. The reports you read can appear scrambled or wavy. Sometimes words will jump around, be replaced with other words, or be missing all together.
