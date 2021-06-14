@@ -6,11 +6,11 @@
 </head>
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.php");?>
-    <main class="work <?php echo $CURRENT_PAGE;?>">
-    <header class="work <?php echo $CURRENT_PAGE;?>">
-        <section>
-            <h1><?php echo $PAGE_HEADER;?></h1>
-            <p><?php echo $PAGE_DESC;?></p>
+    <main class="work-main <?php echo $CURRENT_PAGE;?>">
+    <header class="work-header">
+        <section class="work-header-section">
+            <h1 class="work-h1"><?php echo $PAGE_HEADER;?></h1>
+            <p class="work-p-header"><?php echo $PAGE_DESC;?></p>
         </section>
     </header>
     <?php echo $CONTENT;?>
