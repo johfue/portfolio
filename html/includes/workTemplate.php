@@ -7,7 +7,7 @@
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.php");?>
     <main class="work-main <?php echo $CURRENT_PAGE;?>">
-    <header class="work-header">
+    <header class="work-header "<?php echo $PAGE_HEADER;?>>
         <section class="work-header-section">
             <h1 class="work-h1"><?php echo $PAGE_HEADER;?></h1>
             <p class="work-p-header"><?php echo $PAGE_DESC;?></p>

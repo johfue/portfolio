@@ -522,22 +522,22 @@ footer {
     }
 }
 
-.nav-small svg {
+.nav--small svg {
     height: 58px;
     width: auto;
 }
 
-.nav-small path {
+.nav--small path {
     -webkit-transition: 0.25s ease;
     -o-transition: 0.25s ease;
     transition: 0.25s ease;
 }
 
-.nav-small a:hover path {
+.nav--small a:hover path {
     fill: var(--link-500);
 }
 
-.nav-small {
+.nav--small {
     width: 93%;
     width: 95vw;
     max-width: 1920px;
@@ -545,8 +545,17 @@ footer {
     padding-top: 8px;
 }
 
-.nav-small li a {
+.nav--small li a {
     padding: 16px;
+}
+
+.nav__ul--small {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav__li--small {
+    display: inline-block;
 }
 
 .work-h1 {
@@ -726,7 +735,7 @@ header.Personal + section article figure:nth-child(1) {
     width: fit-content;
 }
 
-.expandBtn, #close, {
+.expandBtn, #close {
     position: absolute;
     background-color: rgba(251, 233, 238, 0.2);
     bottom: 2.5em;
@@ -739,7 +748,8 @@ header.Personal + section article figure:nth-child(1) {
     width: 3.5rem;
     -webkit-transition: 0.25s ease;
     -o-transition: 0.25s ease;
-    transition: 0.25s ease;}
+    transition: 0.25s ease;
+}
 
 .expandBtn-caption {
     bottom: 3.5em;
@@ -750,7 +760,7 @@ header.Personal + section article figure:nth-child(1) {
     bottom: 1.5em;
 }
 
-.expandableContent:hover .expandBtn, .expanableBtn:hover, #close:hover, #next:hover svg, #previous:hover svg {
+.expandableContent:hover .expandBtn:hover, .expanableBtn:hover, #close:hover, #next:hover svg, #previous:hover svg {
     background-color: #1ac9c7;
 }
 

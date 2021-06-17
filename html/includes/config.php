@@ -372,7 +372,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                     <h2 class=" work-h2 wide">:30 Second TV Spot</h2>
                             <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <p class="center wide">Role / Camera Operator<br><br>Director / Gabrielle Joyce<br>Location Sound / Lindsay Miller<br>Boom Operator / Jarret Walker<br>Talent / Martina Kaura<br><br>Awards / Local Silver Student Addy</p>
+                            <p class="center wide">Role / Camera Operator<br><br>Director / Gabrielle Joyce<br>Location Sound / Lindsay Miller<br>Boom Operator / Jarret Walker<br>Talent / Martina Kaura<br><br>Awards<br>Bronze Telly<br>Local Silver Student Addy</p>
                     <h2 class=" work-h2 wide">Logo Animation</h2>
                         <figure class="work-figure wide">
                             <video autoplay loop muted playsinline class="expandableContent">
