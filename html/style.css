@@ -738,7 +738,7 @@ header.Personal + section article figure:nth-child(1) {
 .expandBtn, #close {
     position: absolute;
     background-color: rgba(251, 233, 238, 0.2);
-    bottom: 2.5em;
+    bottom: 1.5em;
     right: 1.25em;
     left: calc(100% - 5rem);
     border-radius: 50%;
@@ -749,6 +749,7 @@ header.Personal + section article figure:nth-child(1) {
     -webkit-transition: 0.25s ease;
     -o-transition: 0.25s ease;
     transition: 0.25s ease;
+    border: none;
 }
 
 .expandBtn-caption {
@@ -760,7 +761,7 @@ header.Personal + section article figure:nth-child(1) {
     bottom: 1.5em;
 }
 
-.expandableContent:hover .expandBtn:hover, .expanableBtn:hover, #close:hover, #next:hover svg, #previous:hover svg {
+.expandableContent:hover .expandBtn, .expandBtn:hover, #close:hover, #next:hover svg, #previous:hover svg {
     background-color: #1ac9c7;
 }
 
@@ -1222,6 +1223,7 @@ label {
     padding: 0;
     width: 3.5rem;
     background-color: rgba(0,0,0,0);
+    border: none;
 }
 
 #previous:focus, #next:focus {
