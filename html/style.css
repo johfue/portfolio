@@ -90,9 +90,9 @@
     --primary-500: 092543;
     --action-500: #1AC9C7;
     --link-500: #E64169;
-    --neutral-500: #F8D3DF;
-    --neutral-700: #FDE2EB;
-    --neutral-900: #FCEEF2;
+    --neutral-500: #F7CFDB;
+    --neutral-700: #FDE7EE;
+    --neutral-900: #FDF7F9;
 }
 
 body {
@@ -109,7 +109,7 @@ h1, h2, li, a {
     color: var(--neutral-900);
 }
 
-.single a, .double a {
+.single a {
     color: var(--primary-500);
 }
 
@@ -163,6 +163,7 @@ figcaption {
 
 figcaption a svg {
     vertical-align: text-top;
+    fill: var(--link-500);
 }
 
 ul {
@@ -200,6 +201,10 @@ a[href^="mailto:"] {
     color: var(--link-500);
 }
 
+figcaption a {
+    color: var(--link-500);
+}
+
 .single h1 {
     text-align: center;
 }
@@ -207,21 +212,6 @@ a[href^="mailto:"] {
 .single p {
     text-align: center;
 }
-
-/*.path {*/
-/*    stroke-dasharray: 1000;*/
-/*    stroke-dashoffset: 1000;*/
-/*}*/
-
-/*@keyframes dash {*/
-/*  to {*/
-/*    stroke-dashoffset: 0;*/
-/*  }*/
-/*}*/
-
-/*.zigzag:hover .path{*/
-/*    animation: dash 1.5s linear forwards;*/
-/*}*/
 
 svg {
     vertical-align: middle;
@@ -252,8 +242,6 @@ svg {
 
 .logo {
     max-width: 45%;
-    justify-self: center;
-    align-self: center;
 }
 
 
@@ -381,11 +369,11 @@ svg {
     animation-delay: 0.25s;
 }
 
-.thumbnailImage, .grid figure > img {
+.thumbnailImage {
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 110%;
 }
 
 .expandableContent {
@@ -393,6 +381,9 @@ svg {
     max-width: 100%;
     max-height: 100vh;
     position: relative;
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
 }
 
 .expandableContent {
@@ -440,10 +431,9 @@ footer {
         font-size: 4.5em;
     }
     .grid {
-        width: 90%;
-        width: 90vw;
-        padding: 5%;
-        padding: 5vw;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 4rem;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(2, -webkit-min-content) repeat(11,21vh);
         grid-template-rows: repeat(2, min-content) repeat(11,21vh);
@@ -455,11 +445,8 @@ footer {
         grid-template-rows: 1fr;
     }
     .logo {
-        max-width: 100%;
-        max-height: 48%;
-        max-height: 48vh;
-        max-height: calc(42vh + 4em);
-        align-self: auto;
+        height: 22vw;
+        max-width: none;
     }
     .header-home-items {
         justify-self: center;
@@ -490,10 +477,11 @@ footer {
 
 @media(min-width:1080px) {
     .grid {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(2, minmax(120px, 21vh)) repeat(7,21vh);
-        grid-gap: 4em
+        grid-template-columns: 22vw 22vw 22vw;
+        grid-template-rows: repeat(9, calc(10vw - 1rem));
+        grid-gap: 2rem;
     }
+    
     #top {
         grid-column: -1/-2;
         grid-row: 1/2
@@ -547,6 +535,8 @@ footer {
 
 .nav--small li a {
     padding: 16px;
+    color: var(--neutral-900);
+    transition: 0.2s ease;
 }
 
 .nav__ul--small {
@@ -574,6 +564,10 @@ footer {
 
 #modalCaption a, .work a {
     color: var(--link-500);
+}
+
+#modalCaption svg {
+    fill: var(--link-500);
 }
 
 .work-main {
@@ -729,7 +723,7 @@ header.Personal + section article figure:nth-child(1) {
     overflow: hidden;
 }
 
-.work-figure {
+.work__figure {
     justify-self: center;
     position: relative;
     width: fit-content;
@@ -761,7 +755,7 @@ header.Personal + section article figure:nth-child(1) {
     bottom: 1.5em;
 }
 
-.expandableContent:hover .expandBtn, .expandBtn:hover, #close:hover, #next:hover svg, #previous:hover svg {
+.work__figure:hover .expandBtn, .expandBtn:hover, #close:hover, #next:hover svg, #previous:hover svg {
     background-color: #1ac9c7;
 }
 
@@ -938,233 +932,8 @@ audio {
     max-width: 85vw;
 }
 
-.double-main {
-    display: grid;
-    grid-template-columns: auto;
-    max-width: 95%;
-    max-width: 95vw;
-    margin: 0 auto;
-}
-
-.double-img {
-    height: 50%;
-    height: 50vh;
-    min-height: 250px;
-    width: auto;
-    margin: 0 auto;
-    justify-self: center;
-    display: block;
-}
-
-@supports (-o-object-fit: contain) or (object-fit: contain) {
-    .double-img {
-        width: 75%;
-        -o-object-fit: contain;
-        object-fit: contain;
-    }
-}
-
-.double-section {
-    background-color: var(--neutral-900);
-    padding: 1.5em;
-    margin: 0 auto;
-    justify-self: center;
-    position: relative;
-    bottom: 15%;
-    bottom: 15vh;
-    max-width: 85%;
-}
-
-.double-section-contact {
-    width: 85%;
-    max-width: 600px;
-}
-
-.single-h1, .single-h2, .double-h1, .double-h2 {
+.single-h1, .single-h2 {
     color: var(--primary-500);
-}
-
-.double-p {
-    padding-top: 1em;
-}
-
-@media(min-width:450px) {
-    .double-main {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-        max-width: 1000px;
-    }
-}
-
-@supports (display:grid) {
-    @media(min-width:915px) {
-        .double-img {
-            width: 120%;
-            justify-self: auto;
-            height: auto;
-            object-fit: contain;
-        }
-        
-        .double-section {
-            justify-self: auto;
-            position: static;
-            width: fit-content;
-        }
-        .double-section-contact {
-            max-width: 85%;
-        }
-    }
-}
-
-#submitIcon {
-    position: absolute;
-    right: 1em;
-    bottom: 1.2em;
-    height: 2em;
-}
-
-#success {
-    font-family: Lato-bold;
-    font-size: 1em;
-    color: #1AC9C7;
-    padding-left: 0.5em;
-}
-
-#success.failure {
-    color: var(--link-500);
-}
-
-#success img {
-    vertical-align: middle;
-    margin-right: 3px;
-    height: 2em;
-}
-
-#error1, #error2, #error3 {
-    position: absolute;
-    right: 0.5em;
-    height: 1.5em;
-    top: 3em;
-}
-
-#errorText1, #errorText2, #errorText3 {
-    font-family: Lato-regular;
-    left: 1.2em;
-    position: relative;
-    color: var(--link-500);
-}
-
-.contact-textarea {
-    height: 175px;
-    width: 100%;
-    resize: vertical;
-}
-
-#name, #email, #message {
-    width: 100%;
-}
-
-.contact-input, textarea, .conctact-button {
-    padding: 1.5em 2em 1.5em 1.5em;
-    margin-top: 1.5em;
-    background-color: #FCECF1;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-style: none;
-    font-family: Lato-regular;
-    font-size: 1em;
-    color: var(--primary-500);
-}
-
-label {
-    font-family: Lato-Regular;
-    font-size: 1em;
-}
-
-.OlderBrowserChecker:placeholder-shown,
-label {
-    font-family: Lato-light;
-    font-size: 0.9em;
-}
-
-.floatLabel:nth-child(1) {
-    margin-top: 2em;
-    margin-right: 0;
-}
-
-.contact-button {
-    margin-top: 1em;
-    background-color: var(--primary-500);
-    color: var(--neutral-900);
-    -webkit-transition: 0.25s ease;
-    -o-transition: 0.25s ease;
-    transition: 0.25s ease;
-    font-family: Lato-Bold;
-    width: 160px;
-    position: relative;
-}
-
-.contact-button:hover {
-    background-color: #1AC9C7;
-}
-
-.contact-button:disabled {
-    background-color: #1AC9C7;
-}
-
-.inactive {
-    opacity: 0;
-    -webkit-transition: 0.25s ease;
-    -o-transition: 0.25s ease;
-    transition: 0.25s ease;
-}
-
-.contact-button:hover .inactive {
-    opacity: 1;
-}
-
-.floatLabel {
-    position: relative;
-}
-
-
-.floatLabel label {
-    position: absolute;
-    top: 5px;
-    left: 1.2em;
-    opacity: 1;
-    -webkit-transition: 0.25s ease;
-    -o-transition: 0.25s ease;
-    transition: 0.25s ease;
-}
-
-.OlderBrowserChecker:placeholder-shown,
-.floatLabel label {
-    top: calc(2.5em + 5px);
-    opacity: 0;
-}
-
-
-.floatLabel input:not(:placeholder-shown), .floatLabel textarea:not(:placeholder-shown) {
-    padding-top: calc(1.5em + 5px);
-    padding-bottom: calc(1.5em - 5px);
-}
-
-.floatLabel input:not(:placeholder-shown) + label, .floatLabel textarea:not(:placeholder-shown) + label {
-    -webkit-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
-    opacity: 1;
-}
-
-.floatLabel input:focus, .floatLabel textarea:focus {
-    outline: none;
-    border-bottom: 3px solid #1AC9C7;
-}
-
-.floatLabel input:focus:not(:placeholder-shown) + label, .floatLabel textarea:focus:not(:placeholder-shown) + label {
-    font-family: Lato-Regular;
-    color: #1AC9C7;
 }
 
 #modal {
@@ -1253,14 +1022,39 @@ label {
     transition: 0.25s ease;
 }
 
-
-
-.expandableContent {
-    cursor: -moz-zoom-in;
-    cursor: -webkit-zoom-in;
-    cursor: zoom-in;
-}
-
 #close:hover, #close:focus, #previous:hover, #previous:focus, #next:hover, #next:focus {
   cursor: pointer;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 80ch 80ch 80ch;
+    grid-gap: 1em;
+    margin: 0 auto;
+}
+
+.about__section, .about__h1 {
+    background-color: var(--neutral-900);
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.about__p {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.about__img {
+    height: 100%;
+    object-fit: cover;
+}
+.about__img--right {
+    object-position: right;
+}
+.about__img--center {
+    object-position: center;
+}
+.about__img--left {
+    object-position: left;
 }

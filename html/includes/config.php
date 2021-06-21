@@ -25,11 +25,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT =
 			        '
                         <h2 class=" work-h2 wide">Digital Signage</h2>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/latinxcelencia.jpg" class="expandableContent center" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called &quot;Latinxcelencia&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/latinxcelenciaMockUp.jpg" class=" expandableContentbottom right">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
@@ -38,61 +38,61 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <h2 class=" work-h2 wide">T-Shirt Design</h2>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/lasoTshirt.jpg" class="expandableContent center" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/lasoTshirtMock.jpg" class="expandableContent right">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <h2 class=" work-h2 wide">Social Media Flyers</h2>
                         <div class="gridDense wide">
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/lasoLast.jpg" class="expandableContent full" alt="A red party popper on a yellow background promoting the Last LASO meeting of the semester">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/fastFriends.jpg" class=" expandableContent full" alt="A red heart shaped ballon on a blue background with the text &quot;Fast Friends, Platonic Speed Dating&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/healthPanel.jpg" class=" expandableContent full" alt="Someone in a crowd of people raising their hand during a panel. The text reads &quot;Mental, Physical, and Sexual Health Panel&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/muertos.jpg" class="expandableContent full" alt="A sugar skull and organge flowers against a red background with the text &quot;Celebrate Dia de los Muertos with LASO&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/llorona.jpg" class="expandableContent full" alt="A figure drowning in a lake under a moon. The text reads &quot;La Llorona, A Choose Your Own Adventure Story&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/snackSoc.jpg" class="expandableContent full" alt="A cookie against a yellow background with between red text reading &quot;Snack Social&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/women.jpg" class="expandableContent full" alt="Three woman poised stoica;ly with the text &quot;LASO Celebrates Women\'s History Month&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/visionBoard.jpg" class="expandableContent full" alt="A collage made of a student, flowers, and a bridge. The text reads &quot;Vision Board Party&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/lasoSpring.jpg" class="expandableContent full" alt="A pinata against a yellow background with the text &quot;First Meeting of the Semester&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/hhmCalendar.jpg" class="expandableContent full" alt="A calendar of events for Hispanic Heritage Month">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/firstMeetingLASO.jpg" class="expandableContent full" alt="A pinata against a light blue background with the words &quot;Tonight! First Meeting of the Semester&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/comosedice.jpg" class="full" alt="Various speech bubbles with the center bubble containing the text &quot;Comoe Se Dice, an Arguement&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
@@ -106,27 +106,27 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                         <h2 class=" work-h2 wide">Social Media Posts</h2>
                         <div class="gridDense wide">
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/ldcFirst.jpg" class="expandableContent full" alt="A screenshot of an Instragram post. The image is of two people dancing with the text &quot;First Class of Spring 2019&quot; and the caption reads &quot;Care to dance? We\'ll show you how or your money back guranteed&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/ldcGetIt.jpg" class="expandableContent full" alt="A screenshot of an Instragram post. The image is of red text reading &quot;Let\'s Get it&quot; and the caption reads &quot;It\'s the first day of class meaning we\'re officially one day closer to spring break. Let\'s make it our resolution to give it our all atleast untill then!&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/ldcPartner.jpg" class="expandableContent full" alt="A screenshot of an Instragram post. The image is of two people dancing with text reading &quot;Partner Work&quot; and the caption reads &quot;Does it really take two to tango? Discover the truth and more in tonight\'s class all about partner work.&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/ldcElephant.jpg" class="expandableContent full" alt="A screenshot of an Instragram post. The image is of an inflatable elephant floating in a pool. and the caption reads &quot;Mr. Elefante taught us some wholesome lessons by the pool yesterday. To be all ears. To always forgive but never forget. And to never let anyone ever make you feel irrelephant.&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/ldcCumbia.jpg" class="expandableContent full" alt="A screenshot of an Instragram post. The image is of two people dancing with text reading &quot;Cumbia&quot; and the caption reads &quot;Cumbia! Learn to make your uncles proud the next time you\'re at a quinceanera.&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/ldcGamecock.jpg" class="expandableContent full" alt="A screenshot of an Instragram post. The image is of a rooster painted on a street. and the caption reads &quot;We danced on that chicken. Not many other people can say that. And we believe we are better people for having done so. Thank you to our performers for performing. THank you to the Homecoming Committee for putting it all together. Thank you to the audience for being so kind. And thank you to everyone else for being yourself. That\'s the most important thing of all. #uofschomecoming&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
@@ -216,7 +216,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "Palmetto Airdrop formed in the wake of Hurricane Florence and flies supplies into hurricane affected areas hours after landfall.";
 			$CONTENT = '
                         <h2 class=" work-h2 work-h2">Logo Design</h2>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <img src="/images/padExplain.png" class="center" alt="A logo. It is of an airple with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
@@ -229,23 +229,23 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                         <h2 class=" work-h2 work-h2">Mobile App</h2>
                         <iframe class="wide center" style="border: 1px solid rgba(0, 0, 0, 0.1); height: 1000px;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/jiffyService.png" class="expandableContent center" alt=A screenshot the schedule page of the app. A grid of services are displayed with a make appointment button at the bottom.">
                             <figcaption>Before scheduling an appointment, users can review their service history and pick their mechanic based off user reviews.</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/jiffyProfile.png" class="expandableContent center" alt=A screenshot of a profile page of the app. The users information, prefered Jiffy location, and their registered vehicles are displayed">
                             <figcaption>Users can keep tabs on all their family\'s vehicles, their mileage, and keep track of when they\'ll next need a tune up</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class=" work-h2 work-figure wide">Spotify Playlist</h2>
+                        <h2 class=" work-h2 work__figure wide">Spotify Playlist</h2>
                         <p>Jiggy with Jiffy provides music to soothe your mind while you drive, or while you wait.<br>The Spotify playlist can be accessed through the Jiffy Lube app via “Browse.”</p>
-                        <figure class="work-figure tall">
+                        <figure class="work__figure tall">
                             <img src="/images/jiffyPlaylist.png" class="expandableContent center" alt=A screenshot of a Spotify playlist.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class=" work-h2 work-figure wide">Full Deck</h2>
+                        <h2 class=" work-h2 work__figure wide">Full Deck</h2>
                         <iframe src="//www.slideshare.net/slideshow/embed_code/key/GoMWXY4mqs875c" class="center" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
                         <p class="wide center">Role / Creative Technologist<br><br>AD / Sydia Fraguada<br>AD / Andres Urdaneta<br>Designer / Kurt Kyle Juanillo<br>CW / Tamara Vasquez<br>Media / Barron Coleman<br>Media / Jessica Smith<br> Strategist / Micha Lewis<br>Strategist / Dallas Watkins</p>
                         ';
@@ -258,30 +258,30 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
                         <h2 class=" work-h2 wide">Women\'s Financial League</h2>
                         <p>The WFL is a learning community that uses gamification to teach financial literacy. Users will join one of two teams and compete against each other to achieve weekly goals. Megan Rapinoe of the US Women\'s Soccer Team will serve as spokesperson for the league.</p>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/citiWFL.jpg" class="expandableContent center" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <img src="/images/citiMock.jpg" class="expandableContent center" alt="A screenshot of an example video lesson mocked-up on a macbook. There is a sidebar outlining the different lessons and is divded into different units and inididual lessons. The video player is ready to be played, below it is a summary of the video\'s content. The example lesson is about credit and credit cards.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/citiQuiz.jpg" class="expandableContent center" alt="A screenshot showing a quiz in progress. It has the same layout as the example lesson, except in place of a video there is a series of multiple choice questions.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/citiHub.jpg" class="expandableContent center" alt="A screenshot showing the dashboard of the learning platform. There is a navigation bar and three major sections. One shows the six weekly lessons, another shows a line graph tracking the users experience points over the week. The third displays a leaderboard and how the two teams are comparing to each other on three different metrics.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <img src="/images/citiSwag.jpg" class="expandableContent center" alt="Three prizes that can be won. One is a teal reusable water bottle, another is an orange tank top and the third is a planner. All three branded with the leagues energy swirls and colors.">
                             <figcaption>Winners of the weekly challenges can earn swag and prizes for their team.</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class=" work-h2 work-figure wide">Live Events</h2>
+                        <h2 class=" work-h2 work__figure wide">Live Events</h2>
                         <p>Competitors who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills. Competitors will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers.</p>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/citiFlyer.jpg" class="expandableContent center" alt="A poster featuring a women looking bravely forward. She looks confident and poweful. Energy spins around her. At the top of the post reads: The Other Side of the Coin, The WFL’s first speaker series peels back what it takes to make your own seat at the table. Listen to leading women tell their story and network with others on the rise. Followed by the dates and locations and a link to RSVP">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
@@ -294,7 +294,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "<b>The Problem:</b> People who use SparkNotes get a bad rap, when more often than not they're just not getting the support they need. People with dyslexia know this too well.<br><br><b>The Big Idea:</b> Use VR to educate students and teachers about the frustration and anxiety that push people with dyslexia to use SparkNotes.";
 			$CONTENT = '
                     <h2 class=" work-h2 wide">VR Experience</h2>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <video autoplay loop muted playsinline class="expandableContent">
                             <source src="/media/sparknotesPan.mp4">
                             A POV shot where the user focuses on fields on a form to place stamps. After stamping the form a new one appears. The player is interacting with a mirror and can see other Cards filling out their forms in the background. The world looks like a comic book.                            </video>
@@ -304,17 +304,17 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <p>The virtual reality game takes place in the world of Alice in Wonderland, where you work in the queen’s royal guard as a junior investigator. You have been assigned to help uncover who stole the queen’s tarts. It’s your job to sort through rumors spreading around the kingdom and filter out the noise.
                         <br><br>Parsing through all the paradoxical nonsense of wonderland is hard enough. Doing it with tools not meant for the job is even harder. The reports you read can appear scrambled or wavy. Sometimes words will jump around, be replaced with other words, or be missing all together.
                         <br><br>The game will be playable through web browsers and use gaze-based controls that support every device. It is meant to explore the feelings of frustration and embarrassment that people with dyslexia experience. From this players will learn to cope and create strategies to make-up for their handicap.</p>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/sparknotesCat.jpg" class="expandableContent center" alt="From your desk you can the see the floating heads of the Cheshire Cat peaking from behind a window in the office.">
                             <figcaption>The Cheshire Cat will come to interrupt the work day as a distraction. Your co-workers will accidentally bump into your desk, knocking your magic mirror over</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                       <figure class="work-figure">
+                       <figure class="work__figure">
                             <img src="/images/sparknotesComparision.jpg" class="expandableContent center" alt="A wider shot of the office where you can see more of your co-workers completing their tasks">
                             <figcaption>The player will be able to view workspaces of the other employees and see them breeze through their work and clock out early</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <video autoplay loop muted playsinline class="expandableContent">
                             <source src="/media/sparknotesClock.mp4">
                             A looping video of a clock\'s hands spinning around and around.
@@ -323,27 +323,27 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                     <h2 class=" work-h2 wide">Out-of-home</h2>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <img src="/images/sparknotesMock.jpg" class="expandableContent center" alt="A mock-up of two out of home ads placed in subways">
                             <figcaption>OOH will be used during back to school season to direct people towards the AR experience</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/sparknotesOOH1.jpg" class="expandableContent center" alt="The art depicts a shrunken Alice drawn in the original Alice in Wonderland illustration style struggling to open a locked door while looking back at the key which is placed high up on a table she cannot read. With the headline, An underdog with an edge is still an underdog">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/sparknotesOOH2.jpg" class="expandableContent center" alt="Alice is struggling to climb over a mushroom while a normal sized person walks easily across a field of mushrooms with giant strides. With the headline, Working 2x as hard for 1/2 the results">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                     <h2 class=" work-h2 wide">Interactive</h2>
                         <p>A button that simulates certain forms of dyslexia will be added to Alice’s Adventures in Wonderland page. Letters will appear to jump around as they are randomly replaced. A link will lead readers to a page where they can learn more about dyslexia.</p>
                         <p>A voice synthesizer button will also be added to Sparknotes’s pages to aid with reading. The currently read word will be highlighted.</p>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/sparknotesWeb1.jpg" class="expandableContent center" alt="A screenshot of SparkNotes website where the text is scrambled">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/sparknotesWeb2.jpg" class="expandableContent center" alt="A screenshot of the SparkNotes websites with a button placed besides the text that highlights the text while it is read aloud">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
@@ -355,11 +355,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game Lotería. Google made a good attempt but all the fun parts, picking your board and drawing cards, were done by a robot. Even worse, the game doesn't allow anyone to mess up.<br><br><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a><br><br>*Note I am continuously working on this project, please excuse any hiccups you might encounter.";
 			$CONTENT = '
                     <h2 class=" work-h2 work-h2">Browser Game</h2>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <img src="/images/loteriaDesktop.jpg" class="expandableContent center" alt="A desktop mockup of the game. The player has several beans placed on their board. The current card is La Rosa and there are four other people playing.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <img src="/images/loteriaPhone.jpg" class="expandableContent center" alt="A mobile mock-up of the game. The host has just drawn La Rosa and there are several other players in their game.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
@@ -374,7 +374,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <p class="center wide">Role / Camera Operator<br><br>Director / Gabrielle Joyce<br>Location Sound / Lindsay Miller<br>Boom Operator / Jarret Walker<br>Talent / Martina Kaura<br><br>Awards<br>Bronze Telly<br>Local Silver Student Addy</p>
                     <h2 class=" work-h2 wide">Logo Animation</h2>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <video autoplay loop muted playsinline class="expandableContent">
                             <source src="/media/finalStrawLogo.mp4">
                             Alt texts
@@ -389,24 +389,24 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could afford color printing.";
 			$CONTENT = '
 			            <b class="work-b"></b>
-                        <figure class="work-figure wide">
-                            <img src="/images/pulley.jpg" alt="Drawing of a wrench and pulley" class="expandableContent expandableContent-personalz">
+                        <figure class="work__figure wide">
+                            <img src="/images/pulley.jpg" alt="Drawing of a wrench and pulley" class="expandableContent expandableContent-personal">
                             <figcaption>Pencil on paper</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/syrinj.mp4">
                             </video>
                             <figcaption><a href="http://syrinj.com" target="_blank">Parody Website' . $external . '</a></figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure tall">
+                        <figure class="work__figure tall">
                             <img src="/images/doubleExposure.jpeg" class="expandableContent expandableContent-personal" alt="The relfection of a woman passing a mural projected onto a city at night">
                             <figcaption>Photograph</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure tall">
+                        <figure class="work__figure tall">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/dotty.mp4">
                             A trading card of the Animal Crossing villager Dotty where the artowkr has been replaced by a 3D scene using AR. Dotty bobs in place, greets the viewer, and acts suprised.
@@ -414,17 +414,17 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>AR Effect</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <img src="/images/marbles.jpg" class="expandableContent expandableContent-personal" alt="Marbles in the desert">
                             <figcaption>Photograph</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure wide">
+                        <figure class="work__figure wide">
                             <img src="/images/cactus.jpg" class="expandableContent expandableContent-personal" alt="A 3D model of a rather dashing cartoon cactus in a space suit.">
                             <figcaption>3D Render</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure tall">
+                        <figure class="work__figure tall">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/voltorbPan.mp4">
                             A trading card of the Animal Crossing Villager Dotty where the artwork has been replaced by a 3D model. Dotty cycles between greating the viewer and being astonished.
@@ -432,22 +432,22 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>3D Render</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure tall">
+                        <figure class="work__figure tall">
                             <img src="/images/padExplain.png" class="expandableContent expandableContent-personal" alt="A logo. It is of an airplane with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
                             <figcaption>Logo design</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                      <figure class="work-figure tall">
+                      <figure class="work__figure tall">
                             <img src="/images/sink.jpg" class="expandableContent expandableContent-personal" alt="Three photos. The first is a spoon under a faucet. The second is water hitting a smallg glass cup. The third is water bubbling and overflowing from a measuring cup. All three photos are dimly light.">
                             <figcaption>Photographs</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure">
+                        <figure class="work__figure">
                             <img src="/images/milkCartLogo.png" class="expandableContent expandableContent-personal" alt="A logo where the words milk and cart are stacked on top of each other. They are contained inside a rounded box. Inside the box milk sloshes to the side.">
                             <figcaption>Logo design</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure tall">
+                        <figure class="work__figure tall">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/voltorb.mp4">
                             A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model
@@ -455,7 +455,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>AR Effect</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work-figure tall">
+                        <figure class="work__figure tall">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/worms.mp4">
                             An AR face effect where two largs tentacles wiggle out from your eyeballs. Several more smaller tentacles wiggle out from your palm. The video is black and white.
