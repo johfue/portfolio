@@ -16,9 +16,8 @@
                 <br>
                 <nav>
                     <ul>
-                        <li><a href="/about" class="zigzag">About Me</a></li>
-                        <li><a href="/contact" class="zigzag">Contact</a></li>
-                        <li><a href="/work/personal" class="zigzag">Fun</a></li>
+                        <li><a href="/about">About Me</a></li>
+                        <li><a href="/work/personal">Fun</a></li>
                     </ul>
                 </nav>
             </section>
