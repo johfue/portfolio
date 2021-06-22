@@ -6,11 +6,10 @@
 </head>
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.php");?>
-    <svg width="0" height="0">
-<defs>
-<clipPath id="mask"><path d="M1074.5 1H1.00002V250.125C1.00004 351 40.5 374 22 480C3.5 586 20 707 163 707C306 707 273 667.5 358 670C443 672.5 480.441 781 534.5 781C578.426 781 657.5 763 729 763C800.5 763 794 853 900.5 853C969.758 853 1029.74 808.482 1058 688.5C1073.19 623.981 1029 599.5 1074.5 433.5V1Z" fill="#C4C4C4" stroke="black" stroke-linecap="round" stroke-linejoin="round"/></clipPath>
-</defs>
-</svg> 
+    <svg width="0" height="0" viewBox="0 0 1075 854" fill="none" xmlns="http://www.w3.org/2000/svg">
+<clipPath id="mask" clipPathUnits="objectBoundingBox" transform="scale(0.000930232558 0.00117096019)><path d="M1074.5 1H1.00002V250.125C1.00004 351 40.5 374 22 480C3.5 586 20 707 163 707C306 707 273 667.5 358 670C443 672.5 480.441 781 534.5 781C578.426 781 657.5 763 729 763C800.5 763 794 853 900.5 853C969.758 853 1029.74 808.482 1058 688.5C1073.19 623.981 1029 599.5 1074.5 433.5V1Z" fill="#C4C4C4" stroke="black" stroke-linecap="round" stroke-linejoin="round"/></clipPath>
+</svg>
+
     <main class="about">
         <div class="about__column">
             <h1 class="about__h1">Chicano creative. First-time thesaurus owner. Inquisitive and gumptious autodidact.</h1>
