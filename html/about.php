@@ -6,9 +6,12 @@
 </head>
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.php");?>
-    <svg width="0" height="0" viewBox="0 0 1075 854" fill="none" xmlns="http://www.w3.org/2000/svg">
-<clipPath id="mask" clipPathUnits="objectBoundingBox" transform="scale(0.000930232558 0.00117096019)><path d="M1074.5 1H1.00002V250.125C1.00004 351 40.5 374 22 480C3.5 586 20 707 163 707C306 707 273 667.5 358 670C443 672.5 480.441 781 534.5 781C578.426 781 657.5 763 729 763C800.5 763 794 853 900.5 853C969.758 853 1029.74 808.482 1058 688.5C1073.19 623.981 1029 599.5 1074.5 433.5V1Z" fill="#C4C4C4" stroke="black" stroke-linecap="round" stroke-linejoin="round"/></clipPath>
+    <svg width="0" height="0">
+<clipPath id="mask" clipPathUnits="objectBoundingBox"">
+<path d="M1 0H0V0.232068C3.3709e-08 0.326036 0.0367955 0.347462 0.0195622 0.446204C0.00232883 0.544946 0.0176991 0.657662 0.150908 0.657662C0.284117 0.657662 0.253377 0.620866 0.332557 0.623195C0.411737 0.625524 0.446614 0.726595 0.496973 0.726595C0.537891 0.726595 0.611551 0.709828 0.678156 0.709828C0.74476 0.709828 0.738705 0.793665 0.837913 0.793665C0.902429 0.793665 0.958307 0.752196 0.98463 0.640428C0.998784 0.580327 0.957615 0.557522 1 0.402888V0Z" fill="#C4C4C4"/>
+</clipPath>
 </svg>
+
 
     <main class="about">
         <div class="about__column">
