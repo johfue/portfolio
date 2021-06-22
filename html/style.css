@@ -1036,7 +1036,7 @@ audio {
     grid-template-columns: 40ch 40ch 40ch;
     grid-gap: 1em;
     justify-content: center;
-    clip-path: url("images/mask.svg#mask")
+    clip-path: url(#mask)
 }
 
 .about__section, .about__h1 {
