@@ -1061,8 +1061,9 @@ audio {
 }
 
 .about__img {
-    height: 60vw;
-    width: 40vw;
+    height: 60vh;
+    max-height: 500px;
+    width: 100%;
     object-fit: cover;
 }
 .about__img--right {

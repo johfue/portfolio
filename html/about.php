@@ -32,7 +32,7 @@
                 <p class="about__p"><b>A.</b> Yes</p>
                 <p class="about__p"><b>Q. Do you often get asked that?</b></p>
                 <p class="about__p"><b>A.</b> No, but I don’t want all those hours to go unappreciated.</p>
-                <h2 class="about__h2>Contact</h2>
+                <h2 class="about__h2">Contact</h2>
                 <a href="href="mailto:hello@johnathonfuerte.com" target="blank_">hello@johnathonfuerte.com</a>
                 <br>
                 <a href="">Resume</a>
