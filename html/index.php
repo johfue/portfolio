@@ -16,8 +16,8 @@
                 <br>
                 <nav>
                     <ul>
-                        <li><a href="/about">About Me</a></li>
-                        <li><a href="/work/personal">Fun</a></li>
+                        <li><a href="/about" class="nav__a">About Me</a></li>
+                        <li><a href="/work/personal" class="nav__a">Fun</a></li>
                     </ul>
                 </nav>
             </section>
