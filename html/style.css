@@ -175,7 +175,7 @@ ul {
 
 .nav__ul--small {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .nav__li--small {
@@ -223,13 +223,9 @@ ul {
     transition: 0.2s ease;
 }
 
-.nav__ul--small {
-    display: inline-block;
-    vertical-align: top;
-}
-
 .nav__li--small {
     display: inline-block;
+    padding: 0 1em;
 }
 
 main {
@@ -1030,12 +1026,11 @@ audio {
 
 .about {
     display: grid;
-    grid-template-columns: 40ch 40ch 40ch;
+    grid-template-columns: repeat(3, minmax(30ch, 40ch));
     grid-gap: 1em;
     width: moz-fit-content;
     width: fit-content;
     margin: 0 auto;
-    clip-path: url(#mask);
 }
 
 .about__section, .about__h1 {
@@ -1060,18 +1055,77 @@ audio {
     text-indent: -1em;
 }
 
+.about__p--questio+.about__p {
+    margin-top: 1em;
+}
+
+.about__p+.about__h2 {
+    margin-top: 1.5em;
+}
+
 .about__img {
     height: 60vh;
     max-height: 500px;
     width: 100%;
     object-fit: cover;
 }
-.about__img--right {
-    object-position: right;
-}
+
 .about__img--center {
-    object-position: center;
+    object-position: left;
+    display: none;
 }
 .about__img--left {
     object-position: left;
+    display: none;
+}
+
+@media(min-width:635px) {
+    .about {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(30ch, 40ch));
+    }
+    .about__column--one {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .about__column--three {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .about__column--two {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    .about__img--right {
+        object-position: right;
+    }
+    .about__img--center {
+        display: block;
+        object-position: left;
+    }
+    .about__img--left {
+        diplay: none;
+        object-position: left;
+    }
+}
+
+@media(min-width:950px) {
+    .about {
+        grid-template-columns: repeat(3, minmax(30ch, 40ch));
+        clip-path: url(#mask);
+    }
+    .about__column--one, .about__column--two, .about__column--three {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+    .about__img--right {
+        object-position: right;
+    }
+    .about__img--center {
+        object-position: center;
+    }
+    .about__img--left {
+        display: block;
+        object-position: left;
+    }
 }

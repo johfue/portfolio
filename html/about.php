@@ -14,24 +14,23 @@
 
 
     <main class="about">
-        <div class="about__column">
+        <div class="about__column about__column--one">
             <h1 class="about__h1">Chicano creative. First-time thesaurus owner. Inquisitive and gumptious autodidact.</h1>
             <img src="/images/profPic.png" class="about__img about__img--left" alt="A rather cool guy in denim jacket standing in front of pink flowers.">
         </div>
-        <div class="about__column">
+        <div class="about__column about__column--two">
             <section class="about__section">
-                <p>Like any child of immigrants, I share the experience of having to translate for my parents at the Burger King. Without anyone to help me with my English homework, I had to learn a lot on my own. And I grew to be a voracious self-learner. Libraries are scared to let me in their doors.</p>
-                <p>I’m a recent grad looking to be an art director. Making things people want to look at and like to use is how I get my sick kicks.</p>
+                <p>Like any child of immigrants, I share the experience of having to translate for my parents at the Burger King. Without anyone to help me with my English homework, I had to learn a lot on my own. And I grew to be a voracious self-learner. Libraries are scared to let me in their doors.<br><br>I’m a recent grad looking to be an art director. Making things people want to look at and like to use is how I get my sick kicks.</p>
             </section>
             <img src="/images/profPic.png" class="about__img about__img--center" alt="">
         </div>
-        <div class="about__column">
+        <div class="about__column about__column--three">
             <section class="about__section">
                 <h2 class="about__h2">FAQ</h2>
-                <p class="about__p"><b>Q. Did you code the back and front-end of this site from scratch?</b></p>
-                <p class="about__p"><b>A.</b> Yes</p>
-                <p class="about__p"><b>Q. Do you often get asked that?</b></p>
-                <p class="about__p"><b>A.</b> No, but I don’t want all those hours to go unappreciated.</p>
+                <p class="about__p about__p--question">Q. Did you code the back and front-end of this site from scratch?</p>
+                <p class="about__p">A. Yes</p>
+                <p class="about__p about__p--question">Q. How often do you get asked that?</p>
+                <p class="about__p">A. Never, but I don’t want all those hours to go unappreciated.</p>
                 <h2 class="about__h2">Contact</h2>
                 <a href="href="mailto:hello@johnathonfuerte.com" target="blank_">hello@johnathonfuerte.com</a>
                 <br>
