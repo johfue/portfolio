@@ -1025,11 +1025,10 @@ audio {
 }
 
 .about {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, minmax(30ch, 40ch));
     grid-gap: 1em;
-    width: moz-fit-content;
-    width: fit-content;
+    width: 40ch;
     margin: 0 auto;
 }
 
@@ -1055,8 +1054,8 @@ audio {
     text-indent: -1em;
 }
 
-.about__p--questio+.about__p {
-    margin-top: 1em;
+.about__p--question+.about__p {
+    margin-bottom: 1em;
 }
 
 .about__p+.about__h2 {
@@ -1082,7 +1081,9 @@ audio {
 @media(min-width:635px) {
     .about {
         display: grid;
-        grid-template-columns: repeat(3, minmax(30ch, 40ch));
+        grid-template-columns: repeat(2, minmax(30ch, 40ch));
+        width: moz-fit-content;
+        width: fit-content;    
     }
     .about__column--one {
         grid-row: 1/2;
@@ -1097,11 +1098,11 @@ audio {
         grid-row: 1/3;
     }
     .about__img--right {
-        object-position: right;
+        object-position: left;
     }
     .about__img--center {
         display: block;
-        object-position: left;
+        object-position: center;
     }
     .about__img--left {
         diplay: none;
