@@ -268,7 +268,7 @@ svg {
     margin: 0 auto;
 }
 
-.header-home {
+.header--home {
     grid-row: span 2;
     display: grid;
     grid-gap: 1em;
@@ -281,8 +281,7 @@ svg {
 }
 
 
-.header-home-items {
-    justify-self: center;
+.header__items--home {
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
@@ -335,7 +334,7 @@ svg {
 }
 
 
-.thumbnailWrap {
+.thumbnail__wrap {
     margin: 15px;
     width: 300px;
     height: 500px;
@@ -347,7 +346,7 @@ svg {
 }
 
 @supports (display:grid) {
-    .thumbnailWrap {
+    .thumbnail__wrap {
         margin: 0;
         grid-row: span 3;
         width: 100%;
@@ -356,7 +355,7 @@ svg {
     }
 }
 
-.thumbnailWrap:hover, .thumbnailWrap:hover h3{
+.thumbnail__wrap:hover, .thumbnail__wrap:hover h3{
     color:  var(--link-500);
     text-decoration-color: rgba(230, 65, 105, 1);
 }
@@ -405,7 +404,7 @@ svg {
     animation-delay: 0.25s;
 }
 
-.thumbnailImage {
+.thumbnail__image {
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
@@ -474,7 +473,7 @@ footer {
         grid-template-rows: repeat(2, -webkit-min-content) repeat(11,21vh);
         grid-template-rows: repeat(2, min-content) repeat(11,21vh);
     }
-    .header-home {
+    .header--home {
         grid-column: span 2;
         grid-template-columns: minmax(-webkit-min-content, -webkit-max-content) -webkit-min-content;
         grid-template-columns: minmax(min-content, max-content) min-content;
@@ -484,7 +483,7 @@ footer {
         height: 22vw;
         max-width: none;
     }
-    .header-home-items {
+    .header__items--home {
         justify-self: center;
         width: auto;
     }
@@ -1026,6 +1025,7 @@ audio {
 
 .about {
     display: flex;
+    flex-direction: column;
     grid-template-columns: repeat(3, minmax(30ch, 40ch));
     grid-gap: 1em;
     width: 40ch;
@@ -1083,7 +1083,7 @@ audio {
         display: grid;
         grid-template-columns: repeat(2, minmax(30ch, 40ch));
         width: moz-fit-content;
-        width: fit-content;    
+        width: fit-content;
     }
     .about__column--one {
         grid-row: 1/2;
