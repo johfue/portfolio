@@ -30,7 +30,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure">
-                            <img src="/images/latinxcelenciaMockUp.jpg" class=" expandableContentbottom right">
+                            <img src="/images/latinxcelenciaMockUp.jpg" class=" expandableContent right">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="wide">

@@ -1115,6 +1115,11 @@ audio {
         grid-template-columns: repeat(3, minmax(30ch, 40ch));
         clip-path: url(#mask);
     }
+
+    .about__section--three {
+        min-height: 22em;
+    }
+
     .about__column--one, .about__column--two, .about__column--three {
         grid-row: span 1;
         grid-column: span 1;
