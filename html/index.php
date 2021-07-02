@@ -9,7 +9,7 @@
 
     <main class="grid">
         <header class="header--home">
-            <img src="images/logo.svg" class="logo" alt="Logo image">
+            <img src="images/logo.svg" class="logo" alt="Logo">
             <section class="header_items--home">
                 <h1>Johnathon Fuerte</h1>
                 <h2>Art Director</h2>
@@ -25,37 +25,37 @@
         <a href="work/sparknotes" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">SparkNotes</h3>
-                <img src="images/sparkThumb.png" alt="Sparknotes thumbnail" class="thumbnail__image">
+                <img src="images/sparkThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <a href="work/citi" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">Citi</h3>
-                <img src="images/citiThumb.png" alt="Citi thumbnail" class="thumbnail__image">
+                <img src="images/citiThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <a href="work/loteria" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">Play Lotería Online</h3>
-                <img src="images/loteriaThumb.png" alt="Loteria thumbnail" class="thumbnail__image">
+                <img src="images/loteriaThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <a href="work/finalstraw" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">Final Straw</h3>
-                <img src="images/finalThumb.png" alt="Final Straw thumbnail" class="thumbnail__image">
+                <img src="images/finalThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <a href="work/jiffy" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">Jiffy Lube</h3>
-                <img src="images/jiffyThumb.png" alt="Jiffy Lube thumbnail" class="thumbnail__image">
+                <img src="images/jiffyThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <a href="work/laso" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">Latin American Student Organization</h3>
-                <img src="images/lasoThumb.png" alt="LASO thumbnail" class="thumbnail__image">
+                <img src="images/lasoThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <footer>

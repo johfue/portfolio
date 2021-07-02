@@ -21,7 +21,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "LASO";
 			$PAGE_TITLE = "LASO";
 			$PAGE_HEADER = "Latin American Student Organization";
-			$PAGE_DESC = "<b>About:</b> The Latin American Student Organization at USC strives to advance latin culture, foster a community and develop leaders. As creative director I was responsible for developing the organization's visual identity and creating all promotional materials.";
+			$PAGE_DESC = "<b>About:</b> As the creative director of the Latin American Student Organization at USC I was responsible for developing the organization's visual identity and creating all promotional materials. Given our how many different nationalities made up our community, it was important to me that our look pulled from all across Latin America";
 			$CONTENT =
 			        '
                         <h2 class=" work-h2 wide">Digital Signage</h2>
@@ -33,8 +33,8 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/latinxcelenciaMockUp.jpg" class=" expandableContent right">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="wide">
-                            <img src="/images/salsaNight.jpg" class="expandableContent center" alt="Poster of a dancing woman in a red dress against a green background promoting an event called &quot;Salsa Night&quot;">
+                        <figure class="work__figure wide">
+                            <img src="/images/salsaNight.jpg" class="expandableContent center" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <h2 class=" work-h2 wide">T-Shirt Design</h2>
@@ -254,7 +254,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CURRENT_PAGE = "Citi";
 			$PAGE_TITLE = "Citi";
 			$PAGE_HEADER = "Citi";
-			$PAGE_DESC = "<b>The Problem:</b> Citi wants to demonstrate their commitment to driving an equitable recovery for working women following the pandemic.<br><br><b>The Big Idea:</b> Create a platform that connects working women and gives them the tools to succeed financially, because knowledge is power and community builds confidence.";
+			$PAGE_DESC = "<b>The Problem:</b> Citi wants to demonstrate their commitment to driving an equitable recovery for working women following the pandemic.<br><br><b>The Big Idea:</b> Have Citi connect working women and give them the tools to succeed financially, because knowledge is power and community builds confidence.";
 			$CONTENT = '
                         <h2 class=" work-h2 wide">Women\'s Financial League</h2>
                         <p>The WFL is a learning community that uses gamification to teach financial literacy. Users will join one of two teams and compete against each other to achieve weekly goals. Megan Rapinoe of the US Women\'s Soccer Team will serve as spokesperson for the league.</p>
@@ -268,18 +268,20 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         </figure>
                         <figure class="work__figure">
                             <img src="/images/citiQuiz.jpg" class="expandableContent center" alt="A screenshot showing a quiz in progress. It has the same layout as the example lesson, except in place of a video there is a series of multiple choice questions.">
+                            <figcaption>To progress through the course and earn points for their team, users have to pass quizes for each unit. Users can also earn points for reviewing old material.</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="work__figure">
                             <img src="/images/citiHub.jpg" class="expandableContent center" alt="A screenshot showing the dashboard of the learning platform. There is a navigation bar and three major sections. One shows the six weekly lessons, another shows a line graph tracking the users experience points over the week. The third displays a leaderboard and how the two teams are comparing to each other on three different metrics.">
+                            <figcaption>The platform lets learners keep track of their progress, where they rank in the leaderboard, and how their team is faring.</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="work__figure wide">
                             <img src="/images/citiSwag.jpg" class="expandableContent center" alt="Three prizes that can be won. One is a teal reusable water bottle, another is an orange tank top and the third is a planner. All three branded with the leagues energy swirls and colors.">
-                            <figcaption>Winners of the weekly challenges can earn swag and prizes for their team.</figcaption>
+                            <figcaption>Along with unlocking acheivements, winners of the weekly challenges can earn swag and prizes for their team.</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class=" work-h2 work__figure wide">Live Events</h2>
+                        <h2 class=" work-h2 wide">Live Events</h2>
                         <p>Competitors who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills. Competitors will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers.</p>
                         <figure class="work__figure">
                             <img src="/images/citiFlyer.jpg" class="expandableContent center" alt="A poster featuring a women looking bravely forward. She looks confident and poweful. Energy spins around her. At the top of the post reads: The Other Side of the Coin, The WFL’s first speaker series peels back what it takes to make your own seat at the table. Listen to leading women tell their story and network with others on the rise. Followed by the dates and locations and a link to RSVP">
@@ -291,7 +293,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "SparkNotes";
 			$PAGE_TITLE = "SparkNotes";
 			$PAGE_HEADER = "SparkNotes";
-			$PAGE_DESC = "<b>The Problem:</b> People who use SparkNotes get a bad rap, when more often than not they're just not getting the support they need. People with dyslexia know this too well.<br><br><b>The Big Idea:</b> Use VR to educate students and teachers about the frustration and anxiety that push people with dyslexia to use SparkNotes.";
+			$PAGE_DESC = "<b>The Problem:</b> People who use SparkNotes get a bad rap, when more often than not they're just not getting the support they need. People with dyslexia know this too well.<br><br><b>The Big Idea:</b> Use the world of Alice in Wonderland to educate students and teachers about the frustration and anxiety that push people with dyslexia to use SparkNotes.";
 			$CONTENT = '
                     <h2 class=" work-h2 wide">VR Experience</h2>
                         <figure class="work__figure wide">
@@ -352,11 +354,12 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Play Loteria Online";
 			$PAGE_TITLE = "Loteria";
 			$PAGE_HEADER = "PlayLotería .Online";
-			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game Lotería. Google made a good attempt but all the fun parts, picking your board and drawing cards, were done by a robot. Even worse, the game doesn't allow anyone to mess up.<br><br><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a><br><br>*Note I am continuously working on this project, please excuse any hiccups you might encounter.";
+			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game, Lotería. Google made a good attempt but all the fun parts, picking your board and drawing cards, were done by a robot.<br><br><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a>";
 			$CONTENT = '
                     <h2 class=" work-h2 work-h2">Browser Game</h2>
                         <figure class="work__figure wide">
                             <img src="/images/loteriaDesktop.jpg" class="expandableContent center" alt="A desktop mockup of the game. The player has several beans placed on their board. The current card is La Rosa and there are four other people playing.">
+                            <figcaption>For the unitiated, Lotería is like bingo, but instead of random numbers and letters, cards are drawn from a deck.</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="work__figure wide">
