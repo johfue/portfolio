@@ -747,9 +747,9 @@ header.Personal + section article figure:nth-child(1) {
     border: none;
 }
 
-/*.expandBtn-caption {*/
-/*    bottom: 3.5em;*/
-/*}*/
+.expandBtn {
+    grid-row: 1/2;
+}
 
 .gridDense .expandBtn {
     position: absolute;
