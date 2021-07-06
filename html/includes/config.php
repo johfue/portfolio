@@ -274,7 +274,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPHEdQBLSEGZ56w7yj0qANK%2FJiffy-Lube-2021%3Fnode-id%3D1%253A6%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
                         <figcaption>Interactive Demo</figcaption>
                         </figure>
-                        <figure class="work__figure">
+                        <figure class="work__figure wide">
                             <img src="/images/jiffyMobile.jpg" class="expandableContent center" alt="">
                             <figcaption>The updated appointment confirmation process.</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
