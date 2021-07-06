@@ -554,9 +554,14 @@ footer {
     color: var(--primary-500);
 }
 
-
 .work-p-header {
     padding-top: 1em;
+}
+
+.work__ul li{
+    color: var(--primary-500);
+    list-style-type: initial;
+    line-height: 1.4em;
 }
 
 #modalCaption a, .work a {

@@ -263,20 +263,20 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <h2 class="work-h2 wide">Direct Mail</h2>
-                        <p>People who’ve just moved to a target city will receive a welcome package. Included is a living guide with info about local restaurants, fun destinations, and where to find essential services. As well as information on parking, street cleanings, traffic patterns, and how to update their drivers license. Along with the guide, the box will include items to help them through an anxious time:<ul><li>Essential oil aromatic air freshener</li><li>QR code with relaxing driving spotify playlist</li><li>Fidget toy Keychain</li><li>Set of postcards to send to their friends back home</li></ul></p>
+                        <div><p>People who’ve just moved to a target city will receive a welcome package. Included is a living guide with info about local restaurants, fun destinations, and where to find essential services. As well as information on parking, street cleanings, traffic patterns, and how to update their drivers license. Along with the guide, the box will include items to help them through an anxious time:</p><ul class="work__ul"><li>Essential oil aromatic air freshener</li><li>QR code with relaxing driving spotify playlist</li><li>Fidget toy Keychain</li><li>Set of postcards to send to their friends back home</li></ul></div>
                         <figure class="work__figure">
                             <img src="/images/jiffyBox.jpg" class="expandableContent center" alt="">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <h2 class="work-h2 wide">Mobile App</h2>
-                        <p>Along with a visual refresh, the Jiffy Lube app will get a few new updates.<ul><li>Since cars need maintenance for years, users can get to know who will be handling their service trip ahead of time to build long-term trust.<li>If something urgent pop-ups up users can chat in real-time with a Jiffy Lube technician to diagnose their problem.<li>The app will keep track of every service visit so users can track how often they need maintenance and who all has worked on their car.</ul></p>
+                        <p>Along with a visual refresh, the Jiffy Lube app will get a few new updates.</p><ul class="work__ul"><li>Since cars need maintenance for years, users can get to know who will be handling their service trip ahead of time to build long-term trust.<li>If something urgent pop-ups up users can chat in real-time with a Jiffy Lube technician to diagnose their problem.<li>The app will keep track of every service visit so users can track how often they need maintenance and who all has worked on their car.</ul>
                         <figure class="work__figure">
-                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPHEdQBLSEGZ56w7yj0qANK%2FJiffy-Lube-2021" allowfullscreen></iframe>
-                            <figcaption>Interactive Demo</figcaption>
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPHEdQBLSEGZ56w7yj0qANK%2FJiffy-Lube-2021%3Fnode-id%3D1%253A6%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
+                        <figcaption>Interactive Demo</figcaption>
                         </figure>
                         <figure class="work__figure">
-                            <img src="/images/jiffyMobile.jpg" class="expandableContent center" alt=">
-                            <figcaption>The new appointment confirmation process.</figcaption>
+                            <img src="/images/jiffyMobile.jpg" class="expandableContent center" alt="">
+                            <figcaption>The updated appointment confirmation process.</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <h2 class="work-h2 wide">Out-of-home</h2>
