@@ -562,6 +562,8 @@ footer {
     color: var(--primary-500);
     list-style-type: initial;
     line-height: 1.4em;
+    padding-left: 2em;
+    padding-top: 1em;
 }
 
 #modalCaption a, .work a {
