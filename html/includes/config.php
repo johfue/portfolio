@@ -221,7 +221,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
 			break;
-		case "/work/jiffy.php":
+		case "/work/jiffy2021.php":
 			$CURRENT_PAGE = "Jiffy Lube";
 			$PAGE_TITLE = "Jiffy Lube";
 			$PAGE_HEADER = "Jiffy Lube";
@@ -250,7 +250,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <p class="wide center">Role / Creative Technologist<br><br>AD / Sydia Fraguada<br>AD / Andres Urdaneta<br>Designer / Kurt Kyle Juanillo<br>CW / Tamara Vasquez<br>Media / Barron Coleman<br>Media / Jessica Smith<br> Strategist / Micha Lewis<br>Strategist / Dallas Watkins</p>
                         ';
 			break;
-		case "/work/jiffy2021.php":
+		case "/work/jiffy.php":
 			$CURRENT_PAGE = "Jiffy Lube";
 			$PAGE_TITLE = "Jiffy Lube";
 			$PAGE_HEADER = "Jiffy Lube";
@@ -272,18 +272,17 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <p>Along with a visual refresh, the Jiffy Lube app will get a few new updates.<ul><li>Since cars need maintenance for years, users can get to know who will be handling their service trip ahead of time to build long-term trust.<li>If something urgent pop-ups up users can chat in real-time with a Jiffy Lube technician to diagnose their problem.<li>The app will keep track of every service visit so users can track how often they need maintenance and who all has worked on their car.</ul></p>
                         <figure class="work__figure">
                             <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPHEdQBLSEGZ56w7yj0qANK%2FJiffy-Lube-2021" allowfullscreen></iframe>
-                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                             <figcaption>Interactive Demo</figcaption>
                         </figure>
                         <figure class="work__figure">
-                            <img src="/images/jiffyApp.jpg" class="expandableContent center" alt=">
+                            <img src="/images/jiffyMobile.jpg" class="expandableContent center" alt=">
                             <figcaption>The new appointment confirmation process.</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <h2 class="work-h2 wide">Out-of-home</h2>
                         <p>In target cities Jiffy Lube will give pointers to newcomers through billboards. The goal is to associate Jiffy Lube with solid automotive advice. So whenever someone uses what they’ve learned from a billboard they\'ll remember they learned it from Jiffy Lube.</p>
                         <figure class="work__figure">
-                            <img src="/images/jiffyOOH_1.jpg" class="expandableContent center" alt="The copy reads: Welcome to Denver. The tallest dunes in North America are an afternoon away. Happy driving. Jiffy Lube.">
+                            <img src="/images/jiffyOOH_1.jpg" class="expandableContent center" alt="The copy reads: Welcome to Durham. Meters are free on the weekend. Happy driving. Jiffy Lube.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="work__figure">
@@ -291,7 +290,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="work__figure">
-                            <img src="/images/jiffyOOH_3.jpg" class="expandableContent center" alt="The copy reads: Welcome to Durham. Meters are free on the weekend. Happy driving. Jiffy Lube.">
+                            <img src="/images/jiffyOOH_3.jpg" class="expandableContent center" alt="The copy reads: Welcome to Denver. The tallest dunes in North America are an afternoon away. Happy driving. Jiffy Lube.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <p class="wide center">Role / Creative Technologist<br><br>AD / Sydia Fraguada<br>AD / Andres Urdaneta<br>Designer / Kurt Kyle Juanillo<br>CW / Tamara Vasquez<br>Media / Barron Coleman<br>Media / Jessica Smith<br> Strategist / Micha Lewis<br>Strategist / Dallas Watkins</p>
