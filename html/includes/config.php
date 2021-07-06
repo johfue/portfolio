@@ -221,36 +221,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>';
 			break;
-		case "/work/jiffy2021.php":
-			$CURRENT_PAGE = "Jiffy Lube";
-			$PAGE_TITLE = "Jiffy Lube";
-			$PAGE_HEADER = "Jiffy Lube";
-			$PAGE_DESC = "<b>The Problem:</b> Anxiety is on the rise among Millenials. Many are living far from their family who they used to rely on for car knowledge. With their car being one of their most important possessions, trusting a mechanic can feel like a leap of faith.<br><br><b>The Big Idea:</b> Create an app that brings as much transparency to table as possible.";
-			$CONTENT = '
-                        <h2 class=" work-h2 work-h2">Mobile App</h2>
-                        <iframe class="wide center" style="border: 1px solid rgba(0, 0, 0, 0.1); height: 1000px; width: 100%;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FA7VH9X3Q6MjNb29iVD34TX%2FJiffy-Lube%3Fnode-id%3D1%253A6%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
-                        <figure class="work__figure">
-                            <img src="/images/jiffyService.png" class="expandableContent center" alt=A screenshot the schedule page of the app. A grid of services are displayed with a make appointment button at the bottom.">
-                            <figcaption>Before scheduling an appointment, users can review their service history and pick their mechanic based off user reviews.</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>
-                        <figure class="work__figure">
-                            <img src="/images/jiffyProfile.png" class="expandableContent center" alt=A screenshot of a profile page of the app. The users information, prefered Jiffy location, and their registered vehicles are displayed">
-                            <figcaption>Users can keep tabs on all their family\'s vehicles, their mileage, and keep track of when they\'ll next need a tune up</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>
-                        <h2 class=" work-h2 wide">Spotify Playlist</h2>
-                        <p>Jiggy with Jiffy provides music to soothe your mind while you drive, or while you wait.<br>The Spotify playlist can be accessed through the Jiffy Lube app via “Browse.”</p>
-                        <figure class="work__figure tall">
-                            <img src="/images/jiffyPlaylist.png" class="expandableContent center" alt=A screenshot of a Spotify playlist.">
-                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>
-                        <h2 class=" work-h2 wide">Full Deck</h2>
-                        <iframe src="//www.slideshare.net/slideshow/embed_code/key/GoMWXY4mqs875c" class="center" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-                        <p class="wide center">Role / Creative Technologist<br><br>AD / Sydia Fraguada<br>AD / Andres Urdaneta<br>Designer / Kurt Kyle Juanillo<br>CW / Tamara Vasquez<br>Media / Barron Coleman<br>Media / Jessica Smith<br> Strategist / Micha Lewis<br>Strategist / Dallas Watkins</p>
-                        ';
-			break;
-		case "/work/jiffy.php":
+        case "/work/jiffy.php":
 			$CURRENT_PAGE = "Jiffy Lube";
 			$PAGE_TITLE = "Jiffy Lube";
 			$PAGE_HEADER = "Jiffy Lube";
@@ -293,7 +264,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/jiffyOOH_3.jpg" class="expandableContent center" alt="The copy reads: Welcome to Denver. The tallest dunes in North America are an afternoon away. Happy driving. Jiffy Lube.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <p class="wide center">Role / Creative Technologist<br><br>AD / Sydia Fraguada<br>AD / Andres Urdaneta<br>Designer / Kurt Kyle Juanillo<br>CW / Tamara Vasquez<br>Media / Barron Coleman<br>Media / Jessica Smith<br> Strategist / Micha Lewis<br>Strategist / Dallas Watkins</p>
+                        <p class="wide center">Role / Creative Technologist<br><br>AD / Sydia Fraguada<br>AD / Andres Urdaneta<br>Strategist / Micha Lewis<br>Strategist / Dallas Watkins</p>
                         ';
 			break;
 
