@@ -560,7 +560,7 @@ footer {
 
 .work__ul {
     padding-left: 2em;
-    padding-top: 1em;    
+    padding-top: 1em;
 }
 
 .work__ul li{
@@ -681,7 +681,7 @@ header.Personal + section article figure:nth-child(1) {
     width: 43.57vmax;
     min-width: 20em;
     height: 41%;
-    height: 41vmax;
+    height: 41.57vmax;
     min-height: 19em;
     background-image: url("images/three.svg");
 }

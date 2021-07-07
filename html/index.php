@@ -40,16 +40,16 @@
                 <img src="images/loteriaThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
-        <a href="work/finalstraw" class="thumbnail__wrap">
-            <figure class="thumbnail">
-                <h3 class="zigzag">Final Straw</h3>
-                <img src="images/finalThumb.png" alt="" class="thumbnail__image">
-            </figure>
-        </a>
         <a href="work/jiffy" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">Jiffy Lube</h3>
                 <img src="images/jiffyThumb.png" alt="" class="thumbnail__image">
+            </figure>
+        </a>
+        <a href="work/finalstraw" class="thumbnail__wrap">
+            <figure class="thumbnail">
+                <h3 class="zigzag">Final Straw</h3>
+                <img src="images/finalThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <a href="work/laso" class="thumbnail__wrap">
