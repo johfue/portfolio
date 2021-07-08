@@ -344,7 +344,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         </figure>
                         <h2 class=" work-h2 wide">Direct Mail</h2>
                         <figure class="work__figure wide">
-                            <img src="/images/sparknotesCardboard.jpg" class="expandableContent center" alt="A mock-up of branded google cardboard VR headset.">
+                            <img src="/images/sparknotesCardboard.jpg" class="expandableContent" alt="A mock-up of branded google cardboard VR headset.">
                             <figcaption>To reach educators, they\'ll be mailed a branded google cardboard headset along with information on how they can support students with dyslexia. For convenience, the headset will have a QR code to launch the game.</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>                        <h2 class=" work-h2 wide">Out-of-home</h2>
