@@ -342,7 +342,12 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Players will have a short amount of time each day to work through their caseload and will be graded on their speed and accuracy</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                    <h2 class=" work-h2 wide">Out-of-home</h2>
+                        <h2 class=" work-h2 wide">Direct Mail</h2>
+                        <figure class="work__figure wide">
+                            <img src="/images/sparknotesCardboard.jpg" class="expandableContent center" alt="A mock-up of branded google cardboard VR headset.">
+                            <figcaption>To reach educators, they\'ll be mailed a branded google cardboard headset along with information on how they can support students with dyslexia. For convenience, the headset will have a QR code to launch the game.</figcaption>
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>                        <h2 class=" work-h2 wide">Out-of-home</h2>
                         <figure class="work__figure wide">
                             <img src="/images/sparknotesMock.jpg" class="expandableContent center" alt="A mock-up of two out of home ads placed in subways">
                             <figcaption>OOH will be used during back to school season to direct people towards the AR experience</figcaption>
