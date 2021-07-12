@@ -342,12 +342,13 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Players will have a short amount of time each day to work through their caseload and will be graded on their speed and accuracy</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <h2 class=" work-h2 wide">Direct Mail</h2>
-                        <figure class="work__figure wide">
+                        <h2 class="work-h2 wide">Direct Mail</h2>
+                        <p>To reach educators, they\'ll be mailed a branded google cardboard headset along with information on how they can support students with dyslexia. For convenience, the headset will have a QR code to launch the game.</p>
+                        <figure class="work__figure">
                             <img src="/images/sparknotesCardboard.jpg" class="expandableContent" alt="A mock-up of branded google cardboard VR headset.">
-                            <figcaption>To reach educators, they\'ll be mailed a branded google cardboard headset along with information on how they can support students with dyslexia. For convenience, the headset will have a QR code to launch the game.</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>                        <h2 class=" work-h2 wide">Out-of-home</h2>
+                        </figure>
+                        <h2 class=" work-h2 wide">Out-of-home</h2>
                         <figure class="work__figure wide">
                             <img src="/images/sparknotesMock.jpg" class="expandableContent center" alt="A mock-up of two out of home ads placed in subways">
                             <figcaption>OOH will be used during back to school season to direct people towards the AR experience</figcaption>
@@ -361,7 +362,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/sparknotesOOH2.jpg" class="expandableContent center" alt="Alice is struggling to climb over a mushroom while a normal sized person walks easily across a field of mushrooms with giant strides. With the headline, Working 2x as hard for 1/2 the results">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                    <h2 class=" work-h2 wide">Interactive</h2>
+                        <h2 class=" work-h2 wide">Interactive</h2>
                         <p>A button that simulates certain forms of dyslexia will be added to Alice’s Adventures in Wonderland page. Letters will appear to jump around as they are randomly replaced. A link will lead readers to a page where they can learn more about dyslexia.</p>
                         <p>A voice synthesizer button will also be added to Sparknotes’s pages to aid with reading. The currently read word will be highlighted.</p>
                         <figure class="work__figure">
