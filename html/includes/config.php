@@ -227,6 +227,12 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Jiffy Lube";
 			$PAGE_DESC = "<b>The Problem:</b> Car ownership is important but car care is complicated and trustworthy mechanics are hard to come by.<br><br><b>The Big Idea:</b> When people move to a new city they lose whoever they did trust to service their car. Show them Jiffy mechanics go the extra mile for their drivers.";
 			$CONTENT = '
+                        <h2 class="work-h2 wide">Bumble BFF</h2>
+                        <p>In the top cities people are moving to, Bumble profiles with personalities based on local Jiffy Lube technicians will recommend their matches places to visit and help people get settled into their new city. Like any good mechanic, they wouldn’t recommend something they wouldn’t do themself.</p>
+                        <figure class="work__figure">
+                            <img src="/images/jiffyBumble.jpg" class="expandableContent center" alt="A screenshot of a mock Bumble profile. The profiles name is Avery.">
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
                         <h2 class="work-h2 wide">Direct Mail</h2>
                         <div><p>People who’ve just moved to a target city will receive a welcome package. Included is a living guide with info about local restaurants, fun destinations, and where to find essential services. As well as information on parking, street cleanings, traffic patterns, and how to update their drivers license. Along with the guide, the box will include items to help them through an anxious time:</p><ul class="work__ul"><li>Essential oil aromatic air freshener</li><li>QR code with relaxing driving Spotify playlist</li><li>Fidget toy keychain</li><li>Set of postcards to send to their friends back home</li></ul></div>
                         <figure class="work__figure">
@@ -258,13 +264,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/jiffyOOH_3.jpg" class="expandableContent center" alt="The copy reads: Welcome to Denver. The tallest dunes in North America are an afternoon away. Happy driving. Jiffy Lube.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class="work-h2 wide">Bumble BFF</h2>
-                        <p>In the top cities people are moving to, Bumble profiles with personalities based on local Jiffy Lube technicians will recommend their matches places to visit and help people get settled into their new city. Like any good mechanic, they wouldn’t recommend something they wouldn’t do themself.</p>
-                        <figure class="work__figure">
-                            <img src="/images/jiffyBumble.jpg" class="expandableContent center" alt="A screenshot of a mock Bumble profile. The profiles name is Avery.">
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>
-                        <p class="wide center">Role / Art Director<br><br>Strategist / Micha Lewis<br>Strategist / Dallas Watkins</p>
                         ';
 			break;
 
@@ -305,7 +304,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/citiFlyer.jpg" class="expandableContent center" alt="A poster featuring a women looking bravely forward. She looks confident and poweful. Energy spins around her. At the top of the post reads: The Other Side of the Coin, The WFL’s first speaker series peels back what it takes to make your own seat at the table. Listen to leading women tell their story and network with others on the rise. Followed by the dates and locations and a link to RSVP">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                    <p class="wide center">Role / Art Director<br><br>Strategist / Micha Lewis<br>Strategist / Dallas Watkins</p>';
+                    ';
 			break;
 	   case "/work/sparknotes.php":
             $CURRENT_PAGE = "SparkNotes";
