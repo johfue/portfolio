@@ -31,26 +31,30 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure">
-                            <img src="/images/latinxcelenciaMockUp.jpg" class=" expandableContent right">
+                            <img src="/images/latinxcelenciaMockUp.jpg" class=" expandableContent" alt="A vertical and horizontal version of the poster on two digital displays.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
+                        <figure class="work__figure">
+                            <img src="/images/latinxcelenciaSocial.jpg" class=" expandableContent" alt="Three instagram posts in the same art deco style promoting LatinXcelencia.">
+                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>                        
                         <figure class="work__figure col-2">
                             <img src="/images/salsaNight.jpg" class="expandableContent center" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure">
-                            <img src="/images/salsaNightInstagram.png" class="expandableContent center" alt="The same poster but in a vertical format.">
+                            <img src="/images/salsaNightInstagram.png" class="expandableContent" alt="The same poster but in a vertical format.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                     </section>
 			        <section class="work__section work__section--main">
                         <h2 class="work-h2 col-3">T-Shirt Design</h2>
                         <figure class="work__figure">
-                            <img src="/images/lasoTshirtMock.jpg" class="expandableContent right">
+                            <img src="/images/lasoTshirtMock.jpg" class="expandableContent" alt="">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure col-2">
-                            <img src="/images/lasoTshirt.jpg" class="expandableContent center" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
+                            <img src="/images/lasoTshirt.jpg" class="expandableContent" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                     </section>
