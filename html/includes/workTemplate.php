@@ -8,8 +8,10 @@
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.php");?>
     <main class="work__main <?php echo $CURRENT_PAGE;?>">
     <header class="work__header">
-        <h1 class="work__h1 col-2"><?php echo $PAGE_HEADER;?></h1>
-        <p class="work__p---header"><?php echo $PAGE_DESC;?></p>
+        <div class="work__div--header">
+            <h1 class="work__h1 col-2"><?php echo $PAGE_HEADER;?></h1>
+            <p class="work__p---header"><?php echo $PAGE_DESC;?></p>
+        </div>
     </header>
     <?php echo $CONTENT;?>
     </main>
