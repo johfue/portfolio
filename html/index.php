@@ -28,10 +28,10 @@
                 <img src="images/sparkThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
-        <a href="work/citi" class="thumbnail__wrap">
+        <a href="work/jiffy" class="thumbnail__wrap">
             <figure class="thumbnail">
-                <h3 class="zigzag">Citi</h3>
-                <img src="images/citiThumb.png" alt="" class="thumbnail__image">
+                <h3 class="zigzag">Jiffy Lube</h3>
+                <img src="images/jiffyThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <a href="work/loteria" class="thumbnail__wrap">
@@ -40,10 +40,10 @@
                 <img src="images/loteriaThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
-        <a href="work/jiffy" class="thumbnail__wrap">
+        <a href="work/citi" class="thumbnail__wrap">
             <figure class="thumbnail">
-                <h3 class="zigzag">Jiffy Lube</h3>
-                <img src="images/jiffyThumb.png" alt="" class="thumbnail__image">
+                <h3 class="zigzag">Citi</h3>
+                <img src="images/citiThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <a href="work/finalstraw" class="thumbnail__wrap">

@@ -24,7 +24,8 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "<b>About:</b> As the creative director of the Latin American Student Organization at USC I was responsible for developing the organization's visual identity and creating all promotional materials. Given our how many different nationalities made up our community, it was important to me that our look pulled from all across Latin America.";
 			$CONTENT =
 			        '
-                        <h2 class=" work-h2 wide">Digital Signage</h2>
+			        <section class="work__section work__section--main">
+                        <h2 class=" work-h2 col-3">Promotional Material</h2>
                         <figure class="work__figure">
                             <img src="/images/latinxcelencia.jpg" class="expandableContent center" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called &quot;Latinxcelencia&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
@@ -33,21 +34,29 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/latinxcelenciaMockUp.jpg" class=" expandableContent right">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work__figure wide">
+                        <figure class="work__figure col-2">
                             <img src="/images/salsaNight.jpg" class="expandableContent center" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <h2 class=" work-h2 wide">T-Shirt Design</h2>
                         <figure class="work__figure">
-                            <img src="/images/lasoTshirt.jpg" class="expandableContent center" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
+                            <img src="/images/salsaNightInstagram.png" class="expandableContent center" alt="The same poster but in a vertical format.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
+                    </section>
+			        <section class="work__section work__section--main">
+                        <h2 class="work-h2 col-3">T-Shirt Design</h2>
                         <figure class="work__figure">
                             <img src="/images/lasoTshirtMock.jpg" class="expandableContent right">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <h2 class=" work-h2 wide">Social Media Flyers</h2>
-                        <div class="gridDense wide">
+                        <figure class="work__figure col-2">
+                            <img src="/images/lasoTshirt.jpg" class="expandableContent center" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words &quot;Latin American Student Organization - University of South Carolina&quot;">
+                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                    </section>
+			        <section class="work__section work__section--main">
+                        <h2 class=" work-h2 col-3">Instagram Graphics</h2>
+                        <div class="gridDense col-3">
                         <figure class="work__figure">
                             <img src="/images/lasoLast.jpg" class="expandableContent full" alt="A red party popper on a yellow background promoting the Last LASO meeting of the semester">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
@@ -96,7 +105,9 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <img src="/images/comosedice.jpg" class="full" alt="Various speech bubbles with the center bubble containing the text &quot;Comoe Se Dice, an Arguement&quot;">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        </div>';
+                        </div>
+                    </section>
+                    ';
 			break;
 		case "/work/ldc.php":
 			$CURRENT_PAGE = "LDC";
@@ -222,191 +233,256 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         </figure>';
 			break;
         case "/work/jiffy.php":
-			$CURRENT_PAGE = "Jiffy Lube";
+			$CURRENT_PAGE = "Jiffy";
 			$PAGE_TITLE = "Jiffy Lube";
 			$PAGE_HEADER = "Jiffy Lube";
-			$PAGE_DESC = "<b>The Problem:</b> Car ownership is important but car care is complicated and trustworthy mechanics are hard to come by.<br><br><b>The Big Idea:</b> When people move to a new city they lose whoever they did trust to service their car. Show them Jiffy mechanics go the extra mile for their drivers.";
+			$PAGE_DESC = "<b>The Problem:</b> Car ownership is important but car care is complicated and trustworthy mechanics are hard to come by.</p><p><b>The Big Idea:</b> When people move to a new city they lose whoever they did trust to service their car. Show them Jiffy mechanics go the extra mile for their drivers.";
 			$CONTENT = '
-                        <h2 class="work-h2 wide">Bumble BFF</h2>
+                    <section class="work__section work__section--main light">
+                    <div class="work__div">
+                        <h2 class="work-h2">Bumble BFF</h2>
                         <p>In the top cities people are moving to, Bumble profiles with personalities based on local Jiffy Lube technicians will recommend their matches places to visit and help people get settled into their new city. Like any good mechanic, they wouldn’t recommend something they wouldn’t do themself.</p>
-                        <figure class="work__figure">
+                    </div>
+                        <figure class="work__figure col-2">
                             <img src="/images/jiffyBumble.jpg" class="expandableContent center" alt="A screenshot of a mock Bumble profile. The profiles name is Avery.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class="work-h2 wide">Direct Mail</h2>
+                    </section>
+                    <section class="work__section work__section--accent">
+                        <div class="work__div">
+                        <h2 class="work-h2">Direct Mail</h2>
                         <div><p>People who’ve just moved to a target city will receive a welcome package. Included is a living guide with info about local restaurants, fun destinations, and where to find essential services. As well as information on parking, street cleanings, traffic patterns, and how to update their drivers license. Along with the guide, the box will include items to help them through an anxious time:</p><ul class="work__ul"><li>Essential oil aromatic air freshener</li><li>QR code with relaxing driving Spotify playlist</li><li>Fidget toy keychain</li><li>Set of postcards to send to their friends back home</li></ul></div>
-                        <figure class="work__figure">
+                        </div>
+                        <figure class="work__figure col-2">
                             <img src="/images/jiffyBox.jpg" class="expandableContent center" alt="">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class="work-h2 wide">Mobile App</h2>
+                    </section>
+                    <section class="work__section work__section--main light">
+                    <div class="work__div">
+                        <h2 class="work-h2">Mobile App</h2>
                         <div><p>Along with a visual refresh, the Jiffy Lube app will get a few new updates.</p><ul class="work__ul"><li>Since cars need maintenance for years, users can get to know who will be handling their service trip ahead of time to build long-term trust.<li>If something urgent pop-ups up users can chat in real-time with a Jiffy Lube technician to diagnose their problem.<li>The app will keep track of every service visit so users can track how often they need maintenance and who all has worked on their car.</ul></div>
-                        <figure class="work__figure">
+                    </div>
+                        <figure class="work__figure col-2">
                         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); width:38vw; min-width: 100%; height: 600px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPHEdQBLSEGZ56w7yj0qANK%2FJiffy-Lube-2021%3Fnode-id%3D1%253A6%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
                         <figcaption>Interactive Demo</figcaption>
                         </figure>
-                        <figure class="work__figure wide">
+                        <figure class="work__figure col-3">
                             <img src="/images/jiffyMobile.jpg" class="expandableContent center" alt="">
                             <figcaption>The updated appointment confirmation process.</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class="work-h2 wide">Out-of-home</h2>
+                    </section>
+                    <section class="work__section work__section--accent">
+                    <div class="work__div">
+                        <h2 class="work-h2">Out-of-home</h2>
                         <p>In target cities Jiffy Lube will give pointers to newcomers through billboards. The goal is to associate Jiffy Lube with solid automotive advice. So whenever someone uses what they’ve learned from a billboard they\'ll remember they learned it from Jiffy Lube.</p>
-                        <figure class="work__figure">
+                    </div>
+                        <figure class="work__figure col-2 col-right">
                             <img src="/images/jiffyOOH_1.jpg" class="expandableContent center" alt="The copy reads: Welcome to Durham. Meters are free on the weekend. Happy driving. Jiffy Lube.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work__figure">
+                        <figure class="work__figure col-2 col-right">
                             <img src="/images/jiffyOOH_2.jpg" class="expandableContent center" alt="The copy reads: Welcome to Pittsburg. Avoid driving through North Shore on Game Days. Happy driving. Jiffy Lube.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work__figure">
+                        <figure class="work__figure col-2 col-right">
                             <img src="/images/jiffyOOH_3.jpg" class="expandableContent center" alt="The copy reads: Welcome to Denver. The tallest dunes in North America are an afternoon away. Happy driving. Jiffy Lube.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        ';
+                    </section>';
 			break;
 
 		case "/work/citi.php":
 			$CURRENT_PAGE = "Citi";
 			$PAGE_TITLE = "Citi";
 			$PAGE_HEADER = "Citi";
-			$PAGE_DESC = "<b>The Problem:</b> Citi wants to demonstrate their commitment to driving an equitable recovery for working women following the pandemic.<br><br><b>The Big Idea:</b> Have Citi connect working women and give them the tools to succeed financially, because knowledge is power and community builds confidence.";
+			$PAGE_DESC = "<b>The Problem:</b> Citi wants to demonstrate their commitment to driving an equitable recovery for working women following the pandemic.</p><p><b>The Big Idea:</b> Have Citi connect working women and give them the tools to succeed financially, because knowledge is power and community builds confidence.";
 			$CONTENT = '
-                        <h2 class="work-h2 wide">Women\'s Financial League</h2>
+                    <section class="work__section work__section--main light">
+                    <div class="work__div">
+                        <h2 class="work-h2">Women\'s Financial League</h2>
                         <p>The WFL is a learning community that uses gamification to teach financial literacy. Users will join one of two teams and compete against each other to achieve weekly goals. Megan Rapinoe of the US Women\'s Soccer Team will serve as spokesperson for the league.</p>
-                        <figure class="work__figure">
+                    </div>
+                        <figure class="work__figure col-2">
                             <img src="/images/citiWFL.jpg" class="expandableContent center" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work__figure wide">
+                        <figure class="work__figure col-3">
                             <img src="/images/citiMock.jpg" class="expandableContent center" alt="A screenshot of an example video lesson mocked-up on a macbook. There is a sidebar outlining the different lessons and is divded into different units and inididual lessons. The video player is ready to be played, below it is a summary of the video\'s content. The example lesson is about credit and credit cards.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work__figure">
+                        <p>To progress through the course and earn points for their team, users have to pass quizes for each unit. Users can also earn points for reviewing old material.</p>
+                        <figure class="work__figure col-2">
                             <img src="/images/citiQuiz.jpg" class="expandableContent center" alt="A screenshot showing a quiz in progress. It has the same layout as the example lesson, except in place of a video there is a series of multiple choice questions.">
-                            <figcaption>To progress through the course and earn points for their team, users have to pass quizes for each unit. Users can also earn points for reviewing old material.</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work__figure">
+                        <p>The platform lets learners keep track of their progress, where they rank in the leaderboard, and how their team is faring.</p>
+                        <figure class="work__figure col-2">
                             <img src="/images/citiHub.jpg" class="expandableContent center" alt="A screenshot showing the dashboard of the learning platform. There is a navigation bar and three major sections. One shows the six weekly lessons, another shows a line graph tracking the users experience points over the week. The third displays a leaderboard and how the two teams are comparing to each other on three different metrics.">
-                            <figcaption>The platform lets learners keep track of their progress, where they rank in the leaderboard, and how their team is faring.</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work__figure wide">
+                        <p>Along with unlocking acheivements, winners of the weekly challenges can earn swag and prizes for their team.</p>
+                        <figure class="work__figure col-2">
                             <img src="/images/citiSwag.jpg" class="expandableContent center" alt="Three prizes that can be won. One is a teal reusable water bottle, another is an orange tank top and the third is a planner. All three branded with the leagues energy swirls and colors.">
-                            <figcaption>Along with unlocking acheivements, winners of the weekly challenges can earn swag and prizes for their team.</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class=" work-h2 wide">Live Events</h2>
-                        <p>Competitors who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills. Competitors will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers.</p>
+                    </section>
+                    <section class="work__section work__section--accent">
+                    <div class="work__div col-2">
+                        <h2 class="work-h2 col-2">Live Events</h2>
+                        <p>WFL members who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills.</p>
+                        <p>WFL members will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers.</p>
+                    </div>
                         <figure class="work__figure">
                             <img src="/images/citiFlyer.jpg" class="expandableContent center" alt="A poster featuring a women looking bravely forward. She looks confident and poweful. Energy spins around her. At the top of the post reads: The Other Side of the Coin, The WFL’s first speaker series peels back what it takes to make your own seat at the table. Listen to leading women tell their story and network with others on the rise. Followed by the dates and locations and a link to RSVP">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
+                    </section>
                     ';
 			break;
 	   case "/work/sparknotes.php":
             $CURRENT_PAGE = "SparkNotes";
 			$PAGE_TITLE = "SparkNotes";
 			$PAGE_HEADER = "SparkNotes";
-			$PAGE_DESC = "<b>The Problem:</b> People who use SparkNotes get a bad rap, when more often than not they're just not getting the support they need. People with dyslexia know this too well.<br><br><b>The Big Idea:</b> Use the world of Alice in Wonderland to educate students and teachers about the frustration and anxiety that push people with dyslexia to use SparkNotes.";
+			$PAGE_DESC = "<b>The Problem:</b> Students who use online book summaries like SparkNotes get a bad rap, when more often than not they're just not getting the support they need. People with dyslexia know this too well.</p><p><b>The Big Idea:</b> Use the world of Alice in Wonderland to educate students and teachers about the frustration and anxiety that push people with dyslexia to use SparkNotes.";
 			$CONTENT = '
-                    <h2 class=" work-h2 wide">VR Experience</h2>
-                        <figure class="work__figure wide">
+                    <section class="work__section work__section--main light">
+                    <div class="work__div">
+                        <h2 class="work-h2">VR Experience</h2>
+                        <p>Players will be put into the world of Alice in Wonderland where they help investigate who stole the queen’s tarts.<br>As part of the queen’s royal guard, players must decode ransom notes sent by the thief.<br>To be as accessible as possible the game will be playable on phones and desktops through their web browser, both with and without headsets.</p>
+                    </div>
+                        <figure class="work__figure col-2">
                             <video autoplay loop muted playsinline class="expandableContent">
                             <source src="/media/sparknotesPan.mp4">
-                            A POV shot where the user focuses on fields on a form to place stamps. After stamping the form a new one appears. The player is interacting with a mirror and can see other Cards filling out their forms in the background. The world looks like a comic book.                            </video>
-                            </video>
+                            A POV shot where the player sitting in front of desk and panning around to see the room. The room looks like a a cross-hatched illustratio.</video>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <p>The virtual reality game takes place in the world of Alice in Wonderland, where you work in the queen’s royal guard as a junior investigator. You have been assigned to help uncover who stole the queen’s tarts. It’s your job to sort through rumors spreading around the kingdom and filter out the noise.
-                        <br><br>Parsing through all the paradoxical nonsense of wonderland is hard enough. Doing it with tools not meant for the job is even harder. The reports you read can appear scrambled or wavy. Sometimes words will jump around, be replaced with other words, or be missing all together.
-                        <br><br>The game will be playable through web browsers and use gaze-based controls that support every device. It is meant to explore the feelings of frustration and embarrassment that people with dyslexia experience. From this players will learn to cope and create strategies to make-up for their handicap.</p>
+                        <p>Since dyslexia manifests differently in everyone, some tasks will be easier with a headset and some without. The goal of the game is to mirror the emotional effects dyslexia has on students when they don’t have the right accommodations to succeed. Players will have to develop their own coping strategies, like taking their headset on and off, to be successful.</p>
                         <figure class="work__figure">
-                            <img src="/images/sparknotesCat.jpg" class="expandableContent center" alt="From your desk you can the see the floating heads of the Cheshire Cat peaking from behind a window in the office.">
-                            <figcaption>The Cheshire Cat will come to interrupt the work day as a distraction. Your co-workers will accidentally bump into your desk, knocking your magic mirror over</figcaption>
+                            <video autoplay loop muted playsinline class="expandableContent">
+                            <source src="/media/sparknotesNotes.mp4">
+                            </video>
+                            <figcaption>In VR refering players can easily refer back to their notes.</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                        <figure class="work__figure">
-                            <img src="/images/sparknotesComparision.jpg" class="expandableContent center" alt="A wider shot of the office where you can see more of your co-workers completing their tasks">
-                            <figcaption>The player will be able to view workspaces of the other employees and see them breeze through their work and clock out early</figcaption>
+                            <img src="/images/sparknotesKeyboard.jpg" class="expandableContent center" alt="A wider shot of the office where you can see more of your co-workers completing their tasks">
+                            <figcaption>However, typing is much slower compared to using a physical keyboard.</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <p>Players will have a short amount of time to go through their workload while minimizing mistakes. At the end of each shift they’ll be chastised for not keeping up with everyone else.</p>
+                        <figure class="work__figure">
+                            <img src="/images/sparknotesReport.jpg" class="expandableContent" alt="A results screen showing the player performing poorly.">
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure">
                             <video autoplay loop muted playsinline class="expandableContent">
                             <source src="/media/sparknotesClock.mp4">
                             A looping video of a clock\'s hands spinning around and around.
                             </video>
-                            <figcaption>Players will have a short amount of time each day to work through their caseload and will be graded on their speed and accuracy</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <h2 class="work-h2 wide">Direct Mail</h2>
-                        <p>To reach educators, they\'ll be mailed a branded google cardboard headset along with information on how they can support students with dyslexia. For convenience, the headset will have a QR code to launch the game.</p>
+                        <p>Various distractions will interrupt the work day to break the player\'s focus. Their co-workers will breeze through their workload and clock out early regardless.</p>
                         <figure class="work__figure">
+                            <video autoplay loop muted playsinline class="expandableContent">
+                            <source src="/media/sparknotesDisctraction.mp4">
+                            A video of the players desk being knocked into.
+                            </video>
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure class="work__figure">
+                            <img src="/images/sparknotesCat.jpg" class="expandableContent" alt="The Cheshire Cat has come to interrupt the work day.">
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                    </section>
+                    <section class="work__section work__section--accent">
+                    <div class="work__div">
+                        <h2 class="work-h2">Direct Mail</h2>
+                        <p>To reach educators, they\'ll be mailed a branded google cardboard headset along with information on how they can support students with dyslexia. For convenience, the headset will have a QR code to launch the game.</p>
+                    </div>
+                        <figure class="work__figure col-2">
                             <img src="/images/sparknotesCardboard.jpg" class="expandableContent" alt="A mock-up of branded google cardboard VR headset.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class=" work-h2 wide">Out-of-home</h2>
-                        <figure class="work__figure wide">
+                    </section>
+                    <section class="work__section work__section--main light">
+                        <div class="work__div">
+                            <h2 class=" work-h2">Out-of-home</h2>
+                            <p>During the back-to-school, OOH will be used to direct people towards the AR experience.</p>
+                        </div>
+                        <figure class="work__figure col-2">
                             <img src="/images/sparknotesMock.jpg" class="expandableContent center" alt="A mock-up of two out of home ads placed in subways">
-                            <figcaption>OOH will be used during back to school season to direct people towards the AR experience</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="work__figure">
-                            <img src="/images/sparknotesOOH1.jpg" class="expandableContent center" alt="The art depicts a shrunken Alice drawn in the original Alice in Wonderland illustration style struggling to open a locked door while looking back at the key which is placed high up on a table she cannot read. With the headline, An underdog with an edge is still an underdog">
+                            <img src="/images/sparknotesOOH3.jpg" class="expandableContent center" alt="The art depicts a giant Alice drawn in the original Alice in Wonderland illustration style, she is so big she takes up the entire space of the room, everyone else is being knocked over by her. With the headline, One size fits most.">
+                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                        <figure class="work__figure">
+                            <img src="/images/sparknotesOOH1.jpg" class="expandableContent center" alt="The art depicts a shrunken Alice struggling to open a locked door while looking back at the key which is placed high up on a table she cannot read. With the headline, An underdog with an edge is still an underdog.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                         <figure class="work__figure">
                             <img src="/images/sparknotesOOH2.jpg" class="expandableContent center" alt="Alice is struggling to climb over a mushroom while a normal sized person walks easily across a field of mushrooms with giant strides. With the headline, Working 2x as hard for 1/2 the results">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <h2 class=" work-h2 wide">Interactive</h2>
-                        <p>A button that simulates certain forms of dyslexia will be added to Alice’s Adventures in Wonderland page. Letters will appear to jump around as they are randomly replaced. A link will lead readers to a page where they can learn more about dyslexia.</p>
-                        <p>A voice synthesizer button will also be added to Sparknotes’s pages to aid with reading. The currently read word will be highlighted.</p>
-                        <figure class="work__figure">
-                            <img src="/images/sparknotesWeb1.jpg" class="expandableContent center" alt="A screenshot of SparkNotes website where the text is scrambled">
-                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>
-                        <figure class="work__figure">
+                    </section>
+                    <section class="work__section work__section--accent">
+                        <div class="work__div">
+                        <h2 class=" work-h2">Interactive</h2>
+                        <p>To tie in with the campaign, Sparknotes will add a voice synthesizer button to their study guides and summaries. It will highlight the current word as it’s read aloud.</p>
+                        </div>
+                        <figure class="work__figure col-2">
                             <img src="/images/sparknotesWeb2.jpg" class="expandableContent center" alt="A screenshot of the SparkNotes websites with a button placed besides the text that highlights the text while it is read aloud">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>';
+                        </figure>
+                    </section>';
 			break;
 		case "/work/loteria.php":
-            $CURRENT_PAGE = "Play Loteria Online";
+            $CURRENT_PAGE = "Loteria";
 			$PAGE_TITLE = "Loteria";
 			$PAGE_HEADER = "PlayLotería .Online";
-			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game, Lotería. Google made a good attempt but all the fun parts, picking your board and drawing cards, were done by a robot.<br><br><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a>";
+			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game, Lotería. Google made a good attempt but all the fun parts, picking your board and drawing cards, were done by a robot.</p><p><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a>";
 			$CONTENT = '
-                    <h2 class=" work-h2 work-h2">Browser Game</h2>
-                        <figure class="work__figure wide">
+			    <section class="work__section work__section--main">
+                <div class="work__div">
+                    <h2 class="work-h2">Browser Game</h2>
+                    <p>For the unitiated, Lotería is like bingo, but instead of random numbers and letters, cards are drawn from a deck.</p>
+                </div>
+                        <figure class="work__figure col-2 col-right">
                             <img src="/images/loteriaDesktop.jpg" class="expandableContent center" alt="A desktop mockup of the game. The player has several beans placed on their board. The current card is La Rosa and there are four other people playing.">
-                            <figcaption>For the unitiated, Lotería is like bingo, but instead of random numbers and letters, cards are drawn from a deck.</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work__figure wide">
+                        <figure class="work__figure col-2 col-right">
                             <img src="/images/loteriaPhone.jpg" class="expandableContent center" alt="A mobile mock-up of the game. The host has just drawn La Rosa and there are several other players in their game.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>';
+                        </figure>
+                    </section>
+                    ';
 			break;
 		 case "/work/finalstraw.php":
-            $CURRENT_PAGE = "Final Straw";
+            $CURRENT_PAGE = "FinalStraw";
 			$PAGE_TITLE = "Final Straw";
 			$PAGE_HEADER = "Final Straw";
-			$PAGE_DESC = "<b>About:</b> Final Straw is a reusable metal straw that fits in a neat carrying case that clips on to your keychain. For this project we were able to play with far fancier equipment than I have ever touched before to produce a 30 second TV spot.";
+			$PAGE_DESC = "<b>About:</b> Final Straw is a reusable metal straw that fits in a neat carrying case and clips to your keychain. For this project we were able to play with far fancier equipment than I have ever touched before to produce a 30 second TV spot.";
 			$CONTENT = '
-                    <h2 class=" work-h2 wide">:30 Second TV Spot</h2>
-                            <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <p class="center wide">Role / Camera Operator<br><br>Director / Gabrielle Joyce<br>Location Sound / Lindsay Miller<br>Boom Operator / Jarret Walker<br>Talent / Martina Kaura<br><br>Awards<br>Bronze Telly<br>Local Silver Student Addy</p>
-                    <h2 class=" work-h2 wide">Logo Animation</h2>
-                        <figure class="work__figure wide">
+			        <section class="work__section work__section--main light">
+                    <h2 class=" work-h2 col-3">:30 Second TV Spot</h2>
+                            <iframe class="center col-3" style="width:100%; min-width: 80vw; min-height: 45vw; aspect-ratio:16/9" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="center col-3">Role / Camera Operator<br><br>Director / Gabrielle Joyce<br>Location Sound / Lindsay Miller<br>Boom Operator / Jarret Walker<br>Talent / Martina Kaura<br><br>Awards<br>Bronze Telly<br>Local Silver Student Addy</p>
+                    </section>
+			        <section class="work__section work__section--accent light">
+                    <h2 class=" work-h2 col-3">Logo Animation</h2>
+                        <figure class="work__figure col-3">
                             <video autoplay loop muted playsinline class="expandableContent">
                             <source src="/media/finalStrawLogo.mp4">
                             Alt texts
                             </video>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>';
+                        </figure>
+                    </section>
+                    ';
 			break;
 		case "/work/personal.php":
 			$CURRENT_PAGE = "Personal";
@@ -414,6 +490,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Personal Work";
 			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could afford color printing.";
 			$CONTENT = '
+			        <section class="work__section work__section--main Personal">
 			            <b class="work-b"></b>
                         <figure class="work__figure wide">
                             <img src="/images/pulley.jpg" alt="Drawing of a wrench and pulley" class="expandableContent expandableContent-personal">
@@ -488,7 +565,9 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             </video>
                             <figcaption>AR Effect</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>';
+                        </figure>
+                    </section>
+                    ';
 			break;
 		default:
 			$CURRENT_PAGE = "Index";
