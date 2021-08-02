@@ -157,7 +157,6 @@ p {
 
 figcaption {
     font-family: Lato-Light;
-    padding-bottom: 1em;
     line-height: 1.5em;
 }
 
@@ -576,31 +575,6 @@ footer {
 a svg {
     fill: var(--link-500);
 }
-
-.work-main {
-    width: 90%;
-    width: 90vw;
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: var(--neutral-900);
-    padding-bottom: 1em;
-    margin-bottom: 2em;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: minmax(min-content, max-content);
-    grid-gap: 1rem;
-    box-sizing: border-box;
-    padding: 1em 1rem;
-    background-image: url(images/dotHeader.svg);
-    background-repeat: no-repeat;
-    background-size: 600px;
-}
-
-.work-main.Personal {
-    grid-auto-rows: 40vh;
-    grid-template-rows: min-content;
-}
-
 .Personal figcaption {
     text-align: center;
 }
@@ -636,15 +610,18 @@ a svg {
     padding: 2em 10vw 4em 10vw;
 }
 
+.work__main {
+    max-width: 2040px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+}
+
 @media(min-width: 768px) {
     .work__section {
         grid-column: span 2;
         grid-template-columns: 1fr 1fr 1fr;
-    }
-    .work__main {
-        padding-bottom: 1em;
-        margin-bottom: 2em;
-        box-sizing: border-box;
     }
     .work__header {
         -webkit-clip-path: url(#mask);
