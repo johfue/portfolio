@@ -302,6 +302,7 @@ svg {
     width: 100%;
     top: 0;
     left: 0;
+    pointer-events: none;
 }
 
 
@@ -981,6 +982,7 @@ audio {
     grid-gap: 1em;
     width: 40ch;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .about__section, .about__h1 {
@@ -1015,6 +1017,7 @@ audio {
 
 .about__img {
     height: 60vh;
+    min-height: 485px;
     max-height: 500px;
     width: 100%;
     object-fit: cover;
@@ -1027,6 +1030,28 @@ audio {
 .about__img--left {
     object-position: left;
     display: none;
+}
+
+@supports(pointer-events:none) {
+    .about__svg {
+        z-index: 2;
+}
+
+.about__svg {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+    transform-origin: center;
+}
+
+.about__svg--one, .about__svg--three {
+    display: none;
+}
+
+
+.about__svg--two {
+    transform: scale(1.2) translate(-5%, 65rem);
 }
 
 @media(min-width:635px) {
@@ -1059,6 +1084,13 @@ audio {
         diplay: none;
         object-position: left;
     }
+    .about__svg--one {
+        transform: scale(0.85) translate(-142%, 41rem);
+        display: block;
+    }
+    .about__svg--two {
+        transform: scale(1.2) translate(18%, 39rem);
+    }
 }
 
 @media(min-width:950px) {
@@ -1085,6 +1117,16 @@ audio {
     .about__img--left {
         display: block;
         object-position: left;
+    }
+    .about__svg--one {
+        transform: scale(0.85) translate(-185%, 18rem);
+    }
+    .about__svg--two {
+        transform: scale(0.85) translate(18%, 46rem);
+    }
+    .about__svg--three {
+        transform: scale(0.85) translate(147%, 34rem);
+        display: block;
     }
 }
 

@@ -37,7 +37,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <figure class="work__figure">
                             <img src="/images/latinxcelenciaSocial.jpg" class=" expandableContent" alt="Three instagram posts in the same art deco style promoting LatinXcelencia.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>                        
+                        </figure>
                         <figure class="work__figure col-2">
                             <img src="/images/salsaNight.jpg" class="expandableContent center" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
@@ -447,17 +447,20 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Loteria";
 			$PAGE_TITLE = "Loteria";
 			$PAGE_HEADER = "PlayLotería .Online";
-			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game, Lotería. Google made a good attempt but all the fun parts, picking your board and drawing cards, were done by a robot.</p><p><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a>";
+			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game, Lotería. Google made a good attempt but too much of what makes the game fun, was done by robots.</p><p><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a>";
 			$CONTENT = '
 			    <section class="work__section work__section--main">
                 <div class="work__div">
                     <h2 class="work-h2">Browser Game</h2>
-                    <p>For the unitiated, Lotería is like bingo, but instead of random numbers and letters, cards are drawn from a deck.</p>
+                    <p>For the unitiated, Lotería is like bingo, but instead of random numbers, cards with different images are drawn from a deck.<br>One player draws the cards and the others pick a board with 16 images on it. When a card is drawn you get to place a counter, traditionally a pinto bean, if one of your spaces matches.</p>
                 </div>
                         <figure class="work__figure col-2 col-right">
                             <img src="/images/loteriaDesktop.jpg" class="expandableContent center" alt="A desktop mockup of the game. The player has several beans placed on their board. The current card is La Rosa and there are four other people playing.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
+                    <div>
+                        <p>The two most important features other online versions were missing were</p><ul class="work__ul"><li>Being able to pick your own board instead of getting a random one (people are really superstisitous about which boards they use).</li><li>Letting a person draw the cards instead of having the computer do it (most of the fun comes from mixing up how quickly cards are drawn).</li></ul>
+                    </div>
                         <figure class="work__figure col-2 col-right">
                             <img src="/images/loteriaPhone.jpg" class="expandableContent center" alt="A mobile mock-up of the game. The host has just drawn La Rosa and there are several other players in their game.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
