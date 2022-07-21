@@ -120,11 +120,11 @@ h3 {
 
 p, li, a {
     font-family: Rotulista;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 p {
-    line-height: 1.2em;
+    line-height: 1.3em;
 }
 
 figcaption {
@@ -348,6 +348,8 @@ svg {
     transition: 0.25s ease;
     grid-template-rows: -webkit-max-content 1fr;
     grid-template-rows: max-content 1fr;
+    border-radius: 5%;
+    box-shadow: 3px 10px 41px -14px rgb(230 65 105 / 61%);
 }
 
 .thumbnail:after {
@@ -603,6 +605,12 @@ a svg {
     .work__div--header {
         grid-template-columns: 1fr 1fr;
         padding: 2em 10vw 4em calc(34vw + 2em);
+    }
+    .work__div {
+        grid-column: 3/4;
+    }
+    .work__p {
+        grid-column: 3/4;
     }
 }
 

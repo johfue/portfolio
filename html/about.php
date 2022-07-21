@@ -20,7 +20,7 @@
         </div>
         <div class="about__column about__column--two">
             <section class="about__section">
-                <p>Like any child of immigrants, I share the experience of having to translate for my parents at the Burger King. Without anyone to help me with my English homework, I had to learn a lot on my own. And I grew to be a voracious self-learner. Libraries are scared to let me in their doors.<br><br>I’m a recent grad looking to be an art director. Making things people want to look at and like to use is how I get my sick kicks.</p>
+                <p>Like any child of immigrants, I share the experience of having to translate for my parents at the Burger King. Without anyone to help me with my English homework, I had to learn a lot on my own. And I grew to be a voracious self-learner. Libraries are scared to let me in their doors.</p>
             </section>
             <img src="/images/profPic.jpg" class="about__img about__img--center" alt="">
         </div>

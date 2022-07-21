@@ -242,20 +242,10 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_HEADER = "Jiffy Lube";
 			$PAGE_DESC = "<b>The Problem:</b> Car ownership is important but car care is complicated and trustworthy mechanics are hard to come by.</p><p><b>The Big Idea:</b> When people move to a new city they lose whoever they did trust to service their car. Show them Jiffy mechanics go the extra mile for their drivers.";
 			$CONTENT = '
-                    <section class="work__section work__section--main light">
-                    <div class="work__div">
-                        <h2 class="work-h2">Bumble BFF</h2>
-                        <p>In the top cities people are moving to, Bumble profiles with personalities based on local Jiffy Lube technicians will recommend their matches places to visit and help people get settled into their new city. Like any good mechanic, they wouldn’t recommend something they wouldn’t do themself.</p>
-                    </div>
-                        <figure class="work__figure col-2">
-                            <img src="/images/jiffyBumble.jpg" class="expandableContent center" alt="A screenshot of a mock Bumble profile. The profiles name is Avery.">
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
-                        </figure>
-                    </section>
                     <section class="work__section work__section--accent">
                         <div class="work__div">
                         <h2 class="work-h2">Direct Mail</h2>
-                        <div><p>People who’ve just moved to a target city will receive a welcome package. Included is a living guide with info about local restaurants, fun destinations, and where to find essential services. As well as information on parking, street cleanings, traffic patterns, and how to update their drivers license. Along with the guide, the box will include items to help them through an anxious time:</p><ul class="work__ul"><li>Essential oil aromatic air freshener</li><li>QR code with relaxing driving Spotify playlist</li><li>Fidget toy keychain</li><li>Set of postcards to send to their friends back home</li></ul></div>
+                        <div><p>In the top cities people are moving to,  new residents will receive a welcome package. Included is a living guide with info about local restaurants, fun destinations, and where to find essential services. As well as information on parking, street cleanings, traffic patterns, and how to update their drivers license. Along with the guide, the box will include items to help them through an anxious time:</p><ul class="work__ul"><li>Essential oil aromatic air freshener</li><li>QR code with relaxing driving Spotify playlist</li><li>Fidget toy keychain</li><li>Set of postcards to send to their friends back home</li></ul></div>
                         </div>
                         <figure class="work__figure col-2">
                             <img src="/images/jiffyBox.jpg" class="expandableContent center" alt="">
@@ -292,6 +282,16 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         </figure>
                         <figure class="work__figure col-2 col-right">
                             <img src="/images/jiffyOOH_3.jpg" class="expandableContent center" alt="The copy reads: Welcome to Denver. The tallest dunes in North America are an afternoon away. Happy driving. Jiffy Lube.">
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                    </section>
+                    <section class="work__section work__section--main light">
+                    <div class="work__div">
+                        <h2 class="work-h2">Bumble BFF</h2>
+                        <p>In target cities, personas based on local Jiffy Lube technicians will recommend their matches on Bumble BFF places to visit and help them get settled into their new city. Like any good mechanic, they wouldn’t recommend something they wouldn’t do themself.</p>
+                    </div>
+                        <figure class="work__figure col-2">
+                            <img src="/images/jiffyBumble.jpg" class="expandableContent center" alt="A screenshot of a mock Bumble profile. The profiles name is Avery.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                     </section>';
