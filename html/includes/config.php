@@ -500,56 +500,27 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			        <section class="work__section work__section--main Personal">
 			            <b class="work-b"></b>
                         <figure class="work__figure wide">
-                            <img src="/images/pulley.jpg" alt="Drawing of a wrench and pulley" class="expandableContent expandableContent-personal">
-                            <figcaption>Pencil on paper</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure class="work__figure wide">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/syrinj.mp4">
+                            A video scrolling through the landing page of a website.
                             </video>
                             <figcaption><a href="http://syrinj.com" target="_blank">Parody Website' . $external . '</a></figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure tall">
-                            <img src="/images/doubleExposure.jpeg" class="expandableContent expandableContent-personal" alt="The relfection of a woman passing a mural projected onto a city at night">
-                            <figcaption>Photograph</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure class="work__figure tall">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/dotty.mp4">
-                            A trading card of the Animal Crossing villager Dotty where the artowkr has been replaced by a 3D scene using AR. Dotty bobs in place, greets the viewer, and acts suprised.
+                            A trading card of the Animal Crossing Villager Dotty where the artwork has been replaced by a 3D model. Dotty cycles between greating the viewer and being astonished.
                             </video>
-                            <figcaption>AR Effect</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure class="work__figure wide">
-                            <img src="/images/marbles.jpg" class="expandableContent expandableContent-personal" alt="Marbles in the desert">
-                            <figcaption>Photograph</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure class="work__figure wide">
-                            <img src="/images/cactus.jpg" class="expandableContent expandableContent-personal" alt="A 3D model of a rather dashing cartoon cactus in a space suit.">
-                            <figcaption>3D Render</figcaption>
+                            <figcaption>Augmented Realityt</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure tall">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/voltorbPan.mp4">
-                            A trading card of the Animal Crossing Villager Dotty where the artwork has been replaced by a 3D model. Dotty cycles between greating the viewer and being astonished.
+                            A trading card of the pokemon Voltorb that has been recreated in 3D.
                             </video>
-                            <figcaption>3D Render</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure class="work__figure tall">
-                            <img src="/images/padExplain.png" class="expandableContent expandableContent-personal" alt="A logo. It is of an airplane with it\'s rotors stylizied to look like palm leaves. The company\'s name sits underneath. A diagram depicts the grid in which the logo is constructed. Beneath is a diagram showing the insipration for the logo. It combines a palmtree and airplane">
-                            <figcaption>Logo design</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                      <figure class="work__figure tall">
-                            <img src="/images/sink.jpg" class="expandableContent expandableContent-personal" alt="Three photos. The first is a spoon under a faucet. The second is water hitting a smallg glass cup. The third is water bubbling and overflowing from a measuring cup. All three photos are dimly light.">
-                            <figcaption>Photographs</figcaption>
+                            <figcaption>3D Illustration</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure">
@@ -557,22 +528,28 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Logo design</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work__figure tall">
-                            <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
-                            <source src="/media/voltorb.mp4">
-                            A trading card of the pokemon voltorb where the artwork has been replaced by a 3D model
-                            </video>
-                            <figcaption>AR Effect</figcaption>
+                        <figure class="work__figure">
+                            <img src="/images/salticumbia.png" class="expandableContent expandableContent-personal" alt="An illustration of a young man dancing.">
+                            <figcaption>Illustration</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure tall">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
-                            <source src="/media/worms.mp4">
-                            An AR face effect where two largs tentacles wiggle out from your eyeballs. Several more smaller tentacles wiggle out from your palm. The video is black and white.
+                            <source src="/media/korok.mp4">
+                            The camera pans left and right, showing three stones in three different garden beds. A fourth stone is tossed into a fourth garden bed and a korok from the Legend Zelda series appears.
                             </video>
-                            <figcaption>AR Effect</figcaption>
+                            <figcaption>VFX</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
+                        <figure class="work__figure tall">
+                            <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
+                            <source src="/media/bugcatcher.mp4">
+                            A stylized 3D model of a young boy looking at a butterfly rotates 360 degrees.
+                            </video>
+                            <figcaption>3D Illustration</figcaption>
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+
                     </section>
                     ';
 			break;
