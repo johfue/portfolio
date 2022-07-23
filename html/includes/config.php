@@ -499,6 +499,21 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$CONTENT = '
 			        <section class="work__section work__section--main Personal">
 			            <b class="work-b"></b>
+                        <figure class="work__figure tall">
+                            <img src="/images/latinxcelencia.jpg" class="expandableContent expandableContent-personal" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called Latinxcelencia">
+                            <figcaption>Illustration</figcaption>
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure class="work__figure tall">
+                            <img src="/images/salsaNightInstagram.jpg" class="expandableContent expandableContent-personal" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
+                            <figcaption>Illustration</figcaption>
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure class="work__figure wide">
+                            <img src="/images/laso_tshirt.png" class="expandableContent expandableContent-personal" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words Latin American Student Organization - University of South Carolina.">
+                            <figcaption>Illustration</figcaption>
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
                         <figure class="work__figure wide">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/syrinj.mp4">
