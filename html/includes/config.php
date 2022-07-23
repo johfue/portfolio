@@ -447,7 +447,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
             $CURRENT_PAGE = "Loteria";
 			$PAGE_TITLE = "Loteria";
 			$PAGE_HEADER = "PlayLotería .Online";
-			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I realized there did not exist a good online version of the mexican board game, Lotería. Google made a good attempt but too much of what makes the game fun, was done by robots.</p><p><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a>";
+			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I wanted to play Lotería over Zoom. In all the versions I tried, they took out all the parts that make it fun.</p><p><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a>";
 			$CONTENT = '
 			    <section class="work__section work__section--main">
                 <div class="work__div">
@@ -468,11 +468,48 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                     </section>
                     ';
 			break;
+		 case "/work/cox.php":
+            $CURRENT_PAGE = "Cox";
+			$PAGE_TITLE = "Cox";
+			$PAGE_HEADER = "Cox Communications";
+			$PAGE_DESC = "<b>About:</b> While on Cox, we started including animations in their emails. Here are a few of the gifs I animated.";
+			$CONTENT = '
+			        <section class="work__section work__section--main light">
+			             <figure class="work__figure">
+			                <video autoplay loop muted playsinline class="expandableContent">
+                            <source src="/media/cox_connected_home.mp4">
+                            Alt texts
+                            </video>
+                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                    </section>
+                    <section class="work__section work__section--main light">
+			             <figure class="work__figure">
+			                <video autoplay loop muted playsinline class="expandableContent">
+                            <source src="/media/cox_homelife.mp4">
+                            Alt texts
+                            </video>
+                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+                    </section>
+			        <section class="work__section work__section--main light">
+			             <figure class="work__figure">
+			                <video autoplay loop muted playsinline class="expandableContent">
+                            <source src="/media/cox_pano.mp4">
+                            Alt texts
+                            </video>
+                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        </figure>
+
+                    </section>
+=
+                    ';
+			break;
 		 case "/work/finalstraw.php":
             $CURRENT_PAGE = "FinalStraw";
 			$PAGE_TITLE = "Final Straw";
 			$PAGE_HEADER = "Final Straw";
-			$PAGE_DESC = "<b>About:</b> Final Straw is a reusable metal straw that fits in a neat carrying case and clips to your keychain. For this project we were able to play with far fancier equipment than I have ever touched before to produce a 30 second TV spot.";
+			$PAGE_DESC = "<b>About:</b> Final Straw is a reusable metal straw that you can carry on your keychain. For this project we were able to play with far fancier equipment than I have ever touched before to produce a 30 second TV spot.";
 			$CONTENT = '
 			        <section class="work__section work__section--main light">
                     <h2 class=" work-h2 col-3">:30 Second TV Spot</h2>
@@ -491,6 +528,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                     </section>
                     ';
 			break;
+
 		case "/work/personal.php":
 			$CURRENT_PAGE = "Personal";
 			$PAGE_TITLE = "Personal Work";
