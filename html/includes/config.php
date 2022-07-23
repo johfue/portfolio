@@ -482,18 +482,14 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             </video>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                    </section>
-                    <section class="work__section work__section--main light">
-			             <figure class="work__figure">
+			            <figure class="work__figure">
 			                <video autoplay loop muted playsinline class="expandableContent">
                             <source src="/media/cox_homelife.mp4">
                             Alt texts
                             </video>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                    </section>
-			        <section class="work__section work__section--main light">
-			             <figure class="work__figure">
+			            <figure class="work__figure">
 			                <video autoplay loop muted playsinline class="expandableContent">
                             <source src="/media/cox_pano.mp4">
                             Alt texts
