@@ -505,7 +505,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure tall">
-                            <img src="/images/salsaNightInstagram.jpg" class="expandableContent expandableContent-personal" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
+                            <img src="/images/salsaNightInstagram.png" class="expandableContent expandableContent-personal" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
                             <figcaption>Illustration</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
@@ -527,7 +527,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <source src="/media/dotty.mp4">
                             A trading card of the Animal Crossing Villager Dotty where the artwork has been replaced by a 3D model. Dotty cycles between greating the viewer and being astonished.
                             </video>
-                            <figcaption>Augmented Realityt</figcaption>
+                            <figcaption>Augmented Reality</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure tall">
