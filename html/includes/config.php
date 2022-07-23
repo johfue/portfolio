@@ -539,8 +539,24 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure tall">
+                            <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
+                            <source src="/media/voltorbPan.mp4">
+                            A trading card of the pokemon Voltorb that has been recreated in 3D.
+                            </video>
+                            <figcaption>3D Illustration</figcaption>
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure class="work__figure tall">
                             <img src="/images/salsaNightInstagram.png" class="expandableContent expandableContent-personal" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
                             <figcaption>Illustration</figcaption>
+                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                       <figure class="work__figure tall">
+                            <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
+                            <source src="/media/bugcatcher.mp4">
+                            A stylized 3D model of a young boy looking at a butterfly rotates 360 degrees.
+                            </video>
+                            <figcaption>3D Illustration</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure wide">
@@ -564,19 +580,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Augmented Reality</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work__figure tall">
-                            <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
-                            <source src="/media/voltorbPan.mp4">
-                            A trading card of the pokemon Voltorb that has been recreated in 3D.
-                            </video>
-                            <figcaption>3D Illustration</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure class="work__figure">
-                            <img src="/images/milkCartLogo.png" class="expandableContent expandableContent-personal" alt="A logo where the words milk and cart are stacked on top of each other. They are contained inside a rounded box. Inside the box milk sloshes to the side.">
-                            <figcaption>Logo design</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
                         <figure class="work__figure">
                             <img src="/images/salticumbia.png" class="expandableContent expandableContent-personal" alt="An illustration of a young man dancing.">
                             <figcaption>Illustration</figcaption>
@@ -590,15 +593,11 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>VFX</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work__figure tall">
-                            <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
-                            <source src="/media/bugcatcher.mp4">
-                            A stylized 3D model of a young boy looking at a butterfly rotates 360 degrees.
-                            </video>
-                            <figcaption>3D Illustration</figcaption>
+                        <figure class="work__figure">
+                            <img src="/images/milkCartLogo.png" class="expandableContent expandableContent-personal" alt="A logo where the words milk and cart are stacked on top of each other. They are contained inside a rounded box. Inside the box milk sloshes to the side.">
+                            <figcaption>Logo design</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-
                     </section>
                     ';
 			break;
