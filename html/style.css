@@ -388,8 +388,9 @@ svg {
 .expandableContent {
     display: block;
     max-width: 100%;
-    max-height: 100vh;
+    /*max-height: 100vh;*/
     position: relative;
+    object-fit: contain;
     cursor: -moz-zoom-in;
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
@@ -665,13 +666,7 @@ header.Personal + section article figure:nth-child(1) {
     
 }
 
-.expandableContent {
-    object-fit: contain;
-    max-width: 100%;
-    max-height: 100vh;
-}
-
-.expandableContent-personal, .expandableContent-personal {
+.expandableContent-personal {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -769,6 +764,10 @@ header.Personal + section article figure:nth-child(1) {
     grid-column-end: unset;
 }
 
+.col-left {
+    grid-column-end: 0;
+}
+
 @media(min-width:768px) {
     .col-2 {
         grid-column: span 2;
@@ -786,9 +785,6 @@ header.Personal + section article figure:nth-child(1) {
         grid-row: span 2;
     }
     .tall {
-        grid-row: span 3;
-    }
-    .Personal .tall {
         grid-row: span 3;
     }
     .wide {
@@ -921,7 +917,7 @@ audio {
 }
 
 #modalVideo {
-    max-height: 100%;
+    /*max-height: 100%;*/
 }
 
 #modalCaption {

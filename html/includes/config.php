@@ -272,15 +272,15 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         <h2 class="work-h2">Out-of-home</h2>
                         <p>In target cities Jiffy Lube will give pointers to newcomers through billboards. The goal is to associate Jiffy Lube with solid automotive advice. So whenever someone uses what they’ve learned from a billboard they\'ll remember they learned it from Jiffy Lube.</p>
                     </div>
-                        <figure class="work__figure col-2 col-right">
+                        <figure class="work__figure col-2 col-left">
                             <img src="/images/jiffyOOH_1.jpg" class="expandableContent center" alt="The copy reads: Welcome to Durham. Meters are free on the weekend. Happy driving. Jiffy Lube.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work__figure col-2 col-right">
+                        <figure class="work__figure col-2 col-left">
                             <img src="/images/jiffyOOH_2.jpg" class="expandableContent center" alt="The copy reads: Welcome to Pittsburg. Avoid driving through North Shore on Game Days. Happy driving. Jiffy Lube.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
-                        <figure class="work__figure col-2 col-right">
+                        <figure class="work__figure col-2 col-left">
                             <img src="/images/jiffyOOH_3.jpg" class="expandableContent center" alt="The copy reads: Welcome to Denver. The tallest dunes in North America are an afternoon away. Happy driving. Jiffy Lube.">
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
@@ -454,14 +454,14 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                     <h2 class="work-h2">Browser Game</h2>
                     <p>For the unitiated, Lotería is like bingo, but instead of random numbers, cards with different images are drawn from a deck.<br>One player draws the cards and the others pick a board with 16 images on it. When a card is drawn you get to place a counter, traditionally a pinto bean, if one of your spaces matches.</p>
                 </div>
-                        <figure class="work__figure col-2 col-right">
+                        <figure class="work__figure col-2 col-left">
                             <img src="/images/loteriaDesktop.jpg" class="expandableContent center" alt="A desktop mockup of the game. The player has several beans placed on their board. The current card is La Rosa and there are four other people playing.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
                     <div>
                         <p>The two most important features other online versions were missing were</p><ul class="work__ul"><li>Being able to pick your own board instead of getting a random one (people are really superstisitous about which boards they use).</li><li>Letting a person draw the cards instead of having the computer do it (most of the fun comes from mixing up how quickly cards are drawn).</li></ul>
                     </div>
-                        <figure class="work__figure col-2 col-right">
+                        <figure class="work__figure col-2 col-left">
                             <img src="/images/loteriaPhone.jpg" class="expandableContent center" alt="A mobile mock-up of the game. The host has just drawn La Rosa and there are several other players in their game.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                         </figure>
@@ -532,7 +532,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 			$PAGE_DESC = "A collection of work I would print out and hang on my fridge if I could afford color printing.";
 			$CONTENT = '
 			        <section class="work__section work__section--main Personal">
-			            <b class="work-b"></b>
                         <figure class="work__figure tall">
                             <img src="/images/latinxcelencia.jpg" class="expandableContent expandableContent-personal" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called Latinxcelencia">
                             <figcaption>Illustration</figcaption>
