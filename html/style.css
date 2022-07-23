@@ -1177,3 +1177,8 @@ audio {
     --brand-main: var(--neutral-900);
     --brand-accent: var(--primary-500);
 }
+
+.Cox {
+    --brand-main: #00A846;
+    --brand-accent: #00AAF4;
+}
