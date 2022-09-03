@@ -585,7 +585,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure tall">
-                            <video loop muted playsinline poster="/media/korok_preview.mp4" class="expandableContent expandableContent-personal">
+                            <video loop muted playsinline poster="/media/korok_preview.gif" class="expandableContent expandableContent-personal">
                             <source src="/media/korok.mp4">
                             The camera pans left and right, showing three stones in three different garden beds. A fourth stone is tossed into a fourth garden bed and a korok from the Legend Zelda series appears.
                             </video>
