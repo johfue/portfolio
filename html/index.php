@@ -54,7 +54,7 @@
         </a>
         <a href="work/cox" class="thumbnail__wrap">
             <figure class="thumbnail">
-                <h3 class="zigzag">Cox Communications</h3>
+                <h3 class="zigzag">Cox</h3>
                 <img src="images/coxThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
