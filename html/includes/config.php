@@ -43,7 +43,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure">
-                            <img src="/images/salsaNightInstagram.png" class="expandableContent" alt="The same poster but in a vertical format.">
+                            <img src="/images/salsaNightInstagram.jpg" class="expandableContent" alt="The same poster but in a vertical format.">
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                     </section>
@@ -446,7 +446,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 		case "/work/loteria.php":
             $CURRENT_PAGE = "Loteria";
 			$PAGE_TITLE = "Loteria";
-			$PAGE_HEADER = "PlayLotería .Online";
+			$PAGE_HEADER = "PlayLotería<wbr>.Online";
 			$PAGE_DESC = "<b>The Problem:</b> During the pandemic, I wanted to play Lotería over Zoom. In all the versions I tried, they took out all the parts that make it fun.</p><p><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <br><a href='http://playloteria.online' target='_blank'> playloteria.online" . $external . "</a>";
 			$CONTENT = '
 			    <section class="work__section work__section--main">
@@ -546,7 +546,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure tall">
-                            <img src="/images/salsaNightInstagram.png" class="expandableContent expandableContent-personal" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
+                            <img src="/images/salsaNightInstagram.jpg" class="expandableContent expandableContent-personal" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
                             <figcaption>Illustration</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
@@ -559,7 +559,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure wide">
-                            <img src="/images/laso_tshirt.png" class="expandableContent expandableContent-personal" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words Latin American Student Organization - University of South Carolina.">
+                            <img src="/images/lasoTshirt.jpg" class="expandableContent expandableContent-personal" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words Latin American Student Organization - University of South Carolina.">
                             <figcaption>Illustration</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
@@ -580,12 +580,12 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure">
-                            <img src="/images/salticumbia.png" class="expandableContent expandableContent-personal" alt="An illustration of a young man dancing.">
+                            <img src="/images/salticumbia.jpg" class="expandableContent expandableContent-personal" alt="An illustration of a young man dancing.">
                             <figcaption>Illustration</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure tall">
-                            <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
+                            <video autoplay loop muted playsinline poster="/media/korok_preview.mp4" class="expandableContent expandableContent-personal">
                             <source src="/media/korok.mp4">
                             The camera pans left and right, showing three stones in three different garden beds. A fourth stone is tossed into a fourth garden bed and a korok from the Legend Zelda series appears.
                             </video>
@@ -593,7 +593,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure">
-                            <img src="/images/milkCartLogo.png" class="expandableContent expandableContent-personal" alt="A logo where the words milk and cart are stacked on top of each other. They are contained inside a rounded box. Inside the box milk sloshes to the side.">
+                            <img src="/images/milkCartLogo.jpg" class="expandableContent expandableContent-personal" alt="A logo where the words milk and cart are stacked on top of each other. They are contained inside a rounded box. Inside the box milk sloshes to the side.">
                             <figcaption>Logo design</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
