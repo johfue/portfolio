@@ -501,6 +501,42 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 =
                     ';
 			break;
+
+            case "/work/choose-chicago.php":
+                $CURRENT_PAGE = "Choose-Chicago";
+                $PAGE_TITLE = "Choose Chicago";
+                $PAGE_HEADER = "Choose Chicago";
+                $PAGE_DESC = "<b>About:</b> While on Cox, we started including animations in their emails. Here are a few of the gifs I animated.";
+                $CONTENT = '
+                        <section class="work__section work__section--main light">
+                            <h2>Out-of-home</h2>
+                             <figure class="work__figure">
+                                <video autoplay loop muted playsinline class="expandableContent">
+                                <source src="/media/cox_connected_home.mp4">
+                                Alt texts
+                                </video>
+                                <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                            </figure>
+                            <h2>Digital</h2>
+                            <figure class="work__figure">
+                                <video autoplay loop muted playsinline class="expandableContent">
+                                <source src="/media/cox_homelife.mp4">
+                                Alt texts
+                                </video>
+                                <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                            </figure>
+                            <figure class="work__figure">
+                                <video autoplay loop muted playsinline class="expandableContent">
+                                <source src="/media/cox_pano.mp4">
+                                Alt texts
+                                </video>
+                                <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                            </figure>
+    
+                        </section>
+    =
+                        ';
+                break;    
 		 case "/work/finalstraw.php":
             $CURRENT_PAGE = "FinalStraw";
 			$PAGE_TITLE = "Final Straw";

@@ -52,10 +52,10 @@
                 <img src="images/finalThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
-        <a href="work/laso" class="thumbnail__wrap">
+        <a href="work/cox" class="thumbnail__wrap">
             <figure class="thumbnail">
-                <h3 class="zigzag">Latin American Student Organization</h3>
-                <img src="images/lasoThumb.png" alt="" class="thumbnail__image">
+                <h3 class="zigzag">Cox Communications</h3>
+                <img src="images/coxThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <footer>
