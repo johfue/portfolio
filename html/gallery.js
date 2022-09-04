@@ -24,7 +24,7 @@ function hidden(bool) {
     }
     else {
         modal.style.display = "none";
-        main.style.display = "grid";
+        main.style.display = "block";
         nav.style.display = "block";
         document.querySelector("b").style.bottom = "2em";
     }
