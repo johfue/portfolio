@@ -518,7 +518,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                                 <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                             </figure>
                         </section>
-                        <section class="work__section work__section--main light">
+                        <section class="work__section work__section--accent light">
                             <h2>Digital</h2>
                             <figure class="work__figure">
                                 <video autoplay loop muted playsinline class="expandableContent">
