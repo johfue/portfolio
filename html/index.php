@@ -46,10 +46,10 @@
                 <img src="images/citiThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
-        <a href="work/finalstraw" class="thumbnail__wrap">
+        <a href="work/choose-chicago" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">Final Straw</h3>
-                <img src="images/finalThumb.png" alt="" class="thumbnail__image">
+                <img src="images/chooseThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
         <a href="work/cox" class="thumbnail__wrap">

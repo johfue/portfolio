@@ -498,7 +498,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                         </figure>
 
                     </section>
-=
                     ';
 			break;
 
@@ -506,37 +505,35 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                 $CURRENT_PAGE = "Choose-Chicago";
                 $PAGE_TITLE = "Choose Chicago";
                 $PAGE_HEADER = "Choose Chicago";
-                $PAGE_DESC = "<b>About:</b> While on Cox, we started including animations in their emails. Here are a few of the gifs I animated.";
+                $PAGE_DESC = "<b>The Problem:</b> Create a campaign for Chicagos neighborhoods that stands out from tourism ads built around using pretty pictures.</p><p><b>The Big Idea:</b>Skip the photos and use words alone to capture how unexpected Chicagos neighborhoods are.</p>";
                 $CONTENT = '
                         <section class="work__section work__section--main light">
-                            <h2>Out-of-home</h2>
-                             <figure class="work__figure">
-                                <video autoplay loop muted playsinline class="expandableContent">
-                                <source src="/media/cox_connected_home.mp4">
-                                Alt texts
-                                </video>
-                                <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                        <h2 class="col-3">Out-of-home</h2>
+                            <figure class="work__figure">
+                                <img src="/images/choose_BusStop.jpg" class="expandableContent center" alt="The copy reads: Birria tacos, Offbeat boutiques, Miles of murals. Pilsen.">
+                                <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                             </figure>
+                            <figure class="work__figure col-2">
+                                <img src="/images/choose_Billboard.jpg" class="expandableContent center" alt="The copy reads: Frozen negronis, Indie films, Pinball wizards. Logan Square.">
+                                <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                            </figure>
+                        </section>
+                        <section class="work__section work__section--main light">
                             <h2>Digital</h2>
                             <figure class="work__figure">
                                 <video autoplay loop muted playsinline class="expandableContent">
-                                <source src="/media/cox_homelife.mp4">
+                                <source src="/media/ChooseCHI_Digital_Banners_Bronzeville_300x250.mp4">
                                 Alt texts
                                 </video>
                                 <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                             </figure>
                             <figure class="work__figure">
-                                <video autoplay loop muted playsinline class="expandableContent">
-                                <source src="/media/cox_pano.mp4">
-                                Alt texts
-                                </video>
-                                <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
+                                <img src="/images/Uptown_300x600.png" class="expandableContent center" alt="Chinese BBQ, Frozen custard, Line dancing">
+                                <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                             </figure>
-    
                         </section>
-    =
                         ';
-                break;    
+                break;
 		 case "/work/finalstraw.php":
             $CURRENT_PAGE = "FinalStraw";
 			$PAGE_TITLE = "Final Straw";
@@ -600,6 +597,17 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure wide">
+                            <iframe class="center col-3" style="width:100%; min-width: 80vw; min-height: 45vw; aspect-ratio:16/9" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure class="work__figure col-3">
+                            <video autoplay loop muted playsinline class="expandableContent">
+                            <source src="/media/finalStrawLogo.mp4">
+                            Alt texts
+                            </video>
+                            <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
+                        </figure>
+                        <figure class="work__figure wide">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/syrinj.mp4">
                             A video scrolling through the landing page of a website.
@@ -615,22 +623,12 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>Augmented Reality</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work__figure">
-                            <img src="/images/saltiCumbia.jpg" class="expandableContent expandableContent-personal" alt="An illustration of a young man dancing.">
-                            <figcaption>Illustration</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
                         <figure class="work__figure tall">
                             <video loop muted playsinline poster="/media/korok_preview.gif" class="expandableContent expandableContent-personal">
                             <source src="/media/korok.mp4">
                             The camera pans left and right, showing three stones in three different garden beds. A fourth stone is tossed into a fourth garden bed and a korok from the Legend Zelda series appears.
                             </video>
                             <figcaption>VFX</figcaption>
-                            <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
-                        <figure class="work__figure">
-                            <img src="/images/milkCartLogo.jpg" class="expandableContent expandableContent-personal" alt="A logo where the words milk and cart are stacked on top of each other. They are contained inside a rounded box. Inside the box milk sloshes to the side.">
-                            <figcaption>Logo design</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                     </section>
