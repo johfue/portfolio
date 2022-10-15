@@ -597,16 +597,21 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
                         <figure class="work__figure wide">
-                            <iframe class="center col-3" style="width:100%; min-width: 80vw; min-height: 45vw; aspect-ratio:16/9" src="https://www.youtube.com/embed/a3qqjigdUYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <video loop muted playsinline poster="/media/finalstraw_preview.gif" class="expandableContent expandableContent-personal">
+                            <source src="/media/finalStraw.mp4">
+                            The camera pans left and right, showing three stones in three different garden beds. A fourth stone is tossed into a fourth garden bed and a korok from the Legend Zelda series appears.
+                            </video>
+                            <figcaption>:30s Spot</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work__figure col-3">
+                        <figure class="work__figure wide">
                             <video autoplay loop muted playsinline class="expandableContent">
                             <source src="/media/finalStrawLogo.mp4">
                             Alt texts
                             </video>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
-                        </figure>
+                            <figcaption>Animated Logo</figcaption>
+                            </figure>
                         <figure class="work__figure wide">
                             <video autoplay loop muted playsinline class="expandableContent expandableContent-personal">
                             <source src="/media/syrinj.mp4">
