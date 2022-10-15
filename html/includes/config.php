@@ -505,7 +505,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                 $CURRENT_PAGE = "Choose-Chicago";
                 $PAGE_TITLE = "Choose Chicago";
                 $PAGE_HEADER = "Choose Chicago";
-                $PAGE_DESC = "<b>The Problem:</b> Create a campaign for Chicagos neighborhoods that stands out from tourism ads built around using pretty pictures.</p><p><b>The Big Idea:</b>Skip the photos and use words alone to capture how unexpected Chicagos neighborhoods are.</p>";
+                $PAGE_DESC = "<b>The Problem:</b> Create a campaign for Chicagos neighborhoods that stands out from tourism ads built around using pretty pictures.</p><p><b>The Big Idea:</b> Skip the photos and use words alone to capture how unexpected Chicagos neighborhoods are.</p>";
                 $CONTENT = '
                         <section class="work__section work__section--main light">
                         <h2 class="col-3">Out-of-home</h2>
@@ -522,13 +522,13 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <h2>Digital</h2>
                             <figure class="work__figure">
                                 <video autoplay loop muted playsinline class="expandableContent">
-                                <source src="/media/ChooseCHI_Digital_Banners_Bronzeville_300x250.mp4">
+                                <source src="/media/chooseDigital.mp4">
                                 Alt texts
                                 </video>
                                 <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                             </figure>
                             <figure class="work__figure">
-                                <img src="/images/Uptown_300x600.png" class="expandableContent center" alt="Chinese BBQ, Frozen custard, Line dancing">
+                                <img src="/images/chooseDigital.png" class="expandableContent center" alt="Chinese BBQ, Frozen custard, Line dancing">
                                 <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon . '</button>
                             </figure>
                         </section>

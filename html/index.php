@@ -48,7 +48,7 @@
         </a>
         <a href="work/choose-chicago" class="thumbnail__wrap">
             <figure class="thumbnail">
-                <h3 class="zigzag">Final Straw</h3>
+                <h3 class="zigzag">Choose Chicago</h3>
                 <img src="images/chooseThumb.png" alt="" class="thumbnail__image">
             </figure>
         </a>
