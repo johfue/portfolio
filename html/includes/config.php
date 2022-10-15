@@ -578,7 +578,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>3D Illustration</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work__figure tall">
+                        <figure class="work__figure">
                             <img src="/images/salsaNightInstagram.jpg" class="expandableContent expandableContent-personal" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night">
                             <figcaption>Illustration</figcaption>
                             <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)">' . $zoomIcon .'</button>
@@ -604,7 +604,7 @@ switch ($_SERVER["SCRIPT_NAME"]) {
                             <figcaption>:30s Spot</figcaption>
                             <button class="expandBtn" onclick="modalExpand(this)">' . $zoomIcon .'</button>
                         </figure>
-                        <figure class="work__figure wide">
+                        <figure class="work__figure">
                             <video autoplay loop muted playsinline class="expandableContent">
                             <source src="/media/finalStrawLogo.mp4">
                             Alt texts
