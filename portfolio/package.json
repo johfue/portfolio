@@ -10,8 +10,13 @@
   },
   "dependencies": {
     "@next/font": "13.1.1",
+    "fs": "^0.0.1-security",
     "next": "13.1.1",
+    "path": "^0.12.7",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.5.1"
   }
 }

@@ -1,38 +1,30 @@
-export function getAllPostIds() {
+import fs from 'fs';
+import path from 'path';
+
+const postsDirectory = path.join(process.cwd(), 'work');
+
+export function getAllWorkIds() {
   const fileNames = fs.readdirSync(postsDirectory);
 
-  // Returns an array that looks like this:
-  // [
-  //   {
-  //     params: {
-  //       id: 'ssg-ssr'
-  //     }
-  //   },
-  //   {
-  //     params: {
-  //       id: 'pre-rendering'
-  //     }
-  //   }
-  // ]
   return fileNames.map((fileName) => {
     return {
       params: {
-        id: fileName.replace(/\.js$/, ''),
+        work: fileName.replace(/\.js$/, ''),
       },
     };
   });
 }
 
-export function getPostData(id) {
-  const fullPath = path.join(postsDirectory, `${id}.md`);
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
+// export function getPostData(work) {
+//   const fullPath = path.join(postsDirectory, `${work}.js`);
+//   const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-  // Use gray-matter to parse the post metadata section
-//   const matterResult = matter(fileContents);
+//   // Use gray-matter to parse the post metadata section
+// //   const matterResult = matter(fileContents);
 
-  // Combine the data with the id
-  return {
-    id,
-    // ...matterResult.data,
-  };
-}
+//   // Combine the data with the id
+//   return {
+//     work,
+//     // ...matterResult.data,
+//   };
+// }
