@@ -1,5 +1,6 @@
 import Layout from '/components/layout'
 import Media from '/components/media'
+import Styles from '../styles/Personal.module.css'
 
 const title = "Personal Work"
 
