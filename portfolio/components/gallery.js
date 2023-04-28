@@ -36,13 +36,11 @@ function hidden(bool) {
         modal.style.display = "block";
         main.style.display = "none";
         nav.style.display = "none";
-        document.querySelector("b").style.bottom = "0";
     }
     else {
         modal.style.display = "none";
         main.style.display = "block";
         nav.style.display = "block";
-        document.querySelector("b").style.bottom = "2em";
     }
 
 }

@@ -7,9 +7,9 @@ export default function layout(props) {
 
   return (
     <>
-        <Head><title>{props.title}</title></Head>
+        <Head><title>{props.Title}</title></Head>
         <Nav />
-        <main class={ "work__main " + props.title }>
+        <main class={ "work__main " + props.classTitle }>
         <header class="work__header">
             <div class="work__div--header">
                 <h1 class="work__h1 col-2">{ props.title }</h1>

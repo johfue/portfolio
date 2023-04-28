@@ -1,65 +1,64 @@
-export default function JIffy() {
+import Layout from '/components/layout'
+import Media from '/components/media'
+import ExternalIcon from '/public/images/open-in-new.svg'
+
+export function Title() {
+
+  return (
+    <>
+        PlayLoteria&#8204;.Online
+    </>
+    )
+}
+
+const classTitle = "Loteria"
+
+
+export function Desc() {
+
+  return (
+    <>
+    <p><b>The Problem:</b> During the pandemic, I wanted to play Lotería over Zoom. In all the versions I tried, they took out all the parts that make it fun.</p>
+    <p><b>The Big Idea:</b> So I created my own version, with as much of the authentic chaos as the real thing, playable at <a href='http://playloteria.online' target='_blank'> playloteria.online <ExternalIcon /> </a></p>
+    </>
+    )
+}
+
+
+export function Content() {
 
   return (
     <>
 
-    <section class="work__section work__section--accent">
-    <div class="work__div">
-    <h2 class="work-h2">Direct Mail</h2>
-    <div><p>In the top cities people are moving to,  new residents will receive a welcome package. Included is a living guide with info about local restaurants, fun destinations, and where to find essential services. As well as information on parking, street cleanings, traffic patterns, and how to update their drivers license. Along with the guide, the box will include items to help them through an anxious time:</p><ul class="work__ul"><li>Essential oil aromatic air freshener</li><li>QR code with relaxing driving Spotify playlist</li><li>Fidget toy keychain</li><li>Set of postcards to send to their friends back home</li></ul></div>
-    </div>
-    <figure class="work__figure col-2">
-        <img src="/images/jiffyBox.jpg" class="expandableContent center" alt="">
-        <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)"></button>
-    </figure>
-</section>
+    <section class="work__section work__section--main">
+        <div class="work__div">
+            <h2 class="work-h2">Browser Game</h2>
+            <p>For the unitiated, Lotería is like bingo, but instead of random numbers, cards with different images are drawn from a deck. One player draws the cards and the others pick a board with 16 images on it. When a card is drawn you get to place a counter, traditionally a pinto bean, if one of your spaces matches.</p>
+        </div>
+        <Media type="image" src="/images/loteriaDesktop.jpg" class="col-2 col-left" alt="A desktop mockup of the game. The player has several beans placed on their board. The current card is La Rosa and there are four other people playing."/>
+
+        <div>
+            <p>The two most important features other online versions were missing were</p>
+            <ul class="work__ul">
+                <li>Being able to pick your own board instead of getting a random one (people are really superstisitous about which boards they use).</li>
+                <li>Letting a person draw the cards instead of having the computer do it (most of the fun comes from mixing up how quickly cards are drawn).</li>
+            </ul>
+        </div>
+        <Media type="image" src="/images/loteriaPhone.jpg" class="col-2 col-left" alt="A mobile mock-up of the game. The host has just drawn La Rosa athere are several other players in their game."/>
+
+    </section>
     
-    <section class="work__section work__section--main light">
-<div class="work__div">
-    <h2 class="work-h2">Mobile App</h2>
-    <div><p>Along with a visual refresh, the Jiffy Lube app will get a few new updates.</p><ul class="work__ul"><li>Since cars need maintenance for years, users can get to know who will be handling their service trip ahead of time to build long-term trust.<li>If something urgent pop-ups up users can chat in real-time with a Jiffy Lube technician to diagnose their problem.<li>The app will keep track of every service visit so users can track how often they need maintenance and who all has worked on their car.</ul></div>
-</div>
-    <figure class="work__figure col-2">
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); width:38vw; min-width: 100%; height: 600px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPHEdQBLSEGZ56w7yj0qANK%2FJiffy-Lube-2021%3Fnode-id%3D1%253A6%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
-    <figcaption>Interactive Demo</figcaption>
-    </figure>
-    <figure class="work__figure col-3">
-        <img src="/images/jiffyMobile.jpg" class="expandableContent center" alt="">
-        <figcaption>The updated appointment confirmation process.</figcaption>
-        <button class="expandBtn" onclick="modalExpand(this)"></button>
-    </figure>
-</section>
-    
-    <section class="work__section work__section--accent">
-<div class="work__div">
-    <h2 class="work-h2">Out-of-home</h2>
-    <p>In target cities Jiffy Lube will give pointers to newcomers through billboards. The goal is to associate Jiffy Lube with solid automotive advice. So whenever someone uses what they’ve learned from a billboard they\'ll remember they learned it from Jiffy Lube.</p>
-</div>
-    <figure class="work__figure col-2 col-left">
-        <img src="/images/jiffyOOH_1.jpg" class="expandableContent center" alt="The copy reads: Welcome to Durham. Meters are free on the weekend. Happy driving. Jiffy Lube.">
-        <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)"></button>
-    </figure>
-    <figure class="work__figure col-2 col-left">
-        <img src="/images/jiffyOOH_2.jpg" class="expandableContent center" alt="The copy reads: Welcome to Pittsburg. Avoid driving through North Shore on Game Days. Happy driving. Jiffy Lube.">
-        <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)"></button>
-    </figure>
-    <figure class="work__figure col-2 col-left">
-        <img src="/images/jiffyOOH_3.jpg" class="expandableContent center" alt="The copy reads: Welcome to Denver. The tallest dunes in North America are an afternoon away. Happy driving. Jiffy Lube.">
-        <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)"></button>
-    </figure>
-</section>
-    
-    <section class="work__section work__section--main light">
-<div class="work__div">
-    <h2 class="work-h2">Bumble BFF</h2>
-    <p>In target cities, personas based on local Jiffy Lube technicians will recommend their matches on Bumble BFF places to visit and help them get settled into their new city. Like any good mechanic, they wouldn’t recommend something they wouldn’t do themself.</p>
-</div>
-    <figure class="work__figure col-2">
-        <img src="/images/jiffyBumble.jpg" class="expandableContent center" alt="A screenshot of a mock Bumble profile. The profiles name is Avery.">
-        <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)"></button>
-    </figure>
-</section>
 
     </>
   )
+}
+
+export default function page() {
+
+  return (
+    <>
+        <Layout title={<Title/>} classTitle={classTitle} desc={<Desc/>} content={<Content/>}>
+        </Layout>
+    </>
+    )
 }

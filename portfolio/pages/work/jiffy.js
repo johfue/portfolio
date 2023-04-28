@@ -10,7 +10,7 @@ export function Title() {
     )
 }
 
-const title = "Jiffy Lube"
+const classTitle = "Jiffy"
 
 export function Desc() {
 
@@ -89,7 +89,7 @@ export default function page() {
 
   return (
     <>
-        <Layout title={title} desc={<Desc/>} content={<Content/>}>
+        <Layout title={<Title/>} classTitle={classTitle} desc={<Desc/>} content={<Content/>}>
         </Layout>
     </>
     )
