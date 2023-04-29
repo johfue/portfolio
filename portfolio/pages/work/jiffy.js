@@ -66,7 +66,7 @@ export function Content() {
     <section class="work__section work__section--accent">
         <div class="work__div">
             <h2 class="work-h2">Out-of-home</h2>
-            <p>In target cities Jiffy Lube will give pointers to newcomers through billboards. The goal is to associate Jiffy Lube with solid automotive advice. So whenever someone uses what they’ve learned from a billboard they\'ll remember they learned it from Jiffy Lube.</p>
+            <p>In target cities Jiffy Lube will give pointers to newcomers through billboards. The goal is to associate Jiffy Lube with solid automotive advice. So whenever someone uses what they’ve learned from a billboard they'll remember they learned it from Jiffy Lube.</p>
         </div>
         <Media type="image" src="/images/jiffyOOH_1.jpg" class="col-2 col-left" alt="The copy reads: Welcome to Durham. Meters are free on the weekend. Happy driving. Jiffy Lube."/>
         <Media type="image" src="/images/jiffyOOH_2.jpg" class="col-2 col-left" alt="The copy reads: Welcome to Pittsburg. Avoid driving through North Shore on Game Days. Happy driving. Jiffy Lube."/>

@@ -48,8 +48,8 @@ export default function Media(...props) {
     <figure class={"work__figure " + props[0].class}>
         {content(props[0])}
         
-        <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)"><ZoomIcon /></button>
         {props[0].caption && <figcaption>{props[0].caption}</figcaption>}
+        <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)"><ZoomIcon /></button>
     </figure>
     
     </>

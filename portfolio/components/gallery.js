@@ -58,11 +58,14 @@ function modalUpdate() {
         modalImg.style.display = "block";
     }
     
-    if (modalMediaCaption.tagName != "FIGCAPTION") {
+    if (modalMediaCaption.tagName != "figcaption") {
         modalCaption.innerHTML = "";
+                console.log(2);
+
     }
     else {
         modalCaption.innerHTML = modalMediaCaption.innerHTML;
+        console.log(1);
     }
     
     if (position <= 0) {
@@ -78,7 +81,6 @@ function modalUpdate() {
 }
 
 function modalExpand() {
-    console.log("ran2");
     position = Array.prototype.slice.call(modalList).indexOf(this.parentElement);
     
     modalMedia = this;

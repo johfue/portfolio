@@ -6,7 +6,7 @@ export function Title() {
 
   return (
     <>
-        PlayLoteria&#8204;.Online
+        PlayLotería<wbr></wbr>.Online
     </>
     )
 }

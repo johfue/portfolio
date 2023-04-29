@@ -1,6 +1,6 @@
 import Layout from '/components/layout'
 import Media from '/components/media'
-import Styles from '../styles/Personal.module.css'
+import ExternalIcon from '/public/images/open-in-new.svg'
 
 const title = "Personal Work"
 
@@ -35,7 +35,7 @@ export function Content() {
 
         <Media type="video" personal autoplay="true" src="/media/finalStrawLogo.mp4" caption="Animated Logo" alt="A stylized 3D model of a young boy looking at a butterfly rotates 360 degrees."/>
 
-        <Media type="video" personal autoplay="true" class="wide" src="/media/syrinj.mp4" caption="website" alt="A video scrolling through the landing page of a website."/>
+        <Media type="video" personal autoplay="true" class="wide" src="/media/syrinj.mp4" caption={<a href="http://syrinj.com" target="_blank">Parody Website  <ExternalIcon /></a>} alt="A video scrolling through the landing page of a website."/>
 
         <Media type="video" personal autoplay="true" class="tall" src="/media/dotty.mp4" caption="Augmented Reality" alt="A trading card of the Animal Crossing Villager Dotty where the artwork has been replaced by a 3D model. Dotty cycles between greating the viewer and being astonished."/>
         

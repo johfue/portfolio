@@ -32,7 +32,7 @@ export function Content() {
         <section class="work__section work__section--main light">
             <div class="work__div">
                 <h2 class="work-h2">Women's Financial League</h2>
-                <p>The WFL is a learning community that uses gamificatin to teach financial literacy. Users will join one of two teams and compete against each other to achieve weekly goals. Megan Rapinoe of the US Women's Soccer Team will serve as spokesperson for the league.</p>
+                <p>The WFL is a learning community that uses gamification to teach financial literacy. Users will join one of two teams and compete against each other to achieve weekly goals. Megan Rapinoe of the US Women's Soccer Team will serve as spokesperson for the league.</p>
             </div>
             <Media type="image" class="col-2" src="/images/citiWFL.jpg" alt="A graphic featuring two logos with a versus symbol in between them. One is of a roman style helmet glowing bright orange and the other is a of a valkyrie helmet glowing neon green. They are surrounded by swirling energy against an electric blue background"/>
             <Media type="image" class="col-3" src="/images/citiMock.jpg" alt="A screenshot of an example video lesson mocked-up on a macbook. There is a sidebar outlining the different lessons and is divded into different units and inididual lessons. The video player is ready to be played, below it is a summary of the video's content. The example lesson is about credit and credit cards."/>
