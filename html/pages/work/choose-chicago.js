@@ -17,7 +17,7 @@ export function Desc() {
 
   return (
     <>
-        <p><b>The Problem:</b> Create a campaign for Chicagos neighborhoods that stands out from tourism ads built around using pretty pictures.</p>
+        <p><b>The Problem?:</b> Create a campaign for Chicagos neighborhoods that stands out from tourism ads built around using pretty pictures.</p>
         <p><b>The Big Idea:</b> Skip the photos and use words alone to capture how unexpected Chicagos neighborhoods are.</p>
     </>
     )
