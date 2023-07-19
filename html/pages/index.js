@@ -11,7 +11,7 @@ export default function Home() {
         <header class="header--home">
             <img src="/images/logo.svg" class="logo" alt="Logo"/>
             <section class="header_items--home">
-                <h1>Johnathon Fuerte</h1>
+                <h1>Johnathon Fuerte?</h1>
                 <h2>Art Director</h2>
                 <br/>
                 <nav>
