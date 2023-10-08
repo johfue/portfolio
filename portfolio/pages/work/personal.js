@@ -27,7 +27,7 @@ export function Content() {
         
         <Media type="image" personal class="tall" src="/images/salsaNightInstagram.jpg" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night" caption="Illustration"/>
         
-        <Media type="video" personal autoplay="true" class="tall personal" src="/media/voltorbPan.mp4" caption="3D Illustration" alt="A stylized 3D model of a young boy looking at a butterfly rotates 360 degrees."/>
+        <Media type="video" personal autoplay="true" class="tall personal" src="/media/bugcatcher.mp4" caption="3D Illustration" alt="A stylized 3D model of a young boy looking at a butterfly rotates 360 degrees."/>
         
         <Media type="image" personal class="wide" src="/images/lasoTshirt.jpg" caption="Illustration" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words Latin American Student Organization - University of South Carolina."/>
         

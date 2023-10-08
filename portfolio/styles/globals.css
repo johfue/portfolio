@@ -62,6 +62,7 @@
     --primary-500: 092543;
     --action-500: #1AC9C7;
     --link-500: #E64169;
+    --link-700: #EB6F99;
     --neutral-500: #F7CFDB;
     --neutral-700: #FDE7EE;
     --neutral-900: #FDF7F9;
@@ -544,13 +545,31 @@ footer {
     line-height: 1.4em;
 }
 
+.work__btn {
+    border-radius: 50px;
+    background-color: var(--link-500);
+    color: var(--neutral-900);
+    padding: 1em 2em;
+    border: none;
+    transition: 0.35s;
+}
+
+.work__btn svg {
+    fill: var(--neutral-900);
+}
+
+.work__btn:hover {
+    background-color: var(--link-700);
+}
+
 #modalCaption a, .work a {
-    color: var(--link-500);
+    color: var(--link-700);
 }
 
 a svg {
     fill: var(--link-500);
 }
+
 .Personal figcaption {
     text-align: center;
 }
