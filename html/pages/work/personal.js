@@ -39,7 +39,7 @@ export function Content() {
 
         <Media type="video" personal autoplay="true" class="tall" src="/media/dotty.mp4" caption="Augmented Reality" alt="A trading card of the Animal Crossing Villager Dotty where the artwork has been replaced by a 3D model. Dotty cycles between greating the viewer and being astonished."/>
         
-        <Media type="video" personal class="tall personal" src="/media/korok.mp4" poster="/media/korok_preview.gif" caption="Augmented Reality" alt="The camera pans left and right, showing three stones in three different garden beds. A fourth stone is tossed into a fourth garden bed and a korok from the Legend Zelda series appears."/>
+        <Media type="video" personal class="tall personal" src="/media/korok.mp4" poster="/media/korok_preview.gif" caption="VFX" alt="The camera pans left and right, showing three stones in three different garden beds. A fourth stone is tossed into a fourth garden bed and a korok from the Legend Zelda series appears."/>
 
         </section>
 

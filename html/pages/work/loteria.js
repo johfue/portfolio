@@ -31,8 +31,11 @@ export function Content() {
     <>
 
 <section class="work__section work__section--accent">
-
-        <Media type="image" src="/media/loteriaVideo.mp4" class="col-3 center" alt=""/>
+<figure class="work__figure col-3 center">
+  <video controls class="center" poster="/media/loteria_preview.gif" height="450">
+    <source src="/media/loteriaPromo.mp4"></source>
+  </video>
+</figure>
         <a href="https://www.playloteria.online" target="_blank" class="col-3 center"><button class="work__btn">Try it out <ExternalIcon /></button></a>
     </section>
 
