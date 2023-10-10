@@ -22,16 +22,16 @@ export default function Home() {
                 </nav>
             </section>
         </header>
-        <Link href="/work/sparknotes" class="thumbnail__wrap">
-            <figure class="thumbnail">
-                <h3 class="zigzag">SparkNotes</h3>
-                <img src="/images/sparkThumb.png" alt="" class="thumbnail__image"/>
-            </figure>
-        </Link>
         <a href="work/jiffy" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">Jiffy Lube</h3>
                 <img src="/images/jiffyThumb.png" alt="" class="thumbnail__image"/>
+            </figure>
+        </a>
+        <a href="/work/neosporin" class="thumbnail__wrap">
+            <figure class="thumbnail">
+                <h3 class="zigzag">Neosporin</h3>
+                <img src="/images/neosporinThumb.png" alt="" class="thumbnail__image"/>
             </figure>
         </a>
         <a href="work/loteria" class="thumbnail__wrap">

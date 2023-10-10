@@ -25,7 +25,7 @@ export function Content() {
         
         <Media type="video" personal class="tall" src="/media/voltorbPan.mp4" autoplay="true" alt="A trading card of the pokemon Voltorb that has been recreated in 3D." caption="3D Illustration"/>
         
-        <Media type="image" personal class="tall" src="/images/salsaNightInstagram.jpg" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night" caption="Illustration"/>
+        <Media type="image" personal src="/images/salsaNightInstagram.jpg" alt="Poster of a dancing woman in a red dress against a green background promoting an event called Salsa Night" caption="Illustration"/>
         
         <Media type="video" personal autoplay="true" class="tall personal" src="/media/bugcatcher.mp4" caption="3D Illustration" alt="A stylized 3D model of a young boy looking at a butterfly rotates 360 degrees."/>
         
