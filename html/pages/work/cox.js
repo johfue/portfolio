@@ -17,7 +17,7 @@ export function Desc() {
 
   return (
     <>
-        <p><b>About:</b> I helped sell Cox on including animations in more of their emails to engagement. Here are are a few of the gifs I animated.</p>
+        <p><b>About:</b> I helped sell Cox on including gifs in more of their emails to increase engagement. Here are a few I animated.</p>
     </>
     )
 }
