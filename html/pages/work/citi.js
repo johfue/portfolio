@@ -18,7 +18,7 @@ export function Desc() {
   return (
     <>
         <p><b>The Problem:</b> Citi wants to demonstrate their commitment to driving an equitable recovery for working women following the pandemic.</p>
-        <p><b>The Big Idea:</b> Build the networks intrepid woman by creating a new kind of virtual learning rec league</p>
+        <p><b>The Big Idea:</b> Build the networks of working woman by creating a new kind of virtual learning rec league</p>
     </>
     )
 }
@@ -33,7 +33,7 @@ export function Content() {
           <span></span><span></span>
         <div class="work__div">
             <h2 class="work-h2">The Women's Financial League</h2>
-            <p>The WFL is one half financial literacy e-learning platform, one half rec league. Users will join one of two teams and compete against each other by completing lessons.<br></br><br></br>Megan Rapinoe of the US Women's Soccer Team will serve as spokesperson for the league.</p>
+            <p>The WFL is one half financial literacy learning platform, and one half online rec league. Users will join one of two teams and compete against each other by finishing lessons.<br></br><br></br>Megan Rapinoe of the US Women's Soccer Team will serve as spokesperson for the league.</p>
         </div>
         <Media type="image" class="col-3" src="/images/citiOverview.jpg" alt=""/>
 
