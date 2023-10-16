@@ -18,7 +18,7 @@ export function Desc() {
   return (
     <>
         <p><b>The Problem:</b> Citi wants to demonstrate their commitment to driving an equitable recovery for working women following the pandemic.</p>
-        <p><b>The Big Idea:</b> Build the networks of working woman by creating a new kind of virtual learning rec league</p>
+        <p><b>The Big Idea:</b> Build the networks of working woman by creating a new kind of virtual learning rec league.</p>
     </>
     )
 }

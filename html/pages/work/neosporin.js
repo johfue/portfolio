@@ -36,6 +36,12 @@ export function Content() {
             <Media type="image" src="/images/neosporin_print_3.jpg" alt=""/>
         </section>
         <section class="work__section work__section--accent">
+            <h2 class="work-h2 col-3 right">:10s Spots</h2>
+            <span></span>
+            <Media type="image" src="/images/neosporin_script_1.jpg" alt=""/>
+            <Media type="image" src="/images/neosporin_script_2.jpg" alt=""/>
+        </section>
+        <section class="work__section work__section--main light">
             <h2 class="work-h2 col-3 right">Digital</h2>
             <Media type="video" autoplay="true" class="tall right" src="/media/neosporin_320x1200.mp4" alt=""/>
             <Media type="image" src="/images/neosporin_600x500.jpg" alt=""/>
