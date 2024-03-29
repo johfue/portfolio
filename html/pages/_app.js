@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }) {
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:image" content="https://johnathonfuerte.com//images/shareCard.png" />
         </Head>
-        <GoogleAnalytics gaId="G-WQPHJHS8PM" />
+        <GoogleAnalytics gaMeasurementId ="G-WQPHJHS8PM" />
 
       <Component {...pageProps} />
       </>
