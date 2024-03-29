@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import Head from 'next/head'
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -24,8 +25,8 @@ export default function App({ Component, pageProps }) {
             <meta property="og:image" content="https://johnathonfuerte.com//images/shareCard.png" />
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:image" content="https://johnathonfuerte.com//images/shareCard.png" />
-            <script src="https://www.googletagmanager.com/gtag/js?id=UA-140015611-1" strategy="lazyOnload"></script>
         </Head>
+        <GoogleAnalytics gaId="G-WQPHJHS8PM" />
 
       <Component {...pageProps} />
       </>
