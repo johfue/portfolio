@@ -32,7 +32,7 @@ export function Content() {
         <div class="work__div">
             <h2 class="work-h2">Direct Mail</h2>
             <div>
-                <p>In the top cities people are moving to,  new residents will receive a welcome package. Included is a living guide with info about local restaurants, fun destinations, and where to find essential services. As well as information on parking, street cleanings, traffic patterns, and how to update their drivers license. Along with the guide, the box will include items to help them through an anxious time:</p>
+                <p>New residents moving to the fastest growing cities will receive a welcome package. Included is a living guide with info about local restaurants, fun destinations, and where to find essential services. As well as information on parking, street cleanings, traffic patterns, and how to update their drivers license. Along with the guide, the box will include items to help them through an anxious time:</p>
                 <ul class="work__ul">
                     <li>Essential oil aromatic air freshener</li>
                     <li>QR code with relaxing driving Spotify playlist</li>
