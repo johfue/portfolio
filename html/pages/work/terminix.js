@@ -16,7 +16,7 @@ export function Desc() {
 
   return (
     <>
-    <p><b>The Problem:</b> Two year since it’s last brand campaign, Terminix was looking to find it’s voice and a new AOR.</p>
+    <p><b>The Problem:</b> After two years since it’s last brand campaign, Terminix was ready to find a new voice and a new AOR.</p>
     <p><b>The Big Idea:</b> Position Terminix as the pest control company that cares about getting your life back to normal as soon as possible. Because when you want pest out, you want them out fast.</p>
     </>
     )
@@ -31,9 +31,9 @@ export function Content() {
     <section class="work__section work__section--main ">
         <div class="work__div">
             <h2 class="work-h2">Mnemonic</h2>
-            <p>I developed a flexible new mnemonic that echoes how Terminix works efficiently to restore peace of mind.</p>
+            <p>I developed a flexible new mnemonic that takes the core of the campaign and boils it down to two seconds.</p>
         </div>
-        <Media type="video" src="/media/terminixSpider.mp4" class="col-3 center" autoplay="true" controls/>
+        <Media type="video" src="/media/terminixEndTag.mp4" class="col-3 center" autoplay="true" controls/>
     </section>
     
     <section class="work__section work__section--accent light">
@@ -48,7 +48,7 @@ export function Content() {
         <span></span>
         <div class="work__div">
             <h2 class="work-h2">:06s Animations</h2>
-            <p>Echo and reinforce the new branding elements.</p>
+            <p>Fit for any short form space. Perfect for reinforcing our new brand elements.</p>
         </div>
         <Media type="video" src="/media/terminixSpider.mp4" controls/>
         <Media type="video" src="/media/terminixRoach.mp4" controls/>
@@ -58,10 +58,19 @@ export function Content() {
     <section class="work__section work__section--accent light">
         <div class="work__div">
             <h2 class="work-h2">Social</h2>
-            <p>Use the language of social platforms to make the most out of the :15s</p>
+            <p>To help our cut downs feel a little more native, we took a cue from the what the youth are into these days.</p>
         </div>
         <Media type="video" src="/media/terminixFancam.mp4" controls/>
         <Media type="video" src="/media/terminixRoachesEverywhere.mp4" controls/>
+        <div class="work__div col-3">
+            <p class="center">
+                ECD - Amy Ditchman<br></br>
+                CD - Adam Repp<br></br>
+                ACD - Deidre Nieto<br></br>
+                AD - Cassie Mayfield<br></br>
+                CW - Eric Hulting
+            </p>
+        </div>    
     </section>
     </>
   )
