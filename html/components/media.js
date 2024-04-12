@@ -24,7 +24,6 @@ export function Vid(props) {
 }
 
 function content(param) {
-console.log(param);
     if (param.type === "image") {
         return (
             <>
@@ -49,7 +48,7 @@ export default function Media(...props) {
         {content(props[0])}
         
         {props[0].caption && <figcaption>{props[0].caption}</figcaption>}
-        <button class="expandBtn expandBtn-caption" onclick="modalExpand(this)"><ZoomIcon /></button>
+        <button class="expandBtn" onclick="modalExpand(this)"><ZoomIcon /></button>
     </figure>
     
     </>
