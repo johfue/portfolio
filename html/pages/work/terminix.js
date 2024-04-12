@@ -16,7 +16,7 @@ export function Desc() {
 
   return (
     <>
-    <p><b>The Problem:</b> After two years since it’s last brand campaign, Terminix was ready to find a new voice and a new AOR.</p>
+    <p><b>The Problem:</b> After two years without any work on the air, Terminix was ready to find a new voice and a new AOR.</p>
     <p><b>The Big Idea:</b> Position Terminix as the pest control company that cares about getting your life back to normal as soon as possible. Because when you want pest out, you want them out fast.</p>
     </>
     )
@@ -31,7 +31,7 @@ export function Content() {
     <section class="work__section work__section--main ">
         <div class="work__div">
             <h2 class="work-h2">Mnemonic</h2>
-            <p>I developed a flexible new mnemonic that takes the core of the campaign and boils it down to two seconds.</p>
+            <p>I designed a flexible new mnemonic that tells the story of the brand in two seconds.</p>
         </div>
         <Media type="video" src="/media/terminixEndTag.mp4" class="col-3 center" autoplay="true"/>
     </section>
@@ -56,12 +56,12 @@ export function Content() {
     </section>
     
     <section class="work__section work__section--accent light">
-        <div class="work__div">
-            <h2 class="work-h2">Social</h2>
-            <p>To help our cut downs feel a little more native, we took a cue from the what's hip with the youth these days.</p>
+        <div class="work__div bottom">
+        <h2 class="work-h2">Social</h2>
+        <p class="col-right">To help our cut downs feel a little more native, we took a cue from what's hip with the youth these days.</p>
         </div>
         <Media type="video" src="/media/terminixFancam.mp4" unexpandable/>
-        <Media type="video" src="/media/terminixRoachesEverywhere.mp4" unexpandable/>  
+        <Media type="video" src="/media/terminixRoachesEverywhere.mp4"unexpandable/>  
     </section>
     <section class="work__section work__section--main">
         <h2 class="work-h2 col-3 right">Out-of-Home</h2>
