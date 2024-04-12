@@ -37,7 +37,7 @@ export function Content() {
     </section>
     
     <section class="work__section work__section--accent light">
-        <h2 class="work-h2 col-3 right">:15s Spots</h2>
+        <h2 class="work-h2 col-right">:15s Spots</h2>
         <Media type="video" src="/media/terminixHornetNest.mp4" class="col-2 col-right" controls/>
         <Media type="video" src="/media/terminixRoachArt.mp4" class="col-2 col-right" controls/>
         <Media type="video" src="/media/terminixUnmounted.mp4" class="col-2 col-right" controls/>
@@ -61,7 +61,11 @@ export function Content() {
             <p>To help our cut downs feel a little more native, we took a cue from the what the youth are into these days.</p>
         </div>
         <Media type="video" src="/media/terminixFancam.mp4" controls/>
-        <Media type="video" src="/media/terminixRoachesEverywhere.mp4" controls/>
+        <Media type="video" src="/media/terminixRoachesEverywhere.mp4" controls/>  
+    </section>
+    <section class="work__section work__section--main">
+        <h2 class="work-h2 col-3 right">Out-of-Home</h2>
+        <Media type="image" src="/images/jiffyOOH_1.jpg" class="col-2 col-right" alt="The copy reads: Welcome to Durham. Meters are free on the weekend. Happy driving. Jiffy Lube."/>
         <div class="work__div col-3">
             <p class="center">
                 ECD - Amy Ditchman<br></br>
@@ -70,8 +74,7 @@ export function Content() {
                 AD - Cassie Mayfield<br></br>
                 CW - Eric Hulting
             </p>
-        </div>    
-    </section>
+        </div>      </section>
     </>
   )
 }
