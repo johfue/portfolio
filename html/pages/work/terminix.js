@@ -58,7 +58,7 @@ export function Content() {
     <section class="work__section work__section--accent light">
         <div class="work__div">
             <h2 class="work-h2">Social</h2>
-            <p>To help our cut downs feel a little more native, we took a cue from the what the youth are into these days.</p>
+            <p>To help our cut downs feel a little more native, we took a cue from the what's hip with the youth these days.</p>
         </div>
         <Media type="video" src="/media/terminixFancam.mp4" unexpandable/>
         <Media type="video" src="/media/terminixRoachesEverywhere.mp4" unexpandable/>  
@@ -74,7 +74,8 @@ export function Content() {
                 AD - Cassie Mayfield<br></br>
                 CW - Eric Hulting
             </p>
-        </div>      </section>
+        </div>      
+    </section>
     </>
   )
 }

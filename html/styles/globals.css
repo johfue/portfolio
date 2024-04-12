@@ -387,11 +387,6 @@ svg {
 }
 
 .expandableContent {
-    display: block;
-    max-width: 100%;
-    /*max-height: 100vh;*/
-    position: relative;
-    object-fit: contain;
     cursor: -moz-zoom-in;
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
@@ -402,7 +397,7 @@ svg {
 }
 
 .expandableContent:hover {
-    filter: brightness(0.8);
+    filter: brightness(0.9);
 }
 
 @keyframes slide {
@@ -692,6 +687,16 @@ header.Personal + section article figure:nth-child(1) {
     overflow: hidden;
 } */
 
+.work__content {
+    display: block;
+    max-width: 100%;
+    position: relative;
+    object-fit: contain;
+    justify-self: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .work__figure {
     justify-self: center;
     position: relative;
@@ -704,7 +709,7 @@ header.Personal + section article figure:nth-child(1) {
 
 .expandBtn, #close {
     position: absolute;
-    background-color: rgba(251, 233, 238, 0.2);
+    background-color: rgba(251, 233, 238, 0.1);
     bottom: 1.5em;
     right: 1.25em;
     left: calc(100% - 5rem);
