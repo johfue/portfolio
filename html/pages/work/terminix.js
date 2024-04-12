@@ -33,14 +33,14 @@ export function Content() {
             <h2 class="work-h2">Mnemonic</h2>
             <p>I developed a flexible new mnemonic that takes the core of the campaign and boils it down to two seconds.</p>
         </div>
-        <Media type="video" src="/media/terminixEndTag.mp4" class="col-3 center" autoplay="true" controls/>
+        <Media type="video" src="/media/terminixEndTag.mp4" class="col-3 center" autoplay="true"/>
     </section>
     
     <section class="work__section work__section--accent light">
         <h2 class="work-h2 col-right">:15s Spots</h2>
-        <Media type="video" src="/media/terminixHornetNest.mp4" class="col-2 col-right" controls/>
-        <Media type="video" src="/media/terminixRoachArt.mp4" class="col-2 col-right" controls/>
-        <Media type="video" src="/media/terminixUnmounted.mp4" class="col-2 col-right" controls/>
+        <Media type="video" src="/media/terminixHornetNest.mp4" class="col-2 col-right" unexpandable/>
+        <Media type="video" src="/media/terminixRoachArt.mp4" class="col-2 col-right" unexpandable/>
+        <Media type="video" src="/media/terminixUnmounted.mp4" class="col-2 col-right" unexpandable/>
     </section>
     
     <section class="work__section work__section--main">
@@ -50,9 +50,9 @@ export function Content() {
             <h2 class="work-h2">:06s Animations</h2>
             <p>Fit for any short form space. Perfect for reinforcing our new brand elements.</p>
         </div>
-        <Media type="video" src="/media/terminixSpider.mp4" controls/>
-        <Media type="video" src="/media/terminixRoach.mp4" controls/>
-        <Media type="video" src="/media/terminixTermite.mp4" controls/>
+        <Media type="video" src="/media/terminixSpider.mp4" unexpandable/>
+        <Media type="video" src="/media/terminixRoach.mp4" unexpandable/>
+        <Media type="video" src="/media/terminixTermite.mp4" unexpandable/>
     </section>
     
     <section class="work__section work__section--accent light">
@@ -60,8 +60,8 @@ export function Content() {
             <h2 class="work-h2">Social</h2>
             <p>To help our cut downs feel a little more native, we took a cue from the what the youth are into these days.</p>
         </div>
-        <Media type="video" src="/media/terminixFancam.mp4" controls/>
-        <Media type="video" src="/media/terminixRoachesEverywhere.mp4" controls/>  
+        <Media type="video" src="/media/terminixFancam.mp4" unexpandable/>
+        <Media type="video" src="/media/terminixRoachesEverywhere.mp4" unexpandable/>  
     </section>
     <section class="work__section work__section--main">
         <h2 class="work-h2 col-3 right">Out-of-Home</h2>

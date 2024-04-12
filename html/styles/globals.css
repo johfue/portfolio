@@ -685,12 +685,12 @@ header.Personal + section article figure:nth-child(1) {
     
 }
 
-.expandableContent-personal {
+/* .expandableContent-personal {
     height: 100%;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
-}
+} */
 
 .work__figure {
     justify-self: center;

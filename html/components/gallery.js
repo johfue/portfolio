@@ -6,29 +6,30 @@ import NextIcon from '/public/images/chevron-right.svg'
 import Head from 'next/head'
 
 function gall() {
-    
-    console.log("ran");
-    
+        
 function _(x) {
 	return document.getElementById(x);
 }
 
-var modal = _("modal");
-var modalImg = _("modalImg");
-var modalVideo = _("modalVideo");
-var modalCaption = _("modalCaption");
+const modal = _("modal");
+const modalImg = _("modalImg");
+const modalVideo = _("modalVideo");
+const modalCaption = _("modalCaption");
 
-var position = "foo";
-var modalMedia = "foo";
-var modalMediaCaption = "foo";
-var saveScroll = "foo";
+let position = "foo";
+let modalMedia = "foo";
+let modalMediaCaption = "foo";
+let saveScroll = "foo";
 
-var main = document.querySelector("main");
-var nav = document.querySelector("nav");
+const main = document.querySelector("main");
+const nav = document.querySelector("nav");
 
-var modalList = document.querySelectorAll("figure");
+const modalList = document.querySelectorAll("figure");
 for(var t=0; t<modalList.length; t++) {
-    modalList[t].firstElementChild.addEventListener("click", modalExpand);
+    var currentContent = modalList[t].firstElementChild;
+    if (currentContent.classList.contains("expandableContent")) {
+        currentContent.addEventListener("click", modalExpand);
+    }
 }
 
 function hidden(bool) {
@@ -60,8 +61,6 @@ function modalUpdate() {
     
     if (modalMediaCaption.tagName != "figcaption") {
         modalCaption.innerHTML = "";
-                console.log(2);
-
     }
     else {
         modalCaption.innerHTML = modalMediaCaption.innerHTML;
