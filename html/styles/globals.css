@@ -626,12 +626,6 @@ a svg {
         padding: 2em 10vw 4em calc(34vw + 2em);
     }
 
-    .work__p {
-        grid-column: 2/3;
-    }
-    .work-h2 {
-        grid-column: 2/3;
-    }
 }
 
 header.Personal + section article figure:nth-child(1) {
@@ -873,6 +867,10 @@ header.Personal + section article figure:nth-child(1) {
     
     .bottom {
         align-self: end;
+    }
+
+    .middle {
+        align-self: center;
     }
 }
 

@@ -30,19 +30,24 @@ export function Content() {
   return (
     <>
         <section class="work__section work__section--main light">
-            <h2 class="work-h2 col-3 right">Print</h2>
+            <span></span>
+            <h2 class="work-h2">Print</h2>
+            <span></span>
             <Media type="image" src="/images/neosporin_print_1.jpg" alt=""/>
             <Media type="image" src="/images/neosporin_print_2.jpg" alt=""/>
             <Media type="image" src="/images/neosporin_print_3.jpg" alt=""/>
         </section>
         <section class="work__section work__section--accent">
-            <h2 class="work-h2 col-3 right">:10s Spots</h2>
             <span></span>
-            <Media type="image" src="/images/neosporin_script_1.jpg" alt=""/>
-            <Media type="image" src="/images/neosporin_script_2.jpg" alt=""/>
+            <h2 class="work-h2">:10s Spots</h2>
+            <span></span>
+            <Media type="image" class="col-mid"src="/images/neosporin_script_1.jpg" alt=""/>
+            <Media type="image" class="col-right"src="/images/neosporin_script_2.jpg" alt=""/>
         </section>
         <section class="work__section work__section--main light">
-            <h2 class="work-h2 col-3 right">Digital</h2>
+            <span></span>
+            <h2 class="work-h2">Digital</h2>
+            <span></span>
             <Media type="video" autoplay="true" class="tall right" src="/media/neosporin_320x1200.mp4" alt=""/>
             <Media type="image" src="/images/neosporin_600x500.jpg" alt=""/>
             <Media type="image" src="/images/neosporin_600x600.jpg" alt=""/>
