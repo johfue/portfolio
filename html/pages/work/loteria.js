@@ -18,7 +18,7 @@ export function Desc() {
 
   return (
     <>
-    <p><b>The Problem:</b> During the pandemic, I wanted to play Lotería over Zoom. In all the versions I tried, they took out all the parts that make it fun.</p>
+    <p><b>The Problem:</b> During the pandemic, I wanted to play Lotería over Zoom. Every version I tried removed the parts that make the game fun.</p>
     <p><b>The Big Idea:</b> Why not make my own, with all the authentic chaos of the real thing. Now it’s used by friends, schools, and businesses around the world.</p>
     </>
     )
