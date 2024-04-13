@@ -582,6 +582,9 @@ a svg {
     padding: 2.5em 10vw 1em;
     display: grid;
     grid-template-columns: 1fr;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .work__h1 {
@@ -1169,6 +1172,25 @@ audio {
         transform: scale(0.85) translate(147%, 34rem);
         display: block;
     }
+}
+
+.work__decor {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 33%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#work__decor--jiffy {
+    background-image: url("/images/jiffy-arrow.svg");
+    background-position: 100% 100%;
+}
+
+#work__decor--terminix {
+    background-image: url("/images/terminix-roaches.svg");
+    background-position: 0 0;
 }
 
 .light {

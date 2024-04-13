@@ -37,6 +37,8 @@ export function Content() {
     </section>
     
     <section class="work__section work__section--accent light">
+    <div class="work__decor" id="work__decor--terminix"></div>
+
         <h2 class="work-h2 col-right">:15s Spots</h2>
         <Media type="video" src="/media/terminixHornetNest.mp4" class="col-2 col-right" unexpandable/>
         <Media type="video" src="/media/terminixRoachArt.mp4" class="col-2 col-right" unexpandable/>

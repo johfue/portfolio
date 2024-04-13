@@ -64,6 +64,7 @@ export function Content() {
     </section>
     
     <section class="work__section work__section--accent">
+    <div class="work__decor" id="work__decor--jiffy"></div>
         <div class="work__div">
             <h2 class="work-h2">Out-of-home</h2>
             <p>In target cities Jiffy Lube will give pointers to newcomers through billboards. The goal is to associate Jiffy Lube with solid automotive advice. So whenever someone uses what they’ve learned from a billboard they'll remember they learned it from Jiffy Lube.</p>
