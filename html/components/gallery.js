@@ -34,7 +34,7 @@ for(var t=0; t<modalList.length; t++) {
 
 function hidden(bool) {
     if (bool) {
-        modal.style.display = "block";
+        modal.style.display = "flex";
         main.style.display = "none";
         nav.style.display = "none";
     }
