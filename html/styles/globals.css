@@ -579,7 +579,7 @@ a svg {
 
 .work__section {
     grid-gap: 1em;
-    padding: 1em 10vw;
+    padding: 2.5em 10vw 1em;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -793,6 +793,8 @@ header.Personal + section article figure:nth-child(1) {
     grid-column-end: 0;
 }
 
+
+
 @media(min-width:768px) {
     .col-2 {
         grid-column: span 2;
@@ -811,6 +813,16 @@ header.Personal + section article figure:nth-child(1) {
     }
     .tall {
         grid-row: span 3;
+    }
+    .pillarBox {
+        background-color: black;
+        max-height: 30vw;
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+    }
+    .short {
+        max-height: 30vw;
     }
     .wide {
         grid-column: span 2;
@@ -895,9 +907,6 @@ audio {
 }
 
 @media(min-width:950px) {
-    .work-h2 {
-        padding: 0.5em 0 0 0;
-    }
     .work-h2 + p {
         padding: 0 0;
     }

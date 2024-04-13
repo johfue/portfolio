@@ -17,7 +17,7 @@ export function Desc() {
   return (
     <>
     <p><b>The Problem:</b> After two years without any work on the air, Terminix was ready to find a new voice and a new AOR.</p>
-    <p><b>The Big Idea:</b> Position Terminix as the pest control company that cares about getting your life back to normal as soon as possible. Because when you want pest out, you want them out fast.</p>
+    <p><b>The Big Idea:</b> Use fast hitting tactics to position Terminix as the brand that works quickly to put your mind at ease. Because when you want pests out, you want them out fast.</p>
     </>
     )
 }
@@ -48,7 +48,7 @@ export function Content() {
         <span></span>
         <div class="work__div">
             <h2 class="work-h2">:06s Animations</h2>
-            <p>Fit for any short form space. Perfect for reinforcing our new brand elements.</p>
+            <p>Fit for any short form space. Perfect for reinforcing the new branding.</p>
         </div>
         <Media type="video" src="/media/terminixSpider.mp4" unexpandable/>
         <Media type="video" src="/media/terminixRoach.mp4" unexpandable/>
@@ -56,16 +56,22 @@ export function Content() {
     </section>
     
     <section class="work__section work__section--accent light">
-        <div class="work__div bottom">
+        <div class="work__div">
         <h2 class="work-h2">Social</h2>
         <p class="col-right">To help our cut downs feel a little more native, we took a cue from what's hip with the youth these days.</p>
         </div>
-        <Media type="video" src="/media/terminixFancam.mp4" unexpandable/>
-        <Media type="video" src="/media/terminixRoachesEverywhere.mp4"unexpandable/>  
+        <div class="pillarBox">
+        <Media type="video" src="/media/terminixFancam.mp4" unexpandable short/>
+        </div>
+        <div class="pillarBox">
+        <Media type="video" src="/media/terminixRoachesEverywhere.mp4"unexpandable short/>
+        </div> 
     </section>
     <section class="work__section work__section--main">
-        <h2 class="work-h2 col-3 right">Out-of-Home</h2>
-        <Media type="image" src="/images/jiffyOOH_1.jpg" class="col-2 col-right" alt="The copy reads: Welcome to Durham. Meters are free on the weekend. Happy driving. Jiffy Lube."/>
+        <span></span>
+        <span></span>
+        <h2 class="work-h2">Out-of-Home</h2>
+        <Media type="image" src="/images/terminix_OOH_CHI.jpg" class="col-2 col-right" alt="The copy reads: Welcome to Durham. Meters are free on the weekend. Happy driving. Jiffy Lube."/>
         <div class="work__div col-3">
             <p class="center">
                 ECD - Amy Ditchman<br></br>
