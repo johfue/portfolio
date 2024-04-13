@@ -41,6 +41,14 @@ export function Content() {
             <span></span>
             <Media type="video" src="/media/chooseDigital.mp4" autoplay="true" alt=""/>
             <Media type="image" src="/images/chooseDigital.jpg" alt="Chinese BBQ, Frozen custard, Line dancing."/>
+            <div class="work__div col-3 right">
+            <p class="text-right">
+                CD - Jack Miller<br></br>
+                ACD - Adam Repp<br></br>
+                AD - Regina Galan<br></br>
+                CW - Eric Hulting
+            </p>
+        </div> 
         </section>
 
     </>

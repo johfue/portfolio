@@ -40,8 +40,8 @@ export function Content() {
         <div class="work__decor" id="work__decor--terminix"></div>
         <h2 class="work-h2 col-mid">:15s Spots</h2>
         <Media type="video" src="/media/terminixHornetNest.mp4" class="col-2 col-mid" unexpandable/>
-        <Media type="video" src="/media/terminixRoachArt.mp4" class="col-2 col-mid" unexpandable/>
-        <Media type="video" src="/media/terminixUnmounted.mp4" class="col-2 col-mid" unexpandable/>
+        <Media type="video" src="/media/terminixRoachArt.mp4" class="col-2 col-mid" poster="/images/terminixRoachArt_poster.jpg" unexpandable/>
+        <Media type="video" src="/media/terminixUnmounted.mp4" class="col-2 col-mid" poster="/images/terminixUnmounted_poster.jpg" unexpandable/>
     </section>
     
     <section class="work__section work__section--main">
@@ -51,9 +51,9 @@ export function Content() {
             <p class="work__p">Fit for any short form space. Perfect for reinforcing the new branding.</p>
         </div>
         <span></span>
-        <Media type="video" src="/media/terminixSpider.mp4" unexpandable/>
-        <Media type="video" src="/media/terminixRoach.mp4" unexpandable/>
-        <Media type="video" src="/media/terminixTermite.mp4" unexpandable/>
+        <Media type="video" src="/media/terminixSpider.mp4" poster="/images/terminixSpider_poster.jpg" unexpandable/>
+        <Media type="video" src="/media/terminixRoach.mp4" poster="/images/terminixRoach_poster.jpg" unexpandable/>
+        <Media type="video" src="/media/terminixTermite.mp4" poster="/images/terminixTermite_poster.jpg" unexpandable/>
     </section>
     
     <section class="work__section work__section--accent light">
@@ -62,10 +62,10 @@ export function Content() {
         <p class="work__p">To help our cut downs feel a little more native, we took a cue from what's hip with the youth these days.</p>
         </div>
         <div class="pillarBox col-mid">
-        <Media type="video" src="/media/terminixFancam.mp4" unexpandable short />
+        <Media type="video" src="/media/terminixFancam.mp4" poster="/images/terminixFancam_poster.jpg" unexpandable short />
         </div>
         <div class="pillarBox">
-        <Media type="video" src="/media/terminixRoachesEverywhere.mp4"unexpandable short/>
+        <Media type="video" src="/media/terminixRoachesEverywhere.mp4"poster="/images/terminixRoachesEverywhere_poster.jpg" unexpandable short/>
         </div> 
     </section>
     <section class="work__section work__section--main">
