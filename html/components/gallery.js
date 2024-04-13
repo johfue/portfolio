@@ -58,13 +58,14 @@ function modalUpdate() {
         modalImg.src = modalMedia.getAttribute('src');
         modalImg.style.display = "block";
     }
-    
-    if (modalMediaCaption.tagName != "figcaption") {
-        modalCaption.innerHTML = "";
-    }
-    else {
-        modalCaption.innerHTML = modalMediaCaption.innerHTML;
-        console.log(1);
+    if (modalMediaCaption) {
+        if (modalMediaCaption.tagName != "FIGCAPTION") {
+            modalCaption.innerHTML = "";
+        }
+        else {
+            modalCaption.innerHTML = modalMediaCaption.innerHTML;
+            console.log(modalMediaCaption);
+        }
     }
     
     if (position <= 0) {
@@ -98,7 +99,7 @@ function modalExpand() {
 
 function modalTabUpdate() {
     modalMedia = modalList[position].firstElementChild;
-    modalMediaCaption = modalList[position].firstElementChild.nextElementSibling;
+    modalMediaCaption = modalMedia.nextElementSibling;
     modalUpdate();
     modal.scrollTo(0, 0);
 }
