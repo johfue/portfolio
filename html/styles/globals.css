@@ -130,7 +130,7 @@ p {
 
 figcaption {
     font-family: Lato-Light;
-    line-height: 1.5em;
+    padding-bottom: 1em;
 }
 
 figcaption a svg {
