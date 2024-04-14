@@ -31,20 +31,20 @@ export function Content() {
         <div class="work-column">
         <Media type="video" src="/media/korok.mp4" poster="/media/korok_preview.gif" caption="VFX" unexpandable alt="The camera pans left and right, showing three stones in three different garden beds. A fourth stone is tossed into a fourth garden bed and a korok from the Legend Zelda series appears."/>
 
-        <Media type="video" src="/media/hitmon.mp4" autoplay="true" alt="A trading card of the pokemon Voltorb that has been recreated in 3D." caption="3D Illustration"/>
+        <Media type="video" src="/media/hitmon.mp4" autoplay="true" alt="The camera flys through the artwork of pokemon trading card, recreated in 3D." caption="3D Illustration"/>
 
         <Media type="video" autoplay="true" src="/media/dotty.mp4" caption="Augmented Reality" alt="A trading card of the Animal Crossing Villager Dotty where the artwork has been replaced by a 3D model. Dotty cycles between greating the viewer and being astonished."/>
           
         </div>
 
         <div class="work-column">
-        <Media type="video" autoplay="true" src="/media/finalStrawLogo.mp4" caption="Logo Animation" alt="A stylized 3D model of a young boy looking at a butterfly rotates 360 degrees."/>
+        <Media type="video" autoplay="true" src="/media/finalStrawLogo.mp4" caption="Logo Animation" alt="A straw enters in and sucks up liquid. When the liquid drains, it reveals the name Final Straw, the period at the end of logo gets burped out."/>
 
         <Media type="image" src="/images/laso-tshirt-tall.jpg" caption="Illustration" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words Latin American Student Organization - University of South Carolina."/>
           
-        <Media type="video" autoplay="true" src="/media/syrinj.mp4" caption={<a href="http://syrinj.com" target="_blank">Parody Website  <ExternalIcon /></a>} alt="A video scrolling through the landing page of a website."/>
+        <Media type="video" autoplay="true" src="/media/syrinj.mp4" caption={<a href="http://syrinj.com" target="_blank">Website  <ExternalIcon /></a>} alt="A video scrolling through the landing page of a website."/>
 
-        <Media type="image" src="/images/citi.jpg" caption="Web Design" alt="A red rooster standing behind organge flowers and in front of a green palm tree. Wrapped around the objects are the words Latin American Student Organization - University of South Carolina."/>
+        <Media type="image" src="/images/citi.jpg" caption="Web Design" alt="Screencaps of a web design project. It's an e-learning platform for Citi Bank. The design takes inspiration from moden sports videogames."/>
         
         </div>
 

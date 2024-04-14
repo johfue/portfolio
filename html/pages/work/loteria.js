@@ -52,7 +52,7 @@ export function Content() {
                 <li>Controlling how fast cards are drawn</li>
             </ul>
         </div>
-        <Media type="image" src="/images/loteriaPhone.jpg" class="col-2 col-left" alt="A mobile mock-up of the game. The host has just drawn La Rosa athere are several other players in their game."/>
+        <Media type="image" src="/images/loteriaPhone.jpg" class="col-2 col-left" alt="A mobile mock-up of the game. You can see several options the host has for setting up their game."/>
 
     </section>
     

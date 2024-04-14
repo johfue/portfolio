@@ -33,9 +33,9 @@ export function Content() {
             <span></span>
             <h2 class="work-h2">Print</h2>
             <span></span>
-            <Media type="image" src="/images/neosporin_print_1.jpg" alt=""/>
-            <Media type="image" src="/images/neosporin_print_2.jpg" alt=""/>
-            <Media type="image" src="/images/neosporin_print_3.jpg" alt=""/>
+            <Media type="image" src="/images/neosporin_print_1.jpg" alt="Love is learning which snakes are safe enough for them to pet."/>
+            <Media type="image" src="/images/neosporin_print_2.jpg" alt="Love is buying a second box of dinsaur band-aids before the first runs out."/>
+            <Media type="image" src="/images/neosporin_print_3.jpg" alt="Love is having a favorite x-ray technician."/>
         </section>
         <section class="work__section work__section--accent">
             <span></span>
@@ -48,9 +48,9 @@ export function Content() {
             <span></span>
             <h2 class="work-h2">Digital</h2>
             <span></span>
-            <Media type="video" autoplay="true" class="tall right" src="/media/neosporin_320x1200.mp4" alt=""/>
-            <Media type="image" src="/images/neosporin_600x500.jpg" alt=""/>
-            <Media type="image" src="/images/neosporin_600x600.jpg" alt=""/>
+            <Media type="video" autoplay="true" class="tall right" src="/media/neosporin_320x1200.mp4"/>
+            <Media type="image" src="/images/neosporin_600x500.jpg" alt="Love is packing pb&j for their first skate park trip"/>
+            <Media type="image" src="/images/neosporin_600x600.jpg" alt="Love is standing right where you knew they'd fall"/>
             <Media type="image" class="wide" src="/images/neosporin_970x250.jpg" alt=""/>
         </section>
     
