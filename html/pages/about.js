@@ -29,7 +29,7 @@ export default function About() {
         <div class="about__column about__column--three">
             <section class="about__section about__section--three">
                 <h2 class="about__h2">FAQ</h2>
-                <p class="about__p about__p--question">Q. Did you code the back and front-end of this site from scratch?</p>
+                <p class="about__p about__p--question">Q. Did you code the entire back and front-end of this site from scratch?</p>
                 <p class="about__p">A. Yes</p>
                 <p class="about__p about__p--question">Q. How often do you get asked that?</p>
                 <p class="about__p">A. Never, but I don’t want all those hours to go unappreciated.</p>

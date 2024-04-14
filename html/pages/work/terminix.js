@@ -31,7 +31,7 @@ export function Content() {
     <section class="work__section work__section--main ">
         <div class="work__div col-mid">
             <h2 class="work-h2">Mnemonic</h2>
-            <p class="work__p">I designed a flexible new mnemonic that tells the story of the brand in two seconds.</p>
+            <p class="work__p">To go along with the new platform, I designed a flexible new mnemonic.</p>
         </div>
         <Media type="video" src="/media/terminixEndTag.mp4" class="col-3" autoplay="true"/>
     </section>
@@ -59,7 +59,7 @@ export function Content() {
     <section class="work__section work__section--accent light">
         <div class="work__div col-right bottom">
         <h2 class="work-h2">Social</h2>
-        <p class="work__p">To help our cut downs feel a little more native, we took a cue from what's hip with the youth these days.</p>
+        <p class="work__p">To get the most mileage from the shoot, we took a cue from what's hip with the youth these days.</p>
         </div>
         <div class="pillarBox col-mid">
         <Media type="video" src="/media/terminixFancam.mp4" poster="/images/terminixFancam_poster.jpg" unexpandable short />
