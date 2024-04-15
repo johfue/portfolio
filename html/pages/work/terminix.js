@@ -71,7 +71,7 @@ export function Content() {
     <section class="work__section work__section--main">
         <span></span>
         <h2 class="work-h2">Out-of-Home</h2>
-        <Media type="image" src="/images/terminix_OOH_CHI.jpg" class="col-2 col-mid" alt="The copy reads: CTA (Crush those ants). A line of ants is being stomped out by the logo."/>
+        <Media type="image" src="/images/terminix_OOH_NY.jpg" class="col-2 col-mid" alt="The copy reads: Remove roaches in a New York Minute. A line of roaches is being stomped out by the logo."/>
         <div class="work__div col-3 right">
             <p class="text-right">
                 ECD - Amy Ditchman<br></br>
