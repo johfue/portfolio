@@ -22,7 +22,7 @@ export default function About() {
         </div>
         <div class="about__column about__column--two">
             <section class="about__section">
-                <p>Like any child of immigrants, I share the experience of having to translate for my parents at the Burger King. Without anyone to help me with my English homework, I had to learn a lot on my own. And I grew to be a voracious self-learner. Libraries are scared to let me in their doors.</p>
+                <p>Like any child of immigrants, I share the experience of having to translate for my parents at the Burger King. With no one to help me with my English homework, I had to learn a lot on my own. And I got really good at it.<br></br><br></br>Today I’m proud life long learner and don’t really eat Burger King.</p>
             </section>
             <img src="/images/profPic.jpg" class="about__img about__img--center" alt=""></img>
         </div>

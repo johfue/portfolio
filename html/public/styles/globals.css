@@ -590,7 +590,8 @@ a svg {
 }
 
 .work__h1 {
-    color: var(--link-500);
+    color: var(--primary-500);
+    font-size: 6.5em;
 }
 
 .work__header {
@@ -618,6 +619,8 @@ a svg {
         grid-column: span 2;
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-flow: dense;
+        padding: 4em 10vw;
+        grid-gap: 2em;
     }
     .work__header {
         -webkit-clip-path: url(#mask);

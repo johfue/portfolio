@@ -30,7 +30,7 @@ export function Content() {
 
     <section class="work__section work__section--accent">
         <div class="work__div col-right">
-            <h2 class="work-h2">Direct Mail</h2>
+            <h2 class="work__h2">Direct Mail</h2>
             <div>
                 <p>New residents moving to the fastest growing cities will receive a welcome package. Included is a living guide with info about local restaurants, fun destinations, and where to find essential services. As well as information on parking, street cleanings, traffic patterns, and how to update their drivers license. Along with the guide, the box will include items to help them through an anxious time:</p>
                 <ul class="work__ul">
@@ -45,7 +45,7 @@ export function Content() {
     
     <section class="work__section work__section--main light">
         <div class="work__div col-right">
-            <h2 class="work-h2">Mobile App</h2>
+            <h2 class="work__h2">Mobile App</h2>
             <div>
                 <p>Along with a visual refresh, the Jiffy Lube app will get a few new updates.</p>
                 <ul class="work__ul">
@@ -66,7 +66,7 @@ export function Content() {
     <section class="work__section work__section--accent">
     <div class="work__decor" id="work__decor--jiffy"></div>
         <div class="work__div col-right">
-            <h2 class="work-h2">Out-of-home</h2>
+            <h2 class="work__h2">Out-of-home</h2>
             <p>In target cities Jiffy Lube will give pointers to newcomers through billboards. The goal is to associate Jiffy Lube with solid automotive advice. So whenever someone uses what they’ve learned from a billboard they'll remember they learned it from Jiffy Lube.</p>
         </div>
         <Media type="image" src="/images/jiffyOOH_1.jpg" class="col-2 col-left" alt="The copy reads: Welcome to Durham. Meters are free on the weekend. Happy driving. Jiffy Lube."/>
@@ -76,7 +76,7 @@ export function Content() {
     
     <section class="work__section work__section--main light">
         <div class="work__div col-right">
-            <h2 class="work-h2">Bumble BFF</h2>
+            <h2 class="work__h2">Bumble BFF</h2>
             <p>In target cities, personas based on local Jiffy Lube technicians will recommend their matches on Bumble BFF places to visit and help them get settled into their new city. Like any good mechanic, they wouldn’t recommend something they wouldn’t do themself.</p>
         </div>
         <Media type="image" src="/images/jiffyBumble.jpg" class="col-2" alt="A screenshot of a mock Bumble profile. The profiles name is Avery."/>

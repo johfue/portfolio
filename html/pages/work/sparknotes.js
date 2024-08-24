@@ -31,7 +31,7 @@ export function Content() {
 
     <section class="work__section work__section--main light">
         <div class="work__div">
-            <h2 class="work-h2">VR Experience</h2>
+            <h2 class="work__h2">VR Experience</h2>
             <p>Players will be put into the world of Alice in Wonderland where they help investigate who stole the queen’s tarts.<br></br>As part of the queen’s royal guard, players must decode ransom notes sent by the thief.<br></br>To be as accessible as possible the game will be playable on phones and desktops through their web browser, both with and without headsets.</p>
         </div>
         <Media type="video" class="col-2" src="/media/sparknotesPan.mp4" autoplay="true" alt="A POV shot where the player sitting in front of desk and panning around to see the room. The room looks like a a cross-hatched illustration."/>
@@ -47,14 +47,14 @@ export function Content() {
         </section>
         <section class="work__section work__section--accent">
             <div class="work__div">
-                <h2 class="work-h2">Direct Mail</h2>
+                <h2 class="work__h2">Direct Mail</h2>
                 <p>To reach educators, they\'ll be mailed a branded google cardboard headset along with information on how they can support students with dyslexia. For convenience, the headset will have a QR code to launch the game.</p>
             </div>
         <Media type="image" class="col-2" src="/images/sparknotesCardboard.jpg" alt="A mock-up of branded google cardboard VR headset."/>
         </section>
         <section class="work__section work__section--main light">
             <div class="work__div">
-                <h2 class=" work-h2">Out-of-home</h2>
+                <h2 class=" work__h2">Out-of-home</h2>
                 <p>During the back-to-school, OOH will be used to direct people towards the AR experience.</p>
             </div>
             <Media type="image" class="col-2" src="/images/sparknotesMock.jpg" alt="A mock-up of two out of home ads placed in subways."/>
@@ -64,7 +64,7 @@ export function Content() {
         </section>
         <section class="work__section work__section--accent">
             <div class="work__div">
-                <h2 class=" work-h2">Interactive</h2>
+                <h2 class=" work__h2">Interactive</h2>
                 <p>To tie in with the campaign, Sparknotes will add a voice synthesizer button to their study guides and summaries. It will highlight the current word as it’s read aloud.</p>
             </div>
             <Media type="image" class="col-2" src="/images/sparknotesWeb2.jpg" alt="A screenshot of the SparkNotes websites with a button placed besides the text that highlights the text while it is read aloud."/>

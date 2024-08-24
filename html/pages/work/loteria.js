@@ -39,7 +39,7 @@ export function Content() {
 
     <section class="work__section work__section--main">
         <div class="work__div col-right">
-            <h2 class="work-h2">Web App</h2>
+            <h2 class="work__h2">Web App</h2>
             <p>For the uninitiated, Lotería is like bingo. Instead of random numbers, cards with different images are drawn from a deck. If one of your spaces match, you get to mark it, traditionally with a pinto bean. </p>
         </div>
         <Media type="image" src="/images/loteriaDesktop.jpg" class="col-2 col-left" alt="A desktop mockup of the game. The player has several beans placed on their board. The current card is La Rosa and there are four other people playing."/>

@@ -32,7 +32,7 @@ export function Content() {
         <section class="work__section work__section--main light">
           <span></span><span></span>
         <div class="work__div">
-            <h2 class="work-h2">The Women's Financial League</h2>
+            <h2 class="work__h2">The Women's Financial League</h2>
             <p>The WFL is one half financial literacy learning platform, and one half online rec league. Users will join one of two teams and compete against each other by finishing lessons.<br></br><br></br>Megan Rapinoe of the US Women's Soccer Team will serve as spokesperson for the league.</p>
         </div>
         <Media type="image" class="col-3" src="/images/citiOverview.jpg" alt=""/>
@@ -46,7 +46,7 @@ export function Content() {
         </section>
         <section class="work__section work__section--accent">
             <div class="work__div col-2">
-                <h2 class="work-h2 col-2">Live Events</h2>
+                <h2 class="work__h2 col-2">Live Events</h2>
                 <p>WFL members who complete the six week course will gain access to exclusive networking events, conferences and workshops. These in-person events will take place across the country and focus on negotiating salaries, asserting boundaries in the workplace, finding mentors and other soft skills.</p>
                 <p>WFL members will also be invited to private Facebook groups where they can speak more candidly about their experiences and help others navigate their careers.</p>
             </div>
