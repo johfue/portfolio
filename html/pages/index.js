@@ -28,24 +28,24 @@ export default function Home() {
                 <img src="/images/terminixThumb.png" alt="" class="thumbnail__image"/>
             </figure>
         </a>
-        <a href="work/jiffy" class="thumbnail__wrap">
+        <a href="/work/cox-mobile" class="thumbnail__wrap">
             <figure class="thumbnail">
-                <h3 class="zigzag">Jiffy Lube</h3>
-                <img src="/images/jiffyThumb.png" alt="" class="thumbnail__image"/>
+                <h3 class="zigzag">Cox Mobile</h3>
+                <img src="/images/coxMobileThumb.png" alt="" class="thumbnail__image"/>
             </figure>
-        </a>
+        </a>          
         <a href="work/loteria" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">Play Lotería Online</h3>
                 <img src="/images/loteriaThumb.png" alt="" class="thumbnail__image"/>
             </figure>
         </a>
-        <a href="/work/neosporin" class="thumbnail__wrap">
+        <a href="work/jiffy" class="thumbnail__wrap">
             <figure class="thumbnail">
-                <h3 class="zigzag">Neosporin</h3>
-                <img src="/images/neosporinThumb.png" alt="" class="thumbnail__image"/>
+                <h3 class="zigzag">Jiffy Lube</h3>
+                <img src="/images/jiffyThumb.png" alt="" class="thumbnail__image"/>
             </figure>
-        </a>        
+        </a>      
         <a href="work/choose-chicago" class="thumbnail__wrap">
             <figure class="thumbnail">
                 <h3 class="zigzag">Choose Chicago</h3>

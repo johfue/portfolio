@@ -1200,8 +1200,19 @@ audio {
     background-position: 100% 100%;
 }
 
+#work__decor--choose {
+    background-image: url("/images/choose-map-1.svg");
+    background-position: 0 0;
+    background-size: auto;
+}
+
 #work__decor--terminix {
     background-image: url("/images/terminix-roaches.svg");
+    background-position: 0 0;
+}
+
+#work__decor--coxMobile {
+    background-image: url("/images/coxMobile_eyebrow.svg");
     background-position: 0 0;
 }
 
@@ -1261,4 +1272,9 @@ audio {
 .Terminix {
     --brand-main: #20A04B;
     --brand-accent: #0D2640;
+}
+
+.Cox-Mobile {
+    --brand-main: #068E77;
+    --brand-accent: #00A846;
 }
