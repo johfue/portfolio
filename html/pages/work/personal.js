@@ -2,7 +2,7 @@ import Layout from '/components/layout'
 import Media from '/components/media'
 import ExternalIcon from '/public/images/open-in-new.svg'
 
-const title = "Personal Work"
+const title = "Fun"
 
 export function Desc() {
 

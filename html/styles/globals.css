@@ -700,6 +700,7 @@ header.Personal + section article figure:nth-child(1) {
     justify-self: center;
     margin: 0 auto;
     text-align: center;
+    border-radius: inherit;
 }
 
 .work__figure {
@@ -1186,6 +1187,15 @@ audio {
     }
 }
 
+.phone--vertical {
+    background-image: url(/images/phone.svg);
+    padding: 12%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3%;
+}
+
 .work__decor {
     position: absolute;
     background-repeat: no-repeat;
@@ -1212,8 +1222,9 @@ audio {
 }
 
 #work__decor--coxMobile {
-    background-image: url("/images/coxMobile_eyebrow.svg");
-    background-position: 0 0;
+    background-image: url("/images/coxMobile_trail.svg");
+    background-position: center;
+    background-size: contain;
 }
 
 .light {
@@ -1276,5 +1287,5 @@ audio {
 
 .Cox-Mobile {
     --brand-main: #068E77;
-    --brand-accent: #00A846;
+    --brand-accent: #00D258;
 }

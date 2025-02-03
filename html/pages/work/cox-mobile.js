@@ -35,11 +35,11 @@ export function Content() {
         <Media type="video" src="/media/coxSidecar.mp4" poster="/images/coxSidecar_poster.jpg" class="col-3" unexpandable/>
     </section>
 
-    <section class="work__section work__section--accent light">
+    <section class="work__section work__section--accent">
     <div class="work__decor" id="work__decor--coxMobile"></div>
         <span></span>
         <h2 class="work__h2 col-right">Paid Social</h2>
-        <Media type="video" src="/media/coxChecklist.mp4" poster="/images/coxChecklist_poster.jpg" unexpandable/>
+        <Media type="video" src="/media/coxChecklist.mp4" poster="/images/coxChecklist_poster.jpg" class="phone--vertical" unexpandable/>
     </section>
 
     <section class="work__section work__section--main light">
