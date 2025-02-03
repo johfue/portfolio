@@ -815,12 +815,13 @@ header.Personal + section article figure:nth-child(1) {
     .col-mid {
         grid-column-start: 2;
     }
-}
-
-@media (min-width:950px) {
     .medium {
         grid-row: span 2;
     }
+}
+
+@media (min-width:950px) {
+
     .tall {
         grid-row: span 3;
     }
@@ -857,6 +858,12 @@ header.Personal + section article figure:nth-child(1) {
 
 .text-center {
     text-align: center;
+}
+
+@media (min-width:768px) {
+    .right {
+        justify-self: end;
+    }
 }
 
 @media (min-width:950px) {
