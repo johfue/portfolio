@@ -5,7 +5,7 @@ export function Title() {
 
   return (
     <>
-        Cox Communications
+        Cox
     </>
     )
 }
@@ -29,14 +29,14 @@ export function Content() {
     <>
 
 		<section class="work__section work__section--accent light">
-    <div class="work-column">
+    <div class="work__column">
       <Media type="video" src="/media/cox_connected_home.mp4" autoplay="true" alt=""/>
     </div>
-    <div class="work-column">
+    <div class="work__column">
       <Media type="video" src="/media/cox_data_options.mp4" autoplay="true" alt=""/>
       <Media type="video" src="/media/cox_pano.mp4" autoplay="true" alt=""/>
     </div>
-    <div class="work-column">
+    <div class="work__column">
     <Media type="video" src="/media/cox_deep_search.mp4" autoplay="true" alt=""/>
     <Media type="video" src="/media/cox_repack.mp4" autoplay="true" alt=""/>
     </div>

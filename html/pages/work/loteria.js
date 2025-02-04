@@ -34,7 +34,7 @@ export function Content() {
 <figure class="work__figure col-mid">
   <Media type="video" src="/media/loteriaPromo.mp4" unexpandable poster="/media/loteria_preview.gif"/>
 </figure>
-        <a href="https://www.playloteria.online" target="_blank" class="col-3 center"><button class="work__btn">Try it out <ExternalIcon /></button></a>
+        <a href="https://www.playloteria.online" target="_blank" class="col-mid center"><button class="work__btn">Try it out <ExternalIcon /></button></a>
     </section>
 
     <section class="work__section work__section--main">

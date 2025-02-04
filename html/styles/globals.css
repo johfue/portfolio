@@ -121,11 +121,17 @@ h3 {
 
 p, li, a {
     font-family: Rotulista;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 p {
     line-height: 1.3em;
+}
+
+@media(min-width:768px) {
+    p, li, a {
+        font-size: 1.2em;
+    }
 }
 
 figcaption {
@@ -575,7 +581,7 @@ a svg {
 
 .work__section {
     grid-gap: 1em;
-    padding: 2.5em 10vw 2.5em;
+    padding: 1em 5vw;
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
@@ -585,11 +591,11 @@ a svg {
 
 .work__h1 {
     color: var(--primary-500);
-    font-size: 6.5em;
+    font-size: 4em;
 }
 
 .work__h2 {
-    font-size: 2.25em;
+    font-size: 2em;
     color: var(--primary-500);
 }
 
@@ -600,9 +606,9 @@ a svg {
 .work__div--header {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 2rem;
+    row-gap: 1rem;
     column-gap: 1rem;
-    padding: 2em 10vw 3em 10vw;
+    padding: 2em 10vw 3em 5vw;
 }
 
 .work__main {
@@ -615,24 +621,47 @@ a svg {
 
 @media(min-width: 768px) {
     .work__section {
-        grid-column: span 2;
+        padding: 2em 10vw;
+        grid-template-columns: 1fr 1fr;
+    }
+    .work__section:nth-child(2) {
+        padding: 2em 10vw 3em 10vw;
+    }
+
+    .work__div--header {
+        grid-template-columns: 1fr 1fr;
+        padding: 2em 10vw 3em 10vw;
+    }
+    .work__div {
+        grid-column-end: span 2;
+    }
+}
+
+@media(min-width: 950px) {
+    .work__header {
+        -webkit-clip-path: url(#mask);
+        clip-path: url(#mask);
+    }    
+    .work__section {
+        padding: 2.5em 10vw;
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-flow: dense;
         padding: 4em 10vw;
         grid-gap: 2em;
     }
-    .work__section:nth-child(2) {
-        padding: 2em 10vw 4em 10vw;
-    }
-    .work__header {
-        -webkit-clip-path: url(#mask);
-        clip-path: url(#mask);
-    }
     .work__div--header {
-        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
         padding: 2em 10vw 4em calc(34vw + 2em);
     }
-
+    .work__div {
+        grid-column-end: unset;
+    }
+    .work__h1 {
+        font-size: 6.5em;
+    }
+    .work__h2 {
+        font-size: 2.25em;
+    }
 }
 
 header.Personal + section article figure:nth-child(1) {
@@ -642,6 +671,10 @@ header.Personal + section article figure:nth-child(1) {
 .work__div {
     display: grid;
     grid-template-rows: min-content;
+}
+
+.work__spacer {
+    display: none;
 }
 
 .spacer-small + .spacer-small{
@@ -668,6 +701,12 @@ header.Personal + section article figure:nth-child(1) {
 
 .work-b {
     display: none;
+}
+
+@media(min-width:950px) {
+    .work__spacer {
+        display: inline;
+    }
 }
 
 @media(min-width:950px) {
@@ -710,6 +749,10 @@ header.Personal + section article figure:nth-child(1) {
     display: grid;
     grid-template-rows: max-content 1fr;
     grid-gap: 0.5rem;
+}
+
+.work__column {
+    margin-bottom: -1em;
 }
 
 .expandBtn, #close {
@@ -767,6 +810,7 @@ header.Personal + section article figure:nth-child(1) {
 
 .center {
     justify-self: center;
+    align-self: center;
     margin: 0 auto;
     text-align: center;
 }
@@ -807,6 +851,22 @@ header.Personal + section article figure:nth-child(1) {
         grid-column-end: span 2;
     }
     .col-3 {
+        grid-column-end: span 2;
+    }
+    .medium {
+        grid-row: span 2;
+    }
+    .wide {
+        grid-column: span 2;
+        /*width: 80vw;*/
+    }
+    .tall {
+        grid-row: span 3;
+    }
+}
+
+@media (min-width:950px) {
+    .col-3 {
         grid-column-end: span 3;
     }
     .col-right {
@@ -814,16 +874,6 @@ header.Personal + section article figure:nth-child(1) {
     }
     .col-mid {
         grid-column-start: 2;
-    }
-    .medium {
-        grid-row: span 2;
-    }
-}
-
-@media (min-width:950px) {
-
-    .tall {
-        grid-row: span 3;
     }
     .pillarBox {
         background-color: black;
@@ -835,17 +885,14 @@ header.Personal + section article figure:nth-child(1) {
     .short {
         max-height: 30vw;
     }
-    .wide {
-        grid-column: span 2;
-        /*width: 80vw;*/
-    }
+
     .Personal .wide {
         grid-row: span 2;
     }
 }
 
 .right {
-    justify-self: center;
+    justify-self: end;
 }
 
 .left {

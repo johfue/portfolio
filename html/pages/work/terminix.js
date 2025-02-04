@@ -45,12 +45,12 @@ export function Content() {
     </section>
     
     <section class="work__section work__section--main">
-        <span></span>
+        <span class="work__spacer"></span>
         <div class="work__div">
             <h2 class="work__h2">:06s Animations</h2>
             <p class="work__p">Fit for any short form space. Perfect for reinforcing the new branding.</p>
         </div>
-        <span></span>
+        <span class="work__spacer"></span>
         <Media type="video" src="/media/terminixSpider.mp4" poster="/images/terminixSpider_poster.jpg" unexpandable/>
         <Media type="video" src="/media/terminixRoach.mp4" poster="/images/terminixRoach_poster.jpg" unexpandable/>
         <Media type="video" src="/media/terminixTermite.mp4" poster="/images/terminixTermite_poster.jpg" unexpandable/>
@@ -69,7 +69,7 @@ export function Content() {
         </div> 
     </section>
     <section class="work__section work__section--main">
-        <span></span>
+        <span class="work__spacer"></span>
         <h2 class="work__h2">Out-of-Home</h2>
         <Media type="image" src="/images/terminix_OOH_NY.jpg" class="col-2 col-mid" alt="The copy reads: Remove roaches in a New York Minute. A line of roaches is being stomped out by the logo."/>
         <div class="work__div col-3 right">
