@@ -100,7 +100,7 @@ h1 {
     line-height: 0.9em;
 }
 
-@media(min-width: 950px) {
+@media(min-width: 1025px) {
     h1 {
         font-size: 4em;
     }
@@ -637,7 +637,7 @@ a svg {
     }
 }
 
-@media(min-width: 950px) {
+@media(min-width: 1025px) {
     .work__header {
         -webkit-clip-path: url(#mask);
         clip-path: url(#mask);
@@ -651,7 +651,7 @@ a svg {
     }
     .work__div--header {
         row-gap: 2rem;
-        padding: 2em 10vw 4em calc(34vw + 2em);
+        padding: 3em 10vw 3em calc(34vw + 2em);
     }
     .work__div {
         grid-column-end: unset;
@@ -703,13 +703,13 @@ header.Personal + section article figure:nth-child(1) {
     display: none;
 }
 
-@media(min-width:950px) {
+@media(min-width:1025px) {
     .work__spacer {
         display: inline;
     }
 }
 
-@media(min-width:950px) {
+@media(min-width:1025px) {
     .work-b {
         display: block;
         height: 40vh;
@@ -870,7 +870,7 @@ header.Personal + section article figure:nth-child(1) {
     }
 }
 
-@media (min-width:950px) {
+@media (min-width:1025px) {
     .col-3 {
         grid-column-end: span 3;
     }
@@ -918,7 +918,7 @@ header.Personal + section article figure:nth-child(1) {
     }
 }
 
-@media (min-width:950px) {
+@media (min-width:1025px) {
     .right {
         justify-self: end;
     }
@@ -944,13 +944,13 @@ audio {
     margin-left: 4rem;
 }
 
-@media(min-width:950px) {
+@media(min-width:1025px) {
     iframe {
         grid-column: span 2;
     }
 }
 
-@media(min-width:950px) {
+@media(min-width:1025px) {
     .work-h2 + p {
         padding: 0 0;
     }
