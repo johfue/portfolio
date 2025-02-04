@@ -29,6 +29,7 @@ export function Content() {
     <>
 
 		<section class="work__section work__section--accent light">
+    <div class="work__columnWrap col-3">
     <div class="work__column">
       <Media type="video" src="/media/cox_connected_home.mp4" autoplay="true" alt=""/>
     </div>
@@ -39,6 +40,7 @@ export function Content() {
     <div class="work__column">
     <Media type="video" src="/media/cox_deep_search.mp4" autoplay="true" alt=""/>
     <Media type="video" src="/media/cox_repack.mp4" autoplay="true" alt=""/>
+    </div>
     </div>
         <div class="work__div col-3 right">
             <p class="text-right">

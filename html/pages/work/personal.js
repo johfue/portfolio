@@ -20,6 +20,7 @@ export function Content() {
     <>
 
     <section class="work__section work__section--main Personal">
+      <div class="work__columnWrap col-3">
         <div class="work__column">
         <Media type="image" src="/images/latinxcelencia.jpg" alt="Art deco poster of a woman standing on top of a mesoamerican pyramid promoting an event called Latinxcelencia" caption="Illustration"/>
 
@@ -47,18 +48,7 @@ export function Content() {
         <Media type="image" src="/images/citi.jpg" caption="Web Design" alt="Screencaps of a web design project. It's an e-learning platform for Citi Bank. The design takes inspiration from moden sports videogames."/>
         
         </div>
-
-
-        
-        
-        
-        
-        
-
-
-
-        
-
+        </div>
         </section>
 
     </>

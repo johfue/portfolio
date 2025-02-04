@@ -847,6 +847,11 @@ header.Personal + section article figure:nth-child(1) {
 }
 
 @media(min-width:768px) {
+    .work__columnWrap {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .col-2 {
         grid-column-end: span 2;
     }
