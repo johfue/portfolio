@@ -46,7 +46,7 @@ export function Content() {
         <span></span>
         <h2 class="work__h2">Supporting Tactics</h2>
         <span></span>
-        <Media type="video" src="/media/coxSidecar_display.mov" class="medium" autoplay="true" caption="Display" alt=""/>
+        <Media type="video" src="/media/coxSidecar_display.mp4" class="medium" autoplay="true" caption="Display" alt=""/>
         <Media type="image" src="/images/coxSidecar_OOH.jpg" class="col-2 col-mid" caption={<span>OOH<br></br>CW: Eric Hulting</span>} alt="The copy reads: Run on the network you can take anywhere. A dotted lines travels across a map of the US and into a phone."/>
         <Media type="image" src="/images/coxSidecar_Social.jpg" class="col-2 col-mid" caption="Social" alt="The copy reads: We run on the network with unbeatable 5G reliability. So you'll stay connected across 2 million square miles nationwide."/>
         <div class="work__div col-3 right">
