@@ -751,10 +751,6 @@ header.Personal + section article figure:nth-child(1) {
     grid-gap: 0.5rem;
 }
 
-.work__column {
-    margin-bottom: -1em;
-}
-
 .expandBtn, #close {
     position: absolute;
     background-color: rgba(251, 233, 238, 0.1);
