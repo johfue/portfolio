@@ -1,27 +1,33 @@
-import React, {useEffect} from "react";
+import React from "react";
 
 export default function Thumb(props) {
 
-function call() {
-    const thumbs = document.querySelectorAll(".thumbnail__wrap");
-    thumbs.forEach((thumb) => {
-      thumb.addEventListener("mouseenter", () => {
-        thumb.classList.add("boop");
-      });
-    
-      thumb.addEventListener("animationend", (e) => {
-        thumb.classList.remove("boop");
-      });
-    });}
+const [isBooped, setIsBooped] = React.useState(false);
 
-useEffect(() => {
-    call();
-});
+function handleBoop() {
+    setIsBooped(!isBooped);
+}
+
+// function call() {
+//     const thumbs = document.querySelectorAll(".thumbnail__wrap");
+//     thumbs.forEach((thumb) => {
+//       thumb.addEventListener("mouseenter", () => {
+//         thumb.classList.add("boop");
+//       });
+    
+//       thumb.addEventListener("animationend", (e) => {
+//         thumb.classList.remove("boop");
+//       });
+//     });}
+
+// useEffect(() => {
+//     call();
+// });
 
     return (
     <>
     
-    <a href={"work/" + props.page} class="thumbnail__wrap">
+    <a href={"work/" + props.page} class={(isBooped ? "" : "boop") + " thumbnail__wrap "} onMouseEnter={handleBoop} onAnimationEnd={handleBoop}>
         <figure class="thumbnail">
             <h3>{props.name}</h3>
              <img src={"/images/"+ props.image +"Thumb.png"} alt="" class="thumbnail__image"/>

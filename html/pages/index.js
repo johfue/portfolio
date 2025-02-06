@@ -33,42 +33,6 @@ export default function Home() {
       <Thumb name="Choose Chicago" page="choose-chicago" image="choose"></Thumb>
       <Thumb name="Cox" page="cox" image="cox"></Thumb>
 
-        {/* <a href="work/terminix" class="thumbnail__wrap">
-            <figure class="thumbnail">
-                <h3 class="zigzag">Terminix</h3>
-                <img src="/images/terminixThumb.png" alt="" class="thumbnail__image"/>
-            </figure>
-        </a> */
-        /* <a href="work/jiffy" class="thumbnail__wrap">
-            <figure class="thumbnail">
-                <h3 class="zigzag">Jiffy Lube</h3>
-                <img src="/images/jiffyThumb.png" alt="" class="thumbnail__image"/>
-            </figure>
-        </a>
-        <a href="work/loteria" class="thumbnail__wrap">
-            <figure class="thumbnail">
-                <h3 class="zigzag">Play Lotería Online</h3>
-                <img src="/images/loteriaThumb.png" alt="" class="thumbnail__image"/>
-            </figure>
-        </a>
-        <a href="/work/neosporin" class="thumbnail__wrap">
-            <figure class="thumbnail">
-                <h3 class="zigzag">Neosporin</h3>
-                <img src="/images/neosporinThumb.png" alt="" class="thumbnail__image"/>
-            </figure>
-        </a>        
-        <a href="work/choose-chicago" class="thumbnail__wrap">
-            <figure class="thumbnail">
-                <h3 class="zigzag">Choose Chicago</h3>
-                <img src="/images/chooseThumb.png" alt="" class="thumbnail__image"/>
-            </figure>
-        </a>
-        <a href="work/cox" class="thumbnail__wrap">
-            <figure class="thumbnail">
-                <h3 class="zigzag">Cox</h3>
-                <img src="/images/coxThumb.png" alt="" class="thumbnail__image"/>
-            </figure>
-        </a> */}
         <footer>
 
         </footer>
