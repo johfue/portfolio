@@ -378,6 +378,8 @@ svg {
     object-fit: cover;
     width: 100%;
     height: 110%;
+    transition: 0.25s ease;
+
 }
 
 .expandableContent {
@@ -460,7 +462,22 @@ footer {
     
 }
 
-@media(min-width:775px) {
+.thumbnail__wrap:active {
+    transform: scale(0.95);
+}
+
+@keyframes boop {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(1deg);
+    }
+
+}
+
+@media(min-width:1025px) {
     .nav__a:hover {
         color: var(--link-500);
         text-decoration-color: rgba(230, 65, 105, 1);
@@ -472,8 +489,10 @@ footer {
     .thumbnail__wrap:hover, .thumbnail__wrap:hover h3{
         color:  var(--link-500);
         text-decoration-color: rgba(230, 65, 105, 1);
-        transform: translateY(-8px);
-
+        /* transform: translateY(-8px); */
+    }
+    .boop {
+        animation: boop 0.4s forwards;
     }
     .thumbnail:hover {
         background-color: rgba(254, 250, 251,0);
@@ -484,7 +503,7 @@ footer {
         animation-delay: 0.25s;
     }
     .thumbnail__image:hover {
-        transform: scale(1.02);
+        transform: scale(1.03);
         transition: 0.25s ease;
     }
     /* .expandableContent:hover {
@@ -777,7 +796,7 @@ header.Personal + section article figure:nth-child(1) {
     bottom: 1.5em;
 }
 
-@media(min-width:775px) {
+@media(min-width:1025px) {
         .work__figure:hover .expandBtn, .expandBtn:hover, #close:hover, #next:hover svg, #previous:hover svg {
         background-color: #1ac9c7;
     }
