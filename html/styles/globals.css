@@ -474,7 +474,6 @@ footer {
     50% {
       transform: rotate(1deg);
     }
-
 }
 
 @media(min-width:1025px) {

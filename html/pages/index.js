@@ -4,67 +4,9 @@ import Script from 'next/script'
 import { Inter } from '@next/font/google'
 import Styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Boop from '/components/boop'
 import Thumb from '/components/thumb'
 
-
-// export function useBoop({
-//     x = 0,
-//     y = 0,
-//     y2 = 0,
-//     rotation = 0,
-//     scale = 1,
-//     scale2 = 1,
-//     timing = 200,
-//   }) {
-//     const [isBooped, setIsBooped] = React.useState(false);
-//     const style = {
-//       transform: isBooped
-//         ? `translate(${x}px, ${y}px)
-//            rotate(${rotation}deg)
-//            scale(${scale})`
-//         : `translate(0px, 0px)
-//            rotate(0deg)
-//            scale(1)`,
-//     };
-//     const style2 = {
-//         transform: isBooped
-//           ? `translate(${x}px, ${y2}px)
-//              rotate(${rotation}deg)
-//              scale(${scale2})`
-//           : `translate(0px, 0px)
-//              rotate(0deg)
-//              scale(1)`,
-//       };
-//     React.useEffect(() => {
-//       if (!isBooped) {
-//         return;
-//       }
-//       const timeoutId = window.setTimeout(() => {
-//         setIsBooped(false);
-//       }, timing);
-//       return () => {
-//         window.clearTimeout(timeoutId);
-//       };
-//     }, [isBooped, timing]);
-//     const trigger = React.useCallback(() => {
-//       setIsBooped(true);
-//     }, []);
-//     return [style, style2, trigger];
-//   }
-
 export default function Home() {
-//     const [style, style2, trigger] = useBoop({ y: -12, scale2: 1.05 });
-
-
-
-// function boop() {
-//   this.classList.add("boop");
-// }
-
-// function removeBoop(event) {
-//   this.classList.remove("boop");
-// }
 
   return (
     <>
