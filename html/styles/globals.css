@@ -167,6 +167,20 @@ ul {
     text-decoration-color: rgba(254, 250, 251, 0.7);
 }
 
+@keyframes nudge {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(2px);
+    }
+}
+
+li .boop {
+    animation: nudge 0.4s forwards;
+}
+
 .nav--small svg {
     height: 58px;
     width: auto;
@@ -466,6 +480,11 @@ footer {
     transform: scale(0.95);
 }
 
+.boop__wrap {
+    display: block;
+    height: 100%;
+}
+
 @keyframes boop {
     0%,
     100% {
@@ -490,7 +509,7 @@ footer {
         text-decoration-color: rgba(230, 65, 105, 1);
         /* transform: translateY(-8px); */
     }
-    .boop {
+    .thumbnail__wrap .boop {
         animation: boop 0.4s forwards;
     }
     .thumbnail:hover {

@@ -5,6 +5,7 @@ import { Inter } from '@next/font/google'
 import Styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Thumb from '/components/thumb'
+import Boop from '/components/boop'
 
 export default function Home() {
 
@@ -19,8 +20,8 @@ export default function Home() {
                 <br/>
                 <nav>
                     <ul>
-                        <li><a href="/about" class="nav__a">About Me</a></li>
-                        <li><a href="/work/personal" class="nav__a">Fun</a></li>
+                        <li><Boop><a href="/about" class="nav__a">About Me</a></Boop></li>
+                        <li><Boop><a href="/work/personal" class="nav__a">Fun</a></Boop></li>
                     </ul>
                 </nav>
             </section>
@@ -43,7 +44,6 @@ export default function Home() {
         <b class="spacer spacer-home"></b>
         <b class="spacer spacer-home"></b>
     </b>
-boop();
     </>
   )
 }
