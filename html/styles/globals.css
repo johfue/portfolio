@@ -1188,12 +1188,25 @@ audio {
 }
 
 .phone--vertical {
+    z-index: 2;
+    position: relative;
+    /* padding: 16%; */
+    margin: 15% 6%;
+}
+
+.phone--vertical::before {
+    content: "";
     background-image: url(/images/phone.svg);
-    padding: 12%;
+    /* padding: 11.75%; */
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 3%;
+    background-position: 54%;
+    position: absolute;
+    height: 117%;
+    width: 117%;
+    z-index: 0;
+    top: -9%;
+    left: -8%;
 }
 
 .work__decor {
