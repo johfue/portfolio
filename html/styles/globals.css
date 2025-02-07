@@ -475,9 +475,10 @@ footer {
     }
     
 }
-
+@media(prefers-reduced-motion: no-preference) {
 .thumbnail__wrap:active {
     transform: scale(0.95);
+}
 }
 
 .boop__wrap {
