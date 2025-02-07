@@ -7,6 +7,7 @@ export default function layout(props) {
 
   return (
     <>
+    
         <Head><title>{props.Title}</title></Head>
         <Nav />
         <main class={ "work__main " + props.classTitle }>
