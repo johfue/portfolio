@@ -777,6 +777,7 @@ header.Personal + section article figure:nth-child(1) {
     justify-self: center;
     margin: 0 auto;
     text-align: center;
+    border-radius: inherit;
 }
 
 .work__figure {
@@ -1279,6 +1280,28 @@ audio {
     }
 }
 
+.phone--vertical {
+    z-index: 2;
+    position: relative;
+    /* padding: 16%; */
+    margin: 15% 6%;
+}
+
+.phone--vertical::before {
+    content: "";
+    background-image: url(/images/phone.svg);
+    /* padding: 11.75%; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 54%;
+    position: absolute;
+    height: 117%;
+    width: 117%;
+    z-index: 0;
+    top: -9%;
+    left: -8%;
+}
+
 .work__decor {
     position: absolute;
     background-repeat: no-repeat;
@@ -1293,9 +1316,21 @@ audio {
     background-position: 100% 100%;
 }
 
+#work__decor--choose {
+    background-image: url("/images/choose-map-1.svg");
+    background-position: 0 0;
+    background-size: auto;
+}
+
 #work__decor--terminix {
     background-image: url("/images/terminix-roaches.svg");
     background-position: 0 0;
+}
+
+#work__decor--coxMobile {
+    background-image: url("/images/coxMobile_trail.svg");
+    background-position: center;
+    background-size: contain;
 }
 
 .light {
@@ -1354,4 +1389,9 @@ audio {
 .Terminix {
     --brand-main: #20A04B;
     --brand-accent: #0D2640;
+}
+
+.Cox-Mobile {
+    --brand-main: #068E77;
+    --brand-accent: #00D258;
 }

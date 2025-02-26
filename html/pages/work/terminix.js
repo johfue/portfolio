@@ -65,7 +65,7 @@ export function Content() {
         <Media type="video" src="/media/terminixFancam.mp4" poster="/images/terminixFancam_poster.jpg" unexpandable short />
         </div>
         <div class="pillarBox">
-        <Media type="video" src="/media/terminixRoachesEverywhere.mp4"poster="/images/terminixRoachesEverywhere_poster.jpg" unexpandable short/>
+        <Media type="video" src="/media/terminixRoachesEverywhere.mp4" poster="/images/terminixRoachesEverywhere_poster.jpg" unexpandable short/>
         </div> 
     </section>
     <section class="work__section work__section--main">
