@@ -645,7 +645,7 @@ a svg {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 1rem;
-    column-gap: 1rem;
+    column-gap: 2em;
     padding: 2em 10vw 3em 5vw;
 }
 
@@ -688,8 +688,8 @@ a svg {
         grid-gap: 2em;
     }
     .work__div--header {
-        row-gap: 2rem;
-        padding: 3em 10vw 3em calc(34vw + 2em);
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 2em 10vw;
     }
     .work__div {
         grid-column-end: unset;

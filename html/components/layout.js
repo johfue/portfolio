@@ -13,7 +13,9 @@ export default function layout(props) {
         <main class={ "work__main " + props.classTitle }>
         <header class="work__header">
             <div class="work__div--header">
+                <span class="work__spacer"></span>
                 <h1 class="work__h1 col-2">{ props.title }</h1>
+                <span class="work__spacer"></span>
                 { props.desc }
             </div>
         </header>
