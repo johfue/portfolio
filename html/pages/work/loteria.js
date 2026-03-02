@@ -30,20 +30,21 @@ export function Content() {
   return (
     <>
 
-<section class="work__section work__section--accent">
-<figure class="work__figure col-mid">
-  <Media type="video" src="/media/loteriaPromo.mp4" unexpandable poster="/media/loteria_preview.gif"/>
-</figure>
-        <a href="https://www.playloteria.online" target="_blank" class="col-mid center"><button class="work__btn">Try it out <ExternalIcon /></button></a>
-    </section>
-
-    <section class="work__section work__section--main">
+    <section class="work__section work__section--accent">
         <div class="work__div col-right">
-            <h2 class="work__h2">Web App</h2>
-            <p>For the uninitiated, Lotería is like bingo. Instead of random numbers, cards with different images are drawn from a deck. If one of your spaces match, you get to mark it, traditionally with a pinto bean. </p>
+          <h2 class="work__h2">Web App</h2>
+          <p>For the uninitiated, Lotería is like bingo. Instead of random numbers, cards with different images are drawn from a deck. If one of your spaces match, you get to mark it, traditionally with a pinto bean. </p>
         </div>
+        <div class="work__div col-right">
+          <a href="https://www.playloteria.online" target="_blank"><button class="work__btn">Try it out <ExternalIcon /></button></a>
+        </div>
+      <figure class="work__figure col-2 medium">
+        <Media type="video" src="/media/loteriaPromo.mp4" unexpandable poster="/media/loteria_preview.gif"/>
+      </figure>
+    </section>
+    <section class="work__section work__section--main">
         <Media type="image" src="/images/loteriaDesktop.jpg" class="col-2 col-left" alt="A desktop mockup of the game. The player has several beans placed on their board. The current card is La Rosa and there are four other people playing."/>
-        <div class="work__div col-right middle">
+        <div class="work__div col-right bottom">
             <p>The two biggest features other online versions were missing were</p>
             <ul class="work__ul">
                 <li>Picking your own board (people are really superstitious about which boards they use)</li>
@@ -51,7 +52,6 @@ export function Content() {
             </ul>
         </div>
         <Media type="image" src="/images/loteriaPhone.jpg" class="col-2 col-left" alt="A mobile mock-up of the game. You can see several options the host has for setting up their game."/>
-
     </section>
     
 

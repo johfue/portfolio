@@ -42,14 +42,14 @@ export function Content() {
     <Media type="video" src="/media/cox_repack.mp4" autoplay="true" alt=""/>
     </div>
     </div>
-        <div class="work__div col-3 right">
-            <p class="text-right">
-                CD - Jack Miller<br></br>
-                ACD - Anna Lee Doughtie<br></br>
-            </p>
-        </div>      
+    <dl class="credits">
+      <dt class="credits__title">CD</dt>
+      <dd class="credit__name">Jack Miller</dd>
+      <dt class="credits__title">ACD</dt>
+      <dd class="credit__name">Anna Lee Doughtie</dd>
+    </dl>
 
-        </section>
+    </section>
 
     </>
   )

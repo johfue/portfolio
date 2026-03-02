@@ -119,7 +119,7 @@ h3 {
     transition: 0.25s ease;
 }
 
-p, li, a {
+p, li, a, dl {
     font-family: Rotulista;
     font-size: 1em;
 }
@@ -129,7 +129,7 @@ p {
 }
 
 @media(min-width:768px) {
-    p, li, a {
+    p, li, a, dl {
         font-size: 1.2em;
     }
 }
@@ -881,6 +881,16 @@ header.Personal + section article figure:nth-child(1) {
     grid-column-start: 1;
 }
 
+.credits {
+    display: grid;
+    grid-column: unset;
+    grid-column-start: unset;
+    grid-template-columns: min-content max-content;
+    column-gap: 1em;
+    justify-self: end;
+    text-align: right;
+}
+
 @media(min-width:768px) {
     .work__columnWrap {
         display: grid;
@@ -902,6 +912,9 @@ header.Personal + section article figure:nth-child(1) {
     }
     .tall {
         grid-row: span 3;
+    }
+    .credits {
+        grid-column-end: span 2;
     }
 }
 
@@ -925,7 +938,10 @@ header.Personal + section article figure:nth-child(1) {
     .short {
         max-height: 30vw;
     }
-
+    .credits {
+        grid-column: span 3;
+        grid-column-start: 3;
+    }
     .Personal .wide {
         grid-row: span 2;
     }
@@ -1324,7 +1340,7 @@ audio {
 
 #work__decor--terminix {
     background-image: url("/images/terminix-roaches.svg");
-    background-position: 0 0;
+    background-position: 100% 0;
 }
 
 #work__decor--coxMobile {
