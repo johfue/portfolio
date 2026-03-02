@@ -17,7 +17,9 @@ export function Desc() {
 
   return (
     <>
-        <p><b>The Problem:</b> People don’t know that Cox Mobile has a reliable network that works nationwide.</p>
+        <p><b>The Problem:</b> People don’t realize that Cox Mobile  works nationwide, what’s the best way to make it clear?</p>
+        <p><b>The Big Idea:</b> Take their mascot on a road trip to tell a story that’s eye catching, memorable, and relatable.</p>
+
     </>
     )
 }

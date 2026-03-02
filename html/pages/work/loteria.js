@@ -19,7 +19,7 @@ export function Desc() {
   return (
     <>
     <p><b>The Problem:</b> During the pandemic, I wanted to play Lotería over Zoom. Every version I tried removed the parts that make the game fun.</p>
-    <p><b>The Big Idea:</b> Why not make my own, with all the authentic chaos of the real thing. Now it’s used by friends, schools, and businesses around the world.</p>
+    <p><b>The Big Idea:</b> Why not make my own, with all the authentic chaos of the real thing? Now it’s used by friends, schools, and businesses around the world.</p>
     </>
     )
 }
@@ -31,9 +31,8 @@ export function Content() {
     <>
 
     <section class="work__section work__section--accent">
-        <div class="work__div col-right">
-          <h2 class="work__h2">Web App</h2>
-          <p>For the uninitiated, Lotería is like bingo. Instead of random numbers, cards with different images are drawn from a deck. If one of your spaces match, you get to mark it, traditionally with a pinto bean. </p>
+        <div class="work__div col-right bottom">
+          <p class="work__p">For the uninitiated, Lotería is like bingo. Traditionally the game is played with a deck of printed card stock and pinto beans. My version is played in your browser.</p>
         </div>
         <div class="work__div col-right">
           <a href="https://www.playloteria.online" target="_blank"><button class="work__btn">Try it out <ExternalIcon /></button></a>

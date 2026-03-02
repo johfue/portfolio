@@ -17,7 +17,9 @@ export function Desc() {
 
   return (
     <>
-        <p><b>About:</b> I helped sell Cox on including gifs in more of their emails to increase engagement. Here are a few I animated.</p>
+        <p><b>The Problem:</b> I once made the mistake of mentioning I know how to use AfterEffects.</p>
+        <p><b>The Reults:</b>  I gained deep knowledge of the .Gif file format along with a deep hatred for it. In the process I also animated a whole host of assets.</p>
+
     </>
     )
 }

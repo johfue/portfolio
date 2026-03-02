@@ -126,6 +126,7 @@ p, li, a, dl {
 
 p {
     line-height: 1.3em;
+    text-wrap: pretty;
 }
 
 @media(min-width:768px) {
@@ -149,6 +150,7 @@ ul {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  text-wrap: pretty;
 }
 
 .nav__ul--small {
@@ -781,7 +783,6 @@ header.Personal + section article figure:nth-child(1) {
 }
 
 .work__figure {
-    justify-self: center;
     position: relative;
     width: -moz-fit-content;
     width: fit-content;

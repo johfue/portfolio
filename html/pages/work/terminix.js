@@ -39,6 +39,7 @@ export function Content() {
     <section class="work__section work__section--accent light">
         <div class="work__decor" id="work__decor--terminix"></div>
         <h2 class="work__h2 col-right">:15s Spots</h2>
+        <p class="work__p col-right middle">These three spots defined a structure the team was able to repeat seven more times.</p>
         <Media type="video" src="/media/terminixHornetNest.mp4" class="col-2" unexpandable/>
         <Media type="video" src="/media/terminixRoachArt.mp4" class="col-2" poster="/images/terminixRoachArt_poster.jpg" unexpandable/>
         <Media type="video" src="/media/terminixUnmounted.mp4" class="col-2" poster="/images/terminixUnmounted_poster.jpg" unexpandable/>
@@ -47,8 +48,7 @@ export function Content() {
     <section class="work__section work__section--main">
         <span class="work__spacer col-2"></span>
         <div class="work__div">
-            <h2 class="work__h2">:06s Animations</h2>
-            <p class="work__p">Fit for any short form space. Perfect for reinforcing the new branding.</p>
+            <h2 class="work__h2">:06s OLV</h2>
         </div>
         <Media type="video" src="/media/terminixSpider.mp4" poster="/images/terminixSpider_poster.jpg" unexpandable/>
         <Media type="video" src="/media/terminixRoach.mp4" poster="/images/terminixRoach_poster.jpg" unexpandable/>
@@ -77,7 +77,7 @@ export function Content() {
             <dd class="credit__name">Adam Repp</dd>
             <dt class="credits__title">ACD</dt>
             <dd class="credit__name">Deidre Nieto</dd>
-            <dt class="credits__title">CD</dt>
+            <dt class="credits__title">AD</dt>
             <dd class="credit__name">Cassie Mayfield</dd>
             <dt class="credits__title">CW</dt>
             <dd class="credit__name">Eric Hulting</dd>
