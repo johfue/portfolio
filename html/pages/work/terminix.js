@@ -39,7 +39,7 @@ export function Content() {
     <section class="work__section work__section--accent light">
         <div class="work__decor" id="work__decor--terminix"></div>
         <h2 class="work__h2 col-right">:15s Spots</h2>
-        <div class="work__div"><p class="work__p col-right middle">Clients wanted 10 spots so we found a repeatable structure that let us deliver 10 spots.</p></div>
+        <div class="work__div col-right middle"><p class="work__p">Clients wanted 10 spots so we found a repeatable structure that let us deliver 10 spots.</p></div>
         <Media type="video" src="/media/terminixHornetNest.mp4" class="col-2" unexpandable/>
         <Media type="video" src="/media/terminixRoachArt.mp4" class="col-2" poster="/images/terminixRoachArt_poster.jpg" unexpandable/>
         <Media type="video" src="/media/terminixUnmounted.mp4" class="col-2" poster="/images/terminixUnmounted_poster.jpg" unexpandable/>
