@@ -549,13 +549,6 @@ footer {
     }
 }
 
-@media (min-height:1080px) {
-    .grid {
-        grid-template-rows: repeat(2, -webkit-min-content) repeat(19,200px);
-        grid-template-rows: repeat(2, min-content) repeat(19,200px);
-    }
-}
-
 .work__ul {
     padding-left: 2em;
     padding-top: 1em;
