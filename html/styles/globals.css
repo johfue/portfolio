@@ -244,8 +244,8 @@ svg {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, -webkit-min-content) repeat(19,21vh);
-    grid-template-rows: repeat(2, min-content) repeat(19,21vh);
+    grid-template-rows: repeat(2, -webkit-min-content) repeat(19,10vh);
+    grid-template-rows: repeat(2, min-content) repeat(19,10vh);
     grid-gap: 2em;
     padding: 2.55%;
     padding: 2.55vw;
@@ -449,8 +449,8 @@ footer {
         width: fit-content;
         padding: 4rem;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(2, -webkit-min-content) repeat(11,21vh);
-        grid-template-rows: repeat(2, min-content) repeat(11,21vh);
+        grid-template-rows: repeat(2, -webkit-min-content) repeat(11,12vh);
+        grid-template-rows: repeat(2, min-content) repeat(11,12vh);
     }
     .header--home {
         grid-column: span 2;
@@ -556,21 +556,6 @@ footer {
     }
 }
 
-
-@media(min-width:635px) and (min-height:1080px) {
-    .grid {
-        grid-template-rows: repeat(2, -webkit-min-content) repeat(11,200px);
-        grid-template-rows: repeat(2, min-content) repeat(11,200px);
-    }
-}
-
-
-@media(min-width:1080px) and (min-height:1080px) {
-    .grid {
-        grid-template-rows: 150px repeat(8,200px);
-    }
-}
-
 .work__ul {
     padding-left: 2em;
     padding-top: 1em;
@@ -647,7 +632,7 @@ a svg {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 1rem;
-    column-gap: 2em;
+    column-gap: 1em;
     padding: 2em 10vw 3em 5vw;
 }
 
@@ -692,6 +677,7 @@ a svg {
     .work__div--header {
         grid-template-columns: 1fr 1fr 1fr;
         padding: 2em 10vw;
+        column-gap: 2em;
     }
     .work__div {
         grid-column-end: unset;

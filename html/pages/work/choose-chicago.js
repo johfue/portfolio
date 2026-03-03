@@ -38,7 +38,7 @@ export function Content() {
         <section class="work__section work__section--accent light">
             <span class="work__spacer col-2"></span>
             <div class="work__decor" id="work__decor--choose"></div>
-            <h2 class="work__h2 col-right">Digital</h2>
+            <h2 class="work__h2 col-right col-2">Digital</h2>
             <span class="work__spacer"></span>
             <Media type="video" src="/media/chooseDigital.mp4" autoplay="true" alt=""/>
             <Media type="image" class="left" src="/images/chooseDigital.jpg" alt="Chinese BBQ, Frozen custard, Line dancing."/>

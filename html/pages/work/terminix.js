@@ -39,7 +39,7 @@ export function Content() {
     <section class="work__section work__section--accent light">
         <div class="work__decor" id="work__decor--terminix"></div>
         <h2 class="work__h2 col-right">:15s Spots</h2>
-        <p class="work__p col-right middle">These three spots defined a structure the team was able to repeat seven more times.</p>
+        <div class="work__div"><p class="work__p col-right middle">Clients wanted 10 spots so we found a repeatable structure that let us deliver 10 spots.</p></div>
         <Media type="video" src="/media/terminixHornetNest.mp4" class="col-2" unexpandable/>
         <Media type="video" src="/media/terminixRoachArt.mp4" class="col-2" poster="/images/terminixRoachArt_poster.jpg" unexpandable/>
         <Media type="video" src="/media/terminixUnmounted.mp4" class="col-2" poster="/images/terminixUnmounted_poster.jpg" unexpandable/>
@@ -47,9 +47,7 @@ export function Content() {
     
     <section class="work__section work__section--main">
         <span class="work__spacer col-2"></span>
-        <div class="work__div">
-            <h2 class="work__h2">:06s OLV</h2>
-        </div>
+        <h2 class="work__h2">:06s OLV</h2>
         <Media type="video" src="/media/terminixSpider.mp4" poster="/images/terminixSpider_poster.jpg" unexpandable/>
         <Media type="video" src="/media/terminixRoach.mp4" poster="/images/terminixRoach_poster.jpg" unexpandable/>
         <Media type="video" src="/media/terminixTermite.mp4" poster="/images/terminixTermite_poster.jpg" unexpandable/>

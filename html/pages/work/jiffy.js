@@ -55,8 +55,8 @@ export function Content() {
                 </ul>
             </div>
         </div>
-        <figure class="work__figure col-2">
-            <iframe style={{border: '1px solid rgba(0, 0, 0, 0.1)', width: '38vw', 'min-width': '100%', height: '600px'}} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPHEdQBLSEGZ56w7yj0qANK%2FJiffy-Lube-2021%3Fnode-id%3D1%253A6%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
+        <figure class="work__figure center col-2">
+            <iframe style={{border: '1px solid rgba(0, 0, 0, 0.1)', width: '51vw', 'min-width': '100%', height: '600px'}} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPHEdQBLSEGZ56w7yj0qANK%2FJiffy-Lube-2021%3Fnode-id%3D1%253A6%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
 
             <figcaption>Interactive Demo</figcaption>
         </figure>
