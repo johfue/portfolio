@@ -1363,7 +1363,7 @@ audio {
     --brand-accent: #D8491F;
 }
 
-.Personal {
+.Personal, .MoGraph {
     --brand-main: var(--neutral-900);
     --brand-accent: var(--primary-500);
 }

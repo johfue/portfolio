@@ -32,7 +32,7 @@ export default function Home() {
       <Thumb name="Play Lotería Online" page="loteria" image="loteria"></Thumb>
       <Thumb name="Fresh Step" page="freshstep" image="freshstep"></Thumb>
       <Thumb name="Choose Chicago" page="choose-chicago" image="choose"></Thumb>
-      <Thumb name="Cox" page="cox" image="cox"></Thumb>
+      <Thumb name="Motion Graphics" page="mograph" image="cox"></Thumb>
 
         <footer>
 
