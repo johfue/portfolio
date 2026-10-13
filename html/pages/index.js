@@ -30,7 +30,7 @@ export default function Home() {
       <Thumb name="Terminix" page="terminix" image="terminix"></Thumb>
       <Thumb name="Cox Mobile" page="cox-mobile" image="coxMobile"></Thumb>
       <Thumb name="Play Lotería Online" page="loteria" image="loteria"></Thumb>
-      <Thumb name="Jiffy Lube" page="jiffy" image="jiffy"></Thumb>
+      <Thumb name="Fresh Step" page="freshstep" image="freshstep"></Thumb>
       <Thumb name="Choose Chicago" page="choose-chicago" image="choose"></Thumb>
       <Thumb name="Cox" page="cox" image="cox"></Thumb>
 
