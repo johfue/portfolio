@@ -14,7 +14,7 @@ export function Vid(props) {
 
     return (
         <>
-        <video loop={props.autoplay} controls={!(props.autoplay)} muted={props.autoplay} playsinline autoplay={props.autoplay} poster={props.poster} controlslist="nodownload" disablepictureinpicture class={(props.unexpandable ? "work__content" : "work__content expandableContent") + " " + (props.short ? "short" : "")}>
+        <video loop={props.autoplay} controls={!(props.autoplay)} muted={props.autoplay} playsInline autoPlay={props.autoplay} poster={props.poster} controlsList="nodownload" disablePictureinPicture class={(props.unexpandable ? "work__content" : "work__content expandableContent") + " " + (props.short ? "short" : "")}>
         {/* <video loop={!(props.playOnce)} controls={props.controls} muted={!(props.soundOn)} playsinline autoplay={props.autoplay} poster={props.poster} class={props.unexpandable ? "unexpandableContent" : "expandableContent center"}> */}
         <source src={props.src}/>
             {props.alt}

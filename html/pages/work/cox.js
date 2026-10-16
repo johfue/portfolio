@@ -12,6 +12,9 @@ export function Title() {
 
 const classTitle = "Cox"
 
+const headerColor = "accent"
+
+const headerType = "light"
 
 export function Desc() {
 
@@ -61,7 +64,7 @@ export default function page() {
 
   return (
     <>
-        <Layout title={<Title/>} classTitle={classTitle} desc={<Desc/>} content={<Content/>}>
+        <Layout title={<Title/>} classTitle={classTitle} headerColor={headerColor} headerType={headerType} desc={<Desc/>} content={<Content/>}>
         </Layout>
     </>
     )

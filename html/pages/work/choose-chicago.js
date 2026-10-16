@@ -12,12 +12,15 @@ export function Title() {
 
 const classTitle = "Choose-Chicago"
 
+const headerColor = "main"
+
+const headerType = "dark"
 
 export function Desc() {
 
   return (
     <>
-        <p><b>The Problem:</b> Typical tourism ads are built around using pretty pictures, how can we get Chicagoans to explore new neighborhoods in a way that stands out? </p>
+        <p><b>The Problem:</b> Typical tourism ads are built around using pretty pictures. How can we get Chicagoans to explore new neighborhoods in a way that stands out? </p>
         <p><b>The Big Idea:</b> Skip the photos and use words alone to capture how unexpected Chicagos neighborhoods can be.</p>
     </>
     )
@@ -29,7 +32,7 @@ export function Content() {
   return (
     <>
 
-        <section class="work__section work__section--main light">
+        <section class="work__section work__section--main dark">
             <span class="work__spacer col-2"></span>
             <h2 class="work__h2 col-right">Out-of-home</h2>
             <Media type="image" class="col-2" src="/images/choose_Billboard.jpg" alt="The copy reads: Frozen negronis, Indie films, Pinball wizards. Logan Square."/>
@@ -62,7 +65,7 @@ export default function page() {
 
   return (
     <>
-        <Layout title={<Title/>} classTitle={classTitle} desc={<Desc/>} content={<Content/>}>
+        <Layout title={<Title/>} classTitle={classTitle} headerColor={headerColor} headerType={headerType} desc={<Desc/>} content={<Content/>}>
         </Layout>
     </>
     )

@@ -12,6 +12,10 @@ export function Title() {
 
 const classTitle = "Jiffy"
 
+const headerColor = "accent"
+
+const headerType = "dark"
+
 export function Desc() {
 
   return (
@@ -90,7 +94,7 @@ export default function page() {
 
   return (
     <>
-        <Layout title={<Title/>} classTitle={classTitle} desc={<Desc/>} content={<Content/>}>
+        <Layout title={<Title/>} classTitle={classTitle} headerColor={headerColor} headerType={headerType} desc={<Desc/>} content={<Content/>}>
         </Layout>
     </>
     )

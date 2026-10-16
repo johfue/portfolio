@@ -13,12 +13,15 @@ export function Title() {
 
 const classTitle = "Loteria"
 
+const headerColor = "accent"
+
+const headerType = "dark"
 
 export function Desc() {
 
   return (
     <>
-    <p><b>The Problem:</b> During the pandemic, I wanted to play Lotería over Zoom. Every version I found removed the fun parts of the game.</p>
+    <p><b>The Problem:</b> During the pandemic, I wanted to play Lotería over Zoom. Every version I found removed what makes the game fun.</p>
     <p><b>The Big Idea:</b> Why not make my own, with all the authentic chaos of the real thing? Now it’s used by friends, schools, and businesses around the world.</p>
     </>
     )
@@ -62,7 +65,7 @@ export default function page() {
 
   return (
     <>
-        <Layout title={<Title/>} classTitle={classTitle} desc={<Desc/>} content={<Content/>}>
+        <Layout title={<Title/>} classTitle={classTitle} headerColor={headerColor} headerType={headerType} desc={<Desc/>} content={<Content/>}>
         </Layout>
     </>
     )
