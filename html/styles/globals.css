@@ -1399,7 +1399,7 @@ audio {
     }
     
     .about__svg--two {
-        transform: scale(1.2) translate(-5%, 77rem);
+        transform: scale(1.2) translate(-5%, 72em);
     }
 
 }
@@ -1438,12 +1438,12 @@ audio {
         object-position: left;
     }
     .about__svg--one {
-        transform: scale(0.85) translate(-142%, 19rem);
+        transform: scale(0.85) translate(-142%, 19em);
         display: block;
         z-index: -1;
     }
     .about__svg--two {
-        transform: scale(1.2) translate(18%, 43rem);
+        transform: scale(1.2) translate(18%, 43em);
     }
     .about__svg--three {
         transform: translate(-167%, 55rem);
@@ -1480,26 +1480,26 @@ audio {
         object-position: left;
     }
     .about__svg--one {
-        transform: translate(-170%, 21rem);
+        transform: translate(-170%, 21em);
         z-index: 2;
     }
     .about__svg--two {
-        transform: translate(18%, 44rem);
+        transform: translate(18%, 44em);
     }
     .about__svg--three {
-        transform: translate(102%, 34rem);
+        transform: translate(102%, 34em);
     }
 }
 
 @media(min-width:1064px) {
     .about__svg--one {
-        transform: translate(-170%, 18rem);
+        transform: translate(-170%, 18em);
     }
     .about__svg--two {
-        transform: translate(18%, 40rem);
+        transform: translate(18%, 40em);
     }
     .about__svg--three {
-        transform: translate(137%, 34rem);
+        transform: translate(137%, 34em);
         display: block;
     }
 }
